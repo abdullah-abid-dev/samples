@@ -59,6 +59,14 @@ a.btn:hover { filter:brightness(.97); }
 .bio p { margin:.5rem 0; line-height:1.6; }
 .bio ul { margin:.4rem 0 0; padding-left:1.2rem; }
 .bio li { margin:.25rem 0; }
+.sample-request { background:#fff; border:1px solid var(--border); border-radius:14px;
+                  padding:1.3rem 1.4rem; margin:1.6rem 0; }
+.sample-request h3 { margin:0 0 .4rem; }
+.sample-request p { color:var(--muted); font-size:.9rem; margin:0 0 .9rem; }
+.sample-request label { display:block; font-weight:600; font-size:.85rem; margin:.5rem 0 .2rem; }
+.sample-request input { width:100%; padding:.55rem .7rem; border:1px solid var(--border);
+                        border-radius:8px; font:inherit; box-sizing:border-box; }
+.sample-request button { margin-top:.9rem; }
 footer { color:var(--muted); font-size:.8rem; margin-top:1.8rem; text-align:center; }
 footer a { color:var(--accent); }
 .disclaimer { background:#fff7e6; border:1px solid #f0d9a8; color:#7a5b14;
@@ -149,6 +157,21 @@ footer a { color:var(--accent); }
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
       <a class="mail" href="../Abdullah_Abid_Resume.pdf" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
+  </section>
+
+
+  <section class="sample-request">
+    <h3>Request a free sample</h3>
+    <p>Share your details and I'll email you a tailored sample. Your address is only used to send it.</p>
+    <form action="https://formspree.io/f/xjybzpvv" method="POST">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <input type="hidden" name="sample" value="Social Competence in Autistic Persons - Amy Laurent | MedBridge">
+      <input type="hidden" name="_subject" value="Free sample request">
+      <input type="hidden" name="_gotcha">
+      
+      <button type="submit" class="mail">Request sample</button>
+    </form>
   </section>
 
   <footer>Shared for review. No account required. &middot; <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a></footer>
