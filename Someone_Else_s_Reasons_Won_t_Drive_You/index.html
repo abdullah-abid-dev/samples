@@ -67,6 +67,12 @@ a.btn:hover { filter:brightness(.97); }
 .sample-request input { width:100%; padding:.55rem .7rem; border:1px solid var(--border);
                         border-radius:8px; font:inherit; box-sizing:border-box; }
 .sample-request button { margin-top:.9rem; }
+.sample-request button.mail { display:inline-block; background:#fff; color:var(--accent2);
+                  font-weight:700; text-decoration:none; padding:.6rem 1.05rem;
+                  border-radius:9px; font-size:.92rem; border:1px solid var(--border); cursor:pointer; }
+.sample-request button.mail:hover { filter:brightness(.97); }
+.sample-request [data-fs-success] { color:#1a7f37; font-weight:600; margin-top:.6rem; }
+.sample-request [data-fs-error] { color:#b42318; font-weight:600; margin-top:.6rem; }
 footer { color:var(--muted); font-size:.8rem; margin-top:1.8rem; text-align:center; }
 footer a { color:var(--accent); }
 .disclaimer { background:#fff7e6; border:1px solid #f0d9a8; color:#7a5b14;
@@ -163,16 +169,24 @@ footer a { color:var(--accent); }
   <section class="sample-request">
     <h3>Request a free sample</h3>
     <p>Share your details and I'll email you a tailored sample. Your address is only used to send it.</p>
-    <form action="https://formspree.io/f/xjybzpvv" method="POST">
-      <label>Name<input type="text" name="name" required></label>
-      <label>Email<input type="email" name="email" required></label>
-      <label>YouTube video URL (optional)<input type="url" name="youtube_url" placeholder="https://www.youtube.com/watch?v=..."></label>
+    <div data-fs-success></div>
+    <div data-fs-error></div>
+    <form id="sample-request-form" action="https://formspree.io/f/xjybzpvv" method="POST">
+      
+      <label>Name<input type="text" name="name" data-fs-field required></label>
+      <label>Email<input type="email" name="email" data-fs-field required></label>
+      <label>YouTube video URL (optional)<input type="url" name="youtube_url" data-fs-field placeholder="https://www.youtube.com/watch?v=..."></label>
       <input type="hidden" name="sample" value="Someone Else's Reasons Won't Drive You | @TonyRobbinsLive Tony Robbins">
       <input type="hidden" name="_subject" value="Free sample request">
       <input type="hidden" name="_gotcha">
       
-      <button type="submit" class="mail">Request sample</button>
+      <button type="submit" data-fs-submit-btn class="mail">Request sample</button>
     </form>
+    <script>
+      window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+      formspree('initForm', { formElement: '#sample-request-form', formId: 'xjybzpvv' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
   </section>
 
   <footer>Shared for review. No account required. &middot; <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a></footer>
