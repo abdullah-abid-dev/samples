@@ -1,0 +1,1013 @@
+{
+  "total_duration_ms": 3946429,
+  "total_duration": "01:05:46",
+  "speakers": {
+    "David Kaufer": {
+      "talk_ms": 1584257,
+      "talk_pct": 40.1,
+      "words": 4399,
+      "fillers": 50,
+      "filler_pct": 1.1,
+      "wpm": 166.6,
+      "turns": 108,
+      "longest_monologue_ms": 168996,
+      "longest_monologue_start": 3746
+    },
+    "Barry Prizant": {
+      "talk_ms": 2376086,
+      "talk_pct": 60.2,
+      "words": 6498,
+      "fillers": 80,
+      "filler_pct": 1.2,
+      "wpm": 164.1,
+      "turns": 107,
+      "longest_monologue_ms": 100362,
+      "longest_monologue_start": 790562
+    }
+  },
+  "pace_flags": [
+    {
+      "start": 218336,
+      "speaker": "David Kaufer",
+      "wpm": 192.6,
+      "flag": "fast",
+      "text": "Yeah. So why don't you tell us a little bit about your experience? What what tell us about"
+    },
+    {
+      "start": 270074,
+      "speaker": "David Kaufer",
+      "wpm": 210.2,
+      "flag": "fast",
+      "text": "Yeah so you just thought you were clumsy, I mean right? Like you hear about that."
+    },
+    {
+      "start": 304278,
+      "speaker": "Barry Prizant",
+      "wpm": 182.0,
+      "flag": "fast",
+      "text": "showed up when he was a baby. Uh uh he became a basketball player. He played college baske"
+    },
+    {
+      "start": 353182,
+      "speaker": "David Kaufer",
+      "wpm": 233.4,
+      "flag": "fast",
+      "text": "How how is it defined and how how does it impact people?"
+    },
+    {
+      "start": 398518,
+      "speaker": "David Kaufer",
+      "wpm": 197.2,
+      "flag": "fast",
+      "text": "Yeah, yeah, you hear you hear about that. Okay, so that's kind of"
+    },
+    {
+      "start": 434826,
+      "speaker": "David Kaufer",
+      "wpm": 209.9,
+      "flag": "fast",
+      "text": "Is this something that we're just like so many other things, we're just learning more abou"
+    },
+    {
+      "start": 461036,
+      "speaker": "Barry Prizant",
+      "wpm": 181.3,
+      "flag": "fast",
+      "text": "Yeah, that is a great question. And I and I think that it's always been a problem. I just "
+    },
+    {
+      "start": 482882,
+      "speaker": "David Kaufer",
+      "wpm": 250.0,
+      "flag": "fast",
+      "text": "So it was so obvious that like they're like, Okay, we gotta fix this. I mean"
+    },
+    {
+      "start": 486418,
+      "speaker": "Barry Prizant",
+      "wpm": 185.5,
+      "flag": "fast",
+      "text": "Exactly. Yeah. And the traditional solution f when you have this kind of an eye turn is th"
+    },
+    {
+      "start": 552078,
+      "speaker": "Barry Prizant",
+      "wpm": 180.9,
+      "flag": "fast",
+      "text": "Exactly. And a I remember a as a child going in for my yearly exam and I was about ten and"
+    },
+    {
+      "start": 585869,
+      "speaker": "David Kaufer",
+      "wpm": 43.4,
+      "flag": "slow",
+      "text": "Really? Yeah. A little edgy. A little edgy ten year old."
+    },
+    {
+      "start": 602010,
+      "speaker": "Barry Prizant",
+      "wpm": 184.3,
+      "flag": "fast",
+      "text": "And I just said, Do you want me to guess? Because I can't I I see 'em on, you know, with e"
+    },
+    {
+      "start": 615572,
+      "speaker": "David Kaufer",
+      "wpm": 67.5,
+      "flag": "slow",
+      "text": "Oh yeah. Those were fun. Yeah. That was their answer? Yeah. Oh great. That's helpful. Yeah"
+    },
+    {
+      "start": 630526,
+      "speaker": "Barry Prizant",
+      "wpm": 195.1,
+      "flag": "fast",
+      "text": "And you know, vision therapy has been around that long but nobody knew about it. I didn't "
+    },
+    {
+      "start": 676602,
+      "speaker": "David Kaufer",
+      "wpm": 249.8,
+      "flag": "fast",
+      "text": "Um, yeah, you just think about just you just get eye exams and you get classes. You don't "
+    },
+    {
+      "start": 716538,
+      "speaker": "Barry Prizant",
+      "wpm": 211.9,
+      "flag": "fast",
+      "text": "Not by accident, right. Came across vision therapy, found out there was a doctor just down"
+    },
+    {
+      "start": 732536,
+      "speaker": "David Kaufer",
+      "wpm": 189.0,
+      "flag": "fast",
+      "text": "Wow. Well that's I'm glad that you found that. What was it like then? I mean, what and how"
+    },
+    {
+      "start": 779468,
+      "speaker": "Barry Prizant",
+      "wpm": 246.0,
+      "flag": "fast",
+      "text": "What you might want to do in addition, and I didn't want to do surgery, so I stopped visio"
+    },
+    {
+      "start": 788353,
+      "speaker": "David Kaufer",
+      "wpm": 86.9,
+      "flag": "slow",
+      "text": "Okay. It's really genetic, it sounds like uh"
+    },
+    {
+      "start": 937878,
+      "speaker": "David Kaufer",
+      "wpm": 218.8,
+      "flag": "fast",
+      "text": "She kind of s figured it out. Like she had her own solution. I mean to exactly cope with i"
+    },
+    {
+      "start": 1006190,
+      "speaker": "Barry Prizant",
+      "wpm": 212.4,
+      "flag": "fast",
+      "text": "A little bit, yeah. So I think she might have lost a little ground. We've talked about tha"
+    },
+    {
+      "start": 1024926,
+      "speaker": "Barry Prizant",
+      "wpm": 180.4,
+      "flag": "fast",
+      "text": "It does. Yeah, it does. And for some people it takes way longer, you know? And there are c"
+    },
+    {
+      "start": 1089452,
+      "speaker": "David Kaufer",
+      "wpm": 208.6,
+      "flag": "fast",
+      "text": "Wow. I mean that's a big big step. I could see why you you know, you would want to avoid i"
+    },
+    {
+      "start": 1183894,
+      "speaker": "Barry Prizant",
+      "wpm": 235.4,
+      "flag": "fast",
+      "text": "As soon as I went back in, I could do everything that I hadn't been able to be for."
+    },
+    {
+      "start": 1206614,
+      "speaker": "David Kaufer",
+      "wpm": 229.0,
+      "flag": "fast",
+      "text": "And I'm just curious, do you have twenty twenty vision as well now? Or do you"
+    },
+    {
+      "start": 1240416,
+      "speaker": "Barry Prizant",
+      "wpm": 182.7,
+      "flag": "fast",
+      "text": "uh like that. And there are other things that we can do to improve the acuity piece, but t"
+    },
+    {
+      "start": 1255274,
+      "speaker": "David Kaufer",
+      "wpm": 192.5,
+      "flag": "fast",
+      "text": "Okay. But that's remarkable that you recover that quickly. Do you attribute it to the the "
+    },
+    {
+      "start": 1293976,
+      "speaker": "David Kaufer",
+      "wpm": 190.6,
+      "flag": "fast",
+      "text": "No, that makes a lot of sense. You know, early w you were talking about how it affects wha"
+    },
+    {
+      "start": 1313140,
+      "speaker": "Barry Prizant",
+      "wpm": 265.7,
+      "flag": "fast",
+      "text": "I thought you might ask me that. So I pulled out this book that I I like. It's called I ca"
+    },
+    {
+      "start": 1436630,
+      "speaker": "Barry Prizant",
+      "wpm": 180.9,
+      "flag": "fast",
+      "text": "Yeah. Well and I mean everyone thinks that this is just the way you see. They have no idea"
+    },
+    {
+      "start": 1445760,
+      "speaker": "David Kaufer",
+      "wpm": 259.3,
+      "flag": "fast",
+      "text": "Right, right. Like to your point, like growing up, right, growing up, you're like, oh it's"
+    },
+    {
+      "start": 1452182,
+      "speaker": "Barry Prizant",
+      "wpm": 187.8,
+      "flag": "fast",
+      "text": "Mm-hmm. Yeah, my daughter had no idea that anyone saw any differently than she did either,"
+    },
+    {
+      "start": 1458486,
+      "speaker": "David Kaufer",
+      "wpm": 219.5,
+      "flag": "fast",
+      "text": "And she didn't think it was and she didn't think it was I wanna say weird, you know, but d"
+    },
+    {
+      "start": 1487244,
+      "speaker": "David Kaufer",
+      "wpm": 227.5,
+      "flag": "fast",
+      "text": "Are the ther is vision therapy, does that deal with issues with the brain in terms of trai"
+    },
+    {
+      "start": 1494006,
+      "speaker": "Barry Prizant",
+      "wpm": 202.8,
+      "flag": "fast",
+      "text": "That's exactly what it's doing. Yeah. Okay. We're we're training the brain to see correctl"
+    },
+    {
+      "start": 1531308,
+      "speaker": "David Kaufer",
+      "wpm": 185.0,
+      "flag": "fast",
+      "text": "Why do we think that, Denise? That's a good question. I mean th that 'cause it's true. Tha"
+    },
+    {
+      "start": 1563886,
+      "speaker": "Barry Prizant",
+      "wpm": 109.5,
+      "flag": "slow",
+      "text": "We all take it for granted all the time. And Yeah."
+    },
+    {
+      "start": 1568014,
+      "speaker": "David Kaufer",
+      "wpm": 188.6,
+      "flag": "fast",
+      "text": "Do you Yeah. Go ahead. Kind of like walking. Again, you you do you take advan you you take"
+    },
+    {
+      "start": 1617944,
+      "speaker": "David Kaufer",
+      "wpm": 201.5,
+      "flag": "fast",
+      "text": "No, not at all. I mean you're starting to see some awareness in terms of eyes. I'm thinkin"
+    },
+    {
+      "start": 1720118,
+      "speaker": "Barry Prizant",
+      "wpm": 182.1,
+      "flag": "fast",
+      "text": "Okay. Well s it's a type of strabismus. Amblyopia uh you have lower acuity in one eye. So "
+    },
+    {
+      "start": 1840842,
+      "speaker": "David Kaufer",
+      "wpm": 43.5,
+      "flag": "slow",
+      "text": "Interesting. Yeah. So much more going on. Absolutely."
+    },
+    {
+      "start": 1927244,
+      "speaker": "Barry Prizant",
+      "wpm": 185.4,
+      "flag": "fast",
+      "text": "Those guys tell you everything's fine your whole life. That's what happened for me. That's"
+    },
+    {
+      "start": 1975798,
+      "speaker": "Barry Prizant",
+      "wpm": 255.5,
+      "flag": "fast",
+      "text": "Because the school doesn't want to have to pay for vision therapy."
+    },
+    {
+      "start": 2006616,
+      "speaker": "David Kaufer",
+      "wpm": 227.1,
+      "flag": "fast",
+      "text": "claims that, you know, uh it's it's not effective. I mean they there's a lot of other excu"
+    },
+    {
+      "start": 2022074,
+      "speaker": "Barry Prizant",
+      "wpm": 194.1,
+      "flag": "fast",
+      "text": "Well, they're not trained to do it and they're they they don't have the funds to pay f for"
+    },
+    {
+      "start": 2031320,
+      "speaker": "David Kaufer",
+      "wpm": 202.0,
+      "flag": "fast",
+      "text": "But they can still recommend it, couldn't they? I mean, couldn't they at least or educate "
+    },
+    {
+      "start": 2130284,
+      "speaker": "David Kaufer",
+      "wpm": 75.5,
+      "flag": "slow",
+      "text": "Ha ha. And how and remind me how long you've been doing your podcast?"
+    },
+    {
+      "start": 2141942,
+      "speaker": "Barry Prizant",
+      "wpm": 191.9,
+      "flag": "fast",
+      "text": "I started it in twenty twenty, about the time."
+    },
+    {
+      "start": 2182742,
+      "speaker": "David Kaufer",
+      "wpm": 244.4,
+      "flag": "fast",
+      "text": "Yeah, plan that a little bit, uh spread it out a little bit for your sake? I mean, geez, t"
+    },
+    {
+      "start": 2229694,
+      "speaker": "David Kaufer",
+      "wpm": 84.1,
+      "flag": "slow",
+      "text": "Well understandably. What are some of the the lessons you've learned? I'm curious from pod"
+    },
+    {
+      "start": 2295064,
+      "speaker": "Barry Prizant",
+      "wpm": 180.0,
+      "flag": "fast",
+      "text": "that will help us along the way or that is signaling that there's something going on with "
+    },
+    {
+      "start": 2385814,
+      "speaker": "David Kaufer",
+      "wpm": 180.0,
+      "flag": "fast",
+      "text": "It does. Yeah. No, I no, I'm just kinda thinking as you're talking, um about that. You kno"
+    },
+    {
+      "start": 2516884,
+      "speaker": "David Kaufer",
+      "wpm": 198.3,
+      "flag": "fast",
+      "text": "Right. That makes sense. Wow. Why don't they talk more? Is it ego? Is it just is I mean, i"
+    },
+    {
+      "start": 2559624,
+      "speaker": "David Kaufer",
+      "wpm": 206.1,
+      "flag": "fast",
+      "text": "Uh huh. So that's is that kind of their"
+    },
+    {
+      "start": 2673634,
+      "speaker": "Barry Prizant",
+      "wpm": 289.0,
+      "flag": "fast",
+      "text": "They just they don't tell him about it."
+    },
+    {
+      "start": 2676844,
+      "speaker": "David Kaufer",
+      "wpm": 203.7,
+      "flag": "fast",
+      "text": "Yeah, that's like I said, that's um that blows me away in a way, again the parallels that "
+    },
+    {
+      "start": 2803938,
+      "speaker": "Barry Prizant",
+      "wpm": 299.3,
+      "flag": "fast",
+      "text": "So you really have to go to the right doctor."
+    },
+    {
+      "start": 2807614,
+      "speaker": "David Kaufer",
+      "wpm": 197.1,
+      "flag": "fast",
+      "text": "That makes a lot of sense now. And this is kind of this may be kind of a dumb question, bu"
+    },
+    {
+      "start": 2829524,
+      "speaker": "Barry Prizant",
+      "wpm": 187.0,
+      "flag": "fast",
+      "text": "Yeah, I mean a video game isn't gonna have a depth perception requirement."
+    },
+    {
+      "start": 2834360,
+      "speaker": "David Kaufer",
+      "wpm": 235.7,
+      "flag": "fast",
+      "text": "So that's easy that's easier 'cause it's not okay."
+    },
+    {
+      "start": 2851894,
+      "speaker": "David Kaufer",
+      "wpm": 256.5,
+      "flag": "fast",
+      "text": "I was wondering about that, if that would be helpful with that."
+    },
+    {
+      "start": 2856044,
+      "speaker": "Barry Prizant",
+      "wpm": 212.2,
+      "flag": "fast",
+      "text": "Yeah, I actually even have one and I I've been so anti-video games that I can't make mysel"
+    },
+    {
+      "start": 2871392,
+      "speaker": "David Kaufer",
+      "wpm": 189.7,
+      "flag": "fast",
+      "text": "Yeah, no, you've just you've got me thinking in terms of and I'm just thinking, are there "
+    },
+    {
+      "start": 2984926,
+      "speaker": "David Kaufer",
+      "wpm": 236.7,
+      "flag": "fast",
+      "text": "All right, it's time for our tip of the week. And as I mentioned earlier, I know that Deni"
+    },
+    {
+      "start": 2993656,
+      "speaker": "Barry Prizant",
+      "wpm": 183.7,
+      "flag": "fast",
+      "text": "Well, we've kind of talked about it a little bit already, but uh just pointing to the fact"
+    },
+    {
+      "start": 3026274,
+      "speaker": "Barry Prizant",
+      "wpm": 188.2,
+      "flag": "fast",
+      "text": "Well, not everyone has it. Okay. You know. Yeah. It I think we just take that for granted."
+    },
+    {
+      "start": 3043796,
+      "speaker": "Barry Prizant",
+      "wpm": 193.2,
+      "flag": "fast",
+      "text": "I've talked to so many people they don't even know what binocular vision means. They and I"
+    },
+    {
+      "start": 3090654,
+      "speaker": "David Kaufer",
+      "wpm": 256.4,
+      "flag": "fast",
+      "text": "Denise, what do you have for fact or fiction?"
+    },
+    {
+      "start": 3110368,
+      "speaker": "David Kaufer",
+      "wpm": 197.6,
+      "flag": "fast",
+      "text": "Right. I think that's a big one though. I think that bears repeating because I think that'"
+    },
+    {
+      "start": 3161142,
+      "speaker": "David Kaufer",
+      "wpm": 246.5,
+      "flag": "fast",
+      "text": "I mean there's there's a little bit of trauma that goes with that, right? I mean kinda isn"
+    },
+    {
+      "start": 3172418,
+      "speaker": "Barry Prizant",
+      "wpm": 205.1,
+      "flag": "fast",
+      "text": "Yes, and I've heard it from many of my guests as well."
+    },
+    {
+      "start": 3177876,
+      "speaker": "David Kaufer",
+      "wpm": 235.3,
+      "flag": "fast",
+      "text": "That they knew that they knew something was wrong, but"
+    },
+    {
+      "start": 3181718,
+      "speaker": "Barry Prizant",
+      "wpm": 180.1,
+      "flag": "fast",
+      "text": "Yeah, and and one in particular had the strabismus surgery and went back to her surgeon an"
+    },
+    {
+      "start": 3217000,
+      "speaker": "Barry Prizant",
+      "wpm": 201.0,
+      "flag": "fast",
+      "text": "It was all into her head because it was her brain not knowing how to tell her how to work "
+    },
+    {
+      "start": 3223575,
+      "speaker": "David Kaufer",
+      "wpm": 185.1,
+      "flag": "fast",
+      "text": "Right, right. No, I go back to li the point you made w right off the bat, Denise, in terms"
+    },
+    {
+      "start": 3257854,
+      "speaker": "Barry Prizant",
+      "wpm": 186.5,
+      "flag": "fast",
+      "text": "It is. Yeah. And that's actually one of my favorite analogies. You would never have surger"
+    },
+    {
+      "start": 3298252,
+      "speaker": "Barry Prizant",
+      "wpm": 249.8,
+      "flag": "fast",
+      "text": "Well, it's it's not but the a awareness is what we're trying to do so that people will kno"
+    },
+    {
+      "start": 3408428,
+      "speaker": "Barry Prizant",
+      "wpm": 105.2,
+      "flag": "slow",
+      "text": "Teens can go astray, found socks in the fridge one day. Laughter's the best remedy, hey, w"
+    },
+    {
+      "start": 3434292,
+      "speaker": "David Kaufer",
+      "wpm": 205.8,
+      "flag": "fast",
+      "text": "All right, now's the time when we get to, as I always say, share our humanity so that we d"
+    },
+    {
+      "start": 3509152,
+      "speaker": "Barry Prizant",
+      "wpm": 214.3,
+      "flag": "fast",
+      "text": "And my doctor said it was probably the worst case of convergence insufficiency he'd ever s"
+    },
+    {
+      "start": 3515478,
+      "speaker": "David Kaufer",
+      "wpm": 243.9,
+      "flag": "fast",
+      "text": "What what is it? Can you give it a uh"
+    },
+    {
+      "start": 3581312,
+      "speaker": "Barry Prizant",
+      "wpm": 220.8,
+      "flag": "fast",
+      "text": "And it's still I mean, he doesn't if he wants to do something he figures out how to do it."
+    },
+    {
+      "start": 3592524,
+      "speaker": "David Kaufer",
+      "wpm": 189.3,
+      "flag": "fast",
+      "text": "He's yeah, he it sounds like he's found other other ways of coping and other ways to get t"
+    },
+    {
+      "start": 3601698,
+      "speaker": "Barry Prizant",
+      "wpm": 198.9,
+      "flag": "fast",
+      "text": "He does. Yeah. And I've told him that many times. You know, you can go back and do the vis"
+    },
+    {
+      "start": 3612130,
+      "speaker": "David Kaufer",
+      "wpm": 190.8,
+      "flag": "fast",
+      "text": "Yeah. Well that I can see where that that would be really difficult. But there's only so m"
+    },
+    {
+      "start": 3652024,
+      "speaker": "Barry Prizant",
+      "wpm": 50.8,
+      "flag": "slow",
+      "text": "Yeah. Light on the spectrum, oh a moment, person or story bring in something good. It feel"
+    },
+    {
+      "start": 3691848,
+      "speaker": "David Kaufer",
+      "wpm": 211.8,
+      "flag": "fast",
+      "text": "All right, so like I said, what do you have for us, Denise, to give give our listeners, pa"
+    },
+    {
+      "start": 3816088,
+      "speaker": "Barry Prizant",
+      "wpm": 210.9,
+      "flag": "fast",
+      "text": "gift is that I proven it can change. You know, I gained three D vision at age fifty four."
+    },
+    {
+      "start": 3894872,
+      "speaker": "David Kaufer",
+      "wpm": 190.9,
+      "flag": "fast",
+      "text": "Great. Well thank you, Denise, for joining us today. I really enjoyed the conversation. I "
+    }
+  ],
+  "dead_air": [
+    {
+      "start": 154742,
+      "end": 173484,
+      "duration_ms": 18742
+    },
+    {
+      "start": 283058,
+      "end": 304278,
+      "duration_ms": 21220
+    },
+    {
+      "start": 347828,
+      "end": 353182,
+      "duration_ms": 5354
+    },
+    {
+      "start": 500882,
+      "end": 515616,
+      "duration_ms": 14734
+    },
+    {
+      "start": 586388,
+      "end": 598594,
+      "duration_ms": 12206
+    },
+    {
+      "start": 617739,
+      "end": 625304,
+      "duration_ms": 7565
+    },
+    {
+      "start": 652372,
+      "end": 676602,
+      "duration_ms": 24230
+    },
+    {
+      "start": 705472,
+      "end": 716538,
+      "duration_ms": 11066
+    },
+    {
+      "start": 753752,
+      "end": 779468,
+      "duration_ms": 25716
+    },
+    {
+      "start": 900692,
+      "end": 922964,
+      "duration_ms": 22272
+    },
+    {
+      "start": 1164052,
+      "end": 1183894,
+      "duration_ms": 19842
+    },
+    {
+      "start": 1221234,
+      "end": 1240416,
+      "duration_ms": 19182
+    },
+    {
+      "start": 1474306,
+      "end": 1487244,
+      "duration_ms": 12938
+    },
+    {
+      "start": 1841929,
+      "end": 1849790,
+      "duration_ms": 7861
+    },
+    {
+      "start": 1905298,
+      "end": 1927244,
+      "duration_ms": 21946
+    },
+    {
+      "start": 1998440,
+      "end": 2006616,
+      "duration_ms": 8176
+    },
+    {
+      "start": 2130930,
+      "end": 2137186,
+      "duration_ms": 6256
+    },
+    {
+      "start": 2231634,
+      "end": 2250124,
+      "duration_ms": 18490
+    },
+    {
+      "start": 2276242,
+      "end": 2295064,
+      "duration_ms": 18822
+    },
+    {
+      "start": 2582212,
+      "end": 2590776,
+      "duration_ms": 8564
+    },
+    {
+      "start": 2931122,
+      "end": 2937805,
+      "duration_ms": 6683
+    },
+    {
+      "start": 3068626,
+      "end": 3090654,
+      "duration_ms": 22028
+    },
+    {
+      "start": 3266909,
+      "end": 3277112,
+      "duration_ms": 10203
+    },
+    {
+      "start": 3387419,
+      "end": 3394060,
+      "duration_ms": 6641
+    },
+    {
+      "start": 3402770,
+      "end": 3408428,
+      "duration_ms": 5658
+    },
+    {
+      "start": 3483393,
+      "end": 3499490,
+      "duration_ms": 16097
+    },
+    {
+      "start": 3499911,
+      "end": 3509152,
+      "duration_ms": 9241
+    },
+    {
+      "start": 3560091,
+      "end": 3568482,
+      "duration_ms": 8391
+    },
+    {
+      "start": 3652343,
+      "end": 3668940,
+      "duration_ms": 16597
+    },
+    {
+      "start": 3805810,
+      "end": 3816088,
+      "duration_ms": 10278
+    },
+    {
+      "start": 3867920,
+      "end": 3885550,
+      "duration_ms": 17630
+    }
+  ],
+  "cross_talk": [
+    {
+      "start": 281870,
+      "end": 283058,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 401582,
+      "end": 402674,
+      "speakers": "David Kaufer / Barry Prizant"
+    },
+    {
+      "start": 615572,
+      "end": 617739,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 752142,
+      "end": 753752,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 893154,
+      "end": 896120,
+      "speakers": "David Kaufer / Barry Prizant"
+    },
+    {
+      "start": 1217486,
+      "end": 1221234,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 1568014,
+      "end": 1570194,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 1840842,
+      "end": 1841929,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 1904290,
+      "end": 1905298,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 2087840,
+      "end": 2090226,
+      "speakers": "David Kaufer / Barry Prizant"
+    },
+    {
+      "start": 2174958,
+      "end": 2176306,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 2229694,
+      "end": 2231634,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 2275136,
+      "end": 2276242,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 2465014,
+      "end": 2467798,
+      "speakers": "David Kaufer / Barry Prizant"
+    },
+    {
+      "start": 2741482,
+      "end": 2745970,
+      "speakers": "David Kaufer / Barry Prizant"
+    },
+    {
+      "start": 2928564,
+      "end": 2931122,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 3057112,
+      "end": 3058706,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 3066926,
+      "end": 3068626,
+      "speakers": "David Kaufer / Barry Prizant"
+    },
+    {
+      "start": 3221774,
+      "end": 3223566,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 3431470,
+      "end": 3433010,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 3569190,
+      "end": 3571954,
+      "speakers": "David Kaufer / Barry Prizant"
+    },
+    {
+      "start": 3804758,
+      "end": 3805810,
+      "speakers": "Barry Prizant / David Kaufer"
+    },
+    {
+      "start": 3866894,
+      "end": 3867920,
+      "speakers": "Barry Prizant / David Kaufer"
+    }
+  ],
+  "keywords": {
+    "David Kaufer": [
+      [
+        "that's",
+        51
+      ],
+      [
+        "it's",
+        45
+      ],
+      [
+        "mean",
+        39
+      ],
+      [
+        "vision",
+        28
+      ],
+      [
+        "kind",
+        25
+      ],
+      [
+        "don't",
+        24
+      ],
+      [
+        "again",
+        20
+      ],
+      [
+        "denise",
+        19
+      ],
+      [
+        "you're",
+        18
+      ],
+      [
+        "other",
+        15
+      ]
+    ],
+    "Barry Prizant": [
+      [
+        "it's",
+        48
+      ],
+      [
+        "vision",
+        48
+      ],
+      [
+        "that's",
+        31
+      ],
+      [
+        "therapy",
+        29
+      ],
+      [
+        "there's",
+        26
+      ],
+      [
+        "because",
+        25
+      ],
+      [
+        "eyes",
+        24
+      ],
+      [
+        "surgery",
+        23
+      ],
+      [
+        "don't",
+        22
+      ],
+      [
+        "time",
+        22
+      ]
+    ]
+  }
+}
