@@ -1,2524 +1,2524 @@
 1
 00:00:00,174 --> 00:00:01,374
-[Abdullah Abid] you
+[speaker-0] you
 
 2
 00:00:04,526 --> 00:00:08,489
-[Abdullah Abid] Welcome to the lighter side of the
+[speaker-0] Welcome to the lighter side of the
 spectrum, a podcast where we explore how
 to find
 
 3
 00:00:08,489 --> 00:00:12,663
-[Abdullah Abid] joy, connection and growth while
+[speaker-0] joy, connection and growth while
 navigating the challenges of parenting
 kids and
 
 4
 00:00:12,663 --> 00:00:17,028
-[Abdullah Abid] teens on the autism spectrum. Remember
+[speaker-0] teens on the autism spectrum. Remember
 that inclusion and hope are key to making
 
 5
 00:00:17,028 --> 00:00:21,072
-[Abdullah Abid] life better for everyone and that even in
+[speaker-0] life better for everyone and that even in
 the most challenging moments, there's
 
 6
 00:00:21,072 --> 00:00:24,386
-[Abdullah Abid] always a lighter side. Now here's your
+[speaker-0] always a lighter side. Now here's your
 host, David Kaufer.
 
 7
 00:00:25,580 --> 00:00:30,701
-[Abdullah Abid] Hey everyone, welcome to another episode
+[speaker-0] Hey everyone, welcome to another episode
 of the lighter side of the spectrum. Glad
 
 8
 00:00:30,701 --> 00:00:36,423
-[Abdullah Abid] you can join us. I am so excited today
+[speaker-0] you can join us. I am so excited today
 because I have a good friend and a very
 
 9
 00:00:36,423 --> 00:00:42,895
-[Abdullah Abid] knowledgeable guest, Andrew Millevojvich.
+[speaker-0] knowledgeable guest, Andrew Millevojvich.
 Did I get it? Did I get it, Andrew? You
 
 10
 00:00:42,955 --> 00:00:47,716
-[Abdullah Abid] nailed it. All right. All that practice
+[speaker-0] nailed it. All right. All that practice
 paid off. But let me give you a little
 intro
 
 11
 00:00:47,716 --> 00:00:52,198
-[Abdullah Abid] to Andrew. He provided this and I'm going
+[speaker-0] to Andrew. He provided this and I'm going
 to spice it up because I do that in
 
 12
 00:00:52,198 --> 00:00:53,938
-[Abdullah Abid] marketing. But Andrew is...
+[speaker-0] marketing. But Andrew is...
 
 13
 00:00:54,530 --> 00:00:59,123
-[Abdullah Abid] husband to an awesome wife and father of
+[speaker-0] husband to an awesome wife and father of
 two great young adults, an engineer and
 
 14
 00:00:59,123 --> 00:01:04,938
-[Abdullah Abid] statistician that consults with academia
+[speaker-0] statistician that consults with academia
 and industry in experimental development.
 
 15
 00:01:05,558 --> 00:01:11,052
-[Abdullah Abid] And he's a co-author to Quality by
+[speaker-0] And he's a co-author to Quality by
 Experimental Design, which is published by
 Taylor
 
 16
 00:01:11,052 --> 00:01:16,266
-[Abdullah Abid] and Francis. I wanted to add, like I said,
+[speaker-0] and Francis. I wanted to add, like I said,
 he's a great resource. He's a part of our
 
 17
 00:01:16,446 --> 00:01:21,880
-[Abdullah Abid] spelling and autism community, but he's
+[speaker-0] spelling and autism community, but he's
 also the lead developer and designer and a
 
 18
 00:01:22,041 --> 00:01:26,553
-[Abdullah Abid] Don't know what the official title is,
+[speaker-0] Don't know what the official title is,
 Andrew, but that's cool app that was used
 in
 
 19
 00:01:26,553 --> 00:01:31,236
-[Abdullah Abid] that important research project at
+[speaker-0] that important research project at
 University of Virginia that I want to talk
 about
 
 20
 00:01:32,156 --> 00:01:38,329
-[Abdullah Abid] in a little bit. welcome Andrew. Thanks.
+[speaker-0] in a little bit. welcome Andrew. Thanks.
 Thanks for joining me. Hey, thank you for
 
 21
 00:01:38,329 --> 00:01:44,362
-[Abdullah Abid] inviting me. I'm really stoked and glad to
+[speaker-0] inviting me. I'm really stoked and glad to
 be here today. So one of the things that
 
 22
 00:01:44,462 --> 00:01:47,924
-[Abdullah Abid] we talk about, like I said, it's the
+[speaker-0] we talk about, like I said, it's the
 lighter side of the spectrum, but you
 know, we
 
 23
 00:01:47,924 --> 00:01:51,456
-[Abdullah Abid] were autism dads, right? And there's
+[speaker-0] were autism dads, right? And there's
 something unique about
 
 24
 00:01:51,576 --> 00:01:56,701
-[Abdullah Abid] being in that club and it certainly is a
+[speaker-0] being in that club and it certainly is a
 club and a fraternity in many ways. But
 
 25
 00:01:56,701 --> 00:02:00,504
-[Abdullah Abid] yeah, I think it's helpful to kind of get
+[speaker-0] yeah, I think it's helpful to kind of get
 a little background information. If you
 
 26
 00:02:00,504 --> 00:02:06,560
-[Abdullah Abid] could kind of tell me briefly about your
+[speaker-0] could kind of tell me briefly about your
 journey and your son is Nicholas, right?
 
 27
 00:02:06,600 --> 00:02:10,063
-[Abdullah Abid] And just why you can't tell us a little
+[speaker-0] And just why you can't tell us a little
 bit about how old was he when he was
 
 28
 00:02:10,063 --> 00:02:16,039
-[Abdullah Abid] diagnosed and kind of like, were those
+[speaker-0] diagnosed and kind of like, were those
 early years like? Well, he was, he was
 very
 
 29
 00:02:16,039 --> 00:02:17,290
-[Abdullah Abid] young, like up until about
+[speaker-0] young, like up until about
 
 30
 00:02:17,714 --> 00:02:23,607
-[Abdullah Abid] six months, all the developmental
+[speaker-0] six months, all the developmental
 milestones were there. But then there was
 a period
 
 31
 00:02:23,607 --> 00:02:31,160
-[Abdullah Abid] where after nine months, ten months, we
+[speaker-0] where after nine months, ten months, we
 start noticing him hand flapping a lot,
 
 32
 00:02:32,881 --> 00:02:40,114
-[Abdullah Abid] doing things while in a seated position,
+[speaker-0] doing things while in a seated position,
 which we later on, it gets a label called
 
 33
 00:02:40,114 --> 00:02:43,894
-[Abdullah Abid] stimming, not knowing that's what you
+[speaker-0] stimming, not knowing that's what you
 should give it.
 
 34
 00:02:45,538 --> 00:02:53,755
-[Abdullah Abid] Flapping, they call it flapping. Exactly.
+[speaker-0] Flapping, they call it flapping. Exactly.
 And delayed walking and whatnot. And I
 
 35
 00:02:53,755 --> 00:03:01,451
-[Abdullah Abid] remember actually being at my ear and nose
+[speaker-0] remember actually being at my ear and nose
 doctor, his office, and they had this
 
 36
 00:03:01,451 --> 00:03:06,635
-[Abdullah Abid] little pad of paper. And prior to this, by
+[speaker-0] little pad of paper. And prior to this, by
 the way, I should say we went into our
 
 37
 00:03:06,635 --> 00:03:14,051
-[Abdullah Abid] family doctor and we said, this just looks
+[speaker-0] family doctor and we said, this just looks
 unusual. And he must be about 12 months
 
 38
 00:03:14,051 --> 00:03:15,251
-[Abdullah Abid] by this time.
+[speaker-0] by this time.
 
 39
 00:03:15,630 --> 00:03:21,904
-[Abdullah Abid] And, um, and, uh, he had a bit of a rough
+[speaker-0] And, um, and, uh, he had a bit of a rough
 journey and w within a month of, of, of
 
 40
 00:03:21,904 --> 00:03:27,928
-[Abdullah Abid] being born, had developed RSV, had to be
+[speaker-0] being born, had developed RSV, had to be
 intubated. So he, he, days of life were
 
 41
 00:03:27,928 --> 00:03:33,131
-[Abdullah Abid] quite rough. Yeah. But got through that
+[speaker-0] quite rough. Yeah. But got through that
 thankfully and everything. And then, uh,
 the
 
 42
 00:03:33,131 --> 00:03:37,974
-[Abdullah Abid] doctor basically said, oh, he's observing
+[speaker-0] doctor basically said, oh, he's observing
 the stimming and says, oh, he's a
 
 43
 00:03:37,974 --> 00:03:40,446
-[Abdullah Abid] naturally excitable kid. Don't worry about
+[speaker-0] naturally excitable kid. Don't worry about
 it.
 
 44
 00:03:41,454 --> 00:03:46,934
-[Abdullah Abid] And then when I was at the ear and nose
+[speaker-0] And then when I was at the ear and nose
 throat specialist, saw this information
 
 45
 00:03:46,934 --> 00:03:53,414
-[Abdullah Abid] flyer talking about autism and some of the
+[speaker-0] flyer talking about autism and some of the
 symptoms. That's when it started gluing
 
 46
 00:03:53,414 --> 00:03:57,124
-[Abdullah Abid] in. You started kind of doing like a
+[speaker-0] in. You started kind of doing like a
 mental check, like you're kind of like
 check,
 
 47
 00:03:57,124 --> 00:04:03,694
-[Abdullah Abid] check. Absolutely. And I'm like, hey, my
+[speaker-0] check. Absolutely. And I'm like, hey, my
 wife, Antoinette, but you know, like
 
 48
 00:04:03,694 --> 00:04:07,814
-[Abdullah Abid] delayed speech, the stimming and all that
+[speaker-0] delayed speech, the stimming and all that
 kind of stuff.
 
 49
 00:04:08,750 --> 00:04:14,750
-[Abdullah Abid] And so we got referred to a developmental
+[speaker-0] And so we got referred to a developmental
 pediatrician and by 18 months we had the
 
 50
 00:04:14,750 --> 00:04:20,730
-[Abdullah Abid] diagnosis of autism. then everything after
+[speaker-0] diagnosis of autism. then everything after
 that was history, right? What can we do
 
 51
 00:04:20,730 --> 00:04:26,470
-[Abdullah Abid] to best support our child? Yeah. So it's
+[speaker-0] to best support our child? Yeah. So it's
 been a long, it's been a long journey. You
 
 52
 00:04:26,470 --> 00:04:31,970
-[Abdullah Abid] caught it early on. then again, you kind
+[speaker-0] caught it early on. then again, you kind
 of started doing all the things that, uh,
 
 53
 00:04:31,970 --> 00:04:36,630
-[Abdullah Abid] we're told to do, right? Like early
+[speaker-0] we're told to do, right? Like early
 intervention and how important that is,
 which
 
 54
 00:04:36,630 --> 00:04:37,830
-[Abdullah Abid] obviously it is.
+[speaker-0] obviously it is.
 
 55
 00:04:38,784 --> 00:04:44,518
-[Abdullah Abid] And then so, kind of go through it then
+[speaker-0] And then so, kind of go through it then
 education. What did they, you so, and I
 just
 
 56
 00:04:44,518 --> 00:04:48,981
-[Abdullah Abid] want to note, so you're actually in the
+[speaker-0] want to note, so you're actually in the
 Toronto and the, was, you live in Toronto
 
 57
 00:04:48,981 --> 00:04:53,355
-[Abdullah Abid] now, right? The Toronto area. Right. Yeah.
+[speaker-0] now, right? The Toronto area. Right. Yeah.
 So this is all, so yeah, so experience
 
 58
 00:04:53,355 --> 00:04:59,989
-[Abdullah Abid] might be slightly different, um, in terms
+[speaker-0] might be slightly different, um, in terms
 of resources and experience in Canada
 
 59
 00:05:00,070 --> 00:05:05,313
-[Abdullah Abid] versus kind of what we do here in the
+[speaker-0] versus kind of what we do here in the
 States. um, well, I would say they're
 quite
 
 60
 00:05:05,313 --> 00:05:06,513
-[Abdullah Abid] similar.
+[speaker-0] similar.
 
 61
 00:05:06,616 --> 00:05:11,791
-[Abdullah Abid] Back in the day, was like, how do we get
+[speaker-0] Back in the day, was like, how do we get
 our kid into ABA therapy as much as quick
 
 62
 00:05:11,791 --> 00:05:18,497
-[Abdullah Abid] and fast as possible, right? And that's
+[speaker-0] and fast as possible, right? And that's
 what we did. We sought out the
 psychologists
 
 63
 00:05:18,497 --> 00:05:25,763
-[Abdullah Abid] that were experienced in autism, put a
+[speaker-0] that were experienced in autism, put a
 program together for our kid. Where I
 think
 
 64
 00:05:26,704 --> 00:05:32,489
-[Abdullah Abid] our family's experiences maybe deviated a
+[speaker-0] our family's experiences maybe deviated a
 little bit was...
 
 65
 00:05:34,760 --> 00:05:40,942
-[Abdullah Abid] By training, I'm a researcher. So I will
+[speaker-0] By training, I'm a researcher. So I will
 do a literature search for all kinds of
 
 66
 00:05:40,942 --> 00:05:48,094
-[Abdullah Abid] papers on autism, and I would do extensive
+[speaker-0] papers on autism, and I would do extensive
 readings. And then I'd find out what the
 
 67
 00:05:48,094 --> 00:05:57,296
-[Abdullah Abid] best evidence was out there that suggested
+[speaker-0] best evidence was out there that suggested
 a type of therapy would be beneficial.
 
 68
 00:05:57,976 --> 00:06:03,738
-[Abdullah Abid] And we would just start and try and do
+[speaker-0] And we would just start and try and do
 things.
 
 69
 00:06:04,684 --> 00:06:11,407
-[Abdullah Abid] that would be, um, would be helpful. And,
+[speaker-0] that would be, um, would be helpful. And,
 uh, and, and, uh, and a lot of it today
 
 70
 00:06:11,407 --> 00:06:20,780
-[Abdullah Abid] explains, um, where our son is today. Um,
+[speaker-0] explains, um, where our son is today. Um,
 how so? Yeah. When you think about, people
 
 71
 00:06:20,780 --> 00:06:28,804
-[Abdullah Abid] will talk about, uh, casein and gluten
+[speaker-0] will talk about, uh, casein and gluten
 free diets and, and, um, I go beyond that.
 
 72
 00:06:28,924 --> 00:06:33,846
-[Abdullah Abid] Um, like why are certain diets recommended
+[speaker-0] Um, like why are certain diets recommended
 and.
 
 73
 00:06:34,446 --> 00:06:41,191
-[Abdullah Abid] And what you end up finding, and the
+[speaker-0] And what you end up finding, and the
 literature is getting up to speed in this
 point
 
 74
 00:06:41,191 --> 00:06:50,576
-[Abdullah Abid] here where they talk about the gut brain
+[speaker-0] here where they talk about the gut brain
 act. And digestion is a really, really
 
 75
 00:06:51,238 --> 00:06:57,022
-[Abdullah Abid] important concept for our kids. And they
+[speaker-0] important concept for our kids. And they
 often experience constipation issues and a
 
 76
 00:06:57,022 --> 00:07:02,245
-[Abdullah Abid] variety of other issues. And at the end of
+[speaker-0] variety of other issues. And at the end of
 the day,
 
 77
 00:07:04,098 --> 00:07:10,261
-[Abdullah Abid] Can you make it easier for them to digest
+[speaker-0] Can you make it easier for them to digest
 food? Yeah. And what you find is foods
 
 78
 00:07:10,261 --> 00:07:15,623
-[Abdullah Abid] come in all different kinds of molecular
+[speaker-0] come in all different kinds of molecular
 structures that have to get broken down
 and
 
 79
 00:07:15,623 --> 00:07:20,565
-[Abdullah Abid] then digested. Well, at the end of the
+[speaker-0] then digested. Well, at the end of the
 day, if you can give a diet to your kid
 that
 
 80
 00:07:20,805 --> 00:07:28,198
-[Abdullah Abid] consumes the... doesn't have to spend so
+[speaker-0] consumes the... doesn't have to spend so
 much time digesting, then they can absorb
 
 81
 00:07:28,198 --> 00:07:32,350
-[Abdullah Abid] more nutrients more effectively. So case
+[speaker-0] more nutrients more effectively. So case
 in point in me, if I eat a pay to...
 
 82
 00:07:32,654 --> 00:07:37,155
-[Abdullah Abid] plate of pasta, my body will be so busy
+[speaker-0] plate of pasta, my body will be so busy
 digesting, I'll go to sleep because
 there's
 
 83
 00:07:37,155 --> 00:07:43,317
-[Abdullah Abid] no energy. So when you look at our son
+[speaker-0] no energy. So when you look at our son
 right now, I mean, I wish I had his
 physique,
 
 84
 00:07:43,317 --> 00:07:53,920
-[Abdullah Abid] but he looks like an Olympic swimmer. then
+[speaker-0] but he looks like an Olympic swimmer. then
 that kind of is philosophically, you
 
 85
 00:07:53,920 --> 00:07:58,522
-[Abdullah Abid] can't cure the autism, at least there's no
+[speaker-0] can't cure the autism, at least there's no
 cure for it. And should there even be
 
 86
 00:07:58,522 --> 00:07:59,722
-[Abdullah Abid] one, right? Right.
+[speaker-0] one, right? Right.
 
 87
 00:07:59,722 --> 00:08:05,282
-[Abdullah Abid] Um, some of the symptoms, you said, in
+[speaker-0] Um, some of the symptoms, you said, in
 terms of, yeah, I don't mean to interrupt.
 
 88
 00:08:05,282 --> 00:08:08,062
-[Abdullah Abid] was going back because I really love the
+[speaker-0] was going back because I really love the
 way you described the injury. was going to
 
 89
 00:08:08,062 --> 00:08:13,362
-[Abdullah Abid] say, I wish I had, I wish doctors who
+[speaker-0] say, I wish I had, I wish doctors who
 described it that well back when Stone was
 
 90
 00:08:13,362 --> 00:08:19,542
-[Abdullah Abid] young and experienced knowing what we know
+[speaker-0] young and experienced knowing what we know
 now, experiencing constipation pain,
 
 91
 00:08:19,542 --> 00:08:23,982
-[Abdullah Abid] right? Like a lot of these things, like I
+[speaker-0] right? Like a lot of these things, like I
 said, it it makes sense if you can digest
 
 92
 00:08:23,982 --> 00:08:28,882
-[Abdullah Abid] and the reasons behind why do our kids
+[speaker-0] and the reasons behind why do our kids
 have these issues. That's kind of like.
 
 93
 00:08:29,670 --> 00:08:34,872
-[Abdullah Abid] a different topic, but just understanding
+[speaker-0] a different topic, but just understanding
 and that, because I think, I don't know, I
 
 94
 00:08:34,872 --> 00:08:39,444
-[Abdullah Abid] don't know what the thinking is today. I
+[speaker-0] don't know what the thinking is today. I
 know again, back when Stone was young, so
 
 95
 00:08:39,444 --> 00:08:44,643
-[Abdullah Abid] we're looking about what, 10 to probably
+[speaker-0] we're looking about what, 10 to probably
 12, 13 years ago when again, I first kind
 
 96
 00:08:44,643 --> 00:08:50,889
-[Abdullah Abid] of discovered diet and learning about that
+[speaker-0] of discovered diet and learning about that
 from naturopaths and research and my
 
 97
 00:08:50,889 --> 00:08:56,121
-[Abdullah Abid] limited research. It was kind of just kind
+[speaker-0] limited research. It was kind of just kind
 of revolutionary. And like it just, was,
 
 98
 00:08:56,261 --> 00:08:58,762
-[Abdullah Abid] and there were a lot, a lot of skeptics,
+[speaker-0] and there were a lot, a lot of skeptics,
 right? remember.
 
 99
 00:08:59,702 --> 00:09:05,937
-[Abdullah Abid] Um, kind of scoring this appointment at
+[speaker-0] Um, kind of scoring this appointment at
 one of the leading local pediatricians
 here.
 
 100
 00:09:05,937 --> 00:09:12,342
-[Abdullah Abid] guy's supposed to be like, like one of the
+[speaker-0] guy's supposed to be like, like one of the
 nation's top experts in autism. And I got
 
 101
 00:09:12,342 --> 00:09:15,664
-[Abdullah Abid] an appointment with him when I guess it's
+[speaker-0] an appointment with him when I guess it's
 still, was probably three or four. We had
 
 102
 00:09:15,664 --> 00:09:22,770
-[Abdullah Abid] just kind of started, um, the gluten free
+[speaker-0] just kind of started, um, the gluten free
 case and free diet. We're talking, he, he
 
 103
 00:09:22,770 --> 00:09:25,402
-[Abdullah Abid] literally just stopped. He's just like,
+[speaker-0] literally just stopped. He's just like,
 
 104
 00:09:27,118 --> 00:09:33,478
-[Abdullah Abid] Well, if you think that's going to help,
+[speaker-0] Well, if you think that's going to help,
 okay, whatever. Wow. I've heard in his
 
 105
 00:09:33,478 --> 00:09:38,078
-[Abdullah Abid] sense, uh, changed his tune. Fortunately
+[speaker-0] sense, uh, changed his tune. Fortunately
 he's seen enough kiddos and all, but
 
 106
 00:09:38,078 --> 00:09:41,738
-[Abdullah Abid] anyway, the point being like, think that
+[speaker-0] anyway, the point being like, think that
 there were skeptics. don't know if there
 
 107
 00:09:41,738 --> 00:09:46,558
-[Abdullah Abid] are still as many skeptics, if it's more
+[speaker-0] are still as many skeptics, if it's more
 accepted today that this is like a real
 
 108
 00:09:46,558 --> 00:09:52,888
-[Abdullah Abid] issue. Yeah. Oh no, it is. And, and I
+[speaker-0] issue. Yeah. Oh no, it is. And, and I
 think it highlights one of the issues, uh,
 
 109
 00:09:52,888 --> 00:09:54,940
-[Abdullah Abid] about autism because
+[speaker-0] about autism because
 
 110
 00:09:55,552 --> 00:10:01,968
-[Abdullah Abid] When you try to look for issues that are
+[speaker-0] When you try to look for issues that are
 unrelated, let's say, to autism, it's very
 
 111
 00:10:01,968 --> 00:10:08,183
-[Abdullah Abid] easy to use that label and brush it off
+[speaker-0] easy to use that label and brush it off
 and say, oh, it's the autism. And then you
 
 112
 00:10:08,183 --> 00:10:12,737
-[Abdullah Abid] ignore the other health issues because
+[speaker-0] ignore the other health issues because
 you're trying to explain it away as the
 
 113
 00:10:12,737 --> 00:10:18,602
-[Abdullah Abid] autism, right? And a lot of these kids of
+[speaker-0] autism, right? And a lot of these kids of
 ours, they have other underlying issues.
 
 114
 00:10:20,143 --> 00:10:23,066
-[Abdullah Abid] The one today that stands out, which is my
+[speaker-0] The one today that stands out, which is my
 
 115
 00:10:23,566 --> 00:10:29,106
-[Abdullah Abid] leads into my tip of the day is just the
+[speaker-0] leads into my tip of the day is just the
 whole movement and developmental
 
 116
 00:10:29,106 --> 00:10:37,886
-[Abdullah Abid] coordination that since 2015 now is being
+[speaker-0] coordination that since 2015 now is being
 recognized as a core symptom of autism and
 
 117
 00:10:37,886 --> 00:10:45,866
-[Abdullah Abid] that's motor impairment. And I could talk
+[speaker-0] that's motor impairment. And I could talk
 about that for ad infinitum and why that's
 
 118
 00:10:45,866 --> 00:10:52,126
-[Abdullah Abid] very important to address and something
+[speaker-0] very important to address and something
 that doesn't get taken into consideration
 
 119
 00:10:52,126 --> 00:10:53,326
-[Abdullah Abid] these days.
+[speaker-0] these days.
 
 120
 00:10:53,480 --> 00:10:59,413
-[Abdullah Abid] Um, with, uh, with a lot of our, with, uh,
+[speaker-0] Um, with, uh, with a lot of our, with, uh,
 a lot of our kids. Yeah, that's a really
 
 121
 00:10:59,413 --> 00:11:04,056
-[Abdullah Abid] good point. And I think in a lot of ways,
+[speaker-0] good point. And I think in a lot of ways,
 kind of like some motor development, the
 
 122
 00:11:04,056 --> 00:11:11,410
-[Abdullah Abid] role of motor, um, the role of the praxia,
+[speaker-0] role of motor, um, the role of the praxia,
 all of those related issues are kind of
 
 123
 00:11:11,410 --> 00:11:18,303
-[Abdullah Abid] still at the early stages in terms of, um,
+[speaker-0] still at the early stages in terms of, um,
 acceptance and acknowledgement, right?
 
 124
 00:11:18,544 --> 00:11:22,786
-[Abdullah Abid] The DSM, which is the standard that
+[speaker-0] The DSM, which is the standard that
 doctors all use for
 
 125
 00:11:22,946 --> 00:11:31,209
-[Abdullah Abid] diagnosing certain things. I believe the
+[speaker-0] diagnosing certain things. I believe the
 2013 version finally acknowledged that you
 
 126
 00:11:31,209 --> 00:11:37,992
-[Abdullah Abid] can have developmental coordination
+[speaker-0] can have developmental coordination
 disorder co-occurring with autism, which
 is just
 
 127
 00:11:38,212 --> 00:11:46,876
-[Abdullah Abid] the medical way of saying dyspraxia. then
+[speaker-0] the medical way of saying dyspraxia. then
 I don't have to tell you about the
 
 128
 00:11:46,876 --> 00:11:50,857
-[Abdullah Abid] wonderful work that Elizabeth Torres has
+[speaker-0] wonderful work that Elizabeth Torres has
 done out of Rutgers University.
 
 129
 00:11:53,100 --> 00:12:01,334
-[Abdullah Abid] that has shown there's an impairment in
+[speaker-0] that has shown there's an impairment in
 motor learning in our autistic kids. And
 
 130
 00:12:01,515 --> 00:12:07,358
-[Abdullah Abid] that is so important to understand because
+[speaker-0] that is so important to understand because
 once you clue into it and realize it's an
 
 131
 00:12:07,358 --> 00:12:14,893
-[Abdullah Abid] impairment, you can figure out how to
+[speaker-0] impairment, you can figure out how to
 address it and really improve the quality
 of
 
 132
 00:12:14,893 --> 00:12:19,265
-[Abdullah Abid] life for our kids so that they can
+[speaker-0] life for our kids so that they can
 experience things that they otherwise
 would never
 
 133
 00:12:19,265 --> 00:12:20,465
-[Abdullah Abid] have had.
+[speaker-0] have had.
 
 134
 00:12:20,782 --> 00:12:25,322
-[Abdullah Abid] to experience. can give you a perfect
+[speaker-0] to experience. can give you a perfect
 example of that. Yeah, I love examples. I
 love
 
 135
 00:12:25,322 --> 00:12:32,102
-[Abdullah Abid] stories. Well, when you think of it, when
+[speaker-0] stories. Well, when you think of it, when
 you look at motor impairment and autism,
 
 136
 00:12:32,442 --> 00:12:39,682
-[Abdullah Abid] the research that Dr. Torres has shown is
+[speaker-0] the research that Dr. Torres has shown is
 that these movements, when you're a
 
 137
 00:12:39,682 --> 00:12:45,802
-[Abdullah Abid] typical people like you and I, we learn
+[speaker-0] typical people like you and I, we learn
 how to make the future movement more
 
 138
 00:12:45,802 --> 00:12:48,228
-[Abdullah Abid] efficient based on our prior movements.
+[speaker-0] efficient based on our prior movements.
 
 139
 00:12:48,648 --> 00:12:54,290
-[Abdullah Abid] So when we learn to pick up a glass of
+[speaker-0] So when we learn to pick up a glass of
 water, for example, my hand might come on
 the
 
 140
 00:12:54,290 --> 00:12:59,191
-[Abdullah Abid] top of it, my hand might slide down the
+[speaker-0] top of it, my hand might slide down the
 side, my first experience is with that
 
 141
 00:12:59,191 --> 00:13:05,203
-[Abdullah Abid] glass. And then when I learn what grip is
+[speaker-0] glass. And then when I learn what grip is
 comfortable and what makes it easier to
 
 142
 00:13:05,203 --> 00:13:12,786
-[Abdullah Abid] lift and drink, then the future movement
+[speaker-0] lift and drink, then the future movement
 emulates that. That mechanism in autism is
 
 143
 00:13:12,906 --> 00:13:14,106
-[Abdullah Abid] impaired.
+[speaker-0] impaired.
 
 144
 00:13:14,566 --> 00:13:21,310
-[Abdullah Abid] and the impairment increases as the
+[speaker-0] and the impairment increases as the
 diagnosis of autism increases in severity
 as
 
 145
 00:13:21,310 --> 00:13:28,465
-[Abdullah Abid] measured on an ADOS. So it means that this
+[speaker-0] measured on an ADOS. So it means that this
 kinematic learning in autism gets
 
 146
 00:13:28,465 --> 00:13:36,029
-[Abdullah Abid] impaired. And this is the epiphany for me.
+[speaker-0] impaired. And this is the epiphany for me.
 Right? Imagine what happens to social
 
 147
 00:13:36,029 --> 00:13:39,982
-[Abdullah Abid] skills because as you age with your peer
+[speaker-0] skills because as you age with your peer
 group and instead of...
 
 148
 00:13:40,334 --> 00:13:44,474
-[Abdullah Abid] sitting in a circle, talking about a book
+[speaker-0] sitting in a circle, talking about a book
 and rolling a ball around when you're a
 
 149
 00:13:44,474 --> 00:13:50,034
-[Abdullah Abid] toddler. Now you're playing soccer where
+[speaker-0] toddler. Now you're playing soccer where
 the level of kinematic skill in gross
 motor
 
 150
 00:13:50,034 --> 00:13:57,814
-[Abdullah Abid] and five motor is far more higher as age
+[speaker-0] and five motor is far more higher as age
 or the demand is so much higher as age
 
 151
 00:13:57,814 --> 00:14:02,394
-[Abdullah Abid] increases that our kiddos fall behind. And
+[speaker-0] increases that our kiddos fall behind. And
 then that impacts their social
 
 152
 00:14:02,394 --> 00:14:07,344
-[Abdullah Abid] experiences. So, um, that's a great,
+[speaker-0] experiences. So, um, that's a great,
 that's a great point. And to be clear too,
 
 153
 00:14:07,344 --> 00:14:09,420
-[Abdullah Abid] also, I just want to add again for
+[speaker-0] also, I just want to add again for
 
 154
 00:14:09,624 --> 00:14:14,387
-[Abdullah Abid] for listeners who aren't as familiar about
+[speaker-0] for listeners who aren't as familiar about
 this. Again, this has nothing to do with
 
 155
 00:14:14,387 --> 00:14:19,169
-[Abdullah Abid] cognitive abilities, is sometimes, right.
+[speaker-0] cognitive abilities, is sometimes, right.
 This is, but this is the mistake that,
 
 156
 00:14:19,169 --> 00:14:25,753
-[Abdullah Abid] that so many make, right. Is that because
+[speaker-0] that so many make, right. Is that because
 there's this disconnect in terms of the
 
 157
 00:14:25,753 --> 00:14:32,247
-[Abdullah Abid] motor though, that, does impair other
+[speaker-0] motor though, that, does impair other
 areas in terms of communication and some
 of
 
 158
 00:14:32,247 --> 00:14:37,170
-[Abdullah Abid] these motor abilities, but they've been
+[speaker-0] these motor abilities, but they've been
 fused together to say, oh, well they're
 
 159
 00:14:37,170 --> 00:14:38,370
-[Abdullah Abid] just.
+[speaker-0] just.
 
 160
 00:14:38,370 --> 00:14:44,532
-[Abdullah Abid] developmentally disabled. You think about
+[speaker-0] developmentally disabled. You think about
 every, that touches on an interesting
 
 161
 00:14:44,532 --> 00:14:52,436
-[Abdullah Abid] study by a psychologist out in Montreal
+[speaker-0] study by a psychologist out in Montreal
 who studied 40 autistic people. When you
 
 162
 00:14:52,436 --> 00:14:59,751
-[Abdullah Abid] look at every test you can do to measure,
+[speaker-0] look at every test you can do to measure,
 collect or whatever, it depends on motor
 
 163
 00:14:59,751 --> 00:15:05,654
-[Abdullah Abid] skills. Right. Right. Everyone, like every
+[speaker-0] skills. Right. Right. Everyone, like every
 test. If the motor skills are impaired,
 
 164
 00:15:06,574 --> 00:15:15,574
-[Abdullah Abid] then how do you expect to get an exact...
+[speaker-0] then how do you expect to get an exact...
 accurate results of the person's
 
 165
 00:15:15,574 --> 00:15:20,834
-[Abdullah Abid] intelligence? It's difficult. So you have
+[speaker-0] intelligence? It's difficult. So you have
 to do things differently. And I wish
 
 166
 00:15:20,834 --> 00:15:26,814
-[Abdullah Abid] today's academia field would recognize it
+[speaker-0] today's academia field would recognize it
 because they were faced with this problem
 
 167
 00:15:26,814 --> 00:15:29,522
-[Abdullah Abid] in the 1930s and they solved it.
+[speaker-0] in the 1930s and they solved it.
 
 168
 00:15:29,844 --> 00:15:34,447
-[Abdullah Abid] And I don't know if you're aware of this,
+[speaker-0] And I don't know if you're aware of this,
 David, but when you were coming into the
 
 169
 00:15:34,447 --> 00:15:39,787
-[Abdullah Abid] United States at the start of the
+[speaker-0] United States at the start of the
 industrial revolution, you needed labor.
 Right.
 
 170
 00:15:39,787 --> 00:15:45,523
-[Abdullah Abid] Well, a lot of these people couldn't speak
+[speaker-0] Well, a lot of these people couldn't speak
 English. So how would you test them in
 
 171
 00:15:45,523 --> 00:15:49,826
-[Abdullah Abid] the English language to know whether or
+[speaker-0] the English language to know whether or
 not they had the intellect to do certain
 
 172
 00:15:49,826 --> 00:15:55,109
-[Abdullah Abid] types of jobs? Well, you had to, you had
+[speaker-0] types of jobs? Well, you had to, you had
 to invent a different test that wasn't
 
 173
 00:15:55,109 --> 00:15:57,070
-[Abdullah Abid] based on language. Oh, wow.
+[speaker-0] based on language. Oh, wow.
 
 174
 00:15:57,610 --> 00:16:01,722
-[Abdullah Abid] And so those are called your Raven's
+[speaker-0] And so those are called your Raven's
 progressive matrices. And they've been
 around
 
 175
 00:16:01,722 --> 00:16:07,055
-[Abdullah Abid] since the 1930s. And so this researcher,
+[speaker-0] since the 1930s. And so this researcher,
 when she did that for these group of
 
 176
 00:16:07,235 --> 00:16:11,457
-[Abdullah Abid] children that had impaired motor ability,
+[speaker-0] children that had impaired motor ability,
 which they couldn't control the fine motor
 
 177
 00:16:11,457 --> 00:16:17,291
-[Abdullah Abid] muscles in their mouth to speak. They
+[speaker-0] muscles in their mouth to speak. They
 found that they lost their, their, uh,
 
 178
 00:16:17,291 --> 00:16:26,836
-[Abdullah Abid] intellectual disability diagnosis. And so
+[speaker-0] intellectual disability diagnosis. And so
 why aren't we using those more? Well, I
 
 179
 00:16:26,836 --> 00:16:28,036
-[Abdullah Abid] don't know.
+[speaker-0] don't know.
 
 180
 00:16:28,036 --> 00:16:33,305
-[Abdullah Abid] Honestly, don't know Is it just testing
+[speaker-0] Honestly, don't know Is it just testing
 bias or is it just one of those situations
 
 181
 00:16:33,305 --> 00:16:38,888
-[Abdullah Abid] where the system's used to using these
+[speaker-0] where the system's used to using these
 other standardized tests? Yes, and that's
 the
 
 182
 00:16:38,888 --> 00:16:45,532
-[Abdullah Abid] thing because the community is, when I
+[speaker-0] thing because the community is, when I
 mean the community, the people that want
 to
 
 183
 00:16:45,532 --> 00:16:51,195
-[Abdullah Abid] do these assessments want to know if the
+[speaker-0] do these assessments want to know if the
 tests have been normed against the certain
 
 184
 00:16:51,195 --> 00:16:56,298
-[Abdullah Abid] population, right? So that you can compare
+[speaker-0] population, right? So that you can compare
 normative...
 
 185
 00:16:56,726 --> 00:17:02,288
-[Abdullah Abid] values to the population to see where
+[speaker-0] values to the population to see where
 things are. So when you invent these new
 tests
 
 186
 00:17:03,689 --> 00:17:09,771
-[Abdullah Abid] and you trial them on just a few people,
+[speaker-0] and you trial them on just a few people,
 you got to push hundreds of subjects
 
 187
 00:17:10,252 --> 00:17:17,445
-[Abdullah Abid] through this area. So you'll often hear
+[speaker-0] through this area. So you'll often hear
 the term autism is very heterogeneous,
 
 188
 00:17:17,445 --> 00:17:23,487
-[Abdullah Abid] right? So one of the things that prevents
+[speaker-0] right? So one of the things that prevents
 us doing this in the area of autism is how
 
 189
 00:17:23,487 --> 00:17:25,218
-[Abdullah Abid] do you partition
+[speaker-0] do you partition
 
 190
 00:17:25,600 --> 00:17:32,275
-[Abdullah Abid] autistic people in different buckets, like
+[speaker-0] autistic people in different buckets, like
 maybe this group are, are, have some
 
 191
 00:17:32,275 --> 00:17:38,049
-[Abdullah Abid] speaking ability and this group doesn't.
+[speaker-0] speaking ability and this group doesn't.
 And because the group is so heterogeneous,
 
 192
 00:17:38,049 --> 00:17:42,322
-[Abdullah Abid] they don't know how to create the
+[speaker-0] they don't know how to create the
 subpopulations to do these normative
 tests. Right.
 
 193
 00:17:42,322 --> 00:17:46,545
-[Abdullah Abid] So it gets very, very, very difficult. And
+[speaker-0] So it gets very, very, very difficult. And
 that's why they don't do it.
 
 194
 00:17:48,696 --> 00:17:54,249
-[Abdullah Abid] But that kind of goes into the study out
+[speaker-0] But that kind of goes into the study out
 of the University of Virginia and the
 
 195
 00:17:54,249 --> 00:18:00,982
-[Abdullah Abid] innovative things we needed to do to test
+[speaker-0] innovative things we needed to do to test
 literacy, for example, right? And I like
 
 196
 00:18:00,982 --> 00:18:07,875
-[Abdullah Abid] to say autism doesn't care what your
+[speaker-0] to say autism doesn't care what your
 education is. Right. If you have a PhD in
 
 197
 00:18:07,875 --> 00:18:14,338
-[Abdullah Abid] education and the person with autism has a
+[speaker-0] education and the person with autism has a
 neurological issue,
 
 198
 00:18:14,754 --> 00:18:19,536
-[Abdullah Abid] that impairs the circuitry in the brain
+[speaker-0] that impairs the circuitry in the brain
 that impacts motor. Well, then I should be
 
 199
 00:18:19,536 --> 00:18:27,628
-[Abdullah Abid] talking to a neuroscientist, right? And so
+[speaker-0] talking to a neuroscientist, right? And so
 you need a very diversified team of
 
 200
 00:18:27,628 --> 00:18:31,950
-[Abdullah Abid] healthcare professionals, which thankfully
+[speaker-0] healthcare professionals, which thankfully
 here in Canada with our son, I mean,
 
 201
 00:18:31,950 --> 00:18:38,822
-[Abdullah Abid] we've got a fantastic medical team from
+[speaker-0] we've got a fantastic medical team from
 neurologists to neuroscientists to...
 
 202
 00:18:39,458 --> 00:18:45,110
-[Abdullah Abid] developmental pediatricians and
+[speaker-0] developmental pediatricians and
 ophthalmologists and all kinds of things
 to support
 
 203
 00:18:45,110 --> 00:18:51,643
-[Abdullah Abid] our kids. That's what they all need,
+[speaker-0] our kids. That's what they all need,
 right? They do. And like you said, we've
 talked
 
 204
 00:18:51,643 --> 00:18:55,885
-[Abdullah Abid] about, that fortunately you do have that
+[speaker-0] about, that fortunately you do have that
 team. Unfortunately, you've been in a
 
 205
 00:18:55,885 --> 00:18:59,596
-[Abdullah Abid] position that you've been able to build
+[speaker-0] position that you've been able to build
 that team and support that team.
 
 206
 00:18:59,596 --> 00:19:05,079
-[Abdullah Abid] Unfortunately, especially here in the U.S.
+[speaker-0] Unfortunately, especially here in the U.S.
 where the health care system in general,
 
 207
 00:19:05,079 --> 00:19:08,130
-[Abdullah Abid] again, isn't as supportive, we'll say.
+[speaker-0] again, isn't as supportive, we'll say.
 
 208
 00:19:09,094 --> 00:19:13,236
-[Abdullah Abid] I think that's really hard for a lot of
+[speaker-0] I think that's really hard for a lot of
 people to try to build that kind of a team
 
 209
 00:19:13,296 --> 00:19:20,130
-[Abdullah Abid] anyway. is and even in Canada, don't get
+[speaker-0] anyway. is and even in Canada, don't get
 me wrong, we have our issues up here. The
 
 210
 00:19:20,130 --> 00:19:28,134
-[Abdullah Abid] parent really has to be, for lack of a
+[speaker-0] parent really has to be, for lack of a
 better word, pushy and not take no for an
 
 211
 00:19:28,134 --> 00:19:31,746
-[Abdullah Abid] answer. think that's universal, Andrew. I
+[speaker-0] answer. think that's universal, Andrew. I
 think we've learned that, right? that.
 
 212
 00:19:32,718 --> 00:19:37,318
-[Abdullah Abid] Uh, and again, that's, that is kind of one
+[speaker-0] Uh, and again, that's, that is kind of one
 of the pieces of advice I'm always giving
 
 213
 00:19:37,318 --> 00:19:42,758
-[Abdullah Abid] when asked or even when I'm not asked.
+[speaker-0] when asked or even when I'm not asked.
 It's just, especially for parents and
 younger
 
 214
 00:19:42,758 --> 00:19:46,678
-[Abdullah Abid] kids who again, who've either just gotten
+[speaker-0] kids who again, who've either just gotten
 the diagnosis or starting school. I'm just
 
 215
 00:19:46,678 --> 00:19:52,758
-[Abdullah Abid] like, you gotta be pushy. Like you said,
+[speaker-0] like, you gotta be pushy. Like you said,
 you gotta push because you're the
 advocate.
 
 216
 00:19:52,758 --> 00:19:56,378
-[Abdullah Abid] Like you're the one who's going to have to
+[speaker-0] Like you're the one who's going to have to
 make this happen because others won't.
 
 217
 00:19:56,378 --> 00:19:59,458
-[Abdullah Abid] They're going to do what they need to do.
+[speaker-0] They're going to do what they need to do.
 Whether it's the school system doing the
 
 218
 00:19:59,458 --> 00:20:02,320
-[Abdullah Abid] bare minimum as you and I have both.
+[speaker-0] bare minimum as you and I have both.
 
 219
 00:20:02,476 --> 00:20:09,111
-[Abdullah Abid] at both experience. hope you're enjoying
+[speaker-0] at both experience. hope you're enjoying
 the lighter side of the spectrum. So far
 
 220
 00:20:09,111 --> 00:20:13,043
-[Abdullah Abid] we're commercial free, but if you're
+[speaker-0] we're commercial free, but if you're
 finding value here, one way to support the
 show
 
 221
 00:20:13,043 --> 00:20:17,456
-[Abdullah Abid] is by considering me for speaking
+[speaker-0] is by considering me for speaking
 engagement. I speak on unlocking
 potential,
 
 222
 00:20:17,496 --> 00:20:22,980
-[Abdullah Abid] whether it's for individuals like my son
+[speaker-0] whether it's for individuals like my son
 or for entire organizations. I also offer
 
 223
 00:20:22,980 --> 00:20:27,373
-[Abdullah Abid] fractional CMO services for businesses
+[speaker-0] fractional CMO services for businesses
 needing strategic marketing support
 without
 
 224
 00:20:27,373 --> 00:20:31,636
-[Abdullah Abid] the full-time commitment, drawing on over
+[speaker-0] the full-time commitment, drawing on over
 35 years of experience in marketing.
 
 225
 00:20:32,034 --> 00:20:36,378
-[Abdullah Abid] My agency has helped companies and
+[speaker-0] My agency has helped companies and
 healthcare practices increase their value,
 grow,
 
 226
 00:20:36,378 --> 00:20:41,041
-[Abdullah Abid] and even prepare for acquisition. To learn
+[speaker-0] and even prepare for acquisition. To learn
 more about my speaking topics, visit
 
 227
 00:20:41,041 --> 00:20:46,136
-[Abdullah Abid] davidkoffer.com. Or if you're interested
+[speaker-0] davidkoffer.com. Or if you're interested
 in our marketing or fractional CMO
 
 228
 00:20:46,136 --> 00:20:50,690
-[Abdullah Abid] services, check out kofermarketing.com. If
+[speaker-0] services, check out kofermarketing.com. If
 you're enjoying this episode, please
 
 229
 00:20:50,690 --> 00:20:55,293
-[Abdullah Abid] leave a review. Your feedback means a lot
+[speaker-0] leave a review. Your feedback means a lot
 and it helps me make this podcast even
 
 230
 00:20:55,293 --> 00:20:59,036
-[Abdullah Abid] more useful. Lastly, don't forget to share
+[speaker-0] more useful. Lastly, don't forget to share
 it with anyone who would appreciate the
 
 231
 00:20:59,036 --> 00:21:00,748
-[Abdullah Abid] insights and stories we're sharing here.
+[speaker-0] insights and stories we're sharing here.
 
 232
 00:21:01,314 --> 00:21:02,514
-[Abdullah Abid] Thanks again for listening.
+[speaker-0] Thanks again for listening.
 
 233
 00:21:05,302 --> 00:21:09,104
-[Abdullah Abid] All of this stuff that I've just mentioned
+[speaker-0] All of this stuff that I've just mentioned
 about motor impairment. mean, what's the
 
 234
 00:21:09,104 --> 00:21:14,906
-[Abdullah Abid] underlying good message out of all of that
+[speaker-0] underlying good message out of all of that
 stuff, right? And, and, in the case of
 
 235
 00:21:14,906 --> 00:21:20,408
-[Abdullah Abid] our son, was like, well, it's winter. I
+[speaker-0] our son, was like, well, it's winter. I
 don't want to be indoors all day. I wonder
 
 236
 00:21:20,408 --> 00:21:26,521
-[Abdullah Abid] if he can learn how to ski. Now, right
+[speaker-0] if he can learn how to ski. Now, right
 away, others will say, well, he's got
 autism.
 
 237
 00:21:26,521 --> 00:21:30,863
-[Abdullah Abid] There's no way we're going to be able to
+[speaker-0] There's no way we're going to be able to
 come down a hill. Well, my son's been
 doing
 
 238
 00:21:30,863 --> 00:21:34,274
-[Abdullah Abid] it now for seven years. We just found a
+[speaker-0] it now for seven years. We just found a
 great program.
 
 239
 00:21:35,050 --> 00:21:42,784
-[Abdullah Abid] called track three and it's a disability.
+[speaker-0] called track three and it's a disability.
 It's a program to support kids with
 
 240
 00:21:42,784 --> 00:21:47,806
-[Abdullah Abid] disabilities to learn how to ski. And so
+[speaker-0] disabilities to learn how to ski. And so
 they pair you up with a couple of ski
 
 241
 00:21:47,806 --> 00:21:55,009
-[Abdullah Abid] instructors and they start on a bunny hill
+[speaker-0] instructors and they start on a bunny hill
 and they teach you how to ski. Now my son
 
 242
 00:21:55,009 --> 00:22:00,762
-[Abdullah Abid] goes to Glen Eden at the top of a, after
+[speaker-0] goes to Glen Eden at the top of a, after
 years on a bunny hill, he was
 
 243
 00:22:01,582 --> 00:22:06,092
-[Abdullah Abid] going on the big hill and doing all his
+[speaker-0] going on the big hill and doing all his
 best, S's all the way down the hill,
 right?
 
 244
 00:22:06,092 --> 00:22:10,742
-[Abdullah Abid] I love the videos. I remember you sharing
+[speaker-0] I love the videos. I remember you sharing
 them last, last winter, right? Oh yeah,
 
 245
 00:22:10,742 --> 00:22:16,042
-[Abdullah Abid] absolutely. I mean, I'm at the bottom. I'm
+[speaker-0] absolutely. I mean, I'm at the bottom. I'm
 just rooting him like crazy. I'm happy as
 
 246
 00:22:16,042 --> 00:22:21,122
-[Abdullah Abid] heck seeing that he can do something that
+[speaker-0] heck seeing that he can do something that
 otherwise he wouldn't have had a chance at
 
 247
 00:22:21,122 --> 00:22:25,642
-[Abdullah Abid] doing because nobody would presume the
+[speaker-0] doing because nobody would presume the
 competence, right? Right. Those programs
 are
 
 248
 00:22:25,642 --> 00:22:29,582
-[Abdullah Abid] gold. We're lucky enough to have something
+[speaker-0] gold. We're lucky enough to have something
 similar here in the Seattle area, which
 
 249
 00:22:29,582 --> 00:22:30,916
-[Abdullah Abid] is called Outdoors for All.
+[speaker-0] is called Outdoors for All.
 
 250
 00:22:31,500 --> 00:22:36,391
-[Abdullah Abid] Right. And they do that like it's a
+[speaker-0] Right. And they do that like it's a
 skiing. Yeah. And they do a ski program.
 has
 
 251
 00:22:36,391 --> 00:22:40,673
-[Abdullah Abid] participated in that previously. It's been
+[speaker-0] participated in that previously. It's been
 a few years. He wants to do it again. So
 
 252
 00:22:40,673 --> 00:22:45,004
-[Abdullah Abid] we're planning on doing that. They do
+[speaker-0] we're planning on doing that. They do
 cycling, a lot of those things, right?
 They're
 
 253
 00:22:45,004 --> 00:22:48,685
-[Abdullah Abid] just wonderful programs for, for kids to
+[speaker-0] just wonderful programs for, for kids to
 give them those, give them those
 
 254
 00:22:48,685 --> 00:22:53,293
-[Abdullah Abid] opportunities, like you said. Yeah.
+[speaker-0] opportunities, like you said. Yeah.
 Absolutely. So like I said, we'd like to
 have
 
 255
 00:22:53,293 --> 00:22:56,978
-[Abdullah Abid] that little feature for the tip of the
+[speaker-0] that little feature for the tip of the
 week. You kind of touched on it a little
 bit
 
 256
 00:22:56,978 --> 00:22:58,338
-[Abdullah Abid] earlier. So let's go ahead.
+[speaker-0] earlier. So let's go ahead.
 
 257
 00:22:58,830 --> 00:23:02,411
-[Abdullah Abid] Let's see if producer Dave is ready for
+[speaker-0] Let's see if producer Dave is ready for
 the intro.
 
 258
 00:23:20,910 --> 00:23:27,530
-[Abdullah Abid] All right. How's that for intro intro?
+[speaker-0] All right. How's that for intro intro?
 Absolutely love it. It's great. Uh, so
 what
 
 259
 00:23:27,530 --> 00:23:33,890
-[Abdullah Abid] you got for us? Well, it's presumed
+[speaker-0] you got for us? Well, it's presumed
 competence and I, and I say that broadly.
 Um,
 
 260
 00:23:33,890 --> 00:23:41,290
-[Abdullah Abid] but you know, as your kids age, um, you
+[speaker-0] but you know, as your kids age, um, you
 don't want them to be withheld from
 
 261
 00:23:41,290 --> 00:23:46,310
-[Abdullah Abid] activities that everybody else can, can
+[speaker-0] activities that everybody else can, can
 participate in. So first get over that
 
 262
 00:23:46,310 --> 00:23:48,082
-[Abdullah Abid] hurdle and assume they can do it.
+[speaker-0] hurdle and assume they can do it.
 
 263
 00:23:48,884 --> 00:23:55,390
-[Abdullah Abid] and then find the program that suits their
+[speaker-0] and then find the program that suits their
 motor needs to actually be able to enjoy
 
 264
 00:23:55,390 --> 00:24:03,127
-[Abdullah Abid] that program. Like cycling, for example. I
+[speaker-0] that program. Like cycling, for example. I
 remember my son could ride a two-wheeler,
 
 265
 00:24:03,167 --> 00:24:07,371
-[Abdullah Abid] but then turning was a bit of a hassle and
+[speaker-0] but then turning was a bit of a hassle and
 then he'd get dejected. Well, guess what?
 
 266
 00:24:07,371 --> 00:24:12,405
-[Abdullah Abid] bought it. I got a tri-bite bent. Now he
+[speaker-0] bought it. I got a tri-bite bent. Now he
 can ride everything. can cruise around,
 
 267
 00:24:12,405 --> 00:24:14,917
-[Abdullah Abid] right? Those are awesome. Do things and...
+[speaker-0] right? Those are awesome. Do things and...
 
 268
 00:24:15,958 --> 00:24:19,809
-[Abdullah Abid] Next year, we're going to get a tandem
+[speaker-0] Next year, we're going to get a tandem
 bike and we're going to cruise together
 
 269
 00:24:19,809 --> 00:24:25,711
-[Abdullah Abid] because at my age, I got to get exercise
+[speaker-0] because at my age, I got to get exercise
 and do some of that kind of stuff. And so
 
 270
 00:24:25,711 --> 00:24:31,302
-[Abdullah Abid] get them into those activities that get
+[speaker-0] get them into those activities that get
 them to not only engage in those
 activities
 
 271
 00:24:31,302 --> 00:24:36,884
-[Abdullah Abid] other people do, but that gives them an
+[speaker-0] other people do, but that gives them an
 opportunity to also socialize. Right. I
 
 272
 00:24:36,884 --> 00:24:42,935
-[Abdullah Abid] haven't found an autistic person that
+[speaker-0] haven't found an autistic person that
 hasn't been in a social environment and
 have a
 
 273
 00:24:42,935 --> 00:24:44,266
-[Abdullah Abid] sad face on. Right.
+[speaker-0] sad face on. Right.
 
 274
 00:24:45,134 --> 00:24:52,214
-[Abdullah Abid] And so I think get out there and and and
+[speaker-0] And so I think get out there and and and
 assume they enjoy those activities and
 just
 
 275
 00:24:52,214 --> 00:24:55,994
-[Abdullah Abid] are taken well Yeah, and again, I was just
+[speaker-0] are taken well Yeah, and again, I was just
 gonna say that's another great point you
 
 276
 00:24:55,994 --> 00:25:00,814
-[Abdullah Abid] make Andrew again in terms of social
+[speaker-0] make Andrew again in terms of social
 activities again I think that one of the
 false
 
 277
 00:25:00,814 --> 00:25:05,094
-[Abdullah Abid] narratives that we had heard for so many
+[speaker-0] narratives that we had heard for so many
 years and I even again I understood this
 
 278
 00:25:05,094 --> 00:25:08,914
-[Abdullah Abid] was stone when he was younger as people
+[speaker-0] was stone when he was younger as people
 are like, oh, they're just not social
 
 279
 00:25:08,914 --> 00:25:13,134
-[Abdullah Abid] Autistic people aren't social. I'm like,
+[speaker-0] Autistic people aren't social. I'm like,
 well, how social would you be if you can't
 
 280
 00:25:13,134 --> 00:25:14,334
-[Abdullah Abid] talk like?
+[speaker-0] talk like?
 
 281
 00:25:14,334 --> 00:25:20,466
-[Abdullah Abid] How social would you be if I dropped you
+[speaker-0] How social would you be if I dropped you
 in the middle of Beijing tomorrow and
 said,
 
 282
 00:25:20,626 --> 00:25:23,716
-[Abdullah Abid] go, why don't you go hang out with these
+[speaker-0] go, why don't you go hang out with these
 people? You wouldn't want to do that.
 
 283
 00:25:23,716 --> 00:25:27,426
-[Abdullah Abid] wouldn't know what the heck they're
+[speaker-0] wouldn't know what the heck they're
 saying. You wouldn't be able to, or maybe
 you
 
 284
 00:25:27,426 --> 00:25:31,426
-[Abdullah Abid] would figure it out quickly, but you
+[speaker-0] would figure it out quickly, but you
 couldn't pick up the language. It's just,
 
 285
 00:25:31,486 --> 00:25:39,266
-[Abdullah Abid] again, this, this assumption, this
+[speaker-0] again, this, this assumption, this
 societal bias, right? I've got a great
 example of
 
 286
 00:25:39,266 --> 00:25:43,602
-[Abdullah Abid] that. were at a picnic and there were,
+[speaker-0] that. were at a picnic and there were,
 there was a soccer pitch there.
 
 287
 00:25:44,438 --> 00:25:51,207
-[Abdullah Abid] And Nicholas was a teenager at this time,
+[speaker-0] And Nicholas was a teenager at this time,
 or maybe pre-teenager. And there was a
 
 288
 00:25:51,207 --> 00:25:58,646
-[Abdullah Abid] group of kids playing soccer. And our son
+[speaker-0] group of kids playing soccer. And our son
 was just sitting on the bench. All of a
 
 289
 00:25:58,646 --> 00:26:03,752
-[Abdullah Abid] sudden, he gets up and he walks right into
+[speaker-0] sudden, he gets up and he walks right into
 the middle of that group.
 
 290
 00:26:05,974 --> 00:26:10,896
-[Abdullah Abid] And everybody's like, well, Nicholas, get
+[speaker-0] And everybody's like, well, Nicholas, get
 out of the way or get on the bench. And I
 
 291
 00:26:10,896 --> 00:26:16,499
-[Abdullah Abid] come back and I'm like, no, no, no, no,
+[speaker-0] come back and I'm like, no, no, no, no,
 no, no. He got up and he came in this
 group
 
 292
 00:26:16,499 --> 00:26:21,691
-[Abdullah Abid] for a reason. Yeah. And I'm telling you
+[speaker-0] for a reason. Yeah. And I'm telling you
 that reason is he wants to participate.
 
 293
 00:26:21,691 --> 00:26:26,393
-[Abdullah Abid] Don't tell me he's not wanting to be sold.
+[speaker-0] Don't tell me he's not wanting to be sold.
 Right. That's inclusion right there. It's
 
 294
 00:26:26,393 --> 00:26:30,875
-[Abdullah Abid] the motor that's preventing him from
+[speaker-0] the motor that's preventing him from
 kicking or passing a ball. So guess what
 the
 
 295
 00:26:30,875 --> 00:26:32,406
-[Abdullah Abid] group does? They adapt.
+[speaker-0] group does? They adapt.
 
 296
 00:26:32,686 --> 00:26:36,766
-[Abdullah Abid] And they start passing him the ball and he
+[speaker-0] And they start passing him the ball and he
 stays at the center and he starts passing
 
 297
 00:26:36,766 --> 00:26:42,406
-[Abdullah Abid] it to everybody else. And while he's doing
+[speaker-0] it to everybody else. And while he's doing
 that, he's cracking the biggest smile on
 
 298
 00:26:42,406 --> 00:26:48,765
-[Abdullah Abid] his face. those moments. is awesome.
+[speaker-0] his face. those moments. is awesome.
 Right. Oh, absolutely. Yeah, absolutely.
 So
 
 299
 00:26:48,765 --> 00:26:53,226
-[Abdullah Abid] like I mentioned earlier, so we kind of
+[speaker-0] like I mentioned earlier, so we kind of
 met through the spelling community, right?
 
 300
 00:26:53,226 --> 00:26:57,666
-[Abdullah Abid] And so you've, uh, you've been part of
+[speaker-0] And so you've, uh, you've been part of
 that journey and we've shared lots of
 
 301
 00:26:57,666 --> 00:27:01,504
-[Abdullah Abid] stories. But one of the things I think is
+[speaker-0] stories. But one of the things I think is
 really cool is what you're doing.
 
 302
 00:27:02,746 --> 00:27:08,359
-[Abdullah Abid] with Nicholas as an author. He's a book
+[speaker-0] with Nicholas as an author. He's a book
 author, right? He's published multiple
 books
 
 303
 00:27:08,359 --> 00:27:13,481
-[Abdullah Abid] now. Talk about that. Yeah, he's got the
+[speaker-0] now. Talk about that. Yeah, he's got the
 third one and the coloring. He had this
 
 304
 00:27:13,481 --> 00:27:22,185
-[Abdullah Abid] idea for a coloring book. Oh, I don't
+[speaker-0] idea for a coloring book. Oh, I don't
 think I'd heard about that. he wrote his
 first
 
 305
 00:27:22,185 --> 00:27:29,578
-[Abdullah Abid] book was... So he wrote a series on
+[speaker-0] book was... So he wrote a series on
 Detective Nick and the first book was
 called
 
 306
 00:27:29,578 --> 00:27:30,778
-[Abdullah Abid] Detective Nick.
+[speaker-0] Detective Nick.
 
 307
 00:27:30,778 --> 00:27:35,943
-[Abdullah Abid] case of the missing belly buttons. mean,
+[speaker-0] case of the missing belly buttons. mean,
 right there, come up with a title. I love
 
 308
 00:27:35,943 --> 00:27:48,704
-[Abdullah Abid] it. then the next one was Detective Nick,
+[speaker-0] it. then the next one was Detective Nick,
 where did Mr. Creatures' cows go? And talk
 
 309
 00:27:48,704 --> 00:27:54,339
-[Abdullah Abid] about the presumption of competence. It's
+[speaker-0] about the presumption of competence. It's
 a story about cows that appreciate reading
 
 310
 00:27:54,500 --> 00:27:57,182
-[Abdullah Abid] Shakespeare and can talk, but nobody
+[speaker-0] Shakespeare and can talk, but nobody
 believes them.
 
 311
 00:27:58,034 --> 00:28:02,882
-[Abdullah Abid] Oh wow. Perfect. And they all want to go
+[speaker-0] Oh wow. Perfect. And they all want to go
 to the Howledge.
 
 312
 00:28:05,002 --> 00:28:12,634
-[Abdullah Abid] I mean, how he comes up with this stuff,
+[speaker-0] I mean, how he comes up with this stuff,
 make a poignant societal point just throws
 
 313
 00:28:12,634 --> 00:28:20,766
-[Abdullah Abid] me. And then the other one just recently
+[speaker-0] me. And then the other one just recently
 this year was Detective Nick and the case,
 
 314
 00:28:21,627 --> 00:28:30,829
-[Abdullah Abid] the mysterious case of the interstellar
+[speaker-0] the mysterious case of the interstellar
 beings. And so he's quite the little short
 
 315
 00:28:30,829 --> 00:28:32,230
-[Abdullah Abid] kid's writer, which
+[speaker-0] kid's writer, which
 
 316
 00:28:35,491 --> 00:28:39,914
-[Abdullah Abid] The story behind that is actually amazing.
+[speaker-0] The story behind that is actually amazing.
 don't know if you've ever read the Robert
 
 317
 00:28:39,914 --> 00:28:48,590
-[Abdullah Abid] Munch. Robert Munch is like probably the
+[speaker-0] Munch. Robert Munch is like probably the
 greatest selling children's author. the
 
 318
 00:28:48,590 --> 00:28:58,386
-[Abdullah Abid] first book that he wrote was, Oh God, Love
+[speaker-0] first book that he wrote was, Oh God, Love
 You Much or something about how the
 
 319
 00:28:58,386 --> 00:29:02,379
-[Abdullah Abid] mother takes care of the child. And then
+[speaker-0] mother takes care of the child. And then
 when the mother becomes elderly, the child
 
 320
 00:29:02,379 --> 00:29:03,660
-[Abdullah Abid] then takes care of the mother.
+[speaker-0] then takes care of the mother.
 
 321
 00:29:05,162 --> 00:29:11,354
-[Abdullah Abid] And I'm sorry if I'm not remembering the
+[speaker-0] And I'm sorry if I'm not remembering the
 title, but yeah, he was an American who
 
 322
 00:29:11,354 --> 00:29:15,976
-[Abdullah Abid] happens to now live in Guelph, Ontario,
+[speaker-0] happens to now live in Guelph, Ontario,
 which is the city not too far from where
 we
 
 323
 00:29:15,976 --> 00:29:21,167
-[Abdullah Abid] live. And so Nicholas loved his books and
+[speaker-0] live. And so Nicholas loved his books and
 he said, well, I want to be an author. I
 
 324
 00:29:21,167 --> 00:29:27,379
-[Abdullah Abid] want to write some books. like, how do we,
+[speaker-0] want to write some books. like, how do we,
 do you think we can ask Robert Munch? And
 
 325
 00:29:27,379 --> 00:29:30,380
-[Abdullah Abid] I'm like, well, let's.
+[speaker-0] I'm like, well, let's.
 
 326
 00:29:30,990 --> 00:29:35,290
-[Abdullah Abid] I guess so. says, yeah, like, why don't we
+[speaker-0] I guess so. says, yeah, like, why don't we
 just send them a letter, dad? And so we
 
 327
 00:29:35,290 --> 00:29:41,530
-[Abdullah Abid] did. And he responded. Oh, cool. So it was
+[speaker-0] did. And he responded. Oh, cool. So it was
 all that's correct. And that was the
 
 328
 00:29:41,530 --> 00:29:47,890
-[Abdullah Abid] motivation to, uh, to, to this wonderful
+[speaker-0] motivation to, uh, to, to this wonderful
 gentleman just sent the kind letter
 
 329
 00:29:47,890 --> 00:29:53,930
-[Abdullah Abid] encouraging him to go forward and gave
+[speaker-0] encouraging him to go forward and gave
 them all kinds of tips on how to get the
 book
 
 330
 00:29:53,930 --> 00:29:58,226
-[Abdullah Abid] out there and whatnot. that's how we ended
+[speaker-0] out there and whatnot. that's how we ended
 up here today. Right.
 
 331
 00:29:58,752 --> 00:30:05,015
-[Abdullah Abid] Yeah. You may have told me this before,
+[speaker-0] Yeah. You may have told me this before,
 Andrew, but how, what was Nicholas's level
 
 332
 00:30:05,015 --> 00:30:09,426
-[Abdullah Abid] of communication before spelling, before
+[speaker-0] of communication before spelling, before
 he was introduced to the spelling
 
 333
 00:30:09,426 --> 00:30:14,849
-[Abdullah Abid] methodology? um, is he reliable at all? he
+[speaker-0] methodology? um, is he reliable at all? he
 have speak, how much speak? No, no, no.
 
 334
 00:30:14,929 --> 00:30:21,061
-[Abdullah Abid] Uh, he, was, he was non-speaking. Yeah. I
+[speaker-0] Uh, he, was, he was non-speaking. Yeah. I
 mean, he had words here and there. And
 
 335
 00:30:21,061 --> 00:30:25,003
-[Abdullah Abid] when he was upset and he really wanted to
+[speaker-0] when he was upset and he really wanted to
 communicate what he want, he could string
 
 336
 00:30:25,003 --> 00:30:26,273
-[Abdullah Abid] out two or three words.
+[speaker-0] out two or three words.
 
 337
 00:30:28,174 --> 00:30:39,814
-[Abdullah Abid] But he was using sign language for period
+[speaker-0] But he was using sign language for period
 of a time. so it never went further. I
 
 338
 00:30:39,814 --> 00:30:46,274
-[Abdullah Abid] wouldn't say because of Nicholas. It was
+[speaker-0] wouldn't say because of Nicholas. It was
 very difficult for my wife and I to learn
 
 339
 00:30:46,274 --> 00:30:51,686
-[Abdullah Abid] it because at the time, if you're an
+[speaker-0] it because at the time, if you're an
 autistic parent,
 
 340
 00:30:52,346 --> 00:30:56,829
-[Abdullah Abid] Uh, and you don't have funding sources and
+[speaker-0] Uh, and you don't have funding sources and
 you're trying to get all this ABA help
 
 341
 00:30:56,829 --> 00:31:00,871
-[Abdullah Abid] for your kids and just get them all the
+[speaker-0] for your kids and just get them all the
 supports that they need. You're, you're,
 
 342
 00:31:00,931 --> 00:31:06,534
-[Abdullah Abid] you're paying for this out of pocket. I
+[speaker-0] you're paying for this out of pocket. I
 remember you're paying for it. Plus the
 
 343
 00:31:06,534 --> 00:31:10,856
-[Abdullah Abid] time, right? Like, that's the thing.
+[speaker-0] time, right? Like, that's the thing.
 There's like bandwidth. remember it.
 Sorry. I
 
 344
 00:31:10,856 --> 00:31:16,769
-[Abdullah Abid] just like, cause I remember people saying
+[speaker-0] just like, cause I remember people saying
 that to me are asking us that again, when
 
 345
 00:31:16,769 --> 00:31:20,081
-[Abdullah Abid] Stone was young, they're like, well, why
+[speaker-0] Stone was young, they're like, well, why
 don't you try, why don't you just try
 
 346
 00:31:20,081 --> 00:31:21,281
-[Abdullah Abid] learning sign language?
+[speaker-0] learning sign language?
 
 347
 00:31:21,964 --> 00:31:27,570
-[Abdullah Abid] And I'm like, we're fricking drowning
+[speaker-0] And I'm like, we're fricking drowning
 here. right. mean, there's, there's the
 very
 
 348
 00:31:27,570 --> 00:31:33,486
-[Abdullah Abid] much that survival element, right? Okay.
+[speaker-0] much that survival element, right? Okay.
 We're, we're, we're focusing on the
 lighter
 
 349
 00:31:33,486 --> 00:31:40,423
-[Abdullah Abid] side, of course, which we want to do, but
+[speaker-0] side, of course, which we want to do, but
 the reality is that, um, man, it's just,
 
 350
 00:31:40,423 --> 00:31:44,377
-[Abdullah Abid] you're, we're working, we're working all
+[speaker-0] you're, we're working, we're working all
 the time. You said trying different
 
 351
 00:31:44,377 --> 00:31:45,577
-[Abdullah Abid] therapies and.
+[speaker-0] therapies and.
 
 352
 00:31:45,710 --> 00:31:49,411
-[Abdullah Abid] And then me and just still trying to be a
+[speaker-0] And then me and just still trying to be a
 parent, like I said, and then you have
 
 353
 00:31:49,411 --> 00:31:55,053
-[Abdullah Abid] another son that you're parenting as Stone
+[speaker-0] another son that you're parenting as Stone
 as a twin brother. Like, there's only so
 
 354
 00:31:55,053 --> 00:31:59,994
-[Abdullah Abid] much that you can do also, I think, which
+[speaker-0] much that you can do also, I think, which
 plays into it. Yeah. Yeah, absolutely. And
 
 355
 00:31:59,994 --> 00:32:04,126
-[Abdullah Abid] that's why often, and I think I might've
+[speaker-0] that's why often, and I think I might've
 even used this term with you, do you have
 
 356
 00:32:04,126 --> 00:32:10,718
-[Abdullah Abid] the privilege of time? Right. And, uh, it
+[speaker-0] the privilege of time? Right. And, uh, it
 is a privilege without a doubt. Yeah, for
 
 357
 00:32:10,718 --> 00:32:11,918
-[Abdullah Abid] sure. Absolutely.
+[speaker-0] sure. Absolutely.
 
 358
 00:32:12,366 --> 00:32:15,926
-[Abdullah Abid] All right. So this, this is a good lead
+[speaker-0] All right. So this, this is a good lead
 and because we're talking about family and
 
 359
 00:32:15,926 --> 00:32:18,986
-[Abdullah Abid] stresses and things like that. And then
+[speaker-0] stresses and things like that. And then
 again, something we've talked about. So
 
 360
 00:32:18,986 --> 00:32:25,026
-[Abdullah Abid] let's go. This is for this is our fact or
+[speaker-0] let's go. This is for this is our fact or
 fiction autism factor fiction segment. All
 
 361
 00:32:25,026 --> 00:32:29,966
-[Abdullah Abid] right. See if, see if we have an intro for
+[speaker-0] right. See if, see if we have an intro for
 that. Get quick time ready. And here we
 
 362
 00:32:29,966 --> 00:32:35,226
-[Abdullah Abid] go. This is autism factor fiction. We're
+[speaker-0] go. This is autism factor fiction. We're
 breaking down what's real, what's rumor
 and
 
 363
 00:32:35,226 --> 00:32:41,458
-[Abdullah Abid] what might surprise you. Let's go. So, uh,
+[speaker-0] what might surprise you. Let's go. So, uh,
 
 364
 00:32:42,114 --> 00:32:45,817
-[Abdullah Abid] That's that we're going to call her
+[speaker-0] That's that we're going to call her
 Sabrina. Just I'm going to steal that from
 
 365
 00:32:45,817 --> 00:32:51,432
-[Abdullah Abid] producer. Yeah. This is podcast. She's
+[speaker-0] producer. Yeah. This is podcast. She's
 she, he loaned her out to us from chat
 GPT.
 
 366
 00:32:51,432 --> 00:32:55,946
-[Abdullah Abid] But so for factor fiction, autism factor
+[speaker-0] But so for factor fiction, autism factor
 fiction, one of the things I remember
 
 367
 00:32:55,946 --> 00:33:01,310
-[Abdullah Abid] hearing early on was that, um, I've been
+[speaker-0] hearing early on was that, um, I've been
 looking at if I have a great supportive
 
 368
 00:33:01,310 --> 00:33:06,394
-[Abdullah Abid] wife, we've been married 27 years. I know
+[speaker-0] wife, we've been married 27 years. I know
 you in similar situation, but I don't know
 
 369
 00:33:06,394 --> 00:33:10,808
-[Abdullah Abid] yet. You always hear that the divorce rate
+[speaker-0] yet. You always hear that the divorce rate
 is higher among couples with autistic.
 
 370
 00:33:11,352 --> 00:33:17,576
-[Abdullah Abid] kids or special needs kids. yeah, that's
+[speaker-0] kids or special needs kids. yeah, that's
 true. So you're okay. So you're going with
 
 371
 00:33:17,576 --> 00:33:27,562
-[Abdullah Abid] fact. Yeah, I'm going with fact. Okay. So
+[speaker-0] fact. Yeah, I'm going with fact. Okay. So
 at least again, according to, um, or AI, I
 
 372
 00:33:27,562 --> 00:33:33,226
-[Abdullah Abid] hope I'm wrong. Yeah. So, well, okay. So
+[speaker-0] hope I'm wrong. Yeah. So, well, okay. So
 the belief in divorce rates are higher
 
 373
 00:33:33,226 --> 00:33:35,848
-[Abdullah Abid] among couples with autistic children is
+[speaker-0] among couples with autistic children is
 largely a myth.
 
 374
 00:33:36,494 --> 00:33:40,354
-[Abdullah Abid] Research in the past decade has shown that
+[speaker-0] Research in the past decade has shown that
 while parenting a child with autism does
 
 375
 00:33:40,354 --> 00:33:45,314
-[Abdullah Abid] bring unique stressors, these couples do
+[speaker-0] bring unique stressors, these couples do
 not have a significantly higher divorce
 
 376
 00:33:45,314 --> 00:33:49,334
-[Abdullah Abid] rate compared to parents with neurotypical
+[speaker-0] rate compared to parents with neurotypical
 children. As a matter of fact, a 2010
 
 377
 00:33:49,334 --> 00:33:52,934
-[Abdullah Abid] study from the Journal of Autism and
+[speaker-0] study from the Journal of Autism and
 Developmental Disorders found that while
 
 378
 00:33:52,934 --> 00:33:57,634
-[Abdullah Abid] parents of autistic children face distinct
+[speaker-0] parents of autistic children face distinct
 challenges, their marriages are no more
 
 379
 00:33:57,634 --> 00:34:01,774
-[Abdullah Abid] likely to end in divorce than other
+[speaker-0] likely to end in divorce than other
 marriages. In fact, some studies even
 indicate
 
 380
 00:34:01,774 --> 00:34:03,692
-[Abdullah Abid] the couples raising children with autism.
+[speaker-0] the couples raising children with autism.
 
 381
 00:34:04,416 --> 00:34:09,640
-[Abdullah Abid] may experience a stronger sense of
+[speaker-0] may experience a stronger sense of
 partnership and shared purpose, which can
 have a
 
 382
 00:34:09,640 --> 00:34:17,966
-[Abdullah Abid] stabilizing effect on the relationship. it
+[speaker-0] stabilizing effect on the relationship. it
 can strain relationships. I love that
 
 383
 00:34:17,966 --> 00:34:25,282
-[Abdullah Abid] last part you just said, because when I
+[speaker-0] last part you just said, because when I
 think about my wife, we are such a tag
 team.
 
 384
 00:34:26,443 --> 00:34:30,355
-[Abdullah Abid] don't know what we would do without each
+[speaker-0] don't know what we would do without each
 other, right? Because that's how we make
 it
 
 385
 00:34:30,355 --> 00:34:31,555
-[Abdullah Abid] work, right?
+[speaker-0] work, right?
 
 386
 00:34:31,555 --> 00:34:37,126
-[Abdullah Abid] So I totally believe in that because that
+[speaker-0] So I totally believe in that because that
 shows up in our marriage. Yeah. think,
 
 387
 00:34:37,127 --> 00:34:42,846
-[Abdullah Abid] yeah, same here. It's, it's it's a divide
+[speaker-0] yeah, same here. It's, it's it's a divide
 and conquer, right? It's a partnership.
 
 388
 00:34:42,846 --> 00:34:46,264
-[Abdullah Abid] It's you have to do, I think it's really
+[speaker-0] It's you have to do, I think it's really
 kind of the only way you make it work. And
 
 389
 00:34:46,264 --> 00:34:52,539
-[Abdullah Abid] it requires that level of commitment to
+[speaker-0] it requires that level of commitment to
 the relationship, to the family, to
 really,
 
 390
 00:34:52,960 --> 00:34:55,872
-[Abdullah Abid] to really see that through. So I thought
+[speaker-0] to really see that through. So I thought
 that was really kind of interesting,
 right?
 
 391
 00:34:55,872 --> 00:34:57,072
-[Abdullah Abid] Cause
+[speaker-0] Cause
 
 392
 00:34:57,072 --> 00:35:00,256
-[Abdullah Abid] I remember when I said early on, was like,
+[speaker-0] I remember when I said early on, was like,
 okay, as if we didn't have to worry about
 
 393
 00:35:00,256 --> 00:35:03,889
-[Abdullah Abid] you're getting like these messages like,
+[speaker-0] you're getting like these messages like,
 well, good luck with that marriage now.
 
 394
 00:35:04,770 --> 00:35:09,084
-[Abdullah Abid] Well, you know what? This is one of the,
+[speaker-0] Well, you know what? This is one of the,
 when I'm being tested, I like to be right,
 
 395
 00:35:09,084 --> 00:35:15,000
-[Abdullah Abid] but this is the first time I'm really glad
+[speaker-0] but this is the first time I'm really glad
 I'm wrong. Yeah. Well, like I said, it's,
 
 396
 00:35:15,280 --> 00:35:19,874
-[Abdullah Abid] it's, again, a message of hope for, like I
+[speaker-0] it's, again, a message of hope for, like I
 said, the other parents out there, right?
 
 397
 00:35:19,874 --> 00:35:21,546
-[Abdullah Abid] Who are, who may be challenging.
+[speaker-0] Who are, who may be challenging.
 
 398
 00:35:22,170 --> 00:35:26,383
-[Abdullah Abid] Um, so like we were joking about this
+[speaker-0] Um, so like we were joking about this
 before we started, we, there's so much
 more to
 
 399
 00:35:26,383 --> 00:35:30,856
-[Abdullah Abid] talk about. Um, and I want to get into
+[speaker-0] talk about. Um, and I want to get into
 like, so there's going to be a part two or
 
 400
 00:35:30,856 --> 00:35:34,228
-[Abdullah Abid] part three for sure. We'll bring you back.
+[speaker-0] part three for sure. We'll bring you back.
 But one of the things we talked about
 
 401
 00:35:34,228 --> 00:35:38,371
-[Abdullah Abid] spelling and I've touched upon this, I'm
+[speaker-0] spelling and I've touched upon this, I'm
 always going to be talking about it in
 each
 
 402
 00:35:38,371 --> 00:35:44,175
-[Abdullah Abid] of my podcasts because it's just, just
+[speaker-0] of my podcasts because it's just, just
 incredible journey with stone. But I
 thought
 
 403
 00:35:44,175 --> 00:35:49,349
-[Abdullah Abid] you had a really interesting observe
+[speaker-0] you had a really interesting observe
 observation about how kind of comparing
 the
 
 404
 00:35:49,349 --> 00:35:51,150
-[Abdullah Abid] stages of spelling for parents.
+[speaker-0] stages of spelling for parents.
 
 405
 00:35:51,946 --> 00:35:56,377
-[Abdullah Abid] How similar to startups in a way, like, so
+[speaker-0] How similar to startups in a way, like, so
 you talked about what the storming
 
 406
 00:35:56,377 --> 00:36:01,789
-[Abdullah Abid] forming and norming, right? Yeah. Can you
+[speaker-0] forming and norming, right? Yeah. Can you
 talk about that a little bit and just kind
 
 407
 00:36:01,789 --> 00:36:05,950
-[Abdullah Abid] of, again, how, how you've seen that kind
+[speaker-0] of, again, how, how you've seen that kind
 of play out, um, maybe in your own
 
 408
 00:36:05,950 --> 00:36:09,488
-[Abdullah Abid] experience, but also again, you've, you've
+[speaker-0] experience, but also again, you've, you've
 talked to and become friends with a lot
 
 409
 00:36:09,488 --> 00:36:18,624
-[Abdullah Abid] of other families. Well, once you, um,
+[speaker-0] of other families. Well, once you, um,
 you, you go down this path and you realize
 
 410
 00:36:18,624 --> 00:36:19,824
-[Abdullah Abid] the world can open up.
+[speaker-0] the world can open up.
 
 411
 00:36:21,166 --> 00:36:27,448
-[Abdullah Abid] And what communication actually does for
+[speaker-0] And what communication actually does for
 you, you feel this kind of euphoria. is
 
 412
 00:36:27,448 --> 00:36:39,192
-[Abdullah Abid] great. And so it's a natural high. But
+[speaker-0] great. And so it's a natural high. But
 then as time goes on, it's like, okay, how
 am
 
 413
 00:36:39,192 --> 00:36:44,863
-[Abdullah Abid] I going to sustain this? We need more
+[speaker-0] I going to sustain this? We need more
 training. We got to develop the motor
 skills.
 
 414
 00:36:44,863 --> 00:36:47,154
-[Abdullah Abid] There's a kinematic learning process.
+[speaker-0] There's a kinematic learning process.
 
 415
 00:36:47,854 --> 00:36:53,474
-[Abdullah Abid] there is so much more that we need to do
+[speaker-0] there is so much more that we need to do
 to now maintain this thing. Education,
 
 416
 00:36:53,654 --> 00:36:57,734
-[Abdullah Abid] right? Like catching up on education.
+[speaker-0] right? Like catching up on education.
 mean, that's another, yeah. There's all of
 
 417
 00:36:57,734 --> 00:37:04,354
-[Abdullah Abid] that stuff. so, and then even generalizing
+[speaker-0] that stuff. so, and then even generalizing
 to other people and giving the speller an
 
 418
 00:37:04,354 --> 00:37:13,114
-[Abdullah Abid] opportunity to interact and work with
+[speaker-0] opportunity to interact and work with
 other people that know how to use the
 
 419
 00:37:13,114 --> 00:37:16,930
-[Abdullah Abid] methodologies and whatnot to support the
+[speaker-0] methodologies and whatnot to support the
 needs of the speller.
 
 420
 00:37:17,934 --> 00:37:27,027
-[Abdullah Abid] Um, and then you get to this, um, uh,
+[speaker-0] Um, and then you get to this, um, uh,
 maturity point, um, it would kind of hit
 home
 
 421
 00:37:27,027 --> 00:37:34,419
-[Abdullah Abid] for us where I just turned 60, uh, and,
+[speaker-0] for us where I just turned 60, uh, and,
 and my wife, uh, I'm not going to say what
 
 422
 00:37:34,419 --> 00:37:43,102
-[Abdullah Abid] her age is because if she finds out,
+[speaker-0] her age is because if she finds out,
 she'll, but, um, um, what happens when
 we're
 
 423
 00:37:43,102 --> 00:37:44,302
-[Abdullah Abid] not here?
+[speaker-0] not here?
 
 424
 00:37:45,050 --> 00:37:51,553
-[Abdullah Abid] They're going to live on, they're going to
+[speaker-0] They're going to live on, they're going to
 keep on going. And so now the challenge
 
 425
 00:37:51,553 --> 00:37:58,305
-[Abdullah Abid] is how to get them the motor support they
+[speaker-0] is how to get them the motor support they
 need to get to a point of some reliable
 
 426
 00:37:58,305 --> 00:38:02,757
-[Abdullah Abid] way of independence so that they don't
+[speaker-0] way of independence so that they don't
 have to depend on other people. Because
 then
 
 427
 00:38:02,757 --> 00:38:07,939
-[Abdullah Abid] it turns into that privilege of time. We
+[speaker-0] it turns into that privilege of time. We
 can afford the time now and give our son
 
 428
 00:38:07,939 --> 00:38:14,634
-[Abdullah Abid] whatever he needs. But now we're thinking
+[speaker-0] whatever he needs. But now we're thinking
 about that next stage in life because I
 
 429
 00:38:15,094 --> 00:38:19,618
-[Abdullah Abid] I could run around the block, it wouldn't
+[speaker-0] I could run around the block, it wouldn't
 be an issue. Now walking is getting,
 
 430
 00:38:19,618 --> 00:38:23,541
-[Abdullah Abid] you're feeling the age. You know what I
+[speaker-0] you're feeling the age. You know what I
 mean? Like your son's an adult, you're
 
 431
 00:38:23,541 --> 00:38:27,745
-[Abdullah Abid] getting to be a senior. You can tell by
+[speaker-0] getting to be a senior. You can tell by
 the color of my head, it's white. I've
 been
 
 432
 00:38:27,745 --> 00:38:32,849
-[Abdullah Abid] there for a while. And so you're slowing
+[speaker-0] there for a while. And so you're slowing
 down. I like to take naps in the
 afternoon.
 
 433
 00:38:32,910 --> 00:38:37,113
-[Abdullah Abid] Right? Right. Yeah. So changed. So yeah,
+[speaker-0] Right? Right. Yeah. So changed. So yeah,
 we change and we can't keep up with these
 
 434
 00:38:37,113 --> 00:38:41,307
-[Abdullah Abid] kids. So how do you give them that level
+[speaker-0] kids. So how do you give them that level
 of support when they're in their prime and
 
 435
 00:38:41,307 --> 00:38:42,518
-[Abdullah Abid] you're not, right? So.
+[speaker-0] you're not, right? So.
 
 436
 00:38:43,630 --> 00:38:48,050
-[Abdullah Abid] That's some of the stuff that everybody is
+[speaker-0] That's some of the stuff that everybody is
 going to go through and, and experience.
 
 437
 00:38:48,250 --> 00:38:51,450
-[Abdullah Abid] And it's just like everything else. Right.
+[speaker-0] And it's just like everything else. Right.
 Yeah. Like it's just, it's just different
 
 438
 00:38:51,450 --> 00:38:55,350
-[Abdullah Abid] stages. Right. And like I said, I thought
+[speaker-0] stages. Right. And like I said, I thought
 it was just a really keen observation
 
 439
 00:38:55,350 --> 00:38:58,010
-[Abdullah Abid] because like I said, it's similar again,
+[speaker-0] because like I said, it's similar again,
 what we went through it later. And I think
 
 440
 00:38:58,010 --> 00:39:03,590
-[Abdullah Abid] that's the perfect word. Um, again, it's
+[speaker-0] that's the perfect word. Um, again, it's
 euphoria, right? Like there's just
 nothing,
 
 441
 00:39:03,890 --> 00:39:09,070
-[Abdullah Abid] nothing like that. That the first time
+[speaker-0] nothing like that. That the first time
 spent the first time they're
 communicating,
 
 442
 00:39:09,070 --> 00:39:13,116
-[Abdullah Abid] like we hitting those milestones when
+[speaker-0] like we hitting those milestones when
 they, well, you, you, for what really
 
 443
 00:39:13,314 --> 00:39:24,530
-[Abdullah Abid] bothers me is how autistic people are
+[speaker-0] bothers me is how autistic people are
 emotionally treated. Right. When you
 interact
 
 444
 00:39:24,530 --> 00:39:31,214
-[Abdullah Abid] with another person through this unique
+[speaker-0] with another person through this unique
 mode of communication called speech and
 you
 
 445
 00:39:31,214 --> 00:39:39,708
-[Abdullah Abid] can show your facial features and show the
+[speaker-0] can show your facial features and show the
 emotions you're feeling and how that
 
 446
 00:39:39,708 --> 00:39:43,050
-[Abdullah Abid] resonates with another person, if autistic
+[speaker-0] resonates with another person, if autistic
 
 447
 00:39:44,202 --> 00:39:51,465
-[Abdullah Abid] folks aren't showing those emotions. That
+[speaker-0] folks aren't showing those emotions. That
 doesn't mean they don't have them. But
 
 448
 00:39:51,465 --> 00:39:57,088
-[Abdullah Abid] then what it means is the reciprocating
+[speaker-0] then what it means is the reciprocating
 person develops a mindset of that person
 and
 
 449
 00:39:57,088 --> 00:40:02,500
-[Abdullah Abid] then preaches them more. I don't want to
+[speaker-0] then preaches them more. I don't want to
 say as a person just standing there in an
 
 450
 00:40:02,500 --> 00:40:10,243
-[Abdullah Abid] inanimate object, but the level of
+[speaker-0] inanimate object, but the level of
 emotional appreciation is not there that
 would be
 
 451
 00:40:10,243 --> 00:40:11,744
-[Abdullah Abid] with the neuro-typical people.
+[speaker-0] with the neuro-typical people.
 
 452
 00:40:12,078 --> 00:40:17,738
-[Abdullah Abid] And this is what this beautiful form of
+[speaker-0] And this is what this beautiful form of
 communication provides. It enhances love.
 
 453
 00:40:18,458 --> 00:40:23,838
-[Abdullah Abid] Right? Yeah, it sure does. And so much of
+[speaker-0] Right? Yeah, it sure does. And so much of
 that is missing from our society today.
 
 454
 00:40:23,838 --> 00:40:29,438
-[Abdullah Abid] mean, so much of what we see in the news
+[speaker-0] mean, so much of what we see in the news
 is just, you know, um, yeah, lot of
 
 455
 00:40:29,438 --> 00:40:35,588
-[Abdullah Abid] divisiveness, lot of... Yeah, absolutely.
+[speaker-0] divisiveness, lot of... Yeah, absolutely.
 And this is why I love autistic parents,
 
 456
 00:40:35,588 --> 00:40:37,426
-[Abdullah Abid] because for me,
+[speaker-0] because for me,
 
 457
 00:40:37,750 --> 00:40:44,986
-[Abdullah Abid] A measure of love is the amount of time
+[speaker-0] A measure of love is the amount of time
 and sacrifice and effort that people give
 of
 
 458
 00:40:44,986 --> 00:40:50,010
-[Abdullah Abid] themselves to other people. I mean,
+[speaker-0] themselves to other people. I mean,
 there's only one reason why you do that.
 You
 
 459
 00:40:50,010 --> 00:40:55,545
-[Abdullah Abid] love your kids, right? And you want to
+[speaker-0] love your kids, right? And you want to
 give them the best life possible. I love
 
 460
 00:40:55,545 --> 00:41:01,900
-[Abdullah Abid] being immersed in that type of crowd
+[speaker-0] being immersed in that type of crowd
 because I feel the love, right? Yeah.
 
 461
 00:41:02,092 --> 00:41:05,193
-[Abdullah Abid] Yeah. Well, like, you know, we're, again,
+[speaker-0] Yeah. Well, like, you know, we're, again,
 it was so great that you and I had the
 
 462
 00:41:05,193 --> 00:41:09,895
-[Abdullah Abid] opportunity to meet in person when you're
+[speaker-0] opportunity to meet in person when you're
 out here and your big, uh, your big family
 
 463
 00:41:09,895 --> 00:41:13,437
-[Abdullah Abid] road trip, right? And just that, that,
+[speaker-0] road trip, right? And just that, that,
 that afternoon that we all got to spend
 
 464
 00:41:13,437 --> 00:41:18,029
-[Abdullah Abid] together, the families and that was really
+[speaker-0] together, the families and that was really
 special for everyone. mean, Stone still
 
 465
 00:41:18,029 --> 00:41:21,190
-[Abdullah Abid] talks about it and takes the pictures.
+[speaker-0] talks about it and takes the pictures.
 That was.
 
 466
 00:41:21,834 --> 00:41:25,335
-[Abdullah Abid] Oh, and thank you for reminding me. got a
+[speaker-0] Oh, and thank you for reminding me. got a
 ton of pictures. haven't posted them yet.
 
 467
 00:41:25,455 --> 00:41:29,146
-[Abdullah Abid] Oh, okay. I need do that. Right. I need
+[speaker-0] Oh, okay. I need do that. Right. I need
 that privilege of time, but that's the
 
 468
 00:41:29,146 --> 00:41:34,018
-[Abdullah Abid] reason why we flew the whole family from
+[speaker-0] reason why we flew the whole family from
 Toronto over to Vancouver, went to
 
 469
 00:41:34,018 --> 00:41:38,599
-[Abdullah Abid] Bellingham and then went to Seattle and
+[speaker-0] Bellingham and then went to Seattle and
 back again. Right. We just love the
 
 470
 00:41:38,599 --> 00:41:43,961
-[Abdullah Abid] community out there. Every time I see you
+[speaker-0] community out there. Every time I see you
 guys advertising the, what is it? Beans
 
 471
 00:41:43,961 --> 00:41:47,242
-[Abdullah Abid] and boards. Oh my gosh. I'm like, I wish I
+[speaker-0] and boards. Oh my gosh. I'm like, I wish I
 could be there. Right.
 
 472
 00:41:47,502 --> 00:41:52,825
-[Abdullah Abid] I can just imagine the love, the happiness
+[speaker-0] I can just imagine the love, the happiness
 and joy that's going to be inside that
 
 473
 00:41:52,825 --> 00:41:57,338
-[Abdullah Abid] crowd. It's a wonderful thing, right?
+[speaker-0] crowd. It's a wonderful thing, right?
 Yeah, no, you're absolutely right. And
 that
 
 474
 00:41:57,338 --> 00:42:04,732
-[Abdullah Abid] again, is another form of privilege too,
+[speaker-0] again, is another form of privilege too,
 to have that opportunity. this is just a
 
 475
 00:42:04,732 --> 00:42:11,476
-[Abdullah Abid] message that I'm going to continue to beat
+[speaker-0] message that I'm going to continue to beat
 on this podcast because frankly, for so
 
 476
 00:42:11,476 --> 00:42:14,968
-[Abdullah Abid] long, I didn't have community when
+[speaker-0] long, I didn't have community when
 Stone...
 
 477
 00:42:15,148 --> 00:42:18,781
-[Abdullah Abid] was young, there wasn't, there weren't
+[speaker-0] was young, there wasn't, there weren't
 Facebook groups, there weren't a lot.
 They've
 
 478
 00:42:18,781 --> 00:42:23,755
-[Abdullah Abid] come a long ways and it's just, so
+[speaker-0] come a long ways and it's just, so
 valuable for mental health. And we know
 that we,
 
 479
 00:42:23,755 --> 00:42:27,959
-[Abdullah Abid] we need to have our mental health, right?
+[speaker-0] we need to have our mental health, right?
 We need to be on our game to be there for
 
 480
 00:42:27,959 --> 00:42:31,390
-[Abdullah Abid] our kids, whether they're, whether they're
+[speaker-0] our kids, whether they're, whether they're
 kids or whether they're young adults.
 
 481
 00:42:31,932 --> 00:42:37,026
-[Abdullah Abid] Yeah. And so I just really encourage
+[speaker-0] Yeah. And so I just really encourage
 people to, you know, reach out and find
 they're
 
 482
 00:42:37,026 --> 00:42:41,570
-[Abdullah Abid] out there now. We know that all over
+[speaker-0] out there now. We know that all over
 they're out there virtually and, and if
 not
 
 483
 00:42:41,570 --> 00:42:44,052
-[Abdullah Abid] person, try to, try to do it yourself.
+[speaker-0] person, try to, try to do it yourself.
 Yeah.
 
 484
 00:42:44,174 --> 00:42:50,642
-[Abdullah Abid] Yeah, absolutely. Absolutely. When my son
+[speaker-0] Yeah, absolutely. Absolutely. When my son
 cracks a smile...
 
 485
 00:42:53,066 --> 00:42:59,619
-[Abdullah Abid] It's a great day. I can feel it. I can
+[speaker-0] It's a great day. I can feel it. I can
 absolutely feel it. And so that's what I
 want
 
 486
 00:42:59,619 --> 00:43:06,161
-[Abdullah Abid] to return back to him and anybody else out
+[speaker-0] to return back to him and anybody else out
 there, right? That we meet. Well, Andrew,
 
 487
 00:43:06,161 --> 00:43:09,103
-[Abdullah Abid] like I said, we knew there's so much to
+[speaker-0] like I said, we knew there's so much to
 talk about. We're going to definitely have
 
 488
 00:43:09,103 --> 00:43:13,545
-[Abdullah Abid] to do part two. Part two, I want to talk
+[speaker-0] to do part two. Part two, I want to talk
 about the study a little bit more, let
 
 489
 00:43:13,545 --> 00:43:17,676
-[Abdullah Abid] people know about that. Cause I think
+[speaker-0] people know about that. Cause I think
 that's important. And the app again that
 you
 
 490
 00:43:17,676 --> 00:43:21,698
-[Abdullah Abid] created and some other things, but you
+[speaker-0] created and some other things, but you
 know, that we'll have to wait.
 
 491
 00:43:21,934 --> 00:43:27,818
-[Abdullah Abid] for our next get together. But thank you
+[speaker-0] for our next get together. But thank you
 so much again for joining me. This has
 been
 
 492
 00:43:27,818 --> 00:43:32,311
-[Abdullah Abid] awesome. Oh no, I thoroughly enjoyed it.
+[speaker-0] awesome. Oh no, I thoroughly enjoyed it.
 Thank you for the opportunity and look
 
 493
 00:43:32,311 --> 00:43:36,904
-[Abdullah Abid] forward to coming back again. Yeah, and
+[speaker-0] forward to coming back again. Yeah, and
 thank you audience members for joining us.
 
 494
 00:43:37,004 --> 00:43:39,436
-[Abdullah Abid] Catch us next time on the lighter side of
+[speaker-0] Catch us next time on the lighter side of
 the spectrum.

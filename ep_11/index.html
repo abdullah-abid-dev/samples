@@ -59,6 +59,20 @@ a.btn:hover { filter:brightness(.97); }
 .bio p { margin:.5rem 0; line-height:1.6; }
 .bio ul { margin:.4rem 0 0; padding-left:1.2rem; }
 .bio li { margin:.25rem 0; }
+.sample-request { background:#fff; border:1px solid var(--border); border-radius:14px;
+                  padding:1.3rem 1.4rem; margin:1.6rem 0; }
+.sample-request h3 { margin:0 0 .4rem; }
+.sample-request p { color:var(--muted); font-size:.9rem; margin:0 0 .9rem; }
+.sample-request label { display:block; font-weight:600; font-size:.85rem; margin:.5rem 0 .2rem; }
+.sample-request input { width:100%; padding:.55rem .7rem; border:1px solid var(--border);
+                        border-radius:8px; font:inherit; box-sizing:border-box; }
+.sample-request button { margin-top:.9rem; }
+.sample-request button.mail { display:inline-block; background:#fff; color:var(--accent2);
+                  font-weight:700; text-decoration:none; padding:.6rem 1.05rem;
+                  border-radius:9px; font-size:.92rem; border:1px solid var(--border); cursor:pointer; }
+.sample-request button.mail:hover { filter:brightness(.97); }
+.sample-request [data-fs-success] { color:#1a7f37; font-weight:600; margin-top:.6rem; }
+.sample-request [data-fs-error] { color:#b42318; font-weight:600; margin-top:.6rem; }
 footer { color:var(--muted); font-size:.8rem; margin-top:1.8rem; text-align:center; }
 footer a { color:var(--accent); }
 .disclaimer { background:#fff7e6; border:1px solid #f0d9a8; color:#7a5b14;
@@ -72,80 +86,51 @@ footer a { color:var(--accent); }
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1></header>
   <a class="back" href="../">&#8592; All samples</a>
   <h2 class="title">Ep 11</h2>
-
+  <div class="hero">
+  <div class="meta-line"><a href="https://example.com">Watch on YouTube &#8599;</a></div>
+  </div>
   <p class="desc">Sample files available for review and download.</p>
 
   <div class="disclaimer">
-    <strong>Sample preview.</strong> The transcripts and subtitles shown here are
-    auto-generated demos. Final, human-verified &amp; proofread versions are
-    <em>not</em> published on this public site &mdash;
-    <a href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">hire me</a> to receive the polished deliverable.
+    <strong>Sample note:</strong> This page demonstrates my transcription, subtitle-generation, and web-publishing workflow. The files shown are sample outputs; client deliverables are reviewed and proofread for accuracy before delivery.
   </div>
 
   <div class="grid">
     <div class="card">
-      <div class="meta"><div class="name">SRT Subtitles</div><div class="size">82.5 KB</div></div>
+      <div class="meta"><div class="name">SRT Subtitles</div><div class="size">72.4 KB</div></div>
       <div class="acts"><a class="btn" href="ep_11.srt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11.srt" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">VTT Subtitles</div><div class="size">82.5 KB</div></div>
+      <div class="meta"><div class="name">VTT Subtitles</div><div class="size">72.4 KB</div></div>
       <div class="acts"><a class="btn" href="ep_11.vtt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11.vtt" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">SRT Subtitles</div><div class="size">1.9 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_clip_001310-001410.srt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_clip_001310-001410.srt" download>Download</a></div>
-    </div>
-    <div class="card">
-      <div class="meta"><div class="name">VTT Subtitles</div><div class="size">1.9 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_clip_001310-001410.vtt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_clip_001310-001410.vtt" download>Download</a></div>
-    </div>
-    <div class="card">
-      <div class="meta"><div class="name">CSV Transcript</div><div class="size">1.4 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_clip_001310-001410_transcript.csv" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_clip_001310-001410_transcript.csv" download>Download</a></div>
-    </div>
-    <div class="card">
-      <div class="meta"><div class="name">JSON Transcript</div><div class="size">1.6 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_clip_001310-001410_transcript.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_clip_001310-001410_transcript.json" download>Download</a></div>
-    </div>
-    <div class="card">
-      <div class="meta"><div class="name">TXT Transcript</div><div class="size">1.4 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_clip_001310-001410_transcript.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_clip_001310-001410_transcript.txt" download>Download</a></div>
-    </div>
-    <div class="card">
-      <div class="meta"><div class="name">ep_11_report.json</div><div class="size">24.9 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_report.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_report.json" download>Download</a></div>
-    </div>
-    <div class="card">
-      <div class="meta"><div class="name">ep_11_report.txt</div><div class="size">5.4 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_report.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_report.txt" download>Download</a></div>
-    </div>
-    <div class="card">
-      <div class="meta"><div class="name">CSV Transcript</div><div class="size">64.8 KB</div></div>
+      <div class="meta"><div class="name">CSV Transcript</div><div class="size">49.5 KB</div></div>
       <div class="acts"><a class="btn" href="ep_11_transcript.csv" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript.csv" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">ep_11_transcript.docx</div><div class="size">57.7 KB</div></div>
+      <div class="meta"><div class="name">ep_11_transcript.docx</div><div class="size">55.3 KB</div></div>
       <div class="acts"><a class="btn" href="ep_11_transcript.docx" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript.docx" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">HTML Transcript</div><div class="size">76.6 KB</div></div>
+      <div class="meta"><div class="name">HTML Transcript</div><div class="size">63.3 KB</div></div>
       <div class="acts"><a class="btn" href="ep_11_transcript.html" target="_blank" rel="noopener">View</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">JSON Transcript</div><div class="size">85.5 KB</div></div>
+      <div class="meta"><div class="name">JSON Transcript</div><div class="size">49.6 KB</div></div>
       <div class="acts"><a class="btn" href="ep_11_transcript.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript.json" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">Markdown Transcript</div><div class="size">60.8 KB</div></div>
+      <div class="meta"><div class="name">Markdown Transcript</div><div class="size">52.7 KB</div></div>
       <div class="acts"><a class="btn" href="ep_11_transcript.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript.md" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">ep_11_transcript.pdf</div><div class="size">40.0 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_transcript.pdf" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript.pdf" download>Download</a></div>
+      <div class="meta"><div class="name">TXT Transcript</div><div class="size">52.2 KB</div></div>
+      <div class="acts"><a class="btn" href="ep_11_transcript.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript.txt" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">TXT Transcript</div><div class="size">60.0 KB</div></div>
-      <div class="acts"><a class="btn" href="ep_11_transcript.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript.txt" download>Download</a></div>
+      <div class="meta"><div class="name">TXT Transcript (Verbatim)</div><div class="size">52.6 KB</div></div>
+      <div class="acts"><a class="btn" href="ep_11_transcript_verbatim.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript_verbatim.txt" download>Download</a></div>
     </div>
   </div>
 
@@ -181,6 +166,32 @@ footer a { color:var(--accent); }
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
       <a class="mail" href="../Abdullah_Abid_Resume.pdf" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
+  </section>
+
+
+  <section class="sample-request">
+    <h3>Request a free sample</h3>
+    <p>Share your details and I'll email you a tailored sample. Your address is only used to send it.</p>
+    <div data-fs-success></div>
+    <div data-fs-error></div>
+    <p>Want to put me to a tiny test? 🙂<br>
+Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see captioned/transcribed, drop the link below. I'll prepare a short sample for you&mdash;no commitment, no sales pitch attached. Just a chance to see what I can do with your content.</p>
+    <form id="sample-request-form" action="https://formspree.io/f/xjybzpvv" method="POST">
+      
+      <label>Name<input type="text" name="name" data-fs-field required></label>
+      <label>Email<input type="email" name="email" data-fs-field required></label>
+      <label>YouTube video URL (optional)<input type="url" name="youtube_url" data-fs-field placeholder="https://www.youtube.com/watch?v=..."></label>
+      <input type="hidden" name="sample" value="Ep 11">
+      <input type="hidden" name="_subject" value="Free sample request">
+      <input type="hidden" name="_gotcha">
+      
+      <button type="submit" data-fs-submit-btn class="mail">Request sample</button>
+    </form>
+    <script>
+      window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+      formspree('initForm', { formElement: '#sample-request-form', formId: 'xjybzpvv' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
   </section>
 
   <footer>Shared for review. No account required. &middot; <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a></footer>
