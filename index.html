@@ -87,10 +87,6 @@ footer a { color:var(--accent); }
   .faq summary::before { content:"+ "; color:var(--accent); font-weight:700; }
   .faq[open] summary::before { content:"\2212 "; }
   .faq p { margin:.2rem 0 .8rem; line-height:1.6; }
-  .desc-box { background:#fff; border:1px solid var(--border); border-radius:10px;
-              padding:.7rem .9rem; margin:.5rem 0 .2rem; }
-  .desc-box p { margin:.1rem 0; line-height:1.55; }
-  .desc-box .how { color:var(--muted); font-size:.86rem; margin-top:.35rem; }
   .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.5rem; }
   .chips .chip { background:#eef3ff; color:var(--accent2); border-radius:999px;
                  padding:.22rem .6rem; font-size:.74rem; }
@@ -116,11 +112,52 @@ footer a { color:var(--accent); }
   .pkg ul { margin:.2rem 0 .8rem; padding-left:1.1rem; }
   .pkg li { margin:.3rem 0; line-height:1.45; }
   .pkg .who { color:var(--muted); font-size:.85rem; margin:0; line-height:1.5; }
+  html { scroll-behavior: smooth; }
+  *:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  body { line-height:1.55; }
+  header.brand { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap;
+                 justify-content:space-between; margin-bottom:1.8rem; }
+  .topnav { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+  .topnav a { color:var(--fg); text-decoration:none; font-size:.9rem; font-weight:500; }
+  .topnav a:hover { color:var(--accent); }
+  .topnav a.cta { background:var(--accent); color:#fff; padding:.35rem .8rem;
+                  border-radius:8px; font-weight:600; }
+  .topnav a.cta:hover { filter:brightness(.97); color:#fff; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px;
+          padding:1rem 1.1rem; margin-bottom:.7rem; display:flex; align-items:center;
+          justify-content:space-between; gap:1rem;
+          box-shadow:0 1px 2px rgba(16,24,40,.04); transition:transform .15s, box-shadow .15s, border-color .15s; }
+  .card:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(16,24,40,.10);
+                border-color:var(--accent); }
+  .samp { background:var(--card); border:1px solid var(--border); border-radius:12px;
+          padding:1.1rem 1.2rem; text-decoration:none; color:inherit; display:block;
+          box-shadow:0 1px 2px rgba(16,24,40,.04); transition:transform .15s, box-shadow .15s, border-color .15s; }
+  .samp:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(16,24,40,.10); border-color:var(--accent); }
+  .pkg { box-shadow:0 1px 2px rgba(16,24,40,.04); transition:transform .15s, box-shadow .15s, border-color .15s; }
+  .pkg:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(16,24,40,.10); border-color:var(--accent); }
+  .more summary { padding:.5rem 0; user-select:none; }
+  .fileinfo-row { border-left:3px solid var(--accent); padding:.3rem 0 .3rem 1rem; margin:.6rem 0; }
+  .fileinfo-row h4 { margin:.2rem 0 .3rem; font-size:1rem; color:var(--accent2); }
+  .fileinfo-row p { margin:.15rem 0; line-height:1.5; }
+  footer { margin-top:2.2rem; border-top:1px solid var(--border); padding-top:1.6rem; }
+  .foot-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1.4rem; margin-bottom:1.2rem; }
+  footer h4 { margin:0 0 .5rem; font-size:.95rem; }
+  footer a { display:block; color:var(--accent); text-decoration:none; font-size:.88rem; margin:.25rem 0; }
+  footer a:hover { text-decoration:underline; }
+  footer p.copy { color:var(--muted); font-size:.8rem; margin:0; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1></header>
+  <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
+    <nav class="topnav">
+      <a href="#samples">Samples</a>
+      <a href="reviewed/">Reviewed</a>
+      <a href="#faq">FAQ</a>
+      <a href="#packages">Packages</a>
+      <a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a>
+    </nav>
+  </header>
 
   <div class="bio">
     <h2 class="bio-title">Transcription, Subtitles &amp; Web Solutions</h2>
@@ -187,7 +224,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
     <strong>Sample note:</strong> This page demonstrates my transcription, subtitle-generation, and web-publishing workflow. The files shown are sample outputs; client deliverables are reviewed and proofread for accuracy before delivery.
   </div>
 
-  <div class="grid">
+  <div class="grid" id="samples">
     <a class="samp" href="Combining_Clinical_and_Lived_Experience/">
       <h3>Combining Clinical and Lived Experience - Dr. Barry Prizant and Dave Finch</h3>
       <span>Autism Explained &middot; 9 files</span>
@@ -231,7 +268,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
     </div>
   </section>
 
-  <section class='faq-wrap'>
+  <section class='faq-wrap' id='faq'>
     <h2 class='bio-title'>Frequently asked questions</h2>
   <details class='faq'><summary>How are rates calculated?</summary><p>Pricing is based on the length of your audio or video in minutes, with a small adjustment per additional speaker (more speakers means more diarization and review time). Bulk and recurring episodes are discounted &mdash; contact me for a tailored quote.</p></details>
   <details class='faq'><summary>What about multiple speakers?</summary><p>Separating and labeling speakers accurately takes extra care, so each additional speaker adds a modest premium. Up to two speakers are included in the base rate; further speakers are priced per speaker.</p></details>
@@ -242,7 +279,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
   <details class='faq'><summary>What don't you do?</summary><p>I don't fabricate words for inaudible passages, don't provide translation unless arranged in advance, don't share your files, and don't promise 100% verbatim perfection on heavily degraded audio &mdash; but I'll get as close as possible and mark any uncertainties.</p></details>
   <details class='faq'><summary>What service packages do you offer?</summary><p>Three tiers: the <strong>Base Package</strong> (accurate SRT/VTT subtitles + clean transcript) for accessibility; the <strong>SEO Growth Pack</strong> (adds show notes, timestamp chapters and an SEO blog post) for growing website traffic; and the <strong>Social Media Pack</strong> (adds short-form captioned video clips and shareable quote graphics) for TikTok, Reels and YouTube. Every package starts from a precise, speaker-labeled transcript.</p></details>
   </section>
-  <section class='faq-wrap'>
+  <section class='faq-wrap' id='packages'>
     <h2 class='bio-title'>Service Packages</h2>
     <p class='extras-note'>Pick the level of support you need &mdash; every package starts from an accurate, speaker-labeled transcript.</p>
     <div class='pkg-grid'>
@@ -261,7 +298,29 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
     </div>
     </div>
   </section>
-  <footer>Shared for review. No account required. &middot; <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a></footer>
+
+  <footer>
+    <div class="foot-grid">
+      <div>
+        <h4>Abdullah Abid</h4>
+        <p class="copy">Transcription, subtitles &amp; web solutions.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="">All samples</a>
+        <a href="reviewed/">Reviewed transcriptions</a>
+        <a href="#faq">FAQ</a>
+        <a href="#packages">Service packages</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
+        <a href="Abdullah_Abid_Resume.pdf" download>R&eacute;sum&eacute; (PDF)</a>
+      </div>
+    </div>
+    <p class="copy">Shared for review. No account required.</p>
+  </footer>
+
 </div>
 </body>
 </html>
