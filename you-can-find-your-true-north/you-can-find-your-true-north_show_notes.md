@@ -1,11 +1,13 @@
 ## Summary
-In this episode, Jordan B. Peterson discusses his work in helping individuals find their "true north" and the clinical trial that validated the effectiveness of his approach. Peterson explains how his six-day "Date with Destiny" program significantly improved the mental health of participants, with 93% showing no symptoms of depression after just six weeks. The episode also touches on the challenges of conducting clinical studies and Peterson's innovative teaching methods, which have been studied in detail.
+I'd like to know, and everybody listening would like to know, I suppose, first of all, what was the program? And then why did you submit it to a clinical trial? And how did you get scientists to participate in that? Well, you took that complexity and made it equally complex. Yeah, thanks, sir. Thank you
 
 ## Key Takeaways
-- Peterson's "Date with Destiny" program helps individuals find their true north and shift their values to achieve their goals.
-- A clinical trial showed that 93% of participants had no symptoms of depression after six weeks, compared to 54% in a similar study using psilocybin.
-- Peterson emphasizes the importance of "pull motivation" over "push motivation," where people are motivated by a sense of purpose and contribution.
-- The program's success is attributed to reengineering people's perception of their world, rather than relying on willpower alone.
+- Because you think about it, people spend three hundred million dollars on a movie and go past three hours and you lost everybody, right?
+- Of having your concerns dismissed or being denied that comprehensive lab work you need to truly understand your health?
+- There's a separate group that have been working with them and had worked on measuring my body on stage, because I do immersion events.
+- At the end of six weeks, after just going through a seminar, no drugs, no one-on-one therapy, just the rewiring for themselves, 93% of them had no symptoms whatsoever.
+- And they said, we'd love to test this non-pharmological approach to it that you have and see what it really produces, because this seems miraculous.
 
-## Resources & Links
-- None explicitly mentioned.
+## Speakers
+- Jordan B
+- Tony Robbins
