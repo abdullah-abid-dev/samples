@@ -78,7 +78,36 @@ footer a { color:var(--accent); }
 .disclaimer { background:#fff7e6; border:1px solid #f0d9a8; color:#7a5b14;
               border-radius:10px; padding:.8rem 1rem; margin:0 0 1.2rem;
               font-size:.9rem; line-height:1.5; }
-.disclaimer a { color:#9a6b00; font-weight:700; }
+  .disclaimer a { color:#9a6b00; font-weight:700; }
+  .faq-wrap { margin:1.6rem 0; }
+  .faq { background:var(--card); border:1px solid var(--border); border-radius:10px;
+         margin:.5rem 0; padding:.1rem .9rem; }
+  .faq summary { cursor:pointer; font-weight:600; padding:.6rem 0; list-style:none; }
+  .faq summary::-webkit-details-marker { display:none; }
+  .faq summary::before { content:"+ "; color:var(--accent); font-weight:700; }
+  .faq[open] summary::before { content:"\2212 "; }
+  .faq p { margin:.2rem 0 .8rem; line-height:1.6; }
+  .desc-box { background:#fff; border:1px solid var(--border); border-radius:10px;
+              padding:.7rem .9rem; margin:.5rem 0 .2rem; }
+  .desc-box p { margin:.1rem 0; line-height:1.55; }
+  .desc-box .how { color:var(--muted); font-size:.86rem; margin-top:.35rem; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.5rem; }
+  .chips .chip { background:#eef3ff; color:var(--accent2); border-radius:999px;
+                 padding:.22rem .6rem; font-size:.74rem; }
+  .locked { background:#fff; border:1px solid var(--border); border-radius:14px;
+            padding:1.3rem 1.4rem; margin:1.6rem 0; }
+  .locked h3 { margin:0 0 .4rem; }
+  .locked p { color:var(--muted); font-size:.9rem; margin:0 0 .9rem; }
+  .locked .acts { margin-top:.4rem; }
+  .gate { background:#fff; border:1px solid var(--border); border-radius:12px;
+          padding:1.3rem 1.4rem; margin:1.2rem 0; }
+  .gate p { margin:.2rem 0 .7rem; }
+  .gate input { padding:.55rem .7rem; border:1px solid var(--border); border-radius:8px;
+                font:inherit; margin-right:.5rem; }
+  .gate button { padding:.55rem .9rem; border:1px solid var(--accent); background:var(--accent);
+                 color:#fff; border-radius:8px; font:inherit; cursor:pointer; }
+  .gate button:hover { filter:brightness(.97); }
+  .reviewed-grid { display:grid; gap:.8rem; margin-top:.4rem; }
 </style>
 </head>
 <body>
@@ -184,6 +213,26 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
       <span>3 files</span>
     </a>
   </div>
+
+  <section class="locked">
+    <h3>&#128274; Reviewed Transcriptions</h3>
+    <p>Hand-reviewed, polished samples &mdash; starting with David Kaufer episodes &mdash; live in a
+       private area. Use the password you were given by email to open them.</p>
+    <div class="acts">
+      <a class="btn primary" href="reviewed/">Open reviewed transcriptions &rarr;</a>
+    </div>
+  </section>
+
+  <section class='faq-wrap'>
+    <h2 class='bio-title'>Frequently asked questions</h2>
+  <details class='faq'><summary>How are rates calculated?</summary><p>Pricing is based on the length of your audio or video in minutes, with a small adjustment per additional speaker (more speakers means more diarization and review time). Bulk and recurring episodes are discounted &mdash; contact me for a tailored quote.</p></details>
+  <details class='faq'><summary>What about multiple speakers?</summary><p>Separating and labeling speakers accurately takes extra care, so each additional speaker adds a modest premium. Up to two speakers are included in the base rate; further speakers are priced per speaker.</p></details>
+  <details class='faq'><summary>What is your workflow?</summary><p>1) You send a file or link. 2) I transcribe and diarize the speakers. 3) I review for accuracy and formatting. 4) You receive SRT, VTT, TXT and DOCX (plus an optional analytics report). 5) One round of free revisions.</p></details>
+  <details class='faq'><summary>What are your turnaround times?</summary><p>Standard delivery is within a few business days; rush (24&ndash;48h) is available for an added fee. Longer or lower-quality audio may take a little longer, and I'll confirm a date up front.</p></details>
+  <details class='faq'><summary>What features are included?</summary><p>Timestamps, speaker labels, SRT/VTT subtitles, clean and verbatim text versions, a searchable HTML transcript, and an analytics report (talk-time share, speaking pace, filler-word count and keyword highlights).</p></details>
+  <details class='faq'><summary>What kind of audio can you handle?</summary><p>Unclear, noisy or phone-recorded audio, strong accents, technical or niche terminology, multiple overlapping speakers, and custom timestamp or speaker requirements. If a section is genuinely inaudible I'll flag it rather than guess.</p></details>
+  <details class='faq'><summary>What don't you do?</summary><p>I don't fabricate words for inaudible passages, don't provide translation unless arranged in advance, don't share your files, and don't promise 100% verbatim perfection on heavily degraded audio &mdash; but I'll get as close as possible and mark any uncertainties.</p></details>
+  </section>
   <footer>Shared for review. No account required. &middot; <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a></footer>
 </div>
 </body>

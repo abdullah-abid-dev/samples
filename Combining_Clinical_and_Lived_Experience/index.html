@@ -78,7 +78,36 @@ footer a { color:var(--accent); }
 .disclaimer { background:#fff7e6; border:1px solid #f0d9a8; color:#7a5b14;
               border-radius:10px; padding:.8rem 1rem; margin:0 0 1.2rem;
               font-size:.9rem; line-height:1.5; }
-.disclaimer a { color:#9a6b00; font-weight:700; }
+  .disclaimer a { color:#9a6b00; font-weight:700; }
+  .faq-wrap { margin:1.6rem 0; }
+  .faq { background:var(--card); border:1px solid var(--border); border-radius:10px;
+         margin:.5rem 0; padding:.1rem .9rem; }
+  .faq summary { cursor:pointer; font-weight:600; padding:.6rem 0; list-style:none; }
+  .faq summary::-webkit-details-marker { display:none; }
+  .faq summary::before { content:"+ "; color:var(--accent); font-weight:700; }
+  .faq[open] summary::before { content:"\2212 "; }
+  .faq p { margin:.2rem 0 .8rem; line-height:1.6; }
+  .desc-box { background:#fff; border:1px solid var(--border); border-radius:10px;
+              padding:.7rem .9rem; margin:.5rem 0 .2rem; }
+  .desc-box p { margin:.1rem 0; line-height:1.55; }
+  .desc-box .how { color:var(--muted); font-size:.86rem; margin-top:.35rem; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.5rem; }
+  .chips .chip { background:#eef3ff; color:var(--accent2); border-radius:999px;
+                 padding:.22rem .6rem; font-size:.74rem; }
+  .locked { background:#fff; border:1px solid var(--border); border-radius:14px;
+            padding:1.3rem 1.4rem; margin:1.6rem 0; }
+  .locked h3 { margin:0 0 .4rem; }
+  .locked p { color:var(--muted); font-size:.9rem; margin:0 0 .9rem; }
+  .locked .acts { margin-top:.4rem; }
+  .gate { background:#fff; border:1px solid var(--border); border-radius:12px;
+          padding:1.3rem 1.4rem; margin:1.2rem 0; }
+  .gate p { margin:.2rem 0 .7rem; }
+  .gate input { padding:.55rem .7rem; border:1px solid var(--border); border-radius:8px;
+                font:inherit; margin-right:.5rem; }
+  .gate button { padding:.55rem .9rem; border:1px solid var(--accent); background:var(--accent);
+                 color:#fff; border-radius:8px; font:inherit; cursor:pointer; }
+  .gate button:hover { filter:brightness(.97); }
+  .reviewed-grid { display:grid; gap:.8rem; margin-top:.4rem; }
 </style>
 </head>
 <body>
@@ -106,12 +135,37 @@ footer a { color:var(--accent); }
       <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience.vtt" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience.vtt" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">CSV Transcript</div><div class="size">1.2 KB</div></div>
-      <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript.csv" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript.csv" download>Download</a></div>
+      <div class="meta"><div class="name">DOCX Transcript</div><div class="size">36.4 KB</div></div>
+      <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript.docx" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript.docx" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">Combining_Clinical_and_Lived_Experience_transcript.docx</div><div class="size">36.4 KB</div></div>
-      <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript.docx" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript.docx" download>Download</a></div>
+      <div class="meta"><div class="name">TXT Transcript</div><div class="size">1.2 KB</div></div>
+      <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript.txt" download>Download</a></div>
+    </div>
+    <div class="desc-box">
+      <p>The most universally supported subtitle format. Pair it with your video or audio in any media player, or upload it to a platform to display captions.</p>
+      <p class="how">In VLC, MPV or QuickTime, open your media then add the .srt as a subtitle track. On hosting platforms upload it as a caption file: YouTube Studio (Subtitles &rarr; upload), Spotify for Podcasters, Buzzsprout, Libsyn, Blubrry, Podbean and Amazon Music (video podcasts) all accept SRT.</p>
+      <div class="chips"><span class="chip">YouTube</span><span class="chip">VLC / MPV / QuickTime</span><span class="chip">Spotify for Podcasters</span><span class="chip">Buzzsprout</span><span class="chip">Libsyn</span><span class="chip">Blubrry</span><span class="chip">Podbean</span><span class="chip">Amazon Music</span></div>
+    </div>
+    <div class="desc-box">
+      <p>The modern web-standard caption format used by HTML5 players and most podcast hosts.</p>
+      <p class="how">Upload the .vtt as a caption track in YouTube, Spotify for Podcasters, Buzzsprout, Libsyn, Blubrry and Podbean. Apple Podcasts and Amazon Music also consume VTT for captioned episodes, and you can embed it directly in a player on your own site.</p>
+      <div class="chips"><span class="chip">YouTube</span><span class="chip">Spotify for Podcasters</span><span class="chip">Buzzsprout</span><span class="chip">Libsyn</span><span class="chip">Blubrry</span><span class="chip">Podbean</span><span class="chip">Apple Podcasts</span><span class="chip">Amazon Music</span></div>
+    </div>
+    <div class="desc-box">
+      <p>A formatted Word document with bold speaker names and timestamps &mdash; ready to edit, brand, or send to a client.</p>
+      <p class="how">Open in Microsoft Word or Google Docs to tweak wording, add your logo, or export to PDF. Ideal as a polished client deliverable or internal document.</p>
+      <div class="chips"><span class="chip">Microsoft Word</span><span class="chip">Google Docs</span><span class="chip">PDF export</span><span class="chip">Client deliverable</span></div>
+    </div>
+    <div class="desc-box">
+      <p>A clean, readable transcript with speaker labels and timestamps &mdash; open it anywhere, search it, or paste it into show notes and blog posts.</p>
+      <p class="how">Use it for SEO-friendly show notes, blog articles and newsletters, or as an accessible text alternative. It imports cleanly into Word or Google Docs. Handy as companion text distributed to Apple Podcasts, Spotify and iHeartRadio.</p>
+      <div class="chips"><span class="chip">Blog / show notes</span><span class="chip">Google Docs / Word</span><span class="chip">Apple Podcasts</span><span class="chip">Spotify</span><span class="chip">iHeartRadio</span></div>
+    </div>
+    <details class="more"><summary>Show more file types</summary>
+    <div class="card">
+      <div class="meta"><div class="name">CSV Transcript</div><div class="size">1.2 KB</div></div>
+      <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript.csv" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript.csv" download>Download</a></div>
     </div>
     <div class="card">
       <div class="meta"><div class="name">HTML Transcript</div><div class="size">5.3 KB</div></div>
@@ -126,13 +180,10 @@ footer a { color:var(--accent); }
       <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript.md" download>Download</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">TXT Transcript</div><div class="size">1.2 KB</div></div>
-      <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript.txt" download>Download</a></div>
-    </div>
-    <div class="card">
       <div class="meta"><div class="name">TXT Transcript (Verbatim)</div><div class="size">1.3 KB</div></div>
       <div class="acts"><a class="btn" href="Combining_Clinical_and_Lived_Experience_transcript_verbatim.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="Combining_Clinical_and_Lived_Experience_transcript_verbatim.txt" download>Download</a></div>
     </div>
+    </details>
   </div>
 
   <div class="bio">
