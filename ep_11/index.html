@@ -13,9 +13,14 @@ body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
        margin:0; background:var(--bg); color:var(--fg);
        display:flex; justify-content:center; padding:2.5rem 1rem; }
 .wrap { width:100%; max-width:760px; }
-header.brand { display:flex; align-items:center; gap:.6rem; margin-bottom:1.8rem; }
+header.brand { position:sticky; top:0; z-index:20; display:flex; align-items:center; gap:.6rem;
+               flex-wrap:wrap; justify-content:space-between; margin:0 0 1.6rem;
+               padding:.7rem 0; background:var(--bg); border-bottom:1px solid var(--border); }
 header.brand .dot { width:.7rem; height:.7rem; border-radius:50%; background:var(--accent); }
 header.brand h1 { font-size:1.05rem; margin:0; letter-spacing:.01em; }
+.lead { font-size:1.05rem; line-height:1.6; margin:0 0 1.6rem; }
+.lead a { color:var(--accent); }
+.topnav a.active { color:var(--accent); font-weight:600; }
 h2.title { font-size:1.7rem; margin:0 0 .3rem; line-height:1.25; }
 p.desc { color:var(--muted); margin:0 0 1.4rem; }
 .hero { display:flex; gap:1rem; align-items:flex-start; margin:0 0 1.4rem; flex-wrap:wrap; }
@@ -78,7 +83,7 @@ a.btn:hover { filter:brightness(.97); }
 .sample-request button.mail:hover { filter:brightness(.97); }
 .sample-request [data-fs-success] { color:#1a7f37; font-weight:600; margin-top:.6rem; }
 .sample-request [data-fs-error] { color:#b42318; font-weight:600; margin-top:.6rem; }
-footer { color:var(--muted); font-size:.8rem; margin-top:1.8rem; text-align:center; }
+footer { color:var(--muted); margin-top:2rem; }
 footer a { color:var(--accent); }
 .disclaimer { background:#fff7e6; border:1px solid #f0d9a8; color:#7a5b14;
               border-radius:10px; padding:.8rem 1rem; margin:0 0 1.2rem;
@@ -120,8 +125,9 @@ footer a { color:var(--accent); }
   html { scroll-behavior: smooth; }
   *:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   body { line-height:1.55; }
-  header.brand { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap;
-                 justify-content:space-between; margin-bottom:1.8rem; }
+  header.brand { position:sticky; top:0; z-index:20; display:flex; align-items:center; gap:.6rem;
+                 flex-wrap:wrap; justify-content:space-between; margin:0 0 1.6rem;
+                 padding:.7rem 0; background:var(--bg); border-bottom:1px solid var(--border); }
   .topnav { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
   .topnav a { color:var(--fg); text-decoration:none; font-size:.9rem; font-weight:500; }
   .topnav a:hover { color:var(--accent); }
@@ -231,25 +237,7 @@ footer a { color:var(--accent); }
       <div class="acts"><a class="btn" href="ep_11_transcript_verbatim.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="ep_11_transcript_verbatim.txt" download target="_blank" rel="noopener">Download</a></div>
     </div>
     </details>
-  </div>
-
-  <div class="bio">
-    <h2 class="bio-title">Transcription, Subtitles &amp; Web Solutions</h2>
-    <p>I'm Abdullah Abid, a web developer with expertise in Natural Language Processing (NLP). I provide accurate transcription and subtitle services that help make audio and video content more accessible and easier to engage with.</p>
-    <p>I've had the opportunity to work with people who are deaf or hard of hearing, providing transcripts and captions that allow them to access podcasts, interviews, and other spoken content.</p>
-    <p>In addition to transcription and subtitling, I can also build custom web pages or enhance existing websites to publish transcripts alongside videos, helping make your content more accessible, searchable, and useful to a wider audience.</p>
-    <p>Services include:</p>
-    <ul>
-      <li>Accurate audio and video transcription</li>
-      <li>Subtitle and caption generation</li>
-      <li>Transcript formatting and cleanup</li>
-      <li>Custom transcript pages for websites</li>
-      <li>Integration of transcripts with existing websites</li>
-      <li>NLP-powered solutions for audio and video content</li>
-    </ul>
-    <p>My goal is simple: to help your content reach more people and make it easier for everyone to access, read, and engage with.</p>
-  </div>
-
+   </div>
 
   <section class="contact">
     <h3>Need transcription, subtitles, or web work?</h3>
@@ -303,6 +291,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
       <div>
         <h4>Explore</h4>
         <a href="../" target="_blank" rel="noopener">All samples</a>
+        <a href="../about.html" target="_blank" rel="noopener">About</a>
         <a href="../reviewed/" target="_blank" rel="noopener">Reviewed transcriptions</a>
         <a href="../#faq" target="_blank" rel="noopener">FAQ</a>
         <a href="../#packages" target="_blank" rel="noopener">Service packages</a>
