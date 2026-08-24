@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Transcription Price Calculator</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card2: #273449;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+    --accent2: #34d399;
+    --border: #334155;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 32px 16px;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 24px; font-size: .95rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 18px;
+  }
+  .field { margin-bottom: 18px; }
+  .field:last-child { margin-bottom: 0; }
+  .label {
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: .8rem; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--muted); margin-bottom: 8px;
+  }
+  .opts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .opt {
+    flex: 1 1 auto; min-width: 90px; text-align: center;
+    background: var(--card2); border: 1px solid var(--border);
+    color: var(--text); padding: 10px 12px; border-radius: 10px;
+    cursor: pointer; font-size: .9rem; transition: .15s;
+  }
+  .opt:hover { border-color: var(--accent); }
+  .opt.active {
+    background: linear-gradient(135deg, var(--accent), #0ea5e9);
+    color: #04263a; border-color: transparent; font-weight: 600;
+  }
+  select, input[type="number"] {
+    width: 100%; background: var(--card2); color: var(--text);
+    border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 12px; font-size: .95rem;
+  }
+  select:disabled { opacity: .6; cursor: not-allowed; }
+  .mins-row { display: flex; gap: 10px; align-items: stretch; }
+  .mins-row input { flex: 1; }
+  .presets { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .preset {
+    background: transparent; border: 1px dashed var(--border); color: var(--muted);
+    padding: 6px 12px; border-radius: 999px; cursor: pointer; font-size: .82rem;
+  }
+  .preset:hover { color: var(--accent); border-color: var(--accent); }
+  .toggle { display: flex; align-items: center; gap: 8px; font-size: .85rem; color: var(--muted); cursor: pointer; }
+  .delivery {
+    margin-top: 6px; font-size: .9rem; color: var(--accent2);
+  }
+  .result {
+    background: linear-gradient(135deg, #0b3b4a, #0b2f3a);
+    border: 1px solid #145e6e;
+  }
+  .result .big {
+    font-size: 2.2rem; font-weight: 700; color: #fff; margin: 4px 0;
+  }
+  .result .permin { color: var(--muted); font-size: .95rem; }
+  .breakdown { margin-top: 12px; font-size: .85rem; color: var(--muted); }
+  .breakdown div { display: flex; justify-content: space-between; padding: 3px 0; border-top: 1px dashed var(--border); }
+  table.baseline {
+    width: 100%; border-collapse: collapse; font-size: .85rem; margin-top: 4px;
+  }
+  table.baseline th, table.baseline td {
+    text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border);
+  }
+  table.baseline th { color: var(--muted); font-weight: 600; }
+  .note { font-size: .78rem; color: var(--muted); margin-top: 10px; }
+  .currency-hidden .cur { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Transcription Price Calculator</h1>
+  <p class="sub">Estimate the cost of your transcription project.</p>
+
+  <div class="card">
+    <div class="field">
+      <div class="label"><span>Language</span></div>
+      <select id="language" disabled>
+        <option>English</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <div class="label"><span>Turnaround</span></div>
+      <div class="opts" id="turnaround">
+        <div class="opt" data-v="5-days">5 days</div>
+        <div class="opt active" data-v="3-days">3 days</div>
+        <div class="opt" data-v="1-day">1 day</div>
+        <div class="opt" data-v="6-12h">6–12 hours</div>
+      </div>
+      <div class="delivery" id="delivery"></div>
+    </div>
+
+    <div class="field">
+      <div class="label"><span>Estimated minutes</span><span>Used to estimate total cost</span></div>
+      <div class="mins-row">
+        <input type="number" id="minutes" min="1" step="1" value="60" />
+      </div>
+      <div class="presets">
+        <button class="preset" data-m="2500">2,500 min</button>
+        <button class="preset" data-m="5250">5,250 min</button>
+        <button class="preset" data-m="10000">10,000 min</button>
+      </div>
+    </div>
+
+    <div class="field" style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+      <label class="toggle"><input type="checkbox" id="hideCurrency" /> Hide currency symbol</label>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="field">
+      <div class="label"><span>Text format</span></div>
+      <div class="opts" id="verbatim">
+        <div class="opt active" data-v="clean">Clean verbatim</div>
+        <div class="opt" data-v="full">Full verbatim</div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="label"><span>Number of speakers</span><span>+ $0.25</span></div>
+      <div class="opts" id="speakers">
+        <div class="opt active" data-v="1-2">1 – 2</div>
+        <div class="opt" data-v="3+">3 or more</div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="label"><span>Timestamping</span></div>
+      <div class="opts" id="timestamp">
+        <div class="opt active" data-v="none">Not required</div>
+        <div class="opt" data-v="30s">Every 30 seconds</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card result">
+    <div class="permin">Price per minute: <span class="cur">$</span><span id="permin">0.00</span></div>
+    <div class="big"><span class="cur">$</span><span id="total">0.00</span></div>
+    <div class="breakdown" id="breakdown"></div>
+  </div>
+
+  <div class="card">
+    <div class="label"><span>Reference baseline (English, 60 min audio)</span></div>
+    <table class="baseline">
+      <thead><tr><th>Turnaround</th><th>Format</th><th>Speakers</th><th>Price/min</th><th>Est. total</th></tr></thead>
+      <tbody>
+        <tr><td>1-day</td><td>Clean</td><td>1–2</td><td><span class="cur">$</span>1.60</td><td><span class="cur">$</span>96.00</td></tr>
+        <tr><td>3-days</td><td>Clean</td><td>1–2</td><td><span class="cur">$</span>1.40</td><td><span class="cur">$</span>84.00</td></tr>
+        <tr><td>5-days</td><td>Clean</td><td>1–2</td><td><span class="cur">$</span>1.20</td><td><span class="cur">$</span>72.00</td></tr>
+        <tr><td>1-day</td><td>Full</td><td>1–2</td><td><span class="cur">$</span>1.85</td><td>—</td></tr>
+        <tr><td>1-day</td><td>Full</td><td>3+</td><td><span class="cur">$</span>1.85</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Rates are USD. 6–12h turnaround assumed at $1.80/min (clean). Timestamping is included at no extra charge. 3+ speakers adds a flat $0.25 to the total.</p>
+  </div>
+</div>
+
+<script>
+  var state = {
+    turnaround: "3-days",
+    verbatim: "clean",
+    speakers: "1-2",
+    timestamp: "none",
+    minutes: 60,
+    hideCurrency: false
+  };
+
+  var BASE = { "5-days": 1.20, "3-days": 1.40, "1-day": 1.60, "6-12h": 1.80 };
+  var VERBATIM_SURCHARGE = 0.25;   // $/min
+  var SPEAKER_SURCHARGE = 0.25;    // $ flat, added to total for 3+
+
+  function fmt(n) {
+    return n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+
+  function perMinute() {
+    var p = BASE[state.turnaround];
+    if (state.verbatim === "full") p += VERBATIM_SURCHARGE;
+    return p;
+  }
+
+  function computeTotal() {
+    var mins = Math.max(0, Number(state.minutes) || 0);
+    var total = mins * perMinute();
+    if (state.speakers === "3+") total += SPEAKER_SURCHARGE;
+    return total;
+  }
+
+  function deliveryText() {
+    var d = new Date();
+    if (state.turnaround === "5-days") d.setDate(d.getDate() + 5);
+    else if (state.turnaround === "3-days") d.setDate(d.getDate() + 3);
+    else if (state.turnaround === "1-day") d.setDate(d.getDate() + 1);
+    else if (state.turnaround === "6-12h") d.setHours(d.getHours() + 12);
+    return d.toLocaleString("en-US", {
+      weekday: "short", month: "short", day: "numeric",
+      hour: "numeric", minute: "2-digit"
+    });
+  }
+
+  function render() {
+    document.getElementById("permin").textContent = fmt(perMinute());
+    document.getElementById("total").textContent = fmt(computeTotal());
+    document.getElementById("delivery").textContent = "Delivery before: " + deliveryText();
+
+    var b = document.getElementById("breakdown");
+    var lines = [];
+    lines.push(["Turnaround", state.turnaround]);
+    lines.push(["Text format", state.verbatim === "full" ? "Full verbatim" : "Clean verbatim"]);
+    lines.push(["Speakers", state.speakers === "3+" ? "3 or more (+$0.25)" : "1–2"]);
+    lines.push(["Timestamping", state.timestamp === "30s" ? "Every 30s" : "Not required"]);
+    lines.push(["Estimated minutes", Number(state.minutes).toLocaleString("en-US")]);
+    b.innerHTML = lines.map(function (l) {
+      return "<div><span>" + l[0] + "</span><span>" + l[1] + "</span></div>";
+    }).join("");
+
+    document.body.classList.toggle("currency-hidden", state.hideCurrency);
+  }
+
+  function wire(groupId, key, after) {
+    var group = document.getElementById(groupId);
+    group.addEventListener("click", function (e) {
+      var t = e.target.closest(".opt");
+      if (!t) return;
+      group.querySelectorAll(".opt").forEach(function (o) { o.classList.remove("active"); });
+      t.classList.add("active");
+      state[key] = t.getAttribute("data-v");
+      if (after) after();
+      render();
+    });
+  }
+
+  wire("turnaround", "turnaround");
+  wire("verbatim", "verbatim");
+  wire("speakers", "speakers");
+  wire("timestamp", "timestamp");
+
+  document.getElementById("minutes").addEventListener("input", function (e) {
+    state.minutes = e.target.value;
+    render();
+  });
+  document.querySelectorAll(".preset").forEach(function (p) {
+    p.addEventListener("click", function () {
+      state.minutes = p.getAttribute("data-m");
+      document.getElementById("minutes").value = state.minutes;
+      render();
+    });
+  });
+  document.getElementById("hideCurrency").addEventListener("change", function (e) {
+    state.hideCurrency = e.target.checked;
+    render();
+  });
+
+  render();
+</script>
+</body>
+</html>
