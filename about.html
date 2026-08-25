@@ -201,29 +201,51 @@ footer a { color:var(--accent); }
     .soft-price { background:var(--card); border:1px solid var(--border); border-radius:12px;
                   padding:1.1rem 1.2rem; margin:1rem 0; }
     .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
-    @media (max-width:560px){ .ba { grid-template-columns:1fr; } }
+    .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
+        max-width:920px; height:72vh; margin:1rem 0; background:var(--card); }
+    .transcript-embed iframe { width:100%; height:100%; border:0; }
+    .feat { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:.9rem 1.1rem; }
+    .feat h4 { margin:0 0 .3rem; color:var(--accent2); }
+    .feat p { margin:0; color:var(--muted); font-size:.92rem; line-height:1.5; }
+    .tour-block { margin:.9rem 0; }
+    .tour-block h4 { margin:0 0 .3rem; color:var(--accent2); }
+    pre.tour { background:var(--card); border:1px solid var(--border); border-radius:10px;
+        padding:.7rem .9rem; max-height:220px; overflow:auto; font-size:.85rem; line-height:1.5;
+        color:var(--fg); white-space:pre-wrap; }
+    blockquote.excerpt { background:var(--card); border-left:3px solid var(--accent);
+        border-radius:0 10px 10px 0; padding:.7rem 1rem; margin:0; color:var(--fg);
+        font-size:.92rem; line-height:1.6; white-space:pre-wrap; }
+    .dl-list { display:flex; flex-wrap:wrap; gap:.5rem; margin:.6rem 0 1rem; }
+    .pill { display:inline-flex; align-items:center; gap:.4rem; background:var(--card);
+        border:1px solid var(--border); border-radius:999px; padding:.35rem .8rem;
+        color:var(--fg); text-decoration:none; font-size:.88rem; }
+    .pill:hover { border-color:var(--accent); }
+    .pill.primary { border-color:var(--accent); }
+    .psz { color:var(--muted); font-size:.74rem; }
+    .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
+    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { height:60vh; } }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
    <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="./">Samples</a><a href="./podcasters.html">For Podcasters</a><a href="./about.html" class="active">About</a><a href="./reviewed/">Reviewed</a><a href="./#faq">FAQ</a><a href="./#pricing">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="./">Samples</a><a href="./podcasters.html">For Podcasters</a><a href="./about.html" class="active">About</a><a href="./reviewed/">Reviewed</a><a href="./#faq">FAQ</a><a href="./pricing.html">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
 
   <div class="bio">
-    <h2 class="bio-title">Transcription, Subtitles &amp; Web Solutions</h2>
-    <p>I'm Abdullah Abid, a web developer with expertise in Natural Language Processing (NLP). I provide accurate transcription and subtitle services that help make audio and video content more accessible and easier to engage with.</p>
-    <p>I've had the opportunity to work with people who are deaf or hard of hearing, providing transcripts and captions that allow them to access podcasts, interviews, and other spoken content.</p>
-    <p>In addition to transcription and subtitling, I can also build custom web pages or enhance existing websites to publish transcripts alongside videos, helping make your content more accessible, searchable, and useful to a wider audience.</p>
+    <h2 class="bio-title">Transcription &amp; Content Accessibility</h2>
+    <p>I'm Abdullah Abid &mdash; I turn audio and video into accurate, accessible transcripts and captions, and build the web pages that put them to work. With a background in web development and Natural Language Processing (NLP), I can take a conversation from recording all the way to a published, searchable, reusable content asset.</p>
+    <p>I've had the opportunity to work with people who are deaf or hard of hearing, providing transcripts and captions that let them access podcasts, interviews and other spoken content.</p>
+    <p>My core service is transcription &amp; content accessibility. Web development is the part that publishes and presents the work &mdash; custom transcript pages, captions on your site, and integration with your existing platform &mdash; so the finished product is easy for your audience to read, search and reuse.</p>
     <p>Services include:</p>
     <ul>
       <li>Accurate audio and video transcription</li>
-      <li>Subtitle and caption generation</li>
+      <li>Subtitle and caption generation (SRT / VTT)</li>
       <li>Transcript formatting and cleanup</li>
-      <li>Custom transcript pages for websites</li>
-      <li>Integration of transcripts with existing websites</li>
-      <li>NLP-powered solutions for audio and video content</li>
+      <li>Speaker labelling and timestamp chapters</li>
+      <li>Content repurposing &mdash; show notes, blog posts, quotes</li>
+      <li>Web pages to publish and present your transcripts</li>
     </ul>
     <p>My goal is simple: to help your content reach more people and make it easier for everyone to access, read, and engage with.</p>
   </div>
@@ -236,8 +258,8 @@ footer a { color:var(--accent); }
       <span class="chip">Video subtitles (SRT / VTT)</span>
       <span class="chip">Accessibility transcripts</span>
       <span class="chip">Text &amp; caption cleanup</span>
-      <span class="chip">Custom web development</span>
-      <span class="chip">Add transcripts to your site</span>
+      <span class="chip">Content repurposing</span>
+      <span class="chip">Web pages to publish your transcripts</span>
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
@@ -260,7 +282,7 @@ footer a { color:var(--accent); }
         <a href="reviewed/">Reviewed transcriptions</a>
         <a href="price_calculator.html">Price calculator</a>
         <a href="#faq">FAQ</a>
-        <a href="#pricing">Pricing</a>
+        <a href="pricing.html">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>

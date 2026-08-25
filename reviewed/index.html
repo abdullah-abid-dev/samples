@@ -201,14 +201,36 @@ footer a { color:var(--accent); }
     .soft-price { background:var(--card); border:1px solid var(--border); border-radius:12px;
                   padding:1.1rem 1.2rem; margin:1rem 0; }
     .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
-    @media (max-width:560px){ .ba { grid-template-columns:1fr; } }
+    .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
+        max-width:920px; height:72vh; margin:1rem 0; background:var(--card); }
+    .transcript-embed iframe { width:100%; height:100%; border:0; }
+    .feat { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:.9rem 1.1rem; }
+    .feat h4 { margin:0 0 .3rem; color:var(--accent2); }
+    .feat p { margin:0; color:var(--muted); font-size:.92rem; line-height:1.5; }
+    .tour-block { margin:.9rem 0; }
+    .tour-block h4 { margin:0 0 .3rem; color:var(--accent2); }
+    pre.tour { background:var(--card); border:1px solid var(--border); border-radius:10px;
+        padding:.7rem .9rem; max-height:220px; overflow:auto; font-size:.85rem; line-height:1.5;
+        color:var(--fg); white-space:pre-wrap; }
+    blockquote.excerpt { background:var(--card); border-left:3px solid var(--accent);
+        border-radius:0 10px 10px 0; padding:.7rem 1rem; margin:0; color:var(--fg);
+        font-size:.92rem; line-height:1.6; white-space:pre-wrap; }
+    .dl-list { display:flex; flex-wrap:wrap; gap:.5rem; margin:.6rem 0 1rem; }
+    .pill { display:inline-flex; align-items:center; gap:.4rem; background:var(--card);
+        border:1px solid var(--border); border-radius:999px; padding:.35rem .8rem;
+        color:var(--fg); text-decoration:none; font-size:.88rem; }
+    .pill:hover { border-color:var(--accent); }
+    .pill.primary { border-color:var(--accent); }
+    .psz { color:var(--muted); font-size:.74rem; }
+    .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
+    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { height:60vh; } }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="../">Samples</a><a href="../podcasters.html">For Podcasters</a><a href="../about.html">About</a><a href="../reviewed/" class="active">Reviewed</a><a href="../#faq">FAQ</a><a href="../#pricing">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="../">Samples</a><a href="../podcasters.html">For Podcasters</a><a href="../about.html">About</a><a href="../reviewed/" class="active">Reviewed</a><a href="../#faq">FAQ</a><a href="../pricing.html">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
   <a class="back" href="../">&larr; All samples</a>
   <h2 class="title">&#128274; Reviewed Transcriptions</h2>
@@ -227,8 +249,8 @@ footer a { color:var(--accent); }
       <span class="chip">Video subtitles (SRT / VTT)</span>
       <span class="chip">Accessibility transcripts</span>
       <span class="chip">Text &amp; caption cleanup</span>
-      <span class="chip">Custom web development</span>
-      <span class="chip">Add transcripts to your site</span>
+      <span class="chip">Content repurposing</span>
+      <span class="chip">Web pages to publish your transcripts</span>
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
@@ -243,13 +265,13 @@ footer a { color:var(--accent); }
     <div data-fs-success></div>
     <div data-fs-error></div>
     <p>Want to put me to a tiny test? 🙂<br>
-Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see captioned/transcribed, drop the link below. I'll prepare a short sample for you&mdash;no commitment, no sales pitch attached. Just a chance to see what I can do with your content.</p>
+Send me a video or audio you'd like me to test, and I'll return a finished sample &mdash; transcript, captions and supporting content &mdash; so you can see exactly what the work looks like. No commitment, no sales pitch attached.</p>
     <form id="sample-request-form" action="https://formspree.io/f/xjybzpvv" method="POST">
       
       <label>Name<input type="text" name="name" data-fs-field required></label>
       <label>Email<input type="email" name="email" data-fs-field required></label>
       <label>YouTube video URL (optional)<input type="url" name="youtube_url" data-fs-field placeholder="https://www.youtube.com/watch?v=..."></label>
-      <label>Your message (optional)<textarea name="message" data-fs-field rows="4" placeholder="Tell me about your project, turnaround, or any questions..."></textarea></label>
+      <label>Your message (optional)<textarea name="message" data-fs-field rows="4" placeholder="Send me a link to a video or audio you'd like me to test..."></textarea></label>
       <p class="hint">Fields marked * are required. Your details are only used to send your sample.</p>
       <input type="hidden" name="sample" value="Abdullah Abid — reviewed">
       <input type="hidden" name="_subject" value="Free sample request">
@@ -283,7 +305,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
         <a href="../reviewed/">Reviewed transcriptions</a>
         <a href="../price_calculator.html">Price calculator</a>
         <a href="../#faq">FAQ</a>
-        <a href="../#pricing">Pricing</a>
+        <a href="../pricing.html">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>

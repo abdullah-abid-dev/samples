@@ -201,20 +201,43 @@ footer a { color:var(--accent); }
     .soft-price { background:var(--card); border:1px solid var(--border); border-radius:12px;
                   padding:1.1rem 1.2rem; margin:1rem 0; }
     .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
-    @media (max-width:560px){ .ba { grid-template-columns:1fr; } }
+    .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
+        max-width:920px; height:72vh; margin:1rem 0; background:var(--card); }
+    .transcript-embed iframe { width:100%; height:100%; border:0; }
+    .feat { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:.9rem 1.1rem; }
+    .feat h4 { margin:0 0 .3rem; color:var(--accent2); }
+    .feat p { margin:0; color:var(--muted); font-size:.92rem; line-height:1.5; }
+    .tour-block { margin:.9rem 0; }
+    .tour-block h4 { margin:0 0 .3rem; color:var(--accent2); }
+    pre.tour { background:var(--card); border:1px solid var(--border); border-radius:10px;
+        padding:.7rem .9rem; max-height:220px; overflow:auto; font-size:.85rem; line-height:1.5;
+        color:var(--fg); white-space:pre-wrap; }
+    blockquote.excerpt { background:var(--card); border-left:3px solid var(--accent);
+        border-radius:0 10px 10px 0; padding:.7rem 1rem; margin:0; color:var(--fg);
+        font-size:.92rem; line-height:1.6; white-space:pre-wrap; }
+    .dl-list { display:flex; flex-wrap:wrap; gap:.5rem; margin:.6rem 0 1rem; }
+    .pill { display:inline-flex; align-items:center; gap:.4rem; background:var(--card);
+        border:1px solid var(--border); border-radius:999px; padding:.35rem .8rem;
+        color:var(--fg); text-decoration:none; font-size:.88rem; }
+    .pill:hover { border-color:var(--accent); }
+    .pill.primary { border-color:var(--accent); }
+    .psz { color:var(--muted); font-size:.74rem; }
+    .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
+    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { height:60vh; } }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="index.html">Samples</a><a href="podcasters.html" class="active">For Podcasters</a><a href="about.html">About</a><a href="reviewed/">Reviewed</a><a href="#faq">FAQ</a><a href="#pricing">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="index.html">Samples</a><a href="podcasters.html" class="active">For Podcasters</a><a href="about.html">About</a><a href="reviewed/">Reviewed</a><a href="#faq">FAQ</a><a href="pricing.html">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
 
   <h2 class="bio-title">Podcast Transcription &amp; Content Repurposing</h2>
   <p class="lead">Turn every episode into an <strong>accessible, searchable and reusable content asset</strong>.
      One recording becomes a transcript, captions, chapters, a searchable web page, and ready-to-publish
      written content &mdash; so your best conversations keep working long after they're published.</p>
+  <p class="proposition">One conversation. A complete content package.</p>
 
   <section class="banner">
     <h3>See it on a real episode</h3>
@@ -292,14 +315,14 @@ footer a { color:var(--accent); }
     <h3>Flexible pricing for recurring podcast work</h3>
     <p>I can structure the workflow around your publishing schedule and volume &mdash; per-episode, weekly, or by
        season. Tell me how you release episodes and I'll propose a setup that fits. For a detailed, itemised view,
-       see the <a href="price_calculator.html">price calculator</a> and the
-       <a href="index.html#pricing">full pricing</a>.</p>
+        see the <a href="price_calculator.html">price calculator</a> and the
+        <a href="pricing.html">full pricing</a>.</p>
   </section>
 
   <section class="locked">
     <h3>Private reviewed samples</h3>
     <p>I've prepared several hand-reviewed samples from real podcast episodes so prospective clients can evaluate
-       the quality before starting a project. The password is in the email I sent you.</p>
+       the quality before starting a project. If you'd like access to review the work, just ask me.</p>
     <div class="acts">
       <a class="btn primary" href="reviewed/">Open reviewed transcriptions &rarr;</a>
     </div>
@@ -313,8 +336,8 @@ footer a { color:var(--accent); }
       <span class="chip">Video subtitles (SRT / VTT)</span>
       <span class="chip">Accessibility transcripts</span>
       <span class="chip">Text &amp; caption cleanup</span>
-      <span class="chip">Custom web development</span>
-      <span class="chip">Add transcripts to your site</span>
+      <span class="chip">Content repurposing</span>
+      <span class="chip">Web pages to publish your transcripts</span>
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
@@ -329,13 +352,13 @@ footer a { color:var(--accent); }
     <div data-fs-success></div>
     <div data-fs-error></div>
     <p>Want to put me to a tiny test? 🙂<br>
-Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see captioned/transcribed, drop the link below. I'll prepare a short sample for you&mdash;no commitment, no sales pitch attached. Just a chance to see what I can do with your content.</p>
+Send me a video or audio you'd like me to test, and I'll return a finished sample &mdash; transcript, captions and supporting content &mdash; so you can see exactly what the work looks like. No commitment, no sales pitch attached.</p>
     <form id="sample-request-form" action="https://formspree.io/f/xjybzpvv" method="POST">
       
       <label>Name<input type="text" name="name" data-fs-field required></label>
       <label>Email<input type="email" name="email" data-fs-field required></label>
       <label>YouTube video URL (optional)<input type="url" name="youtube_url" data-fs-field placeholder="https://www.youtube.com/watch?v=..."></label>
-      <label>Your message (optional)<textarea name="message" data-fs-field rows="4" placeholder="Tell me about your project, turnaround, or any questions..."></textarea></label>
+      <label>Your message (optional)<textarea name="message" data-fs-field rows="4" placeholder="Send me a link to a video or audio you'd like me to test..."></textarea></label>
       <p class="hint">Fields marked * are required. Your details are only used to send your sample.</p>
       <input type="hidden" name="sample" value="Abdullah Abid — podcasters">
       <input type="hidden" name="_subject" value="Free sample request">
@@ -359,7 +382,9 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
   <details class='faq'><summary>What features are included?</summary><p>Timestamps, speaker labels, SRT/VTT subtitles, clean and verbatim text versions, a searchable HTML transcript, and an analytics report (talk-time share, speaking pace, filler-word count and keyword highlights).</p></details>
   <details class='faq'><summary>What kind of audio can you handle?</summary><p>Unclear, noisy or phone-recorded audio, strong accents, technical or niche terminology, multiple overlapping speakers, and custom timestamp or speaker requirements. If a section is genuinely inaudible I'll flag it rather than guess.</p></details>
   <details class='faq'><summary>What don't you do?</summary><p>I don't fabricate words for inaudible passages, don't provide translation unless arranged in advance, don't share your files, and don't promise 100% verbatim perfection on heavily degraded audio &mdash; but I'll get as close as possible and mark any uncertainties.</p></details>
-  <details class='faq'><summary>What service packages do you offer?</summary><p>I use a simple <strong>flat-rate</strong> model rather than fixed tiers: you pay a per-minute base rate for the length of your audio or video, plus a small adjustment per speaker for diarization and review. Add-ons &mdash; show notes, timestamp chapters, an SEO blog post, an analytics report and shareable quote graphics &mdash; are mixed and matched to your needs and billed on top of the base. Bulk and recurring episodes get a discount. Use the <a href='price_calculator.html'>price calculator</a> for an instant quote.</p></details>
+  <details class='faq'><summary>What service packages do you offer?</summary><p>I use a simple <strong>flat-rate</strong> model rather than fixed tiers: you pay a per-minute base rate for the length of your audio or video, plus a small adjustment per speaker for diarization and review. Add-ons &mdash; show notes, timestamp chapters, a blog post, an analytics report and shareable quote graphics &mdash; are mixed and matched to your needs and billed on top of the base. Bulk and recurring episodes get a discount. Use the <a href='price_calculator.html'>price calculator</a> for an instant quote.</p></details>
+  <details class='faq'><summary>Can you work directly from YouTube?</summary><p>Yes. You can send me a YouTube link, an audio/video file, or another accessible source. I'll confirm the source and delivery requirements before starting.</p></details>
+  <details class='faq'><summary>Can you preserve names and specialist terminology?</summary><p>Yes. Every transcript is human-reviewed: I check names, specialist and niche terminology, and correct the errors an automated pass misses. If a passage is genuinely unclear, I flag it rather than guess &mdash; so the people and ideas in your episode come through accurately.</p></details>
   </section>
   
   <footer>
@@ -376,7 +401,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
         <a href="reviewed/">Reviewed transcriptions</a>
         <a href="price_calculator.html">Price calculator</a>
         <a href="#faq">FAQ</a>
-        <a href="#pricing">Pricing</a>
+        <a href="pricing.html">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
