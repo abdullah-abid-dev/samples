@@ -207,6 +207,14 @@ footer a { color:var(--accent); }
     .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
     .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
         background:#000; border-radius:12px; }
+    /* Mobile-only compact teaser: a few cues + link, so the video + transcript
+       don't dominate the whole screen. Hidden on desktop (the box is used there). */
+    .transcript-teaser { display:none; max-width:920px; margin:1rem 0;
+        background:var(--card); border:1px solid var(--border); border-radius:12px;
+        padding:.4rem .7rem; }
+    .transcript-teaser #player { margin:.2rem 0 .6rem; background:#000; border-radius:12px; }
+    .transcript-teaser .more { margin:.6rem 0 .2rem; }
+    .transcript-teaser .more a { color:var(--accent); font-weight:600; text-decoration:none; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -239,10 +247,11 @@ footer a { color:var(--accent); }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
     @media (max-width:768px){
       .ba { grid-template-columns:1fr; }
-      /* On phones/tablets, don't trap the transcript in a scroll box or pin the
-         video — let it flow inline so the page scrolls naturally. */
-      .transcript-embed { max-height:none; overflow:visible; }
-      .transcript-embed #player { position:static; top:auto; }
+      /* On phones/tablets, hide the desktop scroll box and show the short teaser
+         so the video + a few cues don't fill the whole screen. */
+      .transcript-embed { display:none; }
+      .transcript-teaser { display:block; }
+      .transcript-teaser #player { position:static; top:auto; }
     }
 </style>
 </head>
@@ -250,9 +259,9 @@ footer a { color:var(--accent); }
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="../?v=1787679602">Samples</a><a href="../podcasters.html?v=1787679602">For Podcasters</a><a href="../about.html?v=1787679602">About</a><a href="../reviewed/?v=1787679602">Reviewed</a><a href="../?v=1787679602#faq">FAQ</a><a href="../pricing.html?v=1787679602">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="../?v=1787679937">Samples</a><a href="../podcasters.html?v=1787679937">For Podcasters</a><a href="../about.html?v=1787679937">About</a><a href="../reviewed/?v=1787679937">Reviewed</a><a href="../?v=1787679937#faq">FAQ</a><a href="../pricing.html?v=1787679937">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
-  <a class="back" href="../?v=1787679602">&larr; All samples</a>
+  <a class="back" href="../?v=1787679937">&larr; All samples</a>
   <h2 class="title">How To Get Back the Drive You Used to Have | Jordan Peterson &amp; Tony Robbins</h2>
   <div class="hero">
   <img src="https://i.ytimg.com/vi/TH8ih20mQdU/hqdefault.jpg" alt="Video thumbnail">
@@ -382,9 +391,42 @@ window.addEventListener('load', function(){
 });
 </script>
 
-</div>
+</div><div class="transcript-teaser"><style>
+#player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
+    border-radius:12px; overflow:hidden; }
+#player, #player iframe { width:100%; height:100%; border:0; }
+.cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
+.cue:hover { background:#eef2fb; }
+.cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
+</style>
+<div id="player"><iframe src="https://www.youtube.com/embed/TH8ih20mQdU?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="cue" data-start="0.0" data-end="8.0"><strong>Tony Robbins</strong> [00:00:00–00:00:08]<br>When you look at people that are depressed, or even people just not where they wanna be, they have no compelling future. Anyone can deal with a difficult today if they have a compelling tomorrow.</p>
+<p class="cue" data-start="8.0" data-end="9.0"><strong>Jordan Peterson</strong> [00:00:08–00:00:09]<br>Yes.</p>
+<p class="cue" data-start="9.0" data-end="16.0"><strong>Tony Robbins</strong> [00:00:09–00:00:16]<br>A compelling future is everything. Because without that, you can have an aim, by the way, but if it's not compelling, it's not gonna do much.</p>
+<p class="cue" data-start="16.0" data-end="24.0"><strong>Jordan Peterson</strong> [00:00:16–00:00:24]<br>Well, and you demonstrate in the physiology of your lectures that compelling aspect is possible and real.</p>
+<p class="cue" data-start="24.0" data-end="24.0"><strong>Tony Robbins</strong> [00:00:24–00:00:24]<br>Yes.</p>
+<p class="cue" data-start="24.0" data-end="25.0"><strong>Jordan Peterson</strong> [00:00:24–00:00:25]<br>Right, and—</p>
+<p class="cue" data-start="25.0" data-end="48.0"><strong>Tony Robbins</strong> [00:00:25–00:00:48]<br>But I also get them to experience it once again. If they just watch me, that, you know, like, I'm not here to be their warm-up. I'm a role model example. I'm not here to be your guru. I'm here to be your friend. I have some insights. You have insights. We can learn from each other, right? But the idea of getting in a state of mind where you're in a heightened state of consciousness because your energy increases— think about it. When your energy drops, usually negative thoughts grow with that pretty massively, right?</p>
+<p class="cue" data-start="48.0" data-end="48.0"><strong>Jordan Peterson</strong> [00:00:48–00:00:48]<br>Yes. Yes.</p>
+<p class="cue" data-start="48.0" data-end="88.0"><strong>Tony Robbins</strong> [00:00:48–00:01:28]<br>Self-negative thoughts, thoughts about society. As you raise the energy level, it's like plugging into a computer. You have the greatest computer but not enough electricity. But if there's full electricity, there's power there. And most of us have gotten adjusted to a level of energy, especially post-COVID, That we don't even realize because we're like fish in water.<br>It has dropped massively. When I walk around into companies, that's why engagement became so important to me. There's just not the same level engagement, and no one's trying to deliberately do it. They were conditioned for 4 years to sit still in front of a computer and do anything, and many people before that weren't doing anything. It just magnified it.<br>But when the energy increases, that's my first job. Your consciousness increases with that frequency of intensity.</p>
+<p class="cue" data-start="88.0" data-end="97.0"><strong>Jordan Peterson</strong> [00:01:28–00:01:37]<br>When you said memory, Okay, well, there's a physiological explanation for that. Okay, so dopamine does 2 things. It produces that feeling of enthusiasm.</p>
+<p class="cue" data-start="97.0" data-end="98.0"><strong>Tony Robbins</strong> [00:01:37–00:01:38]<br>Yes.</p>
+<p class="cue" data-start="98.0" data-end="110.0"><strong>Jordan Peterson</strong> [00:01:38–00:01:50]<br>So it produces that feeling of reward. But that's not all. Imagine that there's a positive outcome and that produces some enthusiasm. Okay, now imagine that there's a chain of neurological events that led up to that positive outcome.</p>
+<p class="cue" data-start="110.0" data-end="110.0"><strong>Tony Robbins</strong> [00:01:50–00:01:50]<br>Yes.</p>
+<p class="cue" data-start="110.0" data-end="117.0"><strong>Jordan Peterson</strong> [00:01:50–00:01:57]<br>Okay, what dopamine does is encourage the neural systems that were active just before that positive event occurred to grow.</p>
+<p class="cue" data-start="117.0" data-end="118.0"><strong>Tony Robbins</strong> [00:01:57–00:01:58]<br>Yes.</p>
+<p class="cue" data-start="118.0" data-end="119.0"><strong>Jordan Peterson</strong> [00:01:58–00:01:59]<br>So now that is—</p>
+<p class="cue" data-start="119.0" data-end="120.0"><strong>Tony Robbins</strong> [00:01:59–00:02:00]<br>You're creating more wiring.</p>
+<p class="cue" data-start="120.0" data-end="152.0"><strong>Jordan Peterson</strong> [00:02:00–00:02:32]<br>And you're strengthening them. Meaning you're strengthening whatever connections were used to— So going from dial-up to, you know, so if you're, if you're increasing the energy and you're, and you're simultaneously getting people to configure their goals, and those 2 things are happening at the same time, that should increase the probability that the goals that they adopt will be instantiated permanently, permanently into memory. And then it's also not exactly the kind of memory that you would call to mind to talk about. It's the kind of memory that you see the world through.</p>
+<p class="cue" data-start="152.0" data-end="153.0"><strong>Tony Robbins</strong> [00:02:32–00:02:33]<br>Yes.</p>
+<p class="cue" data-start="153.0" data-end="156.0"><strong>Jordan Peterson</strong> [00:02:33–00:02:36]<br>So that's a different— that's procedural memory. It's completely different kind of memory.</p>
+<p class="cue" data-start="156.0" data-end="156.0"><strong>Tony Robbins</strong> [00:02:36–00:02:36]<br>I get it.</p>
+<p class="cue" data-start="156.0" data-end="176.0"><strong>Jordan Peterson</strong> [00:02:36–00:02:56]<br>It's the kind of memory that— so let's say you practice applying a certain framework of interpretation to your circumstances. Okay, that practice reconfigures procedural memory, and that's literally the rewiring of the system through which you view the world.</p>
+<p class="cue" data-start="176.0" data-end="197.0"><strong>Tony Robbins</strong> [00:02:56–00:03:17]<br>That's correct. And when you have a new view of the world, you come up with new meanings. And meanings, as you know, we both know, you did Maps of Meaning. My entire life has been, you know, I remember reading Man's Search for Meaning. I'm actually making the film. And it was one of the books that influenced me the most because the ability to find meaning even in the most difficult time. And Viktor Frankl to me is just a godsend to this planet.</p>
+<p class="cue" data-start="197.0" data-end="198.0"><strong>Jordan Peterson</strong> [00:03:17–00:03:18]<br>Yeah, yeah, it's a great book.</p>
+<p class="cue" data-start="198.0" data-end="199.0"><strong>Tony Robbins</strong> [00:03:18–00:03:19]<br>It's crazy.</p><p class="more"><a href="transcript.html?v=1787679937">Read the full transcript &rarr;</a></p></div>
     <div class="acts">
-      <a class="btn primary" href="transcript.html?v=1787679602" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
+      <a class="btn primary" href="transcript.html?v=1787679937" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
   </section>
 
@@ -458,29 +500,29 @@ Tony</blockquote>
     <h3 class="channel-h">Downloadable deliverables</h3>
     <p class="extras-note">Grab the finished files in whatever format you need &mdash; or download everything at once.</p>
     <div class="dl-list">
-<a class="pill" href="analytics.json?v=1787679602" download>Analytics Data (JSON)<span class="psz">1.2 KB</span></a>
-<a class="pill" href="analytics.md?v=1787679602" download>Analytics Report<span class="psz">603 B</span></a>
-<a class="pill" href="blog.md?v=1787679602" download>Blog Post<span class="psz">5.2 KB</span></a>
-<a class="pill" href="chapters.txt?v=1787679602" download>Timestamp Chapters<span class="psz">430 B</span></a>
-<a class="pill" href="quote-1.png?v=1787679602" download>Quote Graphic<span class="psz">110.3 KB</span></a>
-<a class="pill" href="quote-2.png?v=1787679602" download>Quote Graphic<span class="psz">64.5 KB</span></a>
-<a class="pill" href="quote-3.png?v=1787679602" download>Quote Graphic<span class="psz">115.2 KB</span></a>
-<a class="pill" href="quotes.json?v=1787679602" download>Quote Graphics (JSON)<span class="psz">917 B</span></a>
-<a class="pill" href="show-notes.md?v=1787679602" download>Show Notes<span class="psz">2.6 KB</span></a>
-<a class="pill" href="summary.txt?v=1787679602" download>Summary<span class="psz">771 B</span></a>
-<a class="pill" href="topics.txt?v=1787679602" download>Topics<span class="psz">294 B</span></a>
-<a class="pill" href="transcript.doc?v=1787679602" download>Transcript (DOC)<span class="psz">39.0 KB</span></a>
-<a class="pill" href="transcript.docx?v=1787679602" download>Transcript (DOCX)<span class="psz">10.7 KB</span></a>
-<a class="pill" href="transcript.html?v=1787679602" download>HTML Transcript<span class="psz">16.2 KB</span></a>
-<a class="pill" href="transcript.pdf?v=1787679602" download>Transcript (PDF)<span class="psz">57.1 KB</span></a>
-<a class="pill" href="transcript.rtf?v=1787679602" download>Transcript (RTF)<span class="psz">29.3 KB</span></a>
-<a class="pill" href="transcript.srt?v=1787679602" download>SRT Subtitles<span class="psz">19.6 KB</span></a>
-<a class="pill" href="transcript.txt?v=1787679602" download>Transcript (TXT)<span class="psz">14.3 KB</span></a>
-<a class="pill" href="transcript.vtt?v=1787679602" download>VTT Subtitles<span class="psz">18.8 KB</span></a>
-<a class="pill" href="transcript.xml?v=1787679602" download>XML Transcript<span class="psz">17.8 KB</span></a>
+<a class="pill" href="analytics.json?v=1787679937" download>Analytics Data (JSON)<span class="psz">1.2 KB</span></a>
+<a class="pill" href="analytics.md?v=1787679937" download>Analytics Report<span class="psz">603 B</span></a>
+<a class="pill" href="blog.md?v=1787679937" download>Blog Post<span class="psz">5.2 KB</span></a>
+<a class="pill" href="chapters.txt?v=1787679937" download>Timestamp Chapters<span class="psz">430 B</span></a>
+<a class="pill" href="quote-1.png?v=1787679937" download>Quote Graphic<span class="psz">110.3 KB</span></a>
+<a class="pill" href="quote-2.png?v=1787679937" download>Quote Graphic<span class="psz">64.5 KB</span></a>
+<a class="pill" href="quote-3.png?v=1787679937" download>Quote Graphic<span class="psz">115.2 KB</span></a>
+<a class="pill" href="quotes.json?v=1787679937" download>Quote Graphics (JSON)<span class="psz">917 B</span></a>
+<a class="pill" href="show-notes.md?v=1787679937" download>Show Notes<span class="psz">2.6 KB</span></a>
+<a class="pill" href="summary.txt?v=1787679937" download>Summary<span class="psz">771 B</span></a>
+<a class="pill" href="topics.txt?v=1787679937" download>Topics<span class="psz">294 B</span></a>
+<a class="pill" href="transcript.doc?v=1787679937" download>Transcript (DOC)<span class="psz">39.0 KB</span></a>
+<a class="pill" href="transcript.docx?v=1787679937" download>Transcript (DOCX)<span class="psz">10.7 KB</span></a>
+<a class="pill" href="transcript.html?v=1787679937" download>HTML Transcript<span class="psz">16.2 KB</span></a>
+<a class="pill" href="transcript.pdf?v=1787679937" download>Transcript (PDF)<span class="psz">57.1 KB</span></a>
+<a class="pill" href="transcript.rtf?v=1787679937" download>Transcript (RTF)<span class="psz">29.3 KB</span></a>
+<a class="pill" href="transcript.srt?v=1787679937" download>SRT Subtitles<span class="psz">19.6 KB</span></a>
+<a class="pill" href="transcript.txt?v=1787679937" download>Transcript (TXT)<span class="psz">14.3 KB</span></a>
+<a class="pill" href="transcript.vtt?v=1787679937" download>VTT Subtitles<span class="psz">18.8 KB</span></a>
+<a class="pill" href="transcript.xml?v=1787679937" download>XML Transcript<span class="psz">17.8 KB</span></a>
     </div>
     <div class="acts">
-      <a class="btn primary" href="deliverables.zip?v=1787679602" download>Download all deliverables &darr;</a>
+      <a class="btn primary" href="deliverables.zip?v=1787679937" download>Download all deliverables &darr;</a>
     </div>
   </section>
 
@@ -497,7 +539,7 @@ Tony</blockquote>
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787679602" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787679937" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -538,18 +580,18 @@ Send me a video or audio you'd like me to test, and I'll return a finished sampl
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="../?v=1787679602">All samples</a>
-        <a href="../podcasters.html?v=1787679602">For Podcasters</a>
-        <a href="../about.html?v=1787679602">About</a>
-        <a href="../reviewed/?v=1787679602">Reviewed transcriptions</a>
-        <a href="../price_calculator.html?v=1787679602">Price calculator</a>
-        <a href="../?v=1787679602#faq">FAQ</a>
-        <a href="../pricing.html?v=1787679602">Pricing</a>
+        <a href="../?v=1787679937">All samples</a>
+        <a href="../podcasters.html?v=1787679937">For Podcasters</a>
+        <a href="../about.html?v=1787679937">About</a>
+        <a href="../reviewed/?v=1787679937">Reviewed transcriptions</a>
+        <a href="../price_calculator.html?v=1787679937">Price calculator</a>
+        <a href="../?v=1787679937#faq">FAQ</a>
+        <a href="../pricing.html?v=1787679937">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="../Abdullah_Abid_Resume.pdf?v=1787679602" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="../Abdullah_Abid_Resume.pdf?v=1787679937" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>

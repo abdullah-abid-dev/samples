@@ -207,6 +207,14 @@ footer a { color:var(--accent); }
     .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
     .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
         background:#000; border-radius:12px; }
+    /* Mobile-only compact teaser: a few cues + link, so the video + transcript
+       don't dominate the whole screen. Hidden on desktop (the box is used there). */
+    .transcript-teaser { display:none; max-width:920px; margin:1rem 0;
+        background:var(--card); border:1px solid var(--border); border-radius:12px;
+        padding:.4rem .7rem; }
+    .transcript-teaser #player { margin:.2rem 0 .6rem; background:#000; border-radius:12px; }
+    .transcript-teaser .more { margin:.6rem 0 .2rem; }
+    .transcript-teaser .more a { color:var(--accent); font-weight:600; text-decoration:none; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -239,10 +247,11 @@ footer a { color:var(--accent); }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
     @media (max-width:768px){
       .ba { grid-template-columns:1fr; }
-      /* On phones/tablets, don't trap the transcript in a scroll box or pin the
-         video — let it flow inline so the page scrolls naturally. */
-      .transcript-embed { max-height:none; overflow:visible; }
-      .transcript-embed #player { position:static; top:auto; }
+      /* On phones/tablets, hide the desktop scroll box and show the short teaser
+         so the video + a few cues don't fill the whole screen. */
+      .transcript-embed { display:none; }
+      .transcript-teaser { display:block; }
+      .transcript-teaser #player { position:static; top:auto; }
     }
 </style>
 </head>
@@ -250,14 +259,14 @@ footer a { color:var(--accent); }
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="index.html?v=1787679602">Samples</a><a href="podcasters.html?v=1787679602">For Podcasters</a><a href="about.html?v=1787679602">About</a><a href="reviewed/?v=1787679602">Reviewed</a><a href="#faq">FAQ</a><a href="pricing.html?v=1787679602" class="active">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="index.html?v=1787679937">Samples</a><a href="podcasters.html?v=1787679937">For Podcasters</a><a href="about.html?v=1787679937">About</a><a href="reviewed/?v=1787679937">Reviewed</a><a href="#faq">FAQ</a><a href="pricing.html?v=1787679937" class="active">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
   <h2 class="bio-title">Pricing</h2>
   <p class="lead">Transparent per-minute pricing with the add-ons you actually need. Recurring podcast
      work is discounted &mdash; tell me your release schedule and I'll put together a tailored quote.</p>
   <div class="acts">
     <a class="btn primary" href="mailto:abdullah.abid.dev@gmail.com?subject=Tailored%20quote">Get a tailored quote</a>
-    <a class="btn" href="price_calculator.html?v=1787679602">Open the price calculator &rarr;</a>
+    <a class="btn" href="price_calculator.html?v=1787679937">Open the price calculator &rarr;</a>
   </div>
     <section class='faq-wrap' id='pricing'>
     <h2 class='bio-title'>Transparent flat-rate pricing</h2>
@@ -313,7 +322,7 @@ footer a { color:var(--accent); }
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="Abdullah_Abid_Resume.pdf?v=1787679602" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="Abdullah_Abid_Resume.pdf?v=1787679937" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -367,18 +376,18 @@ Send me a video or audio you'd like me to test, and I'll return a finished sampl
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="?v=1787679602">All samples</a>
-        <a href="podcasters.html?v=1787679602">For Podcasters</a>
-        <a href="about.html?v=1787679602">About</a>
-        <a href="reviewed/?v=1787679602">Reviewed transcriptions</a>
-        <a href="price_calculator.html?v=1787679602">Price calculator</a>
+        <a href="?v=1787679937">All samples</a>
+        <a href="podcasters.html?v=1787679937">For Podcasters</a>
+        <a href="about.html?v=1787679937">About</a>
+        <a href="reviewed/?v=1787679937">Reviewed transcriptions</a>
+        <a href="price_calculator.html?v=1787679937">Price calculator</a>
         <a href="#faq">FAQ</a>
-        <a href="pricing.html?v=1787679602">Pricing</a>
+        <a href="pricing.html?v=1787679937">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="Abdullah_Abid_Resume.pdf?v=1787679602" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="Abdullah_Abid_Resume.pdf?v=1787679937" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>
