@@ -174,13 +174,42 @@ footer a { color:var(--accent); }
    .price-row { display:flex; justify-content:space-between; gap:1rem; padding:.45rem 0;
                 border-bottom:1px dashed var(--border); }
    .price-row span:last-child { color:var(--accent2); font-weight:600; white-space:nowrap; text-align:right; }
-   .price-row span:first-child { color:var(--fg); }
+    .price-row span:first-child { color:var(--fg); }
+    .banner { background:linear-gradient(135deg,#eef3ff,#f6f9ff); border:1px solid #c9d8f6;
+              border-radius:14px; padding:1.2rem 1.4rem; margin:1.4rem 0; }
+    .banner h3 { margin:0 0 .3rem; color:var(--accent2); }
+    .banner p { margin:0 0 .8rem; line-height:1.5; }
+    .banner a.btn { background:var(--accent); color:#fff; border-color:var(--accent); }
+    .workflow { display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin:.6rem 0 1rem; }
+    .workflow .step { background:var(--card); border:1px solid var(--border); border-radius:999px;
+                      padding:.45rem .9rem; font-size:.88rem; font-weight:600; }
+    .workflow .arrow { color:var(--accent); font-weight:700; }
+    .outcome { background:var(--card); border:1px solid var(--border); border-radius:12px;
+               padding:1.1rem 1.2rem; margin:.9rem 0; }
+    .outcome h3 { margin:0 0 .3rem; color:var(--accent2); }
+    .outcome p { margin:0 0 .8rem; color:var(--muted); font-size:.92rem; line-height:1.5; }
+    .ba { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:.8rem 0; }
+    .ba .col { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem 1.1rem; }
+    .ba .col h4 { margin:0 0 .5rem; }
+    .ba ul { margin:.2rem 0 0; padding-left:1.1rem; }
+    .ba li { margin:.25rem 0; line-height:1.5; }
+    .quality ul { margin:.4rem 0 0; padding-left:1.2rem; }
+    .quality li { margin:.3rem 0; line-height:1.6; }
+    .quality li b { color:var(--accent2); }
+    .preview { border:1px solid var(--border); border-radius:12px; overflow:hidden; margin:1rem 0; }
+    .preview iframe { width:100%; height:540px; border:0; }
+    .soft-price { background:var(--card); border:1px solid var(--border); border-radius:12px;
+                  padding:1.1rem 1.2rem; margin:1rem 0; }
+    .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
+    @media (max-width:560px){ .ba { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
-  <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1></header>
+  <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
+    <nav class="topnav"><a href="../">Samples</a><a href="../podcasters.html">For Podcasters</a><a href="../about.html">About</a><a href="../reviewed/">Reviewed</a><a href="../#faq">FAQ</a><a href="../#pricing">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+  </header>
   <a class="back" href="../">&#8592; All samples</a>
   <h2 class="title">How to Find Your Purpose | Robert Greene &amp; Dr. Andrew Huberman</h2>
   <div class="hero">
@@ -189,15 +218,100 @@ footer a { color:var(--accent); }
   </div>
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:780px;margin:1rem 0"><iframe style="position:absolute;inset:0;width:100%;height:100%" src="https://www.youtube.com/embed/WzrALzUnZ0g" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
    <p class="desc">Explore a fully transcribed and captioned sample from Huberman Lab Clips &mdash; download accurate transcripts and subtitles, then put them to work with ready-to-publish show notes, timestamp chapters, an analytics report, and quote cards.</p>
-
+ 
   <div class="disclaimer">
     <strong>Sample note:</strong> This page demonstrates my transcription, subtitle-generation, and web-publishing workflow. The files shown are sample outputs; client deliverables are reviewed and proofread for accuracy before delivery.
   </div>
 
-  <div class="grid">
+  <div class="outcome">
+    <h3>Make every episode more accessible</h3>
+    <p>A clean, readable transcript (TXT / PDF) means anyone who prefers text &mdash; or simply can't listen right now &mdash; can still follow every word.</p>
+    <div class="grid">
+    <div class="card">
+      <div class="meta"><div class="name">Transcript (PDF)</div><div class="size">58.5 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.pdf" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.pdf" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Transcript (TXT)</div><div class="size">19.9 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.txt" download>Download</a></div>
+    </div>
+    </div>
+  </div>
+  <div class="outcome">
+    <h3>Make every episode easier to discover</h3>
+    <p>A searchable HTML page, structured topics, timestamp chapters and an analytics report help people (and search engines) jump straight to the moments that matter.</p>
+    <div class="grid">
+    <div class="card">
+      <div class="meta"><div class="name">Analytics Data (JSON)</div><div class="size">1.2 KB</div></div>
+      <div class="acts"><a class="btn" href="analytics.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="analytics.json" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Analytics Report</div><div class="size">617 B</div></div>
+      <div class="acts"><a class="btn" href="analytics.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="analytics.md" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Timestamp Chapters</div><div class="size">651 B</div></div>
+      <div class="acts"><a class="btn" href="chapters.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="chapters.txt" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Summary</div><div class="size">1.1 KB</div></div>
+      <div class="acts"><a class="btn" href="summary.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="summary.txt" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Topics</div><div class="size">286 B</div></div>
+      <div class="acts"><a class="btn" href="topics.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="topics.txt" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">HTML Transcript</div><div class="size">21.0 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.html" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.html" download>Download</a></div>
+    </div>
+    </div>
+  </div>
+  <div class="outcome">
+    <h3>Make every episode easier to repurpose</h3>
+    <p>Ready-to-publish show notes, a blog post, short summaries and shareable quote cards turn a single recording into many pieces of content.</p>
+    <div class="grid">
+    <div class="card">
+      <div class="meta"><div class="name">Blog Post</div><div class="size">5.0 KB</div></div>
+      <div class="acts"><a class="btn" href="blog.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="blog.md" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Quote Graphic</div><div class="size">58.7 KB</div></div>
+      <div class="acts"><a class="btn" href="quote-1.png" target="_blank" rel="noopener">View</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Quote Graphic</div><div class="size">68.5 KB</div></div>
+      <div class="acts"><a class="btn" href="quote-2.png" target="_blank" rel="noopener">View</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Quote Graphic</div><div class="size">54.6 KB</div></div>
+      <div class="acts"><a class="btn" href="quote-3.png" target="_blank" rel="noopener">View</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Quote Graphics (JSON)</div><div class="size">544 B</div></div>
+      <div class="acts"><a class="btn" href="quotes.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="quotes.json" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Show Notes</div><div class="size">3.5 KB</div></div>
+      <div class="acts"><a class="btn" href="show-notes.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="show-notes.md" download>Download</a></div>
+    </div>
+    </div>
+  </div>
+  <div class="outcome">
+    <h3>Make every episode easier to publish</h3>
+    <p>Plug-and-play SRT / VTT captions for your video platform, plus DOCX / DOC / RTF / XML deliverables that drop straight into your CMS or editor.</p>
+    <div class="grid">
+    <div class="card">
+      <div class="meta"><div class="name">Transcript (DOC)</div><div class="size">49.0 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.doc" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.doc" download>Download</a></div>
+    </div>
     <div class="card">
       <div class="meta"><div class="name">Transcript (DOCX)</div><div class="size">12.7 KB</div></div>
       <div class="acts"><a class="btn" href="transcript.docx" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.docx" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">Transcript (RTF)</div><div class="size">29.1 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.rtf" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.rtf" download>Download</a></div>
     </div>
     <div class="card">
       <div class="meta"><div class="name">SRT Subtitles</div><div class="size">32.4 KB</div></div>
@@ -207,28 +321,17 @@ footer a { color:var(--accent); }
       <div class="meta"><div class="name">VTT Subtitles</div><div class="size">30.9 KB</div></div>
       <div class="acts"><a class="btn" href="transcript.vtt" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.vtt" download>Download</a></div>
     </div>
-  <details class="more fileinfo"><summary>How &amp; where to use these files</summary>
-    <div class="fileinfo-row">
-      <h4>DOCX Transcript (Word)</h4>
-      <p>A formatted Word document with bold speaker names and timestamps &mdash; ready to edit, brand, or send to a client.</p>
-      <p class="how">Open in Microsoft Word or Google Docs to tweak wording, add your logo, or export to PDF. Ideal as a polished client deliverable or internal document.</p>
-      <div class="chips"><span class="chip">Microsoft Word</span><span class="chip">Google Docs</span><span class="chip">PDF export</span><span class="chip">Client deliverable</span></div>
+    <div class="card">
+      <div class="meta"><div class="name">XML Transcript</div><div class="size">21.7 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.xml" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.xml" download>Download</a></div>
     </div>
-    <div class="fileinfo-row">
-      <h4>SRT Subtitles</h4>
-      <p>The most universally supported subtitle format. Pair it with your video or audio in any media player, or upload it to a platform to display captions.</p>
-      <p class="how">In VLC, MPV or QuickTime, open your media then add the .srt as a subtitle track. On hosting platforms upload it as a caption file: YouTube Studio (Subtitles &rarr; upload), Spotify for Podcasters, Buzzsprout, Libsyn, Blubrry, Podbean and Amazon Music (video podcasts) all accept SRT.</p>
-      <div class="chips"><span class="chip">YouTube</span><span class="chip">VLC / MPV / QuickTime</span><span class="chip">Spotify for Podcasters</span><span class="chip">Buzzsprout</span><span class="chip">Libsyn</span><span class="chip">Blubrry</span><span class="chip">Podbean</span><span class="chip">Amazon Music</span></div>
     </div>
-    <div class="fileinfo-row">
-      <h4>VTT Subtitles (WebVTT)</h4>
-      <p>The modern web-standard caption format used by HTML5 players and most podcast hosts.</p>
-      <p class="how">Upload the .vtt as a caption track in YouTube, Spotify for Podcasters, Buzzsprout, Libsyn, Blubrry and Podbean. Apple Podcasts and Amazon Music also consume VTT for captioned episodes, and you can embed it directly in a player on your own site.</p>
-      <div class="chips"><span class="chip">YouTube</span><span class="chip">Spotify for Podcasters</span><span class="chip">Buzzsprout</span><span class="chip">Libsyn</span><span class="chip">Blubrry</span><span class="chip">Podbean</span><span class="chip">Apple Podcasts</span><span class="chip">Amazon Music</span></div>
+  </div>
+  <details class="more"><summary>All file formats</summary>
+    <div class="card">
+      <div class="meta"><div class="name">Analytics Data (JSON)</div><div class="size">1.2 KB</div></div>
+      <div class="acts"><a class="btn" href="analytics.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="analytics.json" download>Download</a></div>
     </div>
-  </details>
-  <div class="section-h">Content Extras</div>
-  <p class="extras-note">Done-for-you, ready-to-publish content for this episode: show notes, timestamp chapters, an analytics report, a blog post, and shareable quote cards.</p>
     <div class="card">
       <div class="meta"><div class="name">Analytics Report</div><div class="size">617 B</div></div>
       <div class="acts"><a class="btn" href="analytics.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="analytics.md" download>Download</a></div>
@@ -254,19 +357,12 @@ footer a { color:var(--accent); }
       <div class="acts"><a class="btn" href="quote-3.png" target="_blank" rel="noopener">View</a></div>
     </div>
     <div class="card">
-      <div class="meta"><div class="name">Show Notes</div><div class="size">3.5 KB</div></div>
-      <div class="acts"><a class="btn" href="show-notes.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="show-notes.md" download>Download</a></div>
-    </div>
-    <details class="more"><summary>Source &amp; data files</summary>
-    <div class="card">
       <div class="meta"><div class="name">Quote Graphics (JSON)</div><div class="size">544 B</div></div>
       <div class="acts"><a class="btn" href="quotes.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="quotes.json" download>Download</a></div>
     </div>
-    </details>
-    <details class="more"><summary>Show more file types</summary>
     <div class="card">
-      <div class="meta"><div class="name">Analytics Data (JSON)</div><div class="size">1.2 KB</div></div>
-      <div class="acts"><a class="btn" href="analytics.json" target="_blank" rel="noopener">View</a><a class="btn primary" href="analytics.json" download>Download</a></div>
+      <div class="meta"><div class="name">Show Notes</div><div class="size">3.5 KB</div></div>
+      <div class="acts"><a class="btn" href="show-notes.md" target="_blank" rel="noopener">View</a><a class="btn primary" href="show-notes.md" download>Download</a></div>
     </div>
     <div class="card">
       <div class="meta"><div class="name">Summary</div><div class="size">1.1 KB</div></div>
@@ -281,6 +377,10 @@ footer a { color:var(--accent); }
       <div class="acts"><a class="btn" href="transcript.doc" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.doc" download>Download</a></div>
     </div>
     <div class="card">
+      <div class="meta"><div class="name">Transcript (DOCX)</div><div class="size">12.7 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.docx" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.docx" download>Download</a></div>
+    </div>
+    <div class="card">
       <div class="meta"><div class="name">HTML Transcript</div><div class="size">21.0 KB</div></div>
       <div class="acts"><a class="btn" href="transcript.html" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.html" download>Download</a></div>
     </div>
@@ -293,15 +393,22 @@ footer a { color:var(--accent); }
       <div class="acts"><a class="btn" href="transcript.rtf" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.rtf" download>Download</a></div>
     </div>
     <div class="card">
+      <div class="meta"><div class="name">SRT Subtitles</div><div class="size">32.4 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.srt" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.srt" download>Download</a></div>
+    </div>
+    <div class="card">
       <div class="meta"><div class="name">Transcript (TXT)</div><div class="size">19.9 KB</div></div>
       <div class="acts"><a class="btn" href="transcript.txt" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.txt" download>Download</a></div>
+    </div>
+    <div class="card">
+      <div class="meta"><div class="name">VTT Subtitles</div><div class="size">30.9 KB</div></div>
+      <div class="acts"><a class="btn" href="transcript.vtt" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.vtt" download>Download</a></div>
     </div>
     <div class="card">
       <div class="meta"><div class="name">XML Transcript</div><div class="size">21.7 KB</div></div>
       <div class="acts"><a class="btn" href="transcript.xml" target="_blank" rel="noopener">View</a><a class="btn primary" href="transcript.xml" download>Download</a></div>
     </div>
-    </details>
-   </div>
+  </details>
 
   <section class="contact">
     <h3>Need transcription, subtitles, or web work?</h3>
@@ -357,6 +464,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
       <div>
         <h4>Explore</h4>
         <a href="../">All samples</a>
+        <a href="../podcasters.html">For Podcasters</a>
         <a href="../about.html">About</a>
         <a href="../reviewed/">Reviewed transcriptions</a>
         <a href="../price_calculator.html">Price calculator</a>
