@@ -237,16 +237,22 @@ footer a { color:var(--accent); }
     .pill.primary { border-color:var(--accent); }
     .psz { color:var(--muted); font-size:.74rem; }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
-    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { max-height:60vh; } }
+    @media (max-width:768px){
+      .ba { grid-template-columns:1fr; }
+      /* On phones/tablets, don't trap the transcript in a scroll box or pin the
+         video — let it flow inline so the page scrolls naturally. */
+      .transcript-embed { max-height:none; overflow:visible; }
+      .transcript-embed #player { position:static; top:auto; }
+    }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="../?v=1787679212">Samples</a><a href="../podcasters.html?v=1787679212">For Podcasters</a><a href="../about.html?v=1787679212">About</a><a href="../reviewed/?v=1787679212">Reviewed</a><a href="../?v=1787679212#faq">FAQ</a><a href="../pricing.html?v=1787679212">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="../?v=1787679602">Samples</a><a href="../podcasters.html?v=1787679602">For Podcasters</a><a href="../about.html?v=1787679602">About</a><a href="../reviewed/?v=1787679602">Reviewed</a><a href="../?v=1787679602#faq">FAQ</a><a href="../pricing.html?v=1787679602">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
-  <a class="back" href="../?v=1787679212">&larr; All samples</a>
+  <a class="back" href="../?v=1787679602">&larr; All samples</a>
   <h2 class="title">Autism Spectrum Disorder: 10 things you should know</h2>
   <div class="hero">
   <img src="https://i.ytimg.com/vi/DZXjJVrm1Jw/hqdefault.jpg" alt="Video thumbnail">
@@ -314,7 +320,7 @@ window.addEventListener('load', function(){
 
 </div>
     <div class="acts">
-      <a class="btn primary" href="transcript.html?v=1787679212" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
+      <a class="btn primary" href="transcript.html?v=1787679602" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
   </section>
 
@@ -375,29 +381,29 @@ Autism can affect a person's ability to understand subtle emotional cues, such a
     <h3 class="channel-h">Downloadable deliverables</h3>
     <p class="extras-note">Grab the finished files in whatever format you need &mdash; or download everything at once.</p>
     <div class="dl-list">
-<a class="pill" href="analytics.json?v=1787679212" download>Analytics Data (JSON)<span class="psz">1.1 KB</span></a>
-<a class="pill" href="analytics.md?v=1787679212" download>Analytics Report<span class="psz">543 B</span></a>
-<a class="pill" href="blog.md?v=1787679212" download>Blog Post<span class="psz">5.7 KB</span></a>
-<a class="pill" href="chapters.txt?v=1787679212" download>Timestamp Chapters<span class="psz">792 B</span></a>
-<a class="pill" href="quote-1.png?v=1787679212" download>Quote Graphic<span class="psz">51.4 KB</span></a>
-<a class="pill" href="quote-2.png?v=1787679212" download>Quote Graphic<span class="psz">70.9 KB</span></a>
-<a class="pill" href="quote-3.png?v=1787679212" download>Quote Graphic<span class="psz">67.7 KB</span></a>
-<a class="pill" href="quotes.json?v=1787679212" download>Quote Graphics (JSON)<span class="psz">581 B</span></a>
-<a class="pill" href="show-notes.md?v=1787679212" download>Show Notes<span class="psz">3.1 KB</span></a>
-<a class="pill" href="summary.txt?v=1787679212" download>Summary<span class="psz">800 B</span></a>
-<a class="pill" href="topics.txt?v=1787679212" download>Topics<span class="psz">405 B</span></a>
-<a class="pill" href="transcript.doc?v=1787679212" download>Transcript (DOC)<span class="psz">15.0 KB</span></a>
-<a class="pill" href="transcript.docx?v=1787679212" download>Transcript (DOCX)<span class="psz">6.2 KB</span></a>
-<a class="pill" href="transcript.html?v=1787679212" download>HTML Transcript<span class="psz">3.1 KB</span></a>
-<a class="pill" href="transcript.pdf?v=1787679212" download>Transcript (PDF)<span class="psz">30.6 KB</span></a>
-<a class="pill" href="transcript.rtf?v=1787679212" download>Transcript (RTF)<span class="psz">5.9 KB</span></a>
-<a class="pill" href="transcript.srt?v=1787679212" download>SRT Subtitles<span class="psz">4.6 KB</span></a>
-<a class="pill" href="transcript.txt?v=1787679212" download>Transcript (TXT)<span class="psz">2.9 KB</span></a>
-<a class="pill" href="transcript.vtt?v=1787679212" download>VTT Subtitles<span class="psz">4.4 KB</span></a>
-<a class="pill" href="transcript.xml?v=1787679212" download>XML Transcript<span class="psz">3.0 KB</span></a>
+<a class="pill" href="analytics.json?v=1787679602" download>Analytics Data (JSON)<span class="psz">1.1 KB</span></a>
+<a class="pill" href="analytics.md?v=1787679602" download>Analytics Report<span class="psz">543 B</span></a>
+<a class="pill" href="blog.md?v=1787679602" download>Blog Post<span class="psz">5.7 KB</span></a>
+<a class="pill" href="chapters.txt?v=1787679602" download>Timestamp Chapters<span class="psz">792 B</span></a>
+<a class="pill" href="quote-1.png?v=1787679602" download>Quote Graphic<span class="psz">51.4 KB</span></a>
+<a class="pill" href="quote-2.png?v=1787679602" download>Quote Graphic<span class="psz">70.9 KB</span></a>
+<a class="pill" href="quote-3.png?v=1787679602" download>Quote Graphic<span class="psz">67.7 KB</span></a>
+<a class="pill" href="quotes.json?v=1787679602" download>Quote Graphics (JSON)<span class="psz">581 B</span></a>
+<a class="pill" href="show-notes.md?v=1787679602" download>Show Notes<span class="psz">3.1 KB</span></a>
+<a class="pill" href="summary.txt?v=1787679602" download>Summary<span class="psz">800 B</span></a>
+<a class="pill" href="topics.txt?v=1787679602" download>Topics<span class="psz">405 B</span></a>
+<a class="pill" href="transcript.doc?v=1787679602" download>Transcript (DOC)<span class="psz">15.0 KB</span></a>
+<a class="pill" href="transcript.docx?v=1787679602" download>Transcript (DOCX)<span class="psz">6.2 KB</span></a>
+<a class="pill" href="transcript.html?v=1787679602" download>HTML Transcript<span class="psz">3.1 KB</span></a>
+<a class="pill" href="transcript.pdf?v=1787679602" download>Transcript (PDF)<span class="psz">30.6 KB</span></a>
+<a class="pill" href="transcript.rtf?v=1787679602" download>Transcript (RTF)<span class="psz">5.9 KB</span></a>
+<a class="pill" href="transcript.srt?v=1787679602" download>SRT Subtitles<span class="psz">4.6 KB</span></a>
+<a class="pill" href="transcript.txt?v=1787679602" download>Transcript (TXT)<span class="psz">2.9 KB</span></a>
+<a class="pill" href="transcript.vtt?v=1787679602" download>VTT Subtitles<span class="psz">4.4 KB</span></a>
+<a class="pill" href="transcript.xml?v=1787679602" download>XML Transcript<span class="psz">3.0 KB</span></a>
     </div>
     <div class="acts">
-      <a class="btn primary" href="deliverables.zip?v=1787679212" download>Download all deliverables &darr;</a>
+      <a class="btn primary" href="deliverables.zip?v=1787679602" download>Download all deliverables &darr;</a>
     </div>
   </section>
 
@@ -414,7 +420,7 @@ Autism can affect a person's ability to understand subtle emotional cues, such a
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787679212" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787679602" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -455,18 +461,18 @@ Send me a video or audio you'd like me to test, and I'll return a finished sampl
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="../?v=1787679212">All samples</a>
-        <a href="../podcasters.html?v=1787679212">For Podcasters</a>
-        <a href="../about.html?v=1787679212">About</a>
-        <a href="../reviewed/?v=1787679212">Reviewed transcriptions</a>
-        <a href="../price_calculator.html?v=1787679212">Price calculator</a>
-        <a href="../?v=1787679212#faq">FAQ</a>
-        <a href="../pricing.html?v=1787679212">Pricing</a>
+        <a href="../?v=1787679602">All samples</a>
+        <a href="../podcasters.html?v=1787679602">For Podcasters</a>
+        <a href="../about.html?v=1787679602">About</a>
+        <a href="../reviewed/?v=1787679602">Reviewed transcriptions</a>
+        <a href="../price_calculator.html?v=1787679602">Price calculator</a>
+        <a href="../?v=1787679602#faq">FAQ</a>
+        <a href="../pricing.html?v=1787679602">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="../Abdullah_Abid_Resume.pdf?v=1787679212" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="../Abdullah_Abid_Resume.pdf?v=1787679602" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>
