@@ -1,0 +1,88 @@
+{
+  "duration_s": 602.5,
+  "total_words": 1681,
+  "speakers": 3,
+  "turns": 51,
+  "talk_time": {
+    "Kim Kredich": 239.3,
+    "David Kaufer": 147.7,
+    "Intro": 25.6
+  },
+  "talk_time_pct": {
+    "Kim Kredich": 58.0,
+    "David Kaufer": 35.8,
+    "Intro": 6.2
+  },
+  "pace_wpm": {
+    "Kim Kredich": 236,
+    "David Kaufer": 259,
+    "Intro": 234
+  },
+  "fillers": {
+    "Kim Kredich": 19,
+    "David Kaufer": 6,
+    "Intro": 0
+  },
+  "top_keywords": [
+    {
+      "word": "it's",
+      "count": 23
+    },
+    {
+      "word": "like",
+      "count": 20
+    },
+    {
+      "word": "that's",
+      "count": 15
+    },
+    {
+      "word": "surf",
+      "count": 14
+    },
+    {
+      "word": "camp",
+      "count": 8
+    },
+    {
+      "word": "standing",
+      "count": 7
+    },
+    {
+      "word": "together",
+      "count": 6
+    },
+    {
+      "word": "great",
+      "count": 6
+    },
+    {
+      "word": "spectrum",
+      "count": 5
+    },
+    {
+      "word": "inclusive",
+      "count": 5
+    },
+    {
+      "word": "everyone",
+      "count": 5
+    },
+    {
+      "word": "always",
+      "count": 5
+    },
+    {
+      "word": "families",
+      "count": 5
+    },
+    {
+      "word": "start",
+      "count": 5
+    },
+    {
+      "word": "we've",
+      "count": 5
+    }
+  ]
+}
