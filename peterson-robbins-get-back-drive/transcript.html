@@ -1,13 +1,13 @@
 <html><head><meta charset="utf-8"><title>Transcript</title><style>body{font-family:sans-serif;max-width:780px;margin:2rem auto;line-height:1.6}p{margin:.4rem 0 1.1rem}strong{color:#111}
 #player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
     border-radius:12px; overflow:hidden; }
-#player iframe { width:100%; height:100%; border:0; }
+#player, #player iframe { width:100%; height:100%; border:0; }
 .cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
 .cue:hover { background:#eef2fb; }
 .cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
 
 </style></head><body><h1>Transcript</h1>
-<div id="player"></div>
+<div id="player"><iframe src="https://www.youtube.com/embed/TH8ih20mQdU?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
 <p class="cue" data-start="0.0" data-end="8.0"><strong>Tony Robbins</strong> [00:00:00–00:00:08]<br>When you look at people that are depressed, or even people just not where they wanna be, they have no compelling future. Anyone can deal with a difficult today if they have a compelling tomorrow.</p>
 <p class="cue" data-start="8.0" data-end="9.0"><strong>Jordan Peterson</strong> [00:00:08–00:00:09]<br>Yes.</p>
 <p class="cue" data-start="9.0" data-end="16.0"><strong>Tony Robbins</strong> [00:00:09–00:00:16]<br>A compelling future is everything. Because without that, you can have an aim, by the way, but if it's not compelling, it's not gonna do much.</p>
@@ -78,7 +78,7 @@
 <script>
 var player, cur = null, timer = null;
 function onYouTubeIframeAPIReady(){
-  player = new YT.Player('player', {videoId: 'TH8ih20mQdU',
+  player = new YT.Player('player', {videoId: 'TH8ih20mQdU', playerVars: {playsinline: 1, rel: 0},
     events: { onStateChange: function(e){
       if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
       else if (timer) { clearInterval(timer); }

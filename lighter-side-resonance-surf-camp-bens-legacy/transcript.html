@@ -1,13 +1,13 @@
 <html><head><meta charset="utf-8"><title>Transcript</title><style>body{font-family:sans-serif;max-width:780px;margin:2rem auto;line-height:1.6}p{margin:.4rem 0 1.1rem}strong{color:#111}
 #player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
     border-radius:12px; overflow:hidden; }
-#player iframe { width:100%; height:100%; border:0; }
+#player, #player iframe { width:100%; height:100%; border:0; }
 .cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
 .cue:hover { background:#eef2fb; }
 .cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
 
 </style></head><body><h1>Transcript</h1>
-<div id="player"></div>
+<div id="player"><iframe src="https://www.youtube.com/embed/GNV_0ZZrleo?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
 <p class="cue" data-start="4.0" data-end="37.0"><strong>Intro</strong> [00:00:04–00:00:37]<br>Welcome to The Lighter Side of the Spectrum, the podcast that celebrates the multiple hats we wear and the juggling acts we perform in life. Whether you're parenting kids and teens on the autism spectrum, navigating the ever-evolving healthcare industry, or building a more inclusive and impactful world, this is your space to find connection, inspiration, and growth. Together, we'll share stories, tackle challenges, and explore how innovation and inclusion create better outcomes for everyone. Because no matter the spectrum, there's always a lighter side. Now here's your host, David Koffer.</p>
 <p class="cue" data-start="37.0" data-end="59.0"><strong>David Kaufer</strong> [00:00:37–00:00:59]<br>Hi everyone, welcome to a special edition of The Lighter Side of the Spectrum. I am David Koffer. I'm with my friend Kim Kretich, and we're wrapping up a really amazing 3-day experience. It's an inclusive surf camp officially called the Resonance Surf Camp. But Kim, this was initially your brainchild a few years ago.</p>
 <p class="cue" data-start="59.0" data-end="121.0"><strong>Kim Kredich</strong> [00:00:59–00:02:01]<br>Yeah, we had started coming with our 3 sons, one of whom was diagnosed with autism back in 2001. So we started coming to IndoJack Surf School, and then we just kept coming and kept coming. And finally, we— I invited all these families for whom I advocated, kids of all abilities and their siblings, to make it a truly inclusive surf camp. And we did that 2016, '17, and '18. And then we, and then unfortunately our son Ben was killed by an impaired driver in August of 2023.<br>And so many people reached out to the IndoJack Surf Charity to donate in memory of Ben that we did another Surf camp. And, uh, and I think it sort of helped fund the entire season for Indo Jack's surf charities. And then the Peyton Project said, let's take—</p>
@@ -64,7 +64,7 @@
 <script>
 var player, cur = null, timer = null;
 function onYouTubeIframeAPIReady(){
-  player = new YT.Player('player', {videoId: 'GNV_0ZZrleo',
+  player = new YT.Player('player', {videoId: 'GNV_0ZZrleo', playerVars: {playsinline: 1, rel: 0},
     events: { onStateChange: function(e){
       if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
       else if (timer) { clearInterval(timer); }

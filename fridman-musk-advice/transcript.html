@@ -1,13 +1,13 @@
 <html><head><meta charset="utf-8"><title>Transcript</title><style>body{font-family:sans-serif;max-width:780px;margin:2rem auto;line-height:1.6}p{margin:.4rem 0 1.1rem}strong{color:#111}
 #player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
     border-radius:12px; overflow:hidden; }
-#player iframe { width:100%; height:100%; border:0; }
+#player, #player iframe { width:100%; height:100%; border:0; }
 .cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
 .cue:hover { background:#eef2fb; }
 .cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
 
 </style></head><body><h1>Transcript</h1>
-<div id="player"></div>
+<div id="player"><iframe src="https://www.youtube.com/embed/M-ZH3psUbfU?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
 <p class="cue" data-start="3.0" data-end="27.0"><strong>Lex Fridman</strong> [00:00:03–00:00:27]<br>You, like I mentioned, with SpaceX, you give a lot of people hope, and a lot of people look up to you. Millions of people look up to you. If we think about young people in high school, maybe in college, what advice would you give to them about if they wanna try to do something big in this world, they wanna really have a big positive impact, what advice would you give them about their career, maybe about life in general?</p>
 <p class="cue" data-start="29.0" data-end="99.0"><strong>Elon Musk</strong> [00:00:29–00:01:39]<br>Try to be useful. You do things that are useful to your fellow human beings, to the world. It's very hard to be useful. Very hard. You know, are you contributing more than you consume?<br>You know, like, like, can you try to have a positive net contribution? to society. I think that's the thing to aim for. Not to try to be sort of a leader for just for the sake of being a leader or whatever. A lot of the time, people who— a lot of the time, the people you want as leaders are the people who don't want to be leaders.<br>So, if you can live a useful life, that is a good life, a life worth having lived. Um, you know, and I, like I said, I would, I would encourage people to use the mental tools of physics and apply them broadly in life. They are the best tools.</p>
 <p class="cue" data-start="99.0" data-end="135.0"><strong>Lex Fridman</strong> [00:01:39–00:02:15]<br>When you think about education and self-education, what do you recommend? So there's the university, there is self-study. There is hands-on sort of finding a company or a place or a set of people that do the thing you're passionate about and joining them as early as possible. There's taking a road trip across Europe for a few years and writing some poetry. Which trajectory do you suggest? In terms of learning about how you can become useful? as you mentioned, how you can have the most positive impact?</p>
@@ -31,7 +31,7 @@
 <script>
 var player, cur = null, timer = null;
 function onYouTubeIframeAPIReady(){
-  player = new YT.Player('player', {videoId: 'M-ZH3psUbfU',
+  player = new YT.Player('player', {videoId: 'M-ZH3psUbfU', playerVars: {playsinline: 1, rel: 0},
     events: { onStateChange: function(e){
       if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
       else if (timer) { clearInterval(timer); }
