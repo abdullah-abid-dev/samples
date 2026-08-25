@@ -3,8 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='icon' href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f6fde'/%3E%3Ctext x='16' y='22' font-size='18' font-family='sans-serif' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
 <title>Abdullah Abid — About</title>
 <meta name="description" content="About Abdullah Abid — accurate transcription, subtitles and accessible web solutions.">
+<meta property="og:title" content="Abdullah Abid — About">
+<meta property="og:description" content="About Abdullah Abid — accurate transcription, subtitles and accessible web solutions.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
 <style>
 :root { color-scheme: light dark; --fg:#1a1a1a; --muted:#6b7280; --accent:#2f6fde;
         --accent2:#1f4fa8; --card:#ffffff; --bg:#f6f7f9; --border:#e5e7eb; }
@@ -155,11 +160,26 @@ footer a { color:var(--accent); }
   footer h4 { margin:0 0 .5rem; font-size:.95rem; }
   footer a { display:block; color:var(--accent); text-decoration:none; font-size:.88rem; margin:.25rem 0; }
   footer a:hover { text-decoration:underline; }
-  footer p.copy { color:var(--muted); font-size:.8rem; margin:0; }
+   footer p.copy { color:var(--muted); font-size:.8rem; margin:0; }
+   .skip { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+   .skip:focus { position:fixed; left:1rem; top:1rem; z-index:60; width:auto; height:auto; clip:auto;
+                 background:#fff; color:var(--accent); padding:.55rem .9rem; border-radius:9px;
+                 border:1px solid var(--border); text-decoration:none; font-weight:600; }
+   header.brand { box-shadow:0 1px 0 rgba(16,24,40,.06); }
+   [id] { scroll-margin-top: 86px; }
+   .sample-request textarea { width:100%; padding:.6rem .75rem; border:1px solid var(--border);
+                 border-radius:8px; font:inherit; box-sizing:border-box; resize:vertical; }
+   .sample-request input, .sample-request textarea { min-height:2.7rem; }
+   .sample-request .hint { color:var(--muted); font-size:.78rem; margin:.1rem 0 .5rem; }
+   .price-row { display:flex; justify-content:space-between; gap:1rem; padding:.45rem 0;
+                border-bottom:1px dashed var(--border); }
+   .price-row span:last-child { color:var(--accent2); font-weight:600; white-space:nowrap; text-align:right; }
+   .price-row span:first-child { color:var(--fg); }
 </style>
 </head>
 <body>
-<div class="wrap">
+<a class="skip" href="#main">Skip to content</a>
+<main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
     <nav class="topnav">
       <a href="./">Samples</a>
@@ -217,6 +237,7 @@ footer a { color:var(--accent); }
         <a href="">All samples</a>
         <a href="about.html">About</a>
         <a href="reviewed/">Reviewed transcriptions</a>
+        <a href="price_calculator.html">Price calculator</a>
         <a href="#faq">FAQ</a>
         <a href="#pricing">Pricing</a>
       </div>
@@ -229,6 +250,6 @@ footer a { color:var(--accent); }
     <p class="copy">Shared for review. No account required.</p>
   </footer>
 
-</div>
+</main>
 </body>
 </html>

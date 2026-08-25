@@ -3,8 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='icon' href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f6fde'/%3E%3Ctext x='16' y='22' font-size='18' font-family='sans-serif' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
 <title>Abdullah Abid — Transcription Samples</title>
 <meta name="description" content="Sample transcription and subtitle files by Abdullah Abid.">
+<meta property="og:title" content="Abdullah Abid — Transcription Samples">
+<meta property="og:description" content="Sample transcription and subtitle files by Abdullah Abid.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
 <style>
 :root { color-scheme: light dark; --fg:#1a1a1a; --muted:#6b7280; --accent:#2f6fde;
         --accent2:#1f4fa8; --card:#ffffff; --bg:#f6f7f9; --border:#e5e7eb; }
@@ -155,11 +160,26 @@ footer a { color:var(--accent); }
   footer h4 { margin:0 0 .5rem; font-size:.95rem; }
   footer a { display:block; color:var(--accent); text-decoration:none; font-size:.88rem; margin:.25rem 0; }
   footer a:hover { text-decoration:underline; }
-  footer p.copy { color:var(--muted); font-size:.8rem; margin:0; }
+   footer p.copy { color:var(--muted); font-size:.8rem; margin:0; }
+   .skip { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+   .skip:focus { position:fixed; left:1rem; top:1rem; z-index:60; width:auto; height:auto; clip:auto;
+                 background:#fff; color:var(--accent); padding:.55rem .9rem; border-radius:9px;
+                 border:1px solid var(--border); text-decoration:none; font-weight:600; }
+   header.brand { box-shadow:0 1px 0 rgba(16,24,40,.06); }
+   [id] { scroll-margin-top: 86px; }
+   .sample-request textarea { width:100%; padding:.6rem .75rem; border:1px solid var(--border);
+                 border-radius:8px; font:inherit; box-sizing:border-box; resize:vertical; }
+   .sample-request input, .sample-request textarea { min-height:2.7rem; }
+   .sample-request .hint { color:var(--muted); font-size:.78rem; margin:.1rem 0 .5rem; }
+   .price-row { display:flex; justify-content:space-between; gap:1rem; padding:.45rem 0;
+                border-bottom:1px dashed var(--border); }
+   .price-row span:last-child { color:var(--accent2); font-weight:600; white-space:nowrap; text-align:right; }
+   .price-row span:first-child { color:var(--fg); }
 </style>
 </head>
 <body>
-<div class="wrap">
+<a class="skip" href="#main">Skip to content</a>
+<main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
     <nav class="topnav">
       <a href="#samples">Samples</a>
@@ -202,6 +222,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
       <label>Email<input type="email" name="email" data-fs-field required></label>
       <label>YouTube video URL (optional)<input type="url" name="youtube_url" data-fs-field placeholder="https://www.youtube.com/watch?v=..."></label>
       <label>Your message (optional)<textarea name="message" data-fs-field rows="4" placeholder="Tell me about your project, turnaround, or any questions..."></textarea></label>
+      <p class="hint">Fields marked * are required. Your details are only used to send your sample.</p>
       <input type="hidden" name="sample" value="Abdullah Abid — portfolio">
       <input type="hidden" name="_subject" value="Free sample request">
       <input type="hidden" name="_gotcha">
@@ -226,15 +247,15 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
     <div class="grid">
     <a class="samp" href="lighter-side-s02e79-denise-allen/">
       <h3>&quot;Could Vision Be the Hidden Problem?&quot; With Denise Allen - Lighter Side of the Spectrum S02E79</h3>
-      <span>12 files</span>
+      <span>11 files</span>
     </a>
     <a class="samp" href="lighter-side-resonance-surf-camp-bens-legacy/">
       <h3>Riding Waves of Autism Inclusion: Honoring Ben’s Legacy at the Resonance Surf Camp</h3>
-      <span>21 files</span>
+      <span>20 files</span>
     </a>
     <a class="samp" href="lighter-side-ep3-elizabeth-zielinski/">
       <h3>The Lighter Side of the Spectrum Autism Podcast - Episode 3: Elizabeth Zielinski/Education Advocate</h3>
-      <span>10 files</span>
+      <span>9 files</span>
     </a>
     </div>
   </section>
@@ -262,37 +283,38 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
   </section>
   <section class='faq-wrap' id='pricing'>
     <h2 class='bio-title'>Transparent flat-rate pricing</h2>
-    <p class='extras-note'>One simple rate, based on the length of your audio or video and the
-       number of speakers &mdash; no confusing tiers. Bulk and recurring episodes are discounted,
-       and every project starts from a precise, speaker-labeled transcript.</p>
+    <p class='extras-note'>You pay a simple per-minute base rate for the length of your audio or
+       video, then add only the extras you want &mdash; each priced on its own. Bulk and recurring
+       work is discounted. Every project starts from a precise, speaker-labeled transcript.</p>
+
+    <h3 style='margin:1.2rem 0 .4rem;color:var(--accent2)'>Base rate (per audio minute)</h3>
     <div class='pkg-grid'>
-      <div class="pkg">
-        <h3>Per-minute base rate</h3>
-        <ul>
-          <li>Accurate, speaker-labeled transcript (TXT / DOCX)</li>
-          <li>SRT &amp; VTT subtitles included</li>
-          <li>Small per-speaker adjustment for diarization &amp; review</li>
-        </ul>
-        <p class="who">Best for one-off files and single episodes.</p>
-      </div>
-      <div class="pkg">
-        <h3>Add-on value packs</h3>
-        <ul>
-          <li>Show notes, timestamp chapters &amp; SEO blog post</li>
-          <li>Analytics report (talk-time, pace, keywords)</li>
-          <li>Shareable quote graphics</li>
-        </ul>
-        <p class="who">Mix and match only what you need &mdash; billed on top of the base rate.</p>
-      </div>
-      <div class="pkg">
-        <h3>Volume &amp; retainer</h3>
-        <ul>
-          <li>Discounts for bulk / recurring episodes</li>
-          <li>Priority turnaround available</li>
-          <li>Tailored quotes for ongoing shows</li>
-        </ul>
-        <p class="who">Best for podcast networks &amp; regular publishers.</p>
-      </div>
+      <div class="pkg"><h3>Standard &mdash; 5 days</h3><div class="price-row"><span>Rate</span><span>$1.20 / min</span></div><p class="who">Best value for planned work.</p></div>
+      <div class="pkg"><h3>Priority &mdash; 3 days</h3><div class="price-row"><span>Rate</span><span>$1.40 / min</span></div><p class="who">Most common turnaround.</p></div>
+      <div class="pkg"><h3>Express &mdash; 1 day</h3><div class="price-row"><span>Rate</span><span>$1.60 / min</span></div><p class="who">When you're in a hurry.</p></div>
+      <div class="pkg"><h3>Rush &mdash; 6&ndash;12h</h3><div class="price-row"><span>Rate</span><span>$1.80 / min</span></div><p class="who">Same-day delivery.</p></div>
+    </div>
+
+    <h3 style='margin:1.4rem 0 .4rem;color:var(--accent2)'>Add-ons (priced per feature)</h3>
+    <div style='background:var(--card);border:1px solid var(--border);border-radius:12px;padding:.4rem 1.1rem;margin-bottom:.8rem'>
+      <div class="price-row"><span>SRT &amp; VTT subtitles</span><span>Included</span></div>
+      <div class="price-row"><span>Speaker labels &amp; diarization (1&ndash;2 speakers)</span><span>Included</span></div>
+      <div class="price-row"><span>Extra speakers (3+)</span><span>+ $0.25 flat</span></div>
+      <div class="price-row"><span>Full verbatim (um/uh, false starts)</span><span>+ $0.25 / min</span></div>
+      <div class="price-row"><span>Timestamp chapters (curated)</span><span>+ $12</span></div>
+      <div class="price-row"><span>Show notes</span><span>+ $15</span></div>
+      <div class="price-row"><span>SEO blog post</span><span>+ $25</span></div>
+      <div class="price-row"><span>Analytics report (talk-time, pace, keywords)</span><span>+ $10</span></div>
+      <div class="price-row"><span>Quote graphics (set of 3)</span><span>+ $8</span></div>
+      <div class="price-row"><span>Proofreading / extra revision</span><span>from $10</span></div>
+      <div class="price-row"><span>Translation</span><span>from $0.10 / word</span></div>
+    </div>
+
+    <h3 style='margin:1.2rem 0 .4rem;color:var(--accent2)'>Volume discounts</h3>
+    <div class='pkg-grid'>
+      <div class="pkg"><h3>2,500+ min</h3><div class="price-row"><span>Discount</span><span>5%</span></div></div>
+      <div class="pkg"><h3>5,250+ min</h3><div class="price-row"><span>Discount</span><span>10%</span></div></div>
+      <div class="pkg"><h3>10,000+ min</h3><div class="price-row"><span>Enterprise</span><span>Custom</span></div></div>
     </div>
     <p class='extras-note'>Get an instant quote with the
        <a href='price_calculator.html'>transcription price calculator &rarr;</a>.</p>
@@ -309,6 +331,7 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
         <a href="">All samples</a>
         <a href="about.html">About</a>
         <a href="reviewed/">Reviewed transcriptions</a>
+        <a href="price_calculator.html">Price calculator</a>
         <a href="#faq">FAQ</a>
         <a href="#pricing">Pricing</a>
       </div>
@@ -321,6 +344,6 @@ Send me a quick "Hi" or, if there's a particular YouTube video you'd like to see
     <p class="copy">Shared for review. No account required.</p>
   </footer>
 
-</div>
+</main>
 </body>
 </html>
