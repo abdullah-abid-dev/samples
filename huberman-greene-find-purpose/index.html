@@ -202,9 +202,10 @@ footer a { color:var(--accent); }
                   padding:1.1rem 1.2rem; margin:1rem 0; }
     .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
     .transcript-embed { border:1px solid var(--border); border-radius:12px;
-        max-width:920px; margin:1rem 0; background:var(--card); padding:.4rem .7rem; }
+        max-width:920px; max-height:560px; overflow:auto; -webkit-overflow-scrolling:touch;
+        margin:1rem 0; background:var(--card); padding:.4rem .7rem; }
     .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
-    .transcript-embed #player { margin:.2rem 0 .6rem;
+    .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
         background:#000; border-radius:12px; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
@@ -236,16 +237,16 @@ footer a { color:var(--accent); }
     .pill.primary { border-color:var(--accent); }
     .psz { color:var(--muted); font-size:.74rem; }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
-    @media (max-width:560px){ .ba { grid-template-columns:1fr; } }
+    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { max-height:60vh; } }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="../?v=1787678033">Samples</a><a href="../podcasters.html?v=1787678033">For Podcasters</a><a href="../about.html?v=1787678033">About</a><a href="../reviewed/?v=1787678033">Reviewed</a><a href="../?v=1787678033#faq">FAQ</a><a href="../pricing.html?v=1787678033">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="../?v=1787679212">Samples</a><a href="../podcasters.html?v=1787679212">For Podcasters</a><a href="../about.html?v=1787679212">About</a><a href="../reviewed/?v=1787679212">Reviewed</a><a href="../?v=1787679212#faq">FAQ</a><a href="../pricing.html?v=1787679212">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
-  <a class="back" href="../?v=1787678033">&larr; All samples</a>
+  <a class="back" href="../?v=1787679212">&larr; All samples</a>
   <h2 class="title">How to Find Your Purpose | Robert Greene &amp; Dr. Andrew Huberman</h2>
   <div class="hero">
   <img src="https://i.ytimg.com/vi/WzrALzUnZ0g/hqdefault.jpg" alt="Video thumbnail">
@@ -290,9 +291,62 @@ footer a { color:var(--accent); }
 <p class="cue" data-start="853.0" data-end="856.0"><strong>Robert Greene</strong> [00:14:13–00:14:16]<br>And the actions are actions. They're of the body, ultimately.</p>
 <p class="cue" data-start="856.0" data-end="857.0"><strong>Dr. Andrew Huberman</strong> [00:14:16–00:14:17]<br>Right.</p>
 <p class="cue" data-start="857.0" data-end="895.0"><strong>Robert Greene</strong> [00:14:17–00:14:55]<br>One has to draw, speak, write books, et cetera, to transmute that excitement into something real. For people that are not as intellectually tuned, but maybe are kinesthetically tuned, for instance. I can only wonder what that's like. I'm not completely uncoordinated, but I don't think I have a kinesthetic attunement or frame of mind. But I, for instance, had a podcast listener mention that they think in feels, that they literally experience thought as sort of a patchwork of bodily sensations.</p>
-<p class="cue" data-start="895.0" data-end="896.0"><strong>Dr. Andrew Huberman</strong> [00:14:55–00:14:56]<br>Right. Right.</p></div>
+<p class="cue" data-start="895.0" data-end="896.0"><strong>Dr. Andrew Huberman</strong> [00:14:55–00:14:56]<br>Right. Right.</p>
+<p class="cue" data-start="896.0" data-end="927.0"><strong>Robert Greene</strong> [00:14:56–00:15:27]<br>And that thought for them is not of the stuff from the neck up, but only from the neck down, which to me was really intriguing. And so I only raise this because there have to be, as you point out, there's an infinite number of different sort of orientations based on our unique DNA and experience. But what do you think explains why these particular seeds, or as you point out, the direction that the grain runs in the brain. I mean, it's partially going to be nature, it's going to be DNA.</p>
+<p class="cue" data-start="927.0" data-end="928.0"><strong>Dr. Andrew Huberman</strong> [00:15:27–00:15:28]<br>For sure.</p>
+<p class="cue" data-start="928.0" data-end="962.0"><strong>Robert Greene</strong> [00:15:28–00:16:02]<br>But we're talking about this as if there's some exciting or awe-inspiring or delightful thing that captures us. Can it be the other way, too? Can it be one has a bad experience as a child in an intellectual environment and then decides, things of the body feel good, things of the mind, of intellect, feels bad. And does it matter whether or not we are drawn to our purpose by recognizing what we love or what we hate, or are both useful?</p>
+<p class="cue" data-start="962.0" data-end="1119.0"><strong>Dr. Andrew Huberman</strong> [00:16:02–00:18:39]<br>Oh, they're both very, very useful. A lot of intelligence is nonverbal. We think in terms of images. We're very much infected by the emotions of other people. So I know, for instance, My mother is very, very interested in history.<br>She's obsessed with history. And I probably absorbed her interest in history. I don't think there's a genetic gene for that interest, you know? So you're going to absorb things from your parents as well. So it's not all just genetic.<br>But yeah, what you hate will pay a big— will have a big thing. But the problem with doing that is if you go into a direction and you're in elementary school, etc., and they force you to learn math and you hate it, What it tends to do is it turns you off from learning in general. You think, I don't want to, I don't want to, I don't want to be disciplined. I don't want to go through anything because it's painful. It doesn't lead anywhere.<br>It's not me. It's frustration. It turns you off from learning in general. So it's really, really important for a child to have the love experience as early as possible so that they can know what they hate and why they hate it. Right.<br>And then they can rebel and they can go into that field as opposed to I hate learning. I hate discipline. I hate studying. I hate trying things over and over again. If you're kinesthetically oriented, and a part of me, I understand that because I love sports, is you have to practice.<br>It's going to take a lot. You're not going to instantly be good at something, right? And that's going to require a love of it, right? But if your math experience is, I hate learning shit, it's going to transfer to sports. You're going to hate discipline in general.<br>So it's very important for parents to let that child have at least glimmers of that love moment. I know for me, when I finished college and I entered the work world, I had to get a job. I got worked in journalism. I hated it. I hated working for other people.<br>I hated office politics. I hated all the egos. I hated the smarminess. I hated the lack of quality. It was all just about making money and getting things out there.<br>And then I worked in Hollywood. I hated Hollywood. I hated working in Hollywood. That formed me very much, made me go in the direction that I went in, but only from the basis of I knew that I wanted to be a writer. So that's very important that it's not just hate.<br>It can form you, but there also has to be that positive, deep emotional love of something that also is grounded in you in some way.</p>
+<p class="cue" data-start="1119.0" data-end="1131.0"><strong>Robert Greene</strong> [00:18:39–00:18:51]<br>What you just said really highlights the fact that energy and motivation can come from either pressure, desire for something, or desire to get away from something.</p>
+<p class="cue" data-start="1131.0" data-end="1131.0"><strong>Dr. Andrew Huberman</strong> [00:18:51–00:18:51]<br>Right.</p>
+<p class="cue" data-start="1131.0" data-end="1172.0"><strong>Robert Greene</strong> [00:18:51–00:19:32]<br>And earlier, when you were talking about how we are so much more engaged and driven towards things that stir us emotionally, and actually, we know, based on the neuroscience, as you know too, I'm sure, that Only by the release of certain neurochemicals in the brain and body would our brain have any reason to change, right? If you don't feel agitation and you can do everything that you're trying to do, of course your brain wouldn't change. Like, why would it, right? That agitation is a signature of the neurochemicals that are saying, hey, something's different now, right?<br>You might need to do something different, including rewire yourself, right? And that can come from positive or negative experiences.</p>
+<p class="cue" data-start="1172.0" data-end="1172.0"><strong>Dr. Andrew Huberman</strong> [00:19:32–00:19:32]<br>Of course.</p>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var player, cur = null, timer = null;
+function onYouTubeIframeAPIReady(){
+  player = new YT.Player('player', {videoId: 'WzrALzUnZ0g', playerVars: {playsinline: 1, rel: 0},
+    events: { onStateChange: function(e){
+      if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
+      else if (timer) { clearInterval(timer); }
+    }}});
+}
+function tick(){
+  if (!player || !player.getCurrentTime) return;
+  var t = player.getCurrentTime();
+  var cues = document.querySelectorAll('.cue'), act = null, i;
+  for (i = 0; i < cues.length; i++){
+    var s = parseFloat(cues[i].getAttribute('data-start'));
+    var e = parseFloat(cues[i].getAttribute('data-end'));
+    if (t >= s && t < e){ act = cues[i]; break; }
+  }
+  if (!act){
+    for (i = 0; i < cues.length; i++){
+      if (parseFloat(cues[i].getAttribute('data-start')) > t){ act = cues[i]; break; }
+    }
+  }
+  if (act !== cur){
+    if (cur) cur.classList.remove('active');
+    if (act) act.classList.add('active');
+    cur = act;
+    if (act) act.scrollIntoView({block:'center', behavior:'smooth'});
+  }
+}
+window.addEventListener('load', function(){
+  var cues = document.querySelectorAll('.cue');
+  cues.forEach(function(c){
+    c.addEventListener('click', function(){
+      var s = parseFloat(c.getAttribute('data-start'));
+      if (player && player.seekTo) player.seekTo(s, true);
+      if (player && player.playVideo) player.playVideo();
+    });
+  });
+});
+</script>
+
+</div>
     <div class="acts">
-      <a class="btn primary" href="transcript.html?v=1787678033" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
+      <a class="btn primary" href="transcript.html?v=1787679212" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
   </section>
 
@@ -353,29 +407,29 @@ It can be very confusing and very overwhelming. When you find that sense of purp
     <h3 class="channel-h">Downloadable deliverables</h3>
     <p class="extras-note">Grab the finished files in whatever format you need &mdash; or download everything at once.</p>
     <div class="dl-list">
-<a class="pill" href="analytics.json?v=1787678033" download>Analytics Data (JSON)<span class="psz">1.2 KB</span></a>
-<a class="pill" href="analytics.md?v=1787678033" download>Analytics Report<span class="psz">617 B</span></a>
-<a class="pill" href="blog.md?v=1787678033" download>Blog Post<span class="psz">5.0 KB</span></a>
-<a class="pill" href="chapters.txt?v=1787678033" download>Timestamp Chapters<span class="psz">651 B</span></a>
-<a class="pill" href="quote-1.png?v=1787678033" download>Quote Graphic<span class="psz">58.7 KB</span></a>
-<a class="pill" href="quote-2.png?v=1787678033" download>Quote Graphic<span class="psz">68.5 KB</span></a>
-<a class="pill" href="quote-3.png?v=1787678033" download>Quote Graphic<span class="psz">54.6 KB</span></a>
-<a class="pill" href="quotes.json?v=1787678033" download>Quote Graphics (JSON)<span class="psz">544 B</span></a>
-<a class="pill" href="show-notes.md?v=1787678033" download>Show Notes<span class="psz">3.5 KB</span></a>
-<a class="pill" href="summary.txt?v=1787678033" download>Summary<span class="psz">1.1 KB</span></a>
-<a class="pill" href="topics.txt?v=1787678033" download>Topics<span class="psz">286 B</span></a>
-<a class="pill" href="transcript.doc?v=1787678033" download>Transcript (DOC)<span class="psz">49.0 KB</span></a>
-<a class="pill" href="transcript.docx?v=1787678033" download>Transcript (DOCX)<span class="psz">12.7 KB</span></a>
-<a class="pill" href="transcript.html?v=1787678033" download>HTML Transcript<span class="psz">21.0 KB</span></a>
-<a class="pill" href="transcript.pdf?v=1787678033" download>Transcript (PDF)<span class="psz">58.5 KB</span></a>
-<a class="pill" href="transcript.rtf?v=1787678033" download>Transcript (RTF)<span class="psz">29.1 KB</span></a>
-<a class="pill" href="transcript.srt?v=1787678033" download>SRT Subtitles<span class="psz">32.4 KB</span></a>
-<a class="pill" href="transcript.txt?v=1787678033" download>Transcript (TXT)<span class="psz">19.9 KB</span></a>
-<a class="pill" href="transcript.vtt?v=1787678033" download>VTT Subtitles<span class="psz">30.9 KB</span></a>
-<a class="pill" href="transcript.xml?v=1787678033" download>XML Transcript<span class="psz">21.7 KB</span></a>
+<a class="pill" href="analytics.json?v=1787679212" download>Analytics Data (JSON)<span class="psz">1.2 KB</span></a>
+<a class="pill" href="analytics.md?v=1787679212" download>Analytics Report<span class="psz">617 B</span></a>
+<a class="pill" href="blog.md?v=1787679212" download>Blog Post<span class="psz">5.0 KB</span></a>
+<a class="pill" href="chapters.txt?v=1787679212" download>Timestamp Chapters<span class="psz">651 B</span></a>
+<a class="pill" href="quote-1.png?v=1787679212" download>Quote Graphic<span class="psz">58.7 KB</span></a>
+<a class="pill" href="quote-2.png?v=1787679212" download>Quote Graphic<span class="psz">68.5 KB</span></a>
+<a class="pill" href="quote-3.png?v=1787679212" download>Quote Graphic<span class="psz">54.6 KB</span></a>
+<a class="pill" href="quotes.json?v=1787679212" download>Quote Graphics (JSON)<span class="psz">544 B</span></a>
+<a class="pill" href="show-notes.md?v=1787679212" download>Show Notes<span class="psz">3.5 KB</span></a>
+<a class="pill" href="summary.txt?v=1787679212" download>Summary<span class="psz">1.1 KB</span></a>
+<a class="pill" href="topics.txt?v=1787679212" download>Topics<span class="psz">286 B</span></a>
+<a class="pill" href="transcript.doc?v=1787679212" download>Transcript (DOC)<span class="psz">49.0 KB</span></a>
+<a class="pill" href="transcript.docx?v=1787679212" download>Transcript (DOCX)<span class="psz">12.7 KB</span></a>
+<a class="pill" href="transcript.html?v=1787679212" download>HTML Transcript<span class="psz">21.0 KB</span></a>
+<a class="pill" href="transcript.pdf?v=1787679212" download>Transcript (PDF)<span class="psz">58.5 KB</span></a>
+<a class="pill" href="transcript.rtf?v=1787679212" download>Transcript (RTF)<span class="psz">29.1 KB</span></a>
+<a class="pill" href="transcript.srt?v=1787679212" download>SRT Subtitles<span class="psz">32.4 KB</span></a>
+<a class="pill" href="transcript.txt?v=1787679212" download>Transcript (TXT)<span class="psz">19.9 KB</span></a>
+<a class="pill" href="transcript.vtt?v=1787679212" download>VTT Subtitles<span class="psz">30.9 KB</span></a>
+<a class="pill" href="transcript.xml?v=1787679212" download>XML Transcript<span class="psz">21.7 KB</span></a>
     </div>
     <div class="acts">
-      <a class="btn primary" href="deliverables.zip?v=1787678033" download>Download all deliverables &darr;</a>
+      <a class="btn primary" href="deliverables.zip?v=1787679212" download>Download all deliverables &darr;</a>
     </div>
   </section>
 
@@ -392,7 +446,7 @@ It can be very confusing and very overwhelming. When you find that sense of purp
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787678033" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787679212" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -433,18 +487,18 @@ Send me a video or audio you'd like me to test, and I'll return a finished sampl
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="../?v=1787678033">All samples</a>
-        <a href="../podcasters.html?v=1787678033">For Podcasters</a>
-        <a href="../about.html?v=1787678033">About</a>
-        <a href="../reviewed/?v=1787678033">Reviewed transcriptions</a>
-        <a href="../price_calculator.html?v=1787678033">Price calculator</a>
-        <a href="../?v=1787678033#faq">FAQ</a>
-        <a href="../pricing.html?v=1787678033">Pricing</a>
+        <a href="../?v=1787679212">All samples</a>
+        <a href="../podcasters.html?v=1787679212">For Podcasters</a>
+        <a href="../about.html?v=1787679212">About</a>
+        <a href="../reviewed/?v=1787679212">Reviewed transcriptions</a>
+        <a href="../price_calculator.html?v=1787679212">Price calculator</a>
+        <a href="../?v=1787679212#faq">FAQ</a>
+        <a href="../pricing.html?v=1787679212">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="../Abdullah_Abid_Resume.pdf?v=1787678033" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="../Abdullah_Abid_Resume.pdf?v=1787679212" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>
