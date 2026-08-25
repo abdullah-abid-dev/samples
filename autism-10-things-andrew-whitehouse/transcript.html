@@ -1,3 +1,56 @@
-<html><head><meta charset="utf-8"><title>Transcript</title><style>body{font-family:sans-serif;max-width:780px;margin:2rem auto;line-height:1.6}p{margin:.4rem 0 1.1rem}strong{color:#111}</style></head><body><h1>Transcript</h1>
-<p><strong>Professor Andrew Whitehouse</strong> [00:00:09–00:03:23]<br>Autism stems from differences in biology that have an influence on brain development. Autism is a lifelong condition. That doesn't mean that children can't make significant improvements in their language and social abilities over time. They can, just like all children. But children don't just grow out of autism.<br>Autism can affect a person's ability to understand subtle emotional cues, such as tone of language or body language. But when emotions are communicated more directly, there's a wealth of evidence showing that children and adults on the spectrum are even more likely to feel empathy for others. Social interaction difficulties and anxiety can sometimes mean that making friends is a struggle. But this should never be confused with a lack of desire to have friendships.<br>The vast majority of children and adults on the spectrum do like to socialise, and sometimes that just means socialising in a different way. It is true that around 10% of autistic people have skills such as maths or drawing that are of extraordinary ability, but this is really just a small proportion of the full numbers of individuals diagnosed with autism. It's best to look past this caricature and see the extraordinary human that lies beyond the diagnosis. 100%, categorically, no.<br>There have been literally thousands of studies in this area, and all of them have found no association between vaccinations and autism. The assumption that people on the spectrum don't have a sense of humour is Absolutely false. Probably the funniest conversations I've ever had have been with autistic kids and adults, and they absolutely run rings around me in telling jokes. Don't be fooled by the news stories that you may see. There is no evidence that individuals on the spectrum are more violent than the rest of the population.<br>None. Many people on the spectrum are in wonderful, loving romantic relationships. Just like the rest of the community, not every person on the spectrum chooses to be in a romantic relationship, but that is not the same as not being capable of doing so. Many people on the spectrum have intellectual disabilities, and also many do not. Just because someone may have communication difficulties doesn't mean that they also have intellectual disabilities.<br>What it means is that we have to assess intelligence in a different way, a way that doesn't rely so heavy on communication skills. Not every child will be great at maths. Not every child will repeat back words. Not every child will have difficulty speaking, and not every child will have hand mannerisms. Every child and adult on the autism spectrum is different.<br>Full of their own unique talents, personalities, and yes, challenges. The label autism doesn't mean one thing. What it is is a gateway to understanding a whole new way of thinking about the world, and those children and adults are to be cherished for that fact.</p>
+<html><head><meta charset="utf-8"><title>Transcript</title><style>body{font-family:sans-serif;max-width:780px;margin:2rem auto;line-height:1.6}p{margin:.4rem 0 1.1rem}strong{color:#111}
+#player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
+    border-radius:12px; overflow:hidden; }
+#player iframe { width:100%; height:100%; border:0; }
+.cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
+.cue:hover { background:#eef2fb; }
+.cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
+
+</style></head><body><h1>Transcript</h1>
+<div id="player"></div>
+<p class="cue" data-start="9.0" data-end="203.0"><strong>Professor Andrew Whitehouse</strong> [00:00:09–00:03:23]<br>Autism stems from differences in biology that have an influence on brain development. Autism is a lifelong condition. That doesn't mean that children can't make significant improvements in their language and social abilities over time. They can, just like all children. But children don't just grow out of autism.<br>Autism can affect a person's ability to understand subtle emotional cues, such as tone of language or body language. But when emotions are communicated more directly, there's a wealth of evidence showing that children and adults on the spectrum are even more likely to feel empathy for others. Social interaction difficulties and anxiety can sometimes mean that making friends is a struggle. But this should never be confused with a lack of desire to have friendships.<br>The vast majority of children and adults on the spectrum do like to socialise, and sometimes that just means socialising in a different way. It is true that around 10% of autistic people have skills such as maths or drawing that are of extraordinary ability, but this is really just a small proportion of the full numbers of individuals diagnosed with autism. It's best to look past this caricature and see the extraordinary human that lies beyond the diagnosis. 100%, categorically, no.<br>There have been literally thousands of studies in this area, and all of them have found no association between vaccinations and autism. The assumption that people on the spectrum don't have a sense of humour is Absolutely false. Probably the funniest conversations I've ever had have been with autistic kids and adults, and they absolutely run rings around me in telling jokes. Don't be fooled by the news stories that you may see. There is no evidence that individuals on the spectrum are more violent than the rest of the population.<br>None. Many people on the spectrum are in wonderful, loving romantic relationships. Just like the rest of the community, not every person on the spectrum chooses to be in a romantic relationship, but that is not the same as not being capable of doing so. Many people on the spectrum have intellectual disabilities, and also many do not. Just because someone may have communication difficulties doesn't mean that they also have intellectual disabilities.<br>What it means is that we have to assess intelligence in a different way, a way that doesn't rely so heavy on communication skills. Not every child will be great at maths. Not every child will repeat back words. Not every child will have difficulty speaking, and not every child will have hand mannerisms. Every child and adult on the autism spectrum is different.<br>Full of their own unique talents, personalities, and yes, challenges. The label autism doesn't mean one thing. What it is is a gateway to understanding a whole new way of thinking about the world, and those children and adults are to be cherished for that fact.</p>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var player, cur = null, timer = null;
+function onYouTubeIframeAPIReady(){
+  player = new YT.Player('player', {videoId: 'DZXjJVrm1Jw',
+    events: { onStateChange: function(e){
+      if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
+      else if (timer) { clearInterval(timer); }
+    }}});
+}
+function tick(){
+  if (!player || !player.getCurrentTime) return;
+  var t = player.getCurrentTime();
+  var cues = document.querySelectorAll('.cue'), act = null, i;
+  for (i = 0; i < cues.length; i++){
+    var s = parseFloat(cues[i].getAttribute('data-start'));
+    var e = parseFloat(cues[i].getAttribute('data-end'));
+    if (t >= s && t < e){ act = cues[i]; break; }
+  }
+  if (!act){
+    for (i = 0; i < cues.length; i++){
+      if (parseFloat(cues[i].getAttribute('data-start')) > t){ act = cues[i]; break; }
+    }
+  }
+  if (act !== cur){
+    if (cur) cur.classList.remove('active');
+    if (act) act.classList.add('active');
+    cur = act;
+    if (act) act.scrollIntoView({block:'center', behavior:'smooth'});
+  }
+}
+window.addEventListener('load', function(){
+  var cues = document.querySelectorAll('.cue');
+  cues.forEach(function(c){
+    c.addEventListener('click', function(){
+      var s = parseFloat(c.getAttribute('data-start'));
+      if (player && player.seekTo) player.seekTo(s, true);
+      if (player && player.playVideo) player.playVideo();
+    });
+  });
+});
+</script>
+
 </body></html>
