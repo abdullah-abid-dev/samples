@@ -204,6 +204,13 @@ footer a { color:var(--accent); }
     .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
         max-width:920px; height:72vh; margin:1rem 0; background:var(--card); }
     .transcript-embed iframe { width:100%; height:100%; border:0; }
+    .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
+    .player-grid > div { height:64vh; }
+    .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
+        background:#000; }
+    .video-embed iframe { width:100%; height:100%; border:0; }
+    @media (max-width:760px){ .player-grid { grid-template-columns:1fr; }
+        .player-grid > div { height:58vh; } }
     .feat { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:.9rem 1.1rem; }
     .feat h4 { margin:0 0 .3rem; color:var(--accent2); }
     .feat p { margin:0; color:var(--muted); font-size:.92rem; line-height:1.5; }
@@ -242,15 +249,17 @@ footer a { color:var(--accent); }
   <img src="https://i.ytimg.com/vi/GNV_0ZZrleo/hqdefault.jpg" alt="Video thumbnail">
   <div class="meta-line">Original video by <a href="https://www.youtube.com/@kauferinsights" target="_blank" rel="noopener">Kaufer Insights</a> &middot; <a href="https://www.youtube.com/watch?v=GNV_0ZZrleo" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
   </div>
-<div class="transcript-embed"><iframe src="transcript.html" title="Searchable transcript"></iframe></div>
   <p class="desc">A finished, searchable transcript sample from Kaufer Insights &mdash; explore the deliverable, then grab the files you need.</p>
 
   <section>
-    <h3 class="channel-h">Explore the finished transcript</h3>
-    <p class="extras-note">This is the actual deliverable &mdash; a clean, searchable transcript with
-       speaker labels and timestamps. Scroll it, search it, or open it full screen.</p>
+    <h3 class="channel-h">Watch &amp; read along</h3>
+    <p class="extras-note">Play the episode and follow the transcript in real time.</p>
+    <div class="player-grid">
+      <div class="video-embed"><iframe src="https://www.youtube.com/embed/GNV_0ZZrleo" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="transcript-embed"><iframe src="transcript.html" title="Searchable transcript"></iframe></div>
+    </div>
     <div class="acts">
-      <a class="btn primary" href="transcript.html" target="_blank" rel="noopener">Read the full searchable transcript &rarr;</a>
+      <a class="btn primary" href="transcript.html" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
   </section>
 
