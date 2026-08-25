@@ -207,14 +207,6 @@ footer a { color:var(--accent); }
     .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
     .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
         background:#000; border-radius:12px; }
-    /* Mobile-only compact teaser: a few cues + link, so the video + transcript
-       don't dominate the whole screen. Hidden on desktop (the box is used there). */
-    .transcript-teaser { display:none; max-width:920px; margin:1rem 0;
-        background:var(--card); border:1px solid var(--border); border-radius:12px;
-        padding:.4rem .7rem; }
-    .transcript-teaser #player { margin:.2rem 0 .6rem; background:#000; border-radius:12px; }
-    .transcript-teaser .more { margin:.6rem 0 .2rem; }
-    .transcript-teaser .more a { color:var(--accent); font-weight:600; text-decoration:none; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -247,11 +239,10 @@ footer a { color:var(--accent); }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
     @media (max-width:768px){
       .ba { grid-template-columns:1fr; }
-      /* On phones/tablets, hide the desktop scroll box and show the short teaser
-         so the video + a few cues don't fill the whole screen. */
-      .transcript-embed { display:none; }
-      .transcript-teaser { display:block; }
-      .transcript-teaser #player { position:static; top:auto; }
+      /* On phones/tablets, keep the transcript as a compact, scrollable box
+         (video not pinned so it scrolls with the text inside the box). */
+      .transcript-embed { max-height:62vh; overflow:auto; -webkit-overflow-scrolling:touch; }
+      .transcript-embed #player { position:static; top:auto; }
     }
 </style>
 </head>
@@ -259,9 +250,9 @@ footer a { color:var(--accent); }
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="../?v=1787680150">Samples</a><a href="../podcasters.html?v=1787680150">For Podcasters</a><a href="../about.html?v=1787680150">About</a><a href="../reviewed/?v=1787680150">Reviewed</a><a href="../?v=1787680150#faq">FAQ</a><a href="../pricing.html?v=1787680150">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="../?v=1787680349">Samples</a><a href="../podcasters.html?v=1787680349">For Podcasters</a><a href="../about.html?v=1787680349">About</a><a href="../reviewed/?v=1787680349">Reviewed</a><a href="../?v=1787680349#faq">FAQ</a><a href="../pricing.html?v=1787680349">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
-  <a class="back" href="../?v=1787680150">&larr; All samples</a>
+  <a class="back" href="../?v=1787680349">&larr; All samples</a>
   <h2 class="title">&quot;Could Vision Be the Hidden Problem?&quot; With Denise Allen - Lighter Side of the Spectrum S02E79</h2>
   <div class="hero">
   <img src="https://i.ytimg.com/vi/_iQycDQNp1k/hqdefault.jpg" alt="Video thumbnail">
@@ -642,42 +633,9 @@ window.addEventListener('load', function(){
 });
 </script>
 
-</div><div class="transcript-teaser"><style>
-#player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
-    border-radius:12px; overflow:hidden; }
-#player, #player iframe { width:100%; height:100%; border:0; }
-.cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
-.cue:hover { background:#eef2fb; }
-.cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
-</style>
-<div id="player"><iframe src="https://www.youtube.com/embed/_iQycDQNp1k?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
-<p class="cue" data-start="3.0" data-end="36.0"><strong>Plot/Intro</strong> [00:00:03–00:00:36]<br>Welcome to The Lighter Side of the Spectrum, the podcast that celebrates the multiple hats we wear and the juggling acts we perform in life. Whether you're parenting kids and teens on the autism spectrum, navigating the ever-evolving healthcare industry, or building a more inclusive and impactful world, this is your space to find connection, inspiration, and growth. Together, we'll share stories, tackle challenges, and explore how innovation and inclusion create better outcomes for everyone. Because no matter the spectrum, there's always a lighter side. Now here's your host, David Kaufer.</p>
-<p class="cue" data-start="36.0" data-end="49.0"><strong>David Kaufer</strong> [00:00:36–00:00:49]<br>Hello again, everybody. This is David Kaufer. Welcome back to The Lighter Side of the Spectrum, where we explore the people, ideas, and stone—</p>
-<p class="cue" data-start="49.0" data-end="49.0"><strong>David and Stone Kaufer</strong> [00:00:49–00:00:49]<br>Hi. Hi. How are you? Good, good. Happy, happy. Okay, okay.</p>
-<p class="cue" data-start="49.0" data-end="153.0"><strong>David Kaufer</strong> [00:00:49–00:02:33]<br>And conversations that help us better understand autism communication and what it really means to support human potential. You know, one of the things I've certainly learned over the last few years is that so many of the assumptions that we make about people turn out to be wrong. We've learned that what Looks like a lack of understanding may actually be a motor planning challenge. We've also learned that what looks like a behavioral issue may be sensory overload. What appears to be an inability to communicate may simply be a person who hasn't been given the right way to communicate.<br>Today's conversation is going to ask us to consider another assumption. What if vision isn't just about seeing clearly? You know, most of us think of vision as reading, reading the eye chart at your doctor's office, trying to see if you have 20/20 vision. You know, if you're good, you're good to go. But what if your eyes are healthy, yet your brain isn't using them together in the way it's meant to be?<br>What if the issue isn't how well you see, but how you see? And that's the fascinating world we're going to step into today. And my guest today is Denise Allen, host of Healing Our Sight podcast and a passionate advocate for helping people better understand binocular vision and the remarkable adaptability of the human brain. Denise spent most of her life with strabomide— strabomys— I knew I was gonna screw it up. Well, help me, Denise.</p>
-<p class="cue" data-start="153.0" data-end="154.0"><strong>Denise Allen</strong> [00:02:33–00:02:34]<br>Strabismus.</p>
-<p class="cue" data-start="154.0" data-end="215.0"><strong>David Kaufer</strong> [00:02:34–00:03:35]<br>Strabismus. I even practiced it. And without stereoscopic or 3D vision, like many people, She assumed that was simply the way her brain worked. But as an adult, she discovered that our visual system may be far more adaptable than many of us realize. And that journey led her into the worlds of vision therapy, neuroplasticity, developmental optometry, and neuroscience.<br>Along the way, she's had conversations with leading experts while helping parents, patients, and professionals better understand conditions. And related to vision-related challenges. So this isn't about autism specifically, but we certainly see it within autism. And I think it's really going to be a fascinating conversation because vision, sensory processing, motor planning, communication, they're all parts of an incredibly complex system. So Denise, with all that being said, thanks for joining me today.<br>I'm really looking forward to this conversation.</p>
-<p class="cue" data-start="215.0" data-end="217.0"><strong>Denise Allen</strong> [00:03:35–00:03:37]<br>Thanks for having me.</p>
-<p class="cue" data-start="217.0" data-end="226.0"><strong>David Kaufer</strong> [00:03:37–00:03:46]<br>Yeah. So why don't you tell us a little bit about your experience? What, what, tell us about what is it like to grow up with this condition?</p>
-<p class="cue" data-start="226.0" data-end="233.0"><strong>Denise Allen</strong> [00:03:46–00:03:53]<br>Well, you know, I didn't know anything different, so I thought I was pretty normal.</p>
-<p class="cue" data-start="234.0" data-end="234.0"><strong>David Kaufer</strong> [00:03:54–00:03:54]<br>Okay.</p>
-<p class="cue" data-start="235.0" data-end="257.0"><strong>Denise Allen</strong> [00:03:55–00:04:17]<br>But I did have struggles with coordination, being very clumsy, not very good at catching Or, you know, balls or anything, any moving object coming at me was difficult to gauge where it was and catch it. So I was really bad at ballgames. So I was usually chosen last, you know, that kind of thing.</p>
-<p class="cue" data-start="257.0" data-end="258.0"><strong>David Kaufer</strong> [00:04:17–00:04:18]<br>Right.</p>
-<p class="cue" data-start="258.0" data-end="268.0"><strong>Denise Allen</strong> [00:04:18–00:04:28]<br>That posed a problem, of course. My knees were always scraped up, you know, I fell down. I just thought I was a clumsy kid, you know.</p>
-<p class="cue" data-start="268.0" data-end="274.0"><strong>David Kaufer</strong> [00:04:28–00:04:34]<br>Yeah. So you just thought you were clumsy. I mean, right? Like, You hear about that?</p>
-<p class="cue" data-start="274.0" data-end="313.0"><strong>Denise Allen</strong> [00:04:34–00:05:13]<br>So my mom put me in dance class. That was supposed to help. Didn't, didn't love it that much. No, no, it did help. And then I actually did gymnastics in junior high, which I shouldn't have probably been able to do very well. I was too tall for it. Wow. But yeah, that's challenging. It doesn't stop someone from doing something that they want to do. My brother, who had the same condition, only his showed up when he was a baby, he became a basketball player. He played college basketball, which also shouldn't really be very easy. But he was passionate about basketball.</p>
-<p class="cue" data-start="313.0" data-end="314.0"><strong>David Kaufer</strong> [00:05:13–00:05:14]<br>Wow.</p>
-<p class="cue" data-start="314.0" data-end="323.0"><strong>Denise Allen</strong> [00:05:14–00:05:23]<br>So he overcame that. So I think we don't have to discount anything, right? But the thing that I found is that it can be—</p>
-<p class="cue" data-start="325.0" data-end="346.0"><strong>David Kaufer</strong> [00:05:25–00:05:46]<br>That's just— yep, Stone. Stone's very excited today. So again, he's making, making lots of appearances. He's getting, getting ready to head out with his brother. But that's amazing though. I mean, that he was able to play basketball, because again, why you— I mean, we'll back up a little bit and maybe kind of talk about, um, strabismus. Is that— did I get it better?</p>
-<p class="cue" data-start="346.0" data-end="347.0"><strong>Denise Allen</strong> [00:05:46–00:05:47]<br>Yeah.</p>
-<p class="cue" data-start="347.0" data-end="356.0"><strong>David Kaufer</strong> [00:05:47–00:05:56]<br>Okay. Um, What is it, you know, and how is it defined and how does it impact people?</p>
-<p class="cue" data-start="356.0" data-end="379.0"><strong>Denise Allen</strong> [00:05:56–00:06:19]<br>Yeah, so strabismus is when the eyes don't focus together. And the easy explanation is just that they're fighting with each other all the time. And in order to compensate for that, one of the eyes will shut off. And when you look at someone, Often that eye is pointing in another direction.</p>
-<p class="cue" data-start="380.0" data-end="380.0"><strong>David Kaufer</strong> [00:06:20–00:06:20]<br>Okay.</p>
-<p class="cue" data-start="380.0" data-end="397.0"><strong>Denise Allen</strong> [00:06:20–00:06:37]<br>Because it's getting out of the way of the other eye that's the strong eye. So you'll see kids with an eye turn, right? Crossed eyes, however you want to term it, right? It can be turning in or it can be turning out. People will call it a lazy eye.</p>
-<p class="cue" data-start="397.0" data-end="401.0"><strong>David Kaufer</strong> [00:06:37–00:06:41]<br>Yeah, you hear about that. Okay.</p>
-<p class="cue" data-start="401.0" data-end="423.0"><strong>Denise Allen</strong> [00:06:41–00:07:03]<br>So that's kind of And so it's like 5% of the population that have an actual strabismus like this, of the normal population. If you're looking at the autistic spectrum, then it's totally different. And that's just strabismus. That's not other vision problems like inability to track or—</p><p class="more"><a href="transcript.html?v=1787680150">Read the full transcript &rarr;</a></p></div>
+</div>
     <div class="acts">
-      <a class="btn primary" href="transcript.html?v=1787680150" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
+      <a class="btn primary" href="transcript.html?v=1787680349" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
   </section>
 
@@ -771,29 +729,29 @@ Welcome to The Lighter Side of the Spectrum, the podcast that celebrates the mul
     <h3 class="channel-h">Downloadable deliverables</h3>
     <p class="extras-note">Grab the finished files in whatever format you need &mdash; or download everything at once.</p>
     <div class="dl-list">
-<a class="pill" href="analytics.json?v=1787680150" download>Analytics Data (JSON)<span class="psz">1.3 KB</span></a>
-<a class="pill" href="analytics.md?v=1787680150" download>Analytics Report<span class="psz">676 B</span></a>
-<a class="pill" href="blog.md?v=1787680150" download>Blog Post<span class="psz">5.2 KB</span></a>
-<a class="pill" href="chapters.txt?v=1787680150" download>Timestamp Chapters<span class="psz">433 B</span></a>
-<a class="pill" href="quote-1.png?v=1787680150" download>Quote Graphic<span class="psz">108.0 KB</span></a>
-<a class="pill" href="quote-2.png?v=1787680150" download>Quote Graphic<span class="psz">105.5 KB</span></a>
-<a class="pill" href="quote-3.png?v=1787680150" download>Quote Graphic<span class="psz">86.3 KB</span></a>
-<a class="pill" href="quotes.json?v=1787680150" download>Quote Graphics (JSON)<span class="psz">1.1 KB</span></a>
-<a class="pill" href="show-notes.md?v=1787680150" download>Show Notes<span class="psz">3.0 KB</span></a>
-<a class="pill" href="summary.txt?v=1787680150" download>Summary<span class="psz">4.1 KB</span></a>
-<a class="pill" href="topics.txt?v=1787680150" download>Topics<span class="psz">816 B</span></a>
-<a class="pill" href="transcript.doc?v=1787680150" download>Transcript (DOC)<span class="psz">149.0 KB</span></a>
-<a class="pill" href="transcript.docx?v=1787680150" download>Transcript (DOCX)<span class="psz">29.8 KB</span></a>
-<a class="pill" href="transcript.html?v=1787680150" download>HTML Transcript<span class="psz">75.0 KB</span></a>
-<a class="pill" href="transcript.pdf?v=1787680150" download>Transcript (PDF)<span class="psz">163.4 KB</span></a>
-<a class="pill" href="transcript.rtf?v=1787680150" download>Transcript (RTF)<span class="psz">128.7 KB</span></a>
-<a class="pill" href="transcript.srt?v=1787680150" download>SRT Subtitles<span class="psz">65.3 KB</span></a>
-<a class="pill" href="transcript.txt?v=1787680150" download>Transcript (TXT)<span class="psz">66.9 KB</span></a>
-<a class="pill" href="transcript.vtt?v=1787680150" download>VTT Subtitles<span class="psz">64.3 KB</span></a>
-<a class="pill" href="transcript.xml?v=1787680150" download>XML Transcript<span class="psz">83.7 KB</span></a>
+<a class="pill" href="analytics.json?v=1787680349" download>Analytics Data (JSON)<span class="psz">1.3 KB</span></a>
+<a class="pill" href="analytics.md?v=1787680349" download>Analytics Report<span class="psz">676 B</span></a>
+<a class="pill" href="blog.md?v=1787680349" download>Blog Post<span class="psz">5.2 KB</span></a>
+<a class="pill" href="chapters.txt?v=1787680349" download>Timestamp Chapters<span class="psz">433 B</span></a>
+<a class="pill" href="quote-1.png?v=1787680349" download>Quote Graphic<span class="psz">108.0 KB</span></a>
+<a class="pill" href="quote-2.png?v=1787680349" download>Quote Graphic<span class="psz">105.5 KB</span></a>
+<a class="pill" href="quote-3.png?v=1787680349" download>Quote Graphic<span class="psz">86.3 KB</span></a>
+<a class="pill" href="quotes.json?v=1787680349" download>Quote Graphics (JSON)<span class="psz">1.1 KB</span></a>
+<a class="pill" href="show-notes.md?v=1787680349" download>Show Notes<span class="psz">3.0 KB</span></a>
+<a class="pill" href="summary.txt?v=1787680349" download>Summary<span class="psz">4.1 KB</span></a>
+<a class="pill" href="topics.txt?v=1787680349" download>Topics<span class="psz">816 B</span></a>
+<a class="pill" href="transcript.doc?v=1787680349" download>Transcript (DOC)<span class="psz">149.0 KB</span></a>
+<a class="pill" href="transcript.docx?v=1787680349" download>Transcript (DOCX)<span class="psz">29.8 KB</span></a>
+<a class="pill" href="transcript.html?v=1787680349" download>HTML Transcript<span class="psz">75.0 KB</span></a>
+<a class="pill" href="transcript.pdf?v=1787680349" download>Transcript (PDF)<span class="psz">163.4 KB</span></a>
+<a class="pill" href="transcript.rtf?v=1787680349" download>Transcript (RTF)<span class="psz">128.7 KB</span></a>
+<a class="pill" href="transcript.srt?v=1787680349" download>SRT Subtitles<span class="psz">65.3 KB</span></a>
+<a class="pill" href="transcript.txt?v=1787680349" download>Transcript (TXT)<span class="psz">66.9 KB</span></a>
+<a class="pill" href="transcript.vtt?v=1787680349" download>VTT Subtitles<span class="psz">64.3 KB</span></a>
+<a class="pill" href="transcript.xml?v=1787680349" download>XML Transcript<span class="psz">83.7 KB</span></a>
     </div>
     <div class="acts">
-      <a class="btn primary" href="deliverables.zip?v=1787680150" download>Download all deliverables &darr;</a>
+      <a class="btn primary" href="deliverables.zip?v=1787680349" download>Download all deliverables &darr;</a>
     </div>
   </section>
 
@@ -810,7 +768,7 @@ Welcome to The Lighter Side of the Spectrum, the podcast that celebrates the mul
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787680150" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787680349" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -851,18 +809,18 @@ Send me a video or audio you'd like me to test, and I'll return a finished sampl
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="../?v=1787680150">All samples</a>
-        <a href="../podcasters.html?v=1787680150">For Podcasters</a>
-        <a href="../about.html?v=1787680150">About</a>
-        <a href="../reviewed/?v=1787680150">Reviewed transcriptions</a>
-        <a href="../price_calculator.html?v=1787680150">Price calculator</a>
-        <a href="../?v=1787680150#faq">FAQ</a>
-        <a href="../pricing.html?v=1787680150">Pricing</a>
+        <a href="../?v=1787680349">All samples</a>
+        <a href="../podcasters.html?v=1787680349">For Podcasters</a>
+        <a href="../about.html?v=1787680349">About</a>
+        <a href="../reviewed/?v=1787680349">Reviewed transcriptions</a>
+        <a href="../price_calculator.html?v=1787680349">Price calculator</a>
+        <a href="../?v=1787680349#faq">FAQ</a>
+        <a href="../pricing.html?v=1787680349">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="../Abdullah_Abid_Resume.pdf?v=1787680150" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="../Abdullah_Abid_Resume.pdf?v=1787680349" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>

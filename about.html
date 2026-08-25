@@ -207,14 +207,6 @@ footer a { color:var(--accent); }
     .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
     .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
         background:#000; border-radius:12px; }
-    /* Mobile-only compact teaser: a few cues + link, so the video + transcript
-       don't dominate the whole screen. Hidden on desktop (the box is used there). */
-    .transcript-teaser { display:none; max-width:920px; margin:1rem 0;
-        background:var(--card); border:1px solid var(--border); border-radius:12px;
-        padding:.4rem .7rem; }
-    .transcript-teaser #player { margin:.2rem 0 .6rem; background:#000; border-radius:12px; }
-    .transcript-teaser .more { margin:.6rem 0 .2rem; }
-    .transcript-teaser .more a { color:var(--accent); font-weight:600; text-decoration:none; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -247,11 +239,10 @@ footer a { color:var(--accent); }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
     @media (max-width:768px){
       .ba { grid-template-columns:1fr; }
-      /* On phones/tablets, hide the desktop scroll box and show the short teaser
-         so the video + a few cues don't fill the whole screen. */
-      .transcript-embed { display:none; }
-      .transcript-teaser { display:block; }
-      .transcript-teaser #player { position:static; top:auto; }
+      /* On phones/tablets, keep the transcript as a compact, scrollable box
+         (video not pinned so it scrolls with the text inside the box). */
+      .transcript-embed { max-height:62vh; overflow:auto; -webkit-overflow-scrolling:touch; }
+      .transcript-embed #player { position:static; top:auto; }
     }
 </style>
 </head>
@@ -259,7 +250,7 @@ footer a { color:var(--accent); }
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
    <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="./?v=1787680150">Samples</a><a href="./podcasters.html?v=1787680150">For Podcasters</a><a href="./about.html?v=1787680150" class="active">About</a><a href="./reviewed/?v=1787680150">Reviewed</a><a href="./?v=1787680150#faq">FAQ</a><a href="./pricing.html?v=1787680150">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="./?v=1787680349">Samples</a><a href="./podcasters.html?v=1787680349">For Podcasters</a><a href="./about.html?v=1787680349" class="active">About</a><a href="./reviewed/?v=1787680349">Reviewed</a><a href="./?v=1787680349#faq">FAQ</a><a href="./pricing.html?v=1787680349">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
 
   <div class="bio">
@@ -292,7 +283,7 @@ footer a { color:var(--accent); }
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="Abdullah_Abid_Resume.pdf?v=1787680150" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="Abdullah_Abid_Resume.pdf?v=1787680349" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -305,18 +296,18 @@ footer a { color:var(--accent); }
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="?v=1787680150">All samples</a>
-        <a href="podcasters.html?v=1787680150">For Podcasters</a>
-        <a href="about.html?v=1787680150">About</a>
-        <a href="reviewed/?v=1787680150">Reviewed transcriptions</a>
-        <a href="price_calculator.html?v=1787680150">Price calculator</a>
+        <a href="?v=1787680349">All samples</a>
+        <a href="podcasters.html?v=1787680349">For Podcasters</a>
+        <a href="about.html?v=1787680349">About</a>
+        <a href="reviewed/?v=1787680349">Reviewed transcriptions</a>
+        <a href="price_calculator.html?v=1787680349">Price calculator</a>
         <a href="#faq">FAQ</a>
-        <a href="pricing.html?v=1787680150">Pricing</a>
+        <a href="pricing.html?v=1787680349">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="Abdullah_Abid_Resume.pdf?v=1787680150" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="Abdullah_Abid_Resume.pdf?v=1787680349" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>

@@ -207,14 +207,6 @@ footer a { color:var(--accent); }
     .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
     .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
         background:#000; border-radius:12px; }
-    /* Mobile-only compact teaser: a few cues + link, so the video + transcript
-       don't dominate the whole screen. Hidden on desktop (the box is used there). */
-    .transcript-teaser { display:none; max-width:920px; margin:1rem 0;
-        background:var(--card); border:1px solid var(--border); border-radius:12px;
-        padding:.4rem .7rem; }
-    .transcript-teaser #player { margin:.2rem 0 .6rem; background:#000; border-radius:12px; }
-    .transcript-teaser .more { margin:.6rem 0 .2rem; }
-    .transcript-teaser .more a { color:var(--accent); font-weight:600; text-decoration:none; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -247,11 +239,10 @@ footer a { color:var(--accent); }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
     @media (max-width:768px){
       .ba { grid-template-columns:1fr; }
-      /* On phones/tablets, hide the desktop scroll box and show the short teaser
-         so the video + a few cues don't fill the whole screen. */
-      .transcript-embed { display:none; }
-      .transcript-teaser { display:block; }
-      .transcript-teaser #player { position:static; top:auto; }
+      /* On phones/tablets, keep the transcript as a compact, scrollable box
+         (video not pinned so it scrolls with the text inside the box). */
+      .transcript-embed { max-height:62vh; overflow:auto; -webkit-overflow-scrolling:touch; }
+      .transcript-embed #player { position:static; top:auto; }
     }
 </style>
 </head>
@@ -259,9 +250,9 @@ footer a { color:var(--accent); }
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="../?v=1787680150">Samples</a><a href="../podcasters.html?v=1787680150">For Podcasters</a><a href="../about.html?v=1787680150">About</a><a href="../reviewed/?v=1787680150">Reviewed</a><a href="../?v=1787680150#faq">FAQ</a><a href="../pricing.html?v=1787680150">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="../?v=1787680349">Samples</a><a href="../podcasters.html?v=1787680349">For Podcasters</a><a href="../about.html?v=1787680349">About</a><a href="../reviewed/?v=1787680349">Reviewed</a><a href="../?v=1787680349#faq">FAQ</a><a href="../pricing.html?v=1787680349">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
-  <a class="back" href="../?v=1787680150">&larr; All samples</a>
+  <a class="back" href="../?v=1787680349">&larr; All samples</a>
   <h2 class="title">Autism Spectrum Disorder: 10 things you should know</h2>
   <div class="hero">
   <img src="https://i.ytimg.com/vi/DZXjJVrm1Jw/hqdefault.jpg" alt="Video thumbnail">
@@ -327,63 +318,9 @@ window.addEventListener('load', function(){
 });
 </script>
 
-</div><div class="transcript-teaser"><style>
-#player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
-    border-radius:12px; overflow:hidden; }
-#player, #player iframe { width:100%; height:100%; border:0; }
-.cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
-.cue:hover { background:#eef2fb; }
-.cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
-</style>
-<div id="player"><iframe src="https://www.youtube.com/embed/DZXjJVrm1Jw?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
-<p class="cue" data-start="9.0" data-end="203.0"><strong>Professor Andrew Whitehouse</strong> [00:00:09–00:03:23]<br>Autism stems from differences in biology that have an influence on brain development. Autism is a lifelong condition. That doesn't mean that children can't make significant improvements in their language and social abilities over time. They can, just like all children. But children don't just grow out of autism.<br>Autism can affect a person's ability to understand subtle emotional cues, such as tone of language or body language. But when emotions are communicated more directly, there's a wealth of evidence showing that children and adults on the spectrum are even more likely to feel empathy for others. Social interaction difficulties and anxiety can sometimes mean that making friends is a struggle. But this should never be confused with a lack of desire to have friendships.<br>The vast majority of children and adults on the spectrum do like to socialise, and sometimes that just means socialising in a different way. It is true that around 10% of autistic people have skills such as maths or drawing that are of extraordinary ability, but this is really just a small proportion of the full numbers of individuals diagnosed with autism. It's best to look past this caricature and see the extraordinary human that lies beyond the diagnosis. 100%, categorically, no.<br>There have been literally thousands of studies in this area, and all of them have found no association between vaccinations and autism. The assumption that people on the spectrum don't have a sense of humour is Absolutely false. Probably the funniest conversations I've ever had have been with autistic kids and adults, and they absolutely run rings around me in telling jokes. Don't be fooled by the news stories that you may see. There is no evidence that individuals on the spectrum are more violent than the rest of the population.<br>None. Many people on the spectrum are in wonderful, loving romantic relationships. Just like the rest of the community, not every person on the spectrum chooses to be in a romantic relationship, but that is not the same as not being capable of doing so. Many people on the spectrum have intellectual disabilities, and also many do not. Just because someone may have communication difficulties doesn't mean that they also have intellectual disabilities.<br>What it means is that we have to assess intelligence in a different way, a way that doesn't rely so heavy on communication skills. Not every child will be great at maths. Not every child will repeat back words. Not every child will have difficulty speaking, and not every child will have hand mannerisms. Every child and adult on the autism spectrum is different.<br>Full of their own unique talents, personalities, and yes, challenges. The label autism doesn't mean one thing. What it is is a gateway to understanding a whole new way of thinking about the world, and those children and adults are to be cherished for that fact.</p>
-
-<script src="https://www.youtube.com/iframe_api"></script>
-<script>
-var player, cur = null, timer = null;
-function onYouTubeIframeAPIReady(){
-  player = new YT.Player('player', {videoId: 'DZXjJVrm1Jw', playerVars: {playsinline: 1, rel: 0},
-    events: { onStateChange: function(e){
-      if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
-      else if (timer) { clearInterval(timer); }
-    }}});
-}
-function tick(){
-  if (!player || !player.getCurrentTime) return;
-  var t = player.getCurrentTime();
-  var cues = document.querySelectorAll('.cue'), act = null, i;
-  for (i = 0; i < cues.length; i++){
-    var s = parseFloat(cues[i].getAttribute('data-start'));
-    var e = parseFloat(cues[i].getAttribute('data-end'));
-    if (t >= s && t < e){ act = cues[i]; break; }
-  }
-  if (!act){
-    for (i = 0; i < cues.length; i++){
-      if (parseFloat(cues[i].getAttribute('data-start')) > t){ act = cues[i]; break; }
-    }
-  }
-  if (act !== cur){
-    if (cur) cur.classList.remove('active');
-    if (act) act.classList.add('active');
-    cur = act;
-    if (act) act.scrollIntoView({block:'center', behavior:'smooth'});
-  }
-}
-window.addEventListener('load', function(){
-  var cues = document.querySelectorAll('.cue');
-  cues.forEach(function(c){
-    c.addEventListener('click', function(){
-      var s = parseFloat(c.getAttribute('data-start'));
-      if (player && player.seekTo) player.seekTo(s, true);
-      if (player && player.playVideo) player.playVideo();
-    });
-  });
-});
-</script>
-
-<p class="more"><a href="transcript.html?v=1787680150">Read the full transcript &rarr;</a></p></div>
+</div>
     <div class="acts">
-      <a class="btn primary" href="transcript.html?v=1787680150" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
+      <a class="btn primary" href="transcript.html?v=1787680349" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
   </section>
 
@@ -444,29 +381,29 @@ Autism can affect a person's ability to understand subtle emotional cues, such a
     <h3 class="channel-h">Downloadable deliverables</h3>
     <p class="extras-note">Grab the finished files in whatever format you need &mdash; or download everything at once.</p>
     <div class="dl-list">
-<a class="pill" href="analytics.json?v=1787680150" download>Analytics Data (JSON)<span class="psz">1.1 KB</span></a>
-<a class="pill" href="analytics.md?v=1787680150" download>Analytics Report<span class="psz">543 B</span></a>
-<a class="pill" href="blog.md?v=1787680150" download>Blog Post<span class="psz">5.7 KB</span></a>
-<a class="pill" href="chapters.txt?v=1787680150" download>Timestamp Chapters<span class="psz">792 B</span></a>
-<a class="pill" href="quote-1.png?v=1787680150" download>Quote Graphic<span class="psz">51.4 KB</span></a>
-<a class="pill" href="quote-2.png?v=1787680150" download>Quote Graphic<span class="psz">70.9 KB</span></a>
-<a class="pill" href="quote-3.png?v=1787680150" download>Quote Graphic<span class="psz">67.7 KB</span></a>
-<a class="pill" href="quotes.json?v=1787680150" download>Quote Graphics (JSON)<span class="psz">581 B</span></a>
-<a class="pill" href="show-notes.md?v=1787680150" download>Show Notes<span class="psz">3.1 KB</span></a>
-<a class="pill" href="summary.txt?v=1787680150" download>Summary<span class="psz">800 B</span></a>
-<a class="pill" href="topics.txt?v=1787680150" download>Topics<span class="psz">405 B</span></a>
-<a class="pill" href="transcript.doc?v=1787680150" download>Transcript (DOC)<span class="psz">15.0 KB</span></a>
-<a class="pill" href="transcript.docx?v=1787680150" download>Transcript (DOCX)<span class="psz">6.2 KB</span></a>
-<a class="pill" href="transcript.html?v=1787680150" download>HTML Transcript<span class="psz">3.1 KB</span></a>
-<a class="pill" href="transcript.pdf?v=1787680150" download>Transcript (PDF)<span class="psz">30.6 KB</span></a>
-<a class="pill" href="transcript.rtf?v=1787680150" download>Transcript (RTF)<span class="psz">5.9 KB</span></a>
-<a class="pill" href="transcript.srt?v=1787680150" download>SRT Subtitles<span class="psz">4.6 KB</span></a>
-<a class="pill" href="transcript.txt?v=1787680150" download>Transcript (TXT)<span class="psz">2.9 KB</span></a>
-<a class="pill" href="transcript.vtt?v=1787680150" download>VTT Subtitles<span class="psz">4.4 KB</span></a>
-<a class="pill" href="transcript.xml?v=1787680150" download>XML Transcript<span class="psz">3.0 KB</span></a>
+<a class="pill" href="analytics.json?v=1787680349" download>Analytics Data (JSON)<span class="psz">1.1 KB</span></a>
+<a class="pill" href="analytics.md?v=1787680349" download>Analytics Report<span class="psz">543 B</span></a>
+<a class="pill" href="blog.md?v=1787680349" download>Blog Post<span class="psz">5.7 KB</span></a>
+<a class="pill" href="chapters.txt?v=1787680349" download>Timestamp Chapters<span class="psz">792 B</span></a>
+<a class="pill" href="quote-1.png?v=1787680349" download>Quote Graphic<span class="psz">51.4 KB</span></a>
+<a class="pill" href="quote-2.png?v=1787680349" download>Quote Graphic<span class="psz">70.9 KB</span></a>
+<a class="pill" href="quote-3.png?v=1787680349" download>Quote Graphic<span class="psz">67.7 KB</span></a>
+<a class="pill" href="quotes.json?v=1787680349" download>Quote Graphics (JSON)<span class="psz">581 B</span></a>
+<a class="pill" href="show-notes.md?v=1787680349" download>Show Notes<span class="psz">3.1 KB</span></a>
+<a class="pill" href="summary.txt?v=1787680349" download>Summary<span class="psz">800 B</span></a>
+<a class="pill" href="topics.txt?v=1787680349" download>Topics<span class="psz">405 B</span></a>
+<a class="pill" href="transcript.doc?v=1787680349" download>Transcript (DOC)<span class="psz">15.0 KB</span></a>
+<a class="pill" href="transcript.docx?v=1787680349" download>Transcript (DOCX)<span class="psz">6.2 KB</span></a>
+<a class="pill" href="transcript.html?v=1787680349" download>HTML Transcript<span class="psz">3.1 KB</span></a>
+<a class="pill" href="transcript.pdf?v=1787680349" download>Transcript (PDF)<span class="psz">30.6 KB</span></a>
+<a class="pill" href="transcript.rtf?v=1787680349" download>Transcript (RTF)<span class="psz">5.9 KB</span></a>
+<a class="pill" href="transcript.srt?v=1787680349" download>SRT Subtitles<span class="psz">4.6 KB</span></a>
+<a class="pill" href="transcript.txt?v=1787680349" download>Transcript (TXT)<span class="psz">2.9 KB</span></a>
+<a class="pill" href="transcript.vtt?v=1787680349" download>VTT Subtitles<span class="psz">4.4 KB</span></a>
+<a class="pill" href="transcript.xml?v=1787680349" download>XML Transcript<span class="psz">3.0 KB</span></a>
     </div>
     <div class="acts">
-      <a class="btn primary" href="deliverables.zip?v=1787680150" download>Download all deliverables &darr;</a>
+      <a class="btn primary" href="deliverables.zip?v=1787680349" download>Download all deliverables &darr;</a>
     </div>
   </section>
 
@@ -483,7 +420,7 @@ Autism can affect a person's ability to understand subtle emotional cues, such a
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787680150" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787680349" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -524,18 +461,18 @@ Send me a video or audio you'd like me to test, and I'll return a finished sampl
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="../?v=1787680150">All samples</a>
-        <a href="../podcasters.html?v=1787680150">For Podcasters</a>
-        <a href="../about.html?v=1787680150">About</a>
-        <a href="../reviewed/?v=1787680150">Reviewed transcriptions</a>
-        <a href="../price_calculator.html?v=1787680150">Price calculator</a>
-        <a href="../?v=1787680150#faq">FAQ</a>
-        <a href="../pricing.html?v=1787680150">Pricing</a>
+        <a href="../?v=1787680349">All samples</a>
+        <a href="../podcasters.html?v=1787680349">For Podcasters</a>
+        <a href="../about.html?v=1787680349">About</a>
+        <a href="../reviewed/?v=1787680349">Reviewed transcriptions</a>
+        <a href="../price_calculator.html?v=1787680349">Price calculator</a>
+        <a href="../?v=1787680349#faq">FAQ</a>
+        <a href="../pricing.html?v=1787680349">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="../Abdullah_Abid_Resume.pdf?v=1787680150" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="../Abdullah_Abid_Resume.pdf?v=1787680349" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>

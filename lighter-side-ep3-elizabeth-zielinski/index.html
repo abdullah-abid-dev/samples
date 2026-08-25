@@ -207,14 +207,6 @@ footer a { color:var(--accent); }
     .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
     .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
         background:#000; border-radius:12px; }
-    /* Mobile-only compact teaser: a few cues + link, so the video + transcript
-       don't dominate the whole screen. Hidden on desktop (the box is used there). */
-    .transcript-teaser { display:none; max-width:920px; margin:1rem 0;
-        background:var(--card); border:1px solid var(--border); border-radius:12px;
-        padding:.4rem .7rem; }
-    .transcript-teaser #player { margin:.2rem 0 .6rem; background:#000; border-radius:12px; }
-    .transcript-teaser .more { margin:.6rem 0 .2rem; }
-    .transcript-teaser .more a { color:var(--accent); font-weight:600; text-decoration:none; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -247,11 +239,10 @@ footer a { color:var(--accent); }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
     @media (max-width:768px){
       .ba { grid-template-columns:1fr; }
-      /* On phones/tablets, hide the desktop scroll box and show the short teaser
-         so the video + a few cues don't fill the whole screen. */
-      .transcript-embed { display:none; }
-      .transcript-teaser { display:block; }
-      .transcript-teaser #player { position:static; top:auto; }
+      /* On phones/tablets, keep the transcript as a compact, scrollable box
+         (video not pinned so it scrolls with the text inside the box). */
+      .transcript-embed { max-height:62vh; overflow:auto; -webkit-overflow-scrolling:touch; }
+      .transcript-embed #player { position:static; top:auto; }
     }
 </style>
 </head>
@@ -259,9 +250,9 @@ footer a { color:var(--accent); }
 <a class="skip" href="#main">Skip to content</a>
 <main class="wrap" id="main">
   <header class="brand"><span class="dot"></span><h1>Abdullah Abid</h1>
-    <nav class="topnav"><a href="../?v=1787680150">Samples</a><a href="../podcasters.html?v=1787680150">For Podcasters</a><a href="../about.html?v=1787680150">About</a><a href="../reviewed/?v=1787680150">Reviewed</a><a href="../?v=1787680150#faq">FAQ</a><a href="../pricing.html?v=1787680150">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
+    <nav class="topnav"><a href="../?v=1787680349">Samples</a><a href="../podcasters.html?v=1787680349">For Podcasters</a><a href="../about.html?v=1787680349">About</a><a href="../reviewed/?v=1787680349">Reviewed</a><a href="../?v=1787680349#faq">FAQ</a><a href="../pricing.html?v=1787680349">Pricing</a><a class="cta" href="mailto:abdullah.abid.dev@gmail.com">Contact</a></nav>
   </header>
-  <a class="back" href="../?v=1787680150">&larr; All samples</a>
+  <a class="back" href="../?v=1787680349">&larr; All samples</a>
   <h2 class="title">The Lighter Side of the Spectrum Autism Podcast - Episode 3: Elizabeth Zielinski/Education Advocate</h2>
   <div class="hero">
   <img src="https://i.ytimg.com/vi/aOfFgEuMVfQ/hqdefault.jpg" alt="Video thumbnail">
@@ -452,42 +443,9 @@ window.addEventListener('load', function(){
 });
 </script>
 
-</div><div class="transcript-teaser"><style>
-#player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
-    border-radius:12px; overflow:hidden; }
-#player, #player iframe { width:100%; height:100%; border:0; }
-.cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
-.cue:hover { background:#eef2fb; }
-.cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
-</style>
-<div id="player"><iframe src="https://www.youtube.com/embed/aOfFgEuMVfQ?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
-<p class="cue" data-start="2.0" data-end="22.0"><strong>Plot/Intro</strong> [00:00:02–00:00:22]<br>Welcome to The Lighter Side of the Spectrum, a podcast where we explore how to find joy, connection, and growth while navigating the challenges of parenting kids and teens on the autism spectrum. Remember that inclusion and hope are key to making life better for everyone, and that even in the most challenging moments, there's always a lighter side. Now here's your host, David Kauffer.</p>
-<p class="cue" data-start="22.0" data-end="62.0"><strong>David Kaufer</strong> [00:00:22–00:01:02]<br>I'm David, and I'm the father of 18-year-old twin boys, one of whom was diagnosed on the autism spectrum. Just before he turned 3. So I've been on this journey for a long time and have had a chance to work with a lot of different people, have met a lot of different people. I've learned a lot of things over the time. And so the goal of this podcast is really to try to share some of the knowledge, a lot of the expertise that I've gathered in the form of people, great people like my guest today, Elizabeth Zielinski. Elizabeth, thanks for joining me on one of our first Thank you for having me.</p>
-<p class="cue" data-start="62.0" data-end="84.0"><strong>Denise Allen</strong> [00:01:02–00:01:24]<br>I resonate with what you said about learning so much from the people along the way. There's a, um, an Elton John song I love, um, and there's a line in it that says, thank the Lord for the people I have known. And it's so true about this process that I don't know how people get through it without a community.</p>
-<p class="cue" data-start="86.0" data-end="194.0"><strong>David Kaufer</strong> [00:01:26–00:03:14]<br>And that's funny that you mentioned that because that's one of the topics I want to talk about today, actually, is community and the role that it plays, especially some of the opportunities, but also it kind of creates some challenges. So just to give, you know, listeners and viewers just a little bit of background, Elizabeth was kind enough to send over her bio, but I want to give a little bit of background because she's really— she's just being a great person, just really impressive.<br>So Elizabeth is the founder and lead advocate of Virginia-based Commonwealth Education Group, LLC, a special education consulting practice designed to bring people, uh, bring together, I'm sorry, collaborative teams in a variety of educational specialty areas towards the common goal of assisting families with their students' educational planning. Experts in the group include advocates, attorneys, counselors, psychologists, educators, depending on the unique needs of the client.<br>So that's a mouthful, but what, you know, caught my eye initially is that, um, Elizabeth and I met in a Facebook group, um, for spellers. And so, uh, for those who don't know, um, spelling is a methodology that's used by nonspeakers, um, generally pointing at, uh, utilizing either a letterboard or keyboard typing. It's in our case, again, was the key to unlocking communication with our son who wasn't able to communicate for 16 years. Elizabeth, I want to hear about your experience as well.<br>But we met in this Facebook group and Elizabeth talked about how she's an advocate, advocate for families and has given a lot of great free advice. But I know that this is also your business. So, you know, why don't we just kind of start with that, your journey, Elizabeth, in terms of what brought you here? I know that there's a lot probably to talk about.</p>
-<p class="cue" data-start="196.0" data-end="205.0"><strong>Denise Allen</strong> [00:03:16–00:03:25]<br>But yeah, yeah. Well, Evan was— Evan's my autistic son. He's almost 19 at the time we're recording this podcast. He'll be 19 in 2 weeks.</p>
-<p class="cue" data-start="205.0" data-end="206.0"><strong>David Kaufer</strong> [00:03:25–00:03:26]<br>Right.</p>
-<p class="cue" data-start="206.0" data-end="239.0"><strong>Denise Allen</strong> [00:03:26–00:03:59]<br>Um, and he was diagnosed autistic when he was 3, but he was diagnosed non-speaking or, or unreliably speaking. Gosh, he was barely over 2. I mean, of course, back then you didn't get the super, super early diagnoses that a lot of families get today, which is great that families do get that. Um, but, uh, he didn't have communication until he was about 11. We had— there's a few different modalities available in the community. They're all letterboard-based communication. We've done them all. Um, we almost did—</p>
-<p class="cue" data-start="239.0" data-end="240.0"><strong>David Kaufer</strong> [00:03:59–00:04:00]<br>Globe, right?</p>
-<p class="cue" data-start="240.0" data-end="275.0"><strong>Denise Allen</strong> [00:04:00–00:04:35]<br>Yeah, right. Um, and I don't want to, you know, be too, too derivative, but it really was finding the right community that made one work over another because you need that collective support as you're going through this process. And so, you know, we had a couple of false starts with different modalities, and then I had to be convinced that it would even work. Not because I, I'm, I might be something of an exception in that I always, always, always believed that Evan had more in there. What I didn't believe is whether we'd ever reach it. And, you know, 100%.</p>
-<p class="cue" data-start="276.0" data-end="276.0"><strong>David Kaufer</strong> [00:04:36–00:04:36]<br>Yeah.</p>
-<p class="cue" data-start="276.0" data-end="277.0"><strong>Denise Allen</strong> [00:04:36–00:04:37]<br>Yeah. I always knew it.</p>
-<p class="cue" data-start="277.0" data-end="278.0"><strong>David Kaufer</strong> [00:04:37–00:04:38]<br>Yep.</p>
-<p class="cue" data-start="279.0" data-end="372.0"><strong>Denise Allen</strong> [00:04:39–00:06:12]<br>Now he, you know, he's not, he doesn't meet the stereotypical aspects of autism. He's very, um, very affectionate. He makes good eye contact. He, you know, really super oriented to social cues. He doesn't necessarily respond to social cues, but he absolutely understands them.<br>Um, so I just didn't, I, I thought that what he could say is what he could say, and I didn't know that there was any other any other way to pursue that, we put so much priority on the spoken word that we took it at face value, that what he said was what he meant to say, and that what he didn't say was, you know, maybe he didn't understand or he didn't, I, I don't know what. But I always knew there was more there and I just didn't know if we'd reach it. So it took a couple of people kicking me in the backside saying, just give it a try, give it a try.<br>And right from the beginning, I mean, we all have our, what I call 'em, our magical moments, you know, where there's just one thing that they do or, or, or spell. I tend to use the word say as interchangeable with spelling because it is what he's saying. Just wanna make that clear for anybody listening because it doesn't mean he's speaking it. Um, but he's still saying it.<br>So in any case, um, you know, very early on we had that magical moment that, and in his case, it was one that I not only was absolutely certain was genuinely him, meaning the person holding the letterboard could not possibly have known.</p>
-<p class="cue" data-start="372.0" data-end="373.0"><strong>Plot/Intro</strong> [00:06:12–00:06:13]<br>Right.</p>
-<p class="cue" data-start="373.0" data-end="397.0"><strong>Denise Allen</strong> [00:06:13–00:06:37]<br>Um, but the, the thing that he spoke about or wrote about, um, was just very specifically unique to his personality. And it just, you know, I, it just, it was one of those things that you just, I don't, I, I think maybe it was the only time in my life that I just dropped on my knees and it was just so— yeah, literally, literally. I mean, I'd love to tell the story if we have time for that.</p>
-<p class="cue" data-start="397.0" data-end="398.0"><strong>Plot/Intro</strong> [00:06:37–00:06:38]<br>Please.</p>
-<p class="cue" data-start="398.0" data-end="443.0"><strong>David Kaufer</strong> [00:06:38–00:07:23]<br>No, please do. Yeah, no, I would. I think because I think, I think it's important, like you said, because again, um, as you said, you didn't go into this, you know, like starry-eyed, like, you know, like, hey, this is going to be it. I mean, again, I was, I, you know, I, I became aware of it from a friend who, who happened to be friends with JB Hanley. And, you know, I mean, and, you know, we as parents, right, we— I'm sure you went through everything you could think of.<br>I, again, I don't know, we've never really talked about, you know, some of the biomedical things, but as well as, you know, our ABA speech, right? There's anything and everything, right? We, we've been there. And, and yeah, nothing had seemed to quote unquote work because, again, like you said, we're so focused on the spoken word.</p>
-<p class="cue" data-start="443.0" data-end="468.0"><strong>Denise Allen</strong> [00:07:23–00:07:48]<br>So, and yes, and I will say too, I, you know, we didn't pursue biomed quite as much, um, in our— I don't want to get on a tangent, but in— I, we never had that profound moment where we saw loss of skills. We never saw them develop. And I, I hate to say this, but I— well, I don't hate to say this. I take that back. Um, I put a lot, a lot of stock in maternal instinct and—</p>
-<p class="cue" data-start="468.0" data-end="469.0"><strong>David Kaufer</strong> [00:07:48–00:07:49]<br>Sure.</p>
-<p class="cue" data-start="469.0" data-end="505.0"><strong>Denise Allen</strong> [00:07:49–00:08:25]<br>Possibly paternal too, but never having been a father to my knowledge, I don't, can't speak to that. Um, I just feel like every time I've known something in my heart and soul about my children, it's just never been wrong. And, and, you know, thousands of years of evolution created us to know these things on a level that we don't necessarily logically think through. And I just, I, I know what I, what I really expect. I think he, it, in his case, it very much was a genetic, you know, he was just created this way. But I also believe he experienced an environmental trigger.</p>
-<p class="cue" data-start="505.0" data-end="506.0"><strong>Plot/Intro</strong> [00:08:25–00:08:26]<br>Mm-hmm.</p>
-<p class="cue" data-start="506.0" data-end="534.0"><strong>Denise Allen</strong> [00:08:26–00:08:54]<br>That his own genome was less able to be responsive to. And I'm choosing my words very carefully because he is absolutely perfect exactly the way he is. I never speak about him in terms of, you know, any kind of medical damage or, um, anything that way. I think that that's, for me personally, I can't speak for others. For me personally, I think it's a fool's errand to go down that path because he is who he is.</p>
-<p class="cue" data-start="534.0" data-end="535.0"><strong>Plot/Intro</strong> [00:08:54–00:08:55]<br>Mm-hmm.</p>
-<p class="cue" data-start="535.0" data-end="574.0"><strong>Denise Allen</strong> [00:08:55–00:09:34]<br>And he deserves, he deserves to be loved and honored and embraced for exactly who he is. How he became that way is really not my question to answer. Um, I think I know, but You know, I mean, I was born with red hair. A lot of people thousands of years ago thought that was a sign of a witch. Right.<br>And they weren't necessarily wrong. But my point is, you know, this is just, it's who he is. It's who he is and that's all. So anyway, back to the story of, of that moment. Um, again, not to get off on a tangent, but my, my parents, um, passed away 7 weeks apart from one another in— Oh, I'm sorry.<br>Yeah, same period. So I don't recommend it.</p>
-<p class="cue" data-start="575.0" data-end="575.0"><strong>David Kaufer</strong> [00:09:35–00:09:35]<br>No, that's rough.</p><p class="more"><a href="transcript.html?v=1787680150">Read the full transcript &rarr;</a></p></div>
+</div>
     <div class="acts">
-      <a class="btn primary" href="transcript.html?v=1787680150" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
+      <a class="btn primary" href="transcript.html?v=1787680349" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
   </section>
 
@@ -534,27 +492,27 @@ I'm David, and I'm the father of 18-year-old twin boys, one of whom was diagnose
     <h3 class="channel-h">Downloadable deliverables</h3>
     <p class="extras-note">Grab the finished files in whatever format you need &mdash; or download everything at once.</p>
     <div class="dl-list">
-<a class="pill" href="analytics.json?v=1787680150" download>Analytics Data (JSON)<span class="psz">1.3 KB</span></a>
-<a class="pill" href="analytics.md?v=1787680150" download>Analytics Report<span class="psz">652 B</span></a>
-<a class="pill" href="blog.md?v=1787680150" download>Blog Post<span class="psz">5.3 KB</span></a>
-<a class="pill" href="chapters.txt?v=1787680150" download>Timestamp Chapters<span class="psz">462 B</span></a>
-<a class="pill" href="quote-1.png?v=1787680150" download>Quote Graphic<span class="psz">35.7 KB</span></a>
-<a class="pill" href="quote-2.png?v=1787680150" download>Quote Graphic<span class="psz">35.3 KB</span></a>
-<a class="pill" href="quote-3.png?v=1787680150" download>Quote Graphic<span class="psz">41.1 KB</span></a>
-<a class="pill" href="quotes.json?v=1787680150" download>Quote Graphics (JSON)<span class="psz">378 B</span></a>
-<a class="pill" href="show-notes.md?v=1787680150" download>Show Notes<span class="psz">2.9 KB</span></a>
-<a class="pill" href="transcript.doc?v=1787680150" download>Transcript (DOC)<span class="psz">126.0 KB</span></a>
-<a class="pill" href="transcript.docx?v=1787680150" download>Transcript (DOCX)<span class="psz">26.4 KB</span></a>
-<a class="pill" href="transcript.html?v=1787680150" download>HTML Transcript<span class="psz">60.8 KB</span></a>
-<a class="pill" href="transcript.pdf?v=1787680150" download>Transcript (PDF)<span class="psz">119.8 KB</span></a>
-<a class="pill" href="transcript.rtf?v=1787680150" download>Transcript (RTF)<span class="psz">84.0 KB</span></a>
-<a class="pill" href="transcript.srt?v=1787680150" download>SRT Subtitles<span class="psz">56.9 KB</span></a>
-<a class="pill" href="transcript.txt?v=1787680150" download>Transcript (TXT)<span class="psz">59.8 KB</span></a>
-<a class="pill" href="transcript.vtt?v=1787680150" download>VTT Subtitles<span class="psz">56.5 KB</span></a>
-<a class="pill" href="transcript.xml?v=1787680150" download>XML Transcript<span class="psz">64.0 KB</span></a>
+<a class="pill" href="analytics.json?v=1787680349" download>Analytics Data (JSON)<span class="psz">1.3 KB</span></a>
+<a class="pill" href="analytics.md?v=1787680349" download>Analytics Report<span class="psz">652 B</span></a>
+<a class="pill" href="blog.md?v=1787680349" download>Blog Post<span class="psz">5.3 KB</span></a>
+<a class="pill" href="chapters.txt?v=1787680349" download>Timestamp Chapters<span class="psz">462 B</span></a>
+<a class="pill" href="quote-1.png?v=1787680349" download>Quote Graphic<span class="psz">35.7 KB</span></a>
+<a class="pill" href="quote-2.png?v=1787680349" download>Quote Graphic<span class="psz">35.3 KB</span></a>
+<a class="pill" href="quote-3.png?v=1787680349" download>Quote Graphic<span class="psz">41.1 KB</span></a>
+<a class="pill" href="quotes.json?v=1787680349" download>Quote Graphics (JSON)<span class="psz">378 B</span></a>
+<a class="pill" href="show-notes.md?v=1787680349" download>Show Notes<span class="psz">2.9 KB</span></a>
+<a class="pill" href="transcript.doc?v=1787680349" download>Transcript (DOC)<span class="psz">126.0 KB</span></a>
+<a class="pill" href="transcript.docx?v=1787680349" download>Transcript (DOCX)<span class="psz">26.4 KB</span></a>
+<a class="pill" href="transcript.html?v=1787680349" download>HTML Transcript<span class="psz">60.8 KB</span></a>
+<a class="pill" href="transcript.pdf?v=1787680349" download>Transcript (PDF)<span class="psz">119.8 KB</span></a>
+<a class="pill" href="transcript.rtf?v=1787680349" download>Transcript (RTF)<span class="psz">84.0 KB</span></a>
+<a class="pill" href="transcript.srt?v=1787680349" download>SRT Subtitles<span class="psz">56.9 KB</span></a>
+<a class="pill" href="transcript.txt?v=1787680349" download>Transcript (TXT)<span class="psz">59.8 KB</span></a>
+<a class="pill" href="transcript.vtt?v=1787680349" download>VTT Subtitles<span class="psz">56.5 KB</span></a>
+<a class="pill" href="transcript.xml?v=1787680349" download>XML Transcript<span class="psz">64.0 KB</span></a>
     </div>
     <div class="acts">
-      <a class="btn primary" href="deliverables.zip?v=1787680150" download>Download all deliverables &darr;</a>
+      <a class="btn primary" href="deliverables.zip?v=1787680349" download>Download all deliverables &darr;</a>
     </div>
   </section>
 
@@ -571,7 +529,7 @@ I'm David, and I'm the father of 18-year-old twin boys, one of whom was diagnose
     </div>
     <div class="cactions">
       <a class="mail" href="mailto:abdullah.abid.dev@gmail.com?subject=Transcription%20enquiry">Contact Abdullah &mdash; abdullah.abid.dev@gmail.com</a>
-      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787680150" download>Download r&eacute;sum&eacute; (PDF)</a>
+      <a class="mail" href="../Abdullah_Abid_Resume.pdf?v=1787680349" download>Download r&eacute;sum&eacute; (PDF)</a>
     </div>
   </section>
 
@@ -612,18 +570,18 @@ Send me a video or audio you'd like me to test, and I'll return a finished sampl
       </div>
       <div>
         <h4>Explore</h4>
-        <a href="../?v=1787680150">All samples</a>
-        <a href="../podcasters.html?v=1787680150">For Podcasters</a>
-        <a href="../about.html?v=1787680150">About</a>
-        <a href="../reviewed/?v=1787680150">Reviewed transcriptions</a>
-        <a href="../price_calculator.html?v=1787680150">Price calculator</a>
-        <a href="../?v=1787680150#faq">FAQ</a>
-        <a href="../pricing.html?v=1787680150">Pricing</a>
+        <a href="../?v=1787680349">All samples</a>
+        <a href="../podcasters.html?v=1787680349">For Podcasters</a>
+        <a href="../about.html?v=1787680349">About</a>
+        <a href="../reviewed/?v=1787680349">Reviewed transcriptions</a>
+        <a href="../price_calculator.html?v=1787680349">Price calculator</a>
+        <a href="../?v=1787680349#faq">FAQ</a>
+        <a href="../pricing.html?v=1787680349">Pricing</a>
       </div>
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:abdullah.abid.dev@gmail.com">abdullah.abid.dev@gmail.com</a>
-        <a href="../Abdullah_Abid_Resume.pdf?v=1787680150" download>R&eacute;sum&eacute; (PDF)</a>
+        <a href="../Abdullah_Abid_Resume.pdf?v=1787680349" download>R&eacute;sum&eacute; (PDF)</a>
       </div>
     </div>
     <p class="copy">Shared for review. No account required.</p>
