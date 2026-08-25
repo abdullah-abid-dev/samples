@@ -1,0 +1,84 @@
+{
+  "duration_s": 1172.7,
+  "total_words": 3521,
+  "speakers": 2,
+  "turns": 33,
+  "talk_time": {
+    "Dr. Andrew Huberman": 535.9,
+    "Robert Greene": 235.9
+  },
+  "talk_time_pct": {
+    "Dr. Andrew Huberman": 69.4,
+    "Robert Greene": 30.6
+  },
+  "pace_wpm": {
+    "Dr. Andrew Huberman": 275,
+    "Robert Greene": 271
+  },
+  "fillers": {
+    "Dr. Andrew Huberman": 20,
+    "Robert Greene": 13
+  },
+  "top_keywords": [
+    {
+      "word": "it's",
+      "count": 50
+    },
+    {
+      "word": "you're",
+      "count": 38
+    },
+    {
+      "word": "like",
+      "count": 32
+    },
+    {
+      "word": "there's",
+      "count": 18
+    },
+    {
+      "word": "don't",
+      "count": 15
+    },
+    {
+      "word": "hate",
+      "count": 13
+    },
+    {
+      "word": "direction",
+      "count": 11
+    },
+    {
+      "word": "love",
+      "count": 11
+    },
+    {
+      "word": "that's",
+      "count": 11
+    },
+    {
+      "word": "find",
+      "count": 9
+    },
+    {
+      "word": "intelligence",
+      "count": 9
+    },
+    {
+      "word": "we're",
+      "count": 8
+    },
+    {
+      "word": "process",
+      "count": 8
+    },
+    {
+      "word": "years",
+      "count": 8
+    },
+    {
+      "word": "brain",
+      "count": 8
+    }
+  ]
+}

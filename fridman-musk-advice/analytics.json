@@ -1,0 +1,84 @@
+{
+  "duration_s": 478.3,
+  "total_words": 1118,
+  "speakers": 2,
+  "turns": 18,
+  "talk_time": {
+    "Elon Musk": 171.1,
+    "Lex Fridman": 82.9
+  },
+  "talk_time_pct": {
+    "Elon Musk": 67.4,
+    "Lex Fridman": 32.6
+  },
+  "pace_wpm": {
+    "Elon Musk": 267,
+    "Lex Fridman": 258
+  },
+  "fillers": {
+    "Elon Musk": 13,
+    "Lex Fridman": 5
+  },
+  "top_keywords": [
+    {
+      "word": "like",
+      "count": 17
+    },
+    {
+      "word": "you're",
+      "count": 9
+    },
+    {
+      "word": "life",
+      "count": 8
+    },
+    {
+      "word": "read",
+      "count": 8
+    },
+    {
+      "word": "good",
+      "count": 7
+    },
+    {
+      "word": "there's",
+      "count": 7
+    },
+    {
+      "word": "zero",
+      "count": 7
+    },
+    {
+      "word": "mindset",
+      "count": 7
+    },
+    {
+      "word": "others",
+      "count": 7
+    },
+    {
+      "word": "useful",
+      "count": 6
+    },
+    {
+      "word": "doing",
+      "count": 6
+    },
+    {
+      "word": "where",
+      "count": 6
+    },
+    {
+      "word": "it's",
+      "count": 5
+    },
+    {
+      "word": "positive",
+      "count": 4
+    },
+    {
+      "word": "that's",
+      "count": 4
+    }
+  ]
+}
