@@ -1,0 +1,88 @@
+{
+  "duration_s": 3946.0,
+  "total_words": 316,
+  "speakers": 3,
+  "turns": 316,
+  "talk_time": {
+    "Denise Allen": 2314.0,
+    "David Kaufer": 1527.0,
+    "Plot/Intro": 36.0
+  },
+  "talk_time_pct": {
+    "Denise Allen": 59.7,
+    "David Kaufer": 39.4,
+    "Plot/Intro": 0.9
+  },
+  "pace_wpm": {
+    "Denise Allen": 4,
+    "David Kaufer": 6,
+    "Plot/Intro": 12
+  },
+  "fillers": {
+    "Denise Allen": 1,
+    "David Kaufer": 1,
+    "Plot/Intro": 0
+  },
+  "top_keywords": [
+    {
+      "word": "like",
+      "count": 97
+    },
+    {
+      "word": "it's",
+      "count": 87
+    },
+    {
+      "word": "vision",
+      "count": 78
+    },
+    {
+      "word": "that's",
+      "count": 78
+    },
+    {
+      "word": "don't",
+      "count": 44
+    },
+    {
+      "word": "there's",
+      "count": 40
+    },
+    {
+      "word": "therapy",
+      "count": 39
+    },
+    {
+      "word": "you're",
+      "count": 35
+    },
+    {
+      "word": "eyes",
+      "count": 35
+    },
+    {
+      "word": "other",
+      "count": 35
+    },
+    {
+      "word": "they're",
+      "count": 32
+    },
+    {
+      "word": "surgery",
+      "count": 30
+    },
+    {
+      "word": "problem",
+      "count": 21
+    },
+    {
+      "word": "can't",
+      "count": 21
+    },
+    {
+      "word": "again",
+      "count": 20
+    }
+  ]
+}

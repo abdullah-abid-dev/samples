@@ -1,0 +1,88 @@
+{
+  "duration_s": 3372.0,
+  "total_words": 126,
+  "speakers": 3,
+  "turns": 126,
+  "talk_time": {
+    "Denise Allen": 2047.0,
+    "David Kaufer": 1266.0,
+    "Plot/Intro": 29.0
+  },
+  "talk_time_pct": {
+    "Denise Allen": 61.3,
+    "David Kaufer": 37.9,
+    "Plot/Intro": 0.9
+  },
+  "pace_wpm": {
+    "Denise Allen": 2,
+    "David Kaufer": 3,
+    "Plot/Intro": 25
+  },
+  "fillers": {
+    "Denise Allen": 0,
+    "David Kaufer": 0,
+    "Plot/Intro": 0
+  },
+  "top_keywords": [
+    {
+      "word": "like",
+      "count": 119
+    },
+    {
+      "word": "it's",
+      "count": 97
+    },
+    {
+      "word": "that's",
+      "count": 59
+    },
+    {
+      "word": "don't",
+      "count": 56
+    },
+    {
+      "word": "again",
+      "count": 47
+    },
+    {
+      "word": "there's",
+      "count": 33
+    },
+    {
+      "word": "didn't",
+      "count": 28
+    },
+    {
+      "word": "you're",
+      "count": 28
+    },
+    {
+      "word": "we're",
+      "count": 26
+    },
+    {
+      "word": "back",
+      "count": 24
+    },
+    {
+      "word": "always",
+      "count": 19
+    },
+    {
+      "word": "he's",
+      "count": 19
+    },
+    {
+      "word": "never",
+      "count": 19
+    },
+    {
+      "word": "i've",
+      "count": 18
+    },
+    {
+      "word": "world",
+      "count": 18
+    }
+  ]
+}
