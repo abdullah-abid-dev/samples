@@ -161,10 +161,13 @@
     </div>
 
     <div class="field">
-      <div class="label"><span>Timestamping</span></div>
+      <div class="label"><span>Timestamping</span><span>Add-on, per audio minute</span></div>
       <div class="opts" id="timestamp">
-        <div class="opt active" data-v="none">Not required</div>
+        <div class="opt" data-v="none">Not required</div>
+        <div class="opt" data-v="2min">Every 2 minutes</div>
+        <div class="opt active" data-v="speaker">Change of speaker</div>
         <div class="opt" data-v="30s">Every 30 seconds</div>
+        <div class="opt" data-v="10s">Every 10 seconds</div>
       </div>
     </div>
   </div>
@@ -187,7 +190,7 @@
         <tr><td>1-day</td><td>Full</td><td>3+</td><td><span class="cur">$</span>1.85</td><td>—</td></tr>
       </tbody>
     </table>
-    <p class="note">Rates are USD. 6–12h turnaround assumed at $1.80/min (clean). Timestamping is included at no extra charge. 3+ speakers adds a flat $0.25 to the total.</p>
+    <p class="note">Rates are USD. 6–12h turnaround assumed at $1.80/min (clean). Timestamping is an add-on charged per audio minute (Change of speaker is the default, +$0.28/min). 3+ speakers adds a flat $0.25 to the total.</p>
   </div>
 </div>
 
@@ -196,7 +199,7 @@
     turnaround: "3-days",
     verbatim: "clean",
     speakers: "1-2",
-    timestamp: "none",
+    timestamp: "speaker",
     minutes: 60,
     hideCurrency: false
   };
@@ -204,6 +207,9 @@
   var BASE = { "5-days": 1.20, "3-days": 1.40, "1-day": 1.60, "6-12h": 1.80 };
   var VERBATIM_SURCHARGE = 0.25;   // $/min
   var SPEAKER_SURCHARGE = 0.25;    // $ flat, added to total for 3+
+  var TIMESTAMP_SURCHARGE = {      // $/min, modeled on GoTranscript rates
+    "none": 0.00, "2min": 0.28, "speaker": 0.28, "30s": 0.37, "10s": 0.73
+  };
 
   function fmt(n) {
     return n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -212,6 +218,7 @@
   function perMinute() {
     var p = BASE[state.turnaround];
     if (state.verbatim === "full") p += VERBATIM_SURCHARGE;
+    p += TIMESTAMP_SURCHARGE[state.timestamp];
     return p;
   }
 
@@ -244,7 +251,13 @@
     lines.push(["Turnaround", state.turnaround]);
     lines.push(["Text format", state.verbatim === "full" ? "Full verbatim" : "Clean verbatim"]);
     lines.push(["Speakers", state.speakers === "3+" ? "3 or more (+$0.25)" : "1–2"]);
-    lines.push(["Timestamping", state.timestamp === "30s" ? "Every 30s" : "Not required"]);
+    lines.push(["Timestamping", ({
+      "none": "Not required",
+      "2min": "Every 2 minutes",
+      "speaker": "Change of speaker",
+      "30s": "Every 30 seconds",
+      "10s": "Every 10 seconds"
+    })[state.timestamp] + " (+" + fmt(TIMESTAMP_SURCHARGE[state.timestamp]) + "/min)"]);
     lines.push(["Estimated minutes", Number(state.minutes).toLocaleString("en-US")]);
     b.innerHTML = lines.map(function (l) {
       return "<div><span>" + l[0] + "</span><span>" + l[1] + "</span></div>";
