@@ -1,0 +1,80 @@
+{
+  "duration_s": 203.8,
+  "total_words": 481,
+  "speakers": 1,
+  "turns": 1,
+  "talk_time": {
+    "Professor Andrew Whitehouse": 114.4
+  },
+  "talk_time_pct": {
+    "Professor Andrew Whitehouse": 100.0
+  },
+  "pace_wpm": {
+    "Professor Andrew Whitehouse": 252
+  },
+  "fillers": {
+    "Professor Andrew Whitehouse": 3
+  },
+  "top_keywords": [
+    {
+      "word": "autism",
+      "count": 8
+    },
+    {
+      "word": "spectrum",
+      "count": 8
+    },
+    {
+      "word": "children",
+      "count": 6
+    },
+    {
+      "word": "every",
+      "count": 6
+    },
+    {
+      "word": "child",
+      "count": 5
+    },
+    {
+      "word": "doesn't",
+      "count": 4
+    },
+    {
+      "word": "adults",
+      "count": 4
+    },
+    {
+      "word": "language",
+      "count": 3
+    },
+    {
+      "word": "like",
+      "count": 3
+    },
+    {
+      "word": "don't",
+      "count": 3
+    },
+    {
+      "word": "different",
+      "count": 3
+    },
+    {
+      "word": "many",
+      "count": 3
+    },
+    {
+      "word": "social",
+      "count": 2
+    },
+    {
+      "word": "ability",
+      "count": 2
+    },
+    {
+      "word": "such",
+      "count": 2
+    }
+  ]
+}
