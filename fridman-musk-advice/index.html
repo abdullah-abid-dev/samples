@@ -201,9 +201,12 @@ footer a { color:var(--accent); }
     .soft-price { background:var(--card); border:1px solid var(--border); border-radius:12px;
                   padding:1.1rem 1.2rem; margin:1rem 0; }
     .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
-    .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
-        max-width:920px; height:72vh; margin:1rem 0; background:var(--card); }
-    .transcript-embed iframe { width:100%; height:100%; border:0; }
+    .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:auto;
+        -webkit-overflow-scrolling:touch; max-width:920px; max-height:72vh; margin:1rem 0;
+        background:var(--card); padding:.2rem .6rem; }
+    .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
+    .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
+        background:#000; border-radius:12px; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -234,7 +237,7 @@ footer a { color:var(--accent); }
     .pill.primary { border-color:var(--accent); }
     .psz { color:var(--muted); font-size:.74rem; }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
-    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { height:60vh; } }
+    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { max-height:60vh; } }
 </style>
 </head>
 <body>
@@ -255,7 +258,78 @@ footer a { color:var(--accent); }
     <h3 class="channel-h">Watch &amp; read along</h3>
     <p class="extras-note">Play the episode and follow the transcript &mdash; the line being spoken
        highlights and auto-scrolls in real time. Click any line to jump to that moment.</p>
-<div class="transcript-embed"><iframe src="transcript.html" title="Searchable transcript"></iframe></div>
+<div class="transcript-embed"><style>
+#player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
+    border-radius:12px; overflow:hidden; }
+#player, #player iframe { width:100%; height:100%; border:0; }
+.cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
+.cue:hover { background:#eef2fb; }
+.cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
+</style>
+<div id="player"><iframe src="https://www.youtube.com/embed/M-ZH3psUbfU?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="cue" data-start="3.0" data-end="27.0"><strong>Lex Fridman</strong> [00:00:03–00:00:27]<br>You, like I mentioned, with SpaceX, you give a lot of people hope, and a lot of people look up to you. Millions of people look up to you. If we think about young people in high school, maybe in college, what advice would you give to them about if they wanna try to do something big in this world, they wanna really have a big positive impact, what advice would you give them about their career, maybe about life in general?</p>
+<p class="cue" data-start="29.0" data-end="99.0"><strong>Elon Musk</strong> [00:00:29–00:01:39]<br>Try to be useful. You do things that are useful to your fellow human beings, to the world. It's very hard to be useful. Very hard. You know, are you contributing more than you consume?<br>You know, like, like, can you try to have a positive net contribution? to society. I think that's the thing to aim for. Not to try to be sort of a leader for just for the sake of being a leader or whatever. A lot of the time, people who— a lot of the time, the people you want as leaders are the people who don't want to be leaders.<br>So, if you can live a useful life, that is a good life, a life worth having lived. Um, you know, and I, like I said, I would, I would encourage people to use the mental tools of physics and apply them broadly in life. They are the best tools.</p>
+<p class="cue" data-start="99.0" data-end="135.0"><strong>Lex Fridman</strong> [00:01:39–00:02:15]<br>When you think about education and self-education, what do you recommend? So there's the university, there is self-study. There is hands-on sort of finding a company or a place or a set of people that do the thing you're passionate about and joining them as early as possible. There's taking a road trip across Europe for a few years and writing some poetry. Which trajectory do you suggest? In terms of learning about how you can become useful? as you mentioned, how you can have the most positive impact?</p>
+<p class="cue" data-start="135.0" data-end="198.0"><strong>Elon Musk</strong> [00:02:15–00:03:18]<br>I'd encourage people to read a lot of books. Just read, like, I mean, basically try to ingest as much information as you can and try to also just develop a good general knowledge. so you at least have like a rough lay of the land of the knowledge landscape. Like try to learn a little bit about a lot of things, 'cause you might not know what you're really interested— how would you know what you're really interested in if you at least aren't like doing a peripheral exploration broadly of the knowledge landscape?<br>And talk to people from different walks of life and different industries and professions and skills and occupations. Like, just try, you know, learn as much as possible. Man's search for meaning.</p>
+<p class="cue" data-start="198.0" data-end="202.0"><strong>Lex Fridman</strong> [00:03:18–00:03:22]<br>Isn't the whole thing a search for meaning?</p>
+<p class="cue" data-start="202.0" data-end="227.0"><strong>Elon Musk</strong> [00:03:22–00:03:47]<br>Yeah, what's the meaning of life and all, you know. But just generally, like I said, I would encourage people to read broadly in many different subject areas. And then try to find something where there's an overlap of your talents and what you're interested in. So people may be good at something, or they may have skill at a particular thing, but they don't like doing it.</p>
+<p class="cue" data-start="227.0" data-end="228.0"><strong>Lex Fridman</strong> [00:03:47–00:03:48]<br>Mm-hmm.</p>
+<p class="cue" data-start="228.0" data-end="239.0"><strong>Elon Musk</strong> [00:03:48–00:03:59]<br>So you wanna try to find a thing where you're— that's a good combination of the things that you're inherently good at, but you also like doing.</p>
+<p class="cue" data-start="243.0" data-end="252.0"><strong>Lex Fridman</strong> [00:04:03–00:04:12]<br>And reading is a super fast shortcut to figure out which, where are you. You're both good at it, you like doing it, and it will actually have positive impact.</p>
+<p class="cue" data-start="252.0" data-end="274.0"><strong>Elon Musk</strong> [00:04:12–00:04:34]<br>Well, you gotta learn about things somehow. So, reading a broad range, just really read it, you know. One point when I was a kid, I read through the encyclopedia. So, that was pretty helpful. And also things I didn't even know existed, law, law, lots, obviously.</p>
+<p class="cue" data-start="274.0" data-end="276.0"><strong>Lex Fridman</strong> [00:04:34–00:04:36]<br>It's like as broad as it gets.</p>
+<p class="cue" data-start="276.0" data-end="346.0"><strong>Elon Musk</strong> [00:04:36–00:05:46]<br>Encyclopedias were digestible, I think, whatever, 40 years ago. So, maybe read through the condensed version of the Encyclopedia Britannica. I'd recommend that. You can always skip subjects where you read a few paragraphs and you know you're not interested, just jump to the next one. So, read the encyclopedia or skim through it.<br>But I put a lot of stock in, certainly have a lot of respect for someone who puts in an honest day's work to do useful things. And just generally to have not a zero-sum mindset or have more of a grow-the-pie mindset. If you sort of say, when we see people, perhaps including some very smart people, kind of taking an attitude of doing things that seem morally questionable, it's often because they have at a base axiomatic level a zero-sum mindset.</p>
+<p class="cue" data-start="346.0" data-end="348.0"><strong>Lex Fridman</strong> [00:05:46–00:05:48]<br>Right.</p>
+<p class="cue" data-start="349.0" data-end="384.0"><strong>Elon Musk</strong> [00:05:49–00:06:24]<br>Without realizing it. They don't realize they have a zero-sum mindset, or at least they don't realize it consciously. And so if you have a zero-sum mindset, then the only way to get ahead is by taking things from others. If the pie is fixed, then the only way to have more pie is to take someone else's pie. But this is false. Obviously the pie has grown dramatically over time, the economic pie. So In reality, you can have— I overuse this analogy— you can have a lot of— there's a lot of pie.</p>
+<p class="cue" data-start="384.0" data-end="386.0"><strong>Lex Fridman</strong> [00:06:24–00:06:26]<br>Yeah, absolutely.</p>
+<p class="cue" data-start="386.0" data-end="426.0"><strong>Elon Musk</strong> [00:06:26–00:07:06]<br>Pie is not fixed. So, you really want to make sure you're not operating without realizing it from a zero-sum mindset where the only way to get ahead is to take things from others. Then that's going to result in you trying to take things from others, which is not Not good. It's much better to work on adding to the economic pie. So, creating, like I said, creating more than you consume, doing more than you— yeah. So, that's a big deal. I think there's a fair number of people in finance that do have a bit of a zero-sum mindset.</p>
+<p class="cue" data-start="427.0" data-end="475.0"><strong>Lex Fridman</strong> [00:07:07–00:07:55]<br>I mean, it's all walks of life. I've seen that. One of the reasons Rogan inspires me is he celebrates others a lot. There's not creating a constant competition. Like, there's a scarcity of resources.<br>What happens when you celebrate others and you promote others, the ideas of others, it actually grows that pie. I mean, it every— like, the resources become less scarce. And that applies in a lot of kinds of domains. It applies in academia where a lot of people are very, see some funding for academic research as zero-sum, and it is not. If you celebrate each other, if you make, if you get everybody to be excited about AI, about physics, about mathematics, I think there'd be more and more funding, and I think everybody wins.<br>Yeah, that applies I think broadly.</p>
+<p class="cue" data-start="475.0" data-end="478.0"><strong>Elon Musk</strong> [00:07:55–00:07:58]<br>Yeah, yeah, exactly.</p>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var player, cur = null, timer = null;
+function onYouTubeIframeAPIReady(){
+  player = new YT.Player('player', {videoId: 'M-ZH3psUbfU', playerVars: {playsinline: 1, rel: 0},
+    events: { onStateChange: function(e){
+      if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
+      else if (timer) { clearInterval(timer); }
+    }}});
+}
+function tick(){
+  if (!player || !player.getCurrentTime) return;
+  var t = player.getCurrentTime();
+  var cues = document.querySelectorAll('.cue'), act = null, i;
+  for (i = 0; i < cues.length; i++){
+    var s = parseFloat(cues[i].getAttribute('data-start'));
+    var e = parseFloat(cues[i].getAttribute('data-end'));
+    if (t >= s && t < e){ act = cues[i]; break; }
+  }
+  if (!act){
+    for (i = 0; i < cues.length; i++){
+      if (parseFloat(cues[i].getAttribute('data-start')) > t){ act = cues[i]; break; }
+    }
+  }
+  if (act !== cur){
+    if (cur) cur.classList.remove('active');
+    if (act) act.classList.add('active');
+    cur = act;
+    if (act) act.scrollIntoView({block:'center', behavior:'smooth'});
+  }
+}
+window.addEventListener('load', function(){
+  var cues = document.querySelectorAll('.cue');
+  cues.forEach(function(c){
+    c.addEventListener('click', function(){
+      var s = parseFloat(c.getAttribute('data-start'));
+      if (player && player.seekTo) player.seekTo(s, true);
+      if (player && player.playVideo) player.playVideo();
+    });
+  });
+});
+</script>
+
+</div>
     <div class="acts">
       <a class="btn primary" href="transcript.html" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>

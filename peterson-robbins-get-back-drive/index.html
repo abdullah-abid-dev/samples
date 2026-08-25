@@ -201,9 +201,12 @@ footer a { color:var(--accent); }
     .soft-price { background:var(--card); border:1px solid var(--border); border-radius:12px;
                   padding:1.1rem 1.2rem; margin:1rem 0; }
     .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
-    .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
-        max-width:920px; height:72vh; margin:1rem 0; background:var(--card); }
-    .transcript-embed iframe { width:100%; height:100%; border:0; }
+    .transcript-embed { border:1px solid var(--border); border-radius:12px; overflow:auto;
+        -webkit-overflow-scrolling:touch; max-width:920px; max-height:72vh; margin:1rem 0;
+        background:var(--card); padding:.2rem .6rem; }
+    .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
+    .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
+        background:#000; border-radius:12px; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
@@ -234,7 +237,7 @@ footer a { color:var(--accent); }
     .pill.primary { border-color:var(--accent); }
     .psz { color:var(--muted); font-size:.74rem; }
     .proposition { font-size:1.15rem; font-weight:650; color:var(--accent2); margin:.1rem 0 1.3rem; }
-    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { height:60vh; } }
+    @media (max-width:560px){ .ba { grid-template-columns:1fr; } .transcript-embed { max-height:60vh; } }
 </style>
 </head>
 <body>
@@ -255,7 +258,125 @@ footer a { color:var(--accent); }
     <h3 class="channel-h">Watch &amp; read along</h3>
     <p class="extras-note">Play the episode and follow the transcript &mdash; the line being spoken
        highlights and auto-scrolls in real time. Click any line to jump to that moment.</p>
-<div class="transcript-embed"><iframe src="transcript.html" title="Searchable transcript"></iframe></div>
+<div class="transcript-embed"><style>
+#player { width:100%; aspect-ratio:16/9; margin:1rem 0; background:#000;
+    border-radius:12px; overflow:hidden; }
+#player, #player iframe { width:100%; height:100%; border:0; }
+.cue { cursor:pointer; border-radius:8px; padding:.25rem .55rem; transition:background .15s; }
+.cue:hover { background:#eef2fb; }
+.cue.active { background:#fff7d6; box-shadow:0 0 0 2px #f0c64a; }
+</style>
+<div id="player"><iframe src="https://www.youtube.com/embed/TH8ih20mQdU?playsinline=1&rel=0" title="Episode video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<p class="cue" data-start="0.0" data-end="8.0"><strong>Tony Robbins</strong> [00:00:00–00:00:08]<br>When you look at people that are depressed, or even people just not where they wanna be, they have no compelling future. Anyone can deal with a difficult today if they have a compelling tomorrow.</p>
+<p class="cue" data-start="8.0" data-end="9.0"><strong>Jordan Peterson</strong> [00:00:08–00:00:09]<br>Yes.</p>
+<p class="cue" data-start="9.0" data-end="16.0"><strong>Tony Robbins</strong> [00:00:09–00:00:16]<br>A compelling future is everything. Because without that, you can have an aim, by the way, but if it's not compelling, it's not gonna do much.</p>
+<p class="cue" data-start="16.0" data-end="24.0"><strong>Jordan Peterson</strong> [00:00:16–00:00:24]<br>Well, and you demonstrate in the physiology of your lectures that compelling aspect is possible and real.</p>
+<p class="cue" data-start="24.0" data-end="24.0"><strong>Tony Robbins</strong> [00:00:24–00:00:24]<br>Yes.</p>
+<p class="cue" data-start="24.0" data-end="25.0"><strong>Jordan Peterson</strong> [00:00:24–00:00:25]<br>Right, and—</p>
+<p class="cue" data-start="25.0" data-end="48.0"><strong>Tony Robbins</strong> [00:00:25–00:00:48]<br>But I also get them to experience it once again. If they just watch me, that, you know, like, I'm not here to be their warm-up. I'm a role model example. I'm not here to be your guru. I'm here to be your friend. I have some insights. You have insights. We can learn from each other, right? But the idea of getting in a state of mind where you're in a heightened state of consciousness because your energy increases— think about it. When your energy drops, usually negative thoughts grow with that pretty massively, right?</p>
+<p class="cue" data-start="48.0" data-end="48.0"><strong>Jordan Peterson</strong> [00:00:48–00:00:48]<br>Yes. Yes.</p>
+<p class="cue" data-start="48.0" data-end="88.0"><strong>Tony Robbins</strong> [00:00:48–00:01:28]<br>Self-negative thoughts, thoughts about society. As you raise the energy level, it's like plugging into a computer. You have the greatest computer but not enough electricity. But if there's full electricity, there's power there. And most of us have gotten adjusted to a level of energy, especially post-COVID, That we don't even realize because we're like fish in water.<br>It has dropped massively. When I walk around into companies, that's why engagement became so important to me. There's just not the same level engagement, and no one's trying to deliberately do it. They were conditioned for 4 years to sit still in front of a computer and do anything, and many people before that weren't doing anything. It just magnified it.<br>But when the energy increases, that's my first job. Your consciousness increases with that frequency of intensity.</p>
+<p class="cue" data-start="88.0" data-end="97.0"><strong>Jordan Peterson</strong> [00:01:28–00:01:37]<br>When you said memory, Okay, well, there's a physiological explanation for that. Okay, so dopamine does 2 things. It produces that feeling of enthusiasm.</p>
+<p class="cue" data-start="97.0" data-end="98.0"><strong>Tony Robbins</strong> [00:01:37–00:01:38]<br>Yes.</p>
+<p class="cue" data-start="98.0" data-end="110.0"><strong>Jordan Peterson</strong> [00:01:38–00:01:50]<br>So it produces that feeling of reward. But that's not all. Imagine that there's a positive outcome and that produces some enthusiasm. Okay, now imagine that there's a chain of neurological events that led up to that positive outcome.</p>
+<p class="cue" data-start="110.0" data-end="110.0"><strong>Tony Robbins</strong> [00:01:50–00:01:50]<br>Yes.</p>
+<p class="cue" data-start="110.0" data-end="117.0"><strong>Jordan Peterson</strong> [00:01:50–00:01:57]<br>Okay, what dopamine does is encourage the neural systems that were active just before that positive event occurred to grow.</p>
+<p class="cue" data-start="117.0" data-end="118.0"><strong>Tony Robbins</strong> [00:01:57–00:01:58]<br>Yes.</p>
+<p class="cue" data-start="118.0" data-end="119.0"><strong>Jordan Peterson</strong> [00:01:58–00:01:59]<br>So now that is—</p>
+<p class="cue" data-start="119.0" data-end="120.0"><strong>Tony Robbins</strong> [00:01:59–00:02:00]<br>You're creating more wiring.</p>
+<p class="cue" data-start="120.0" data-end="152.0"><strong>Jordan Peterson</strong> [00:02:00–00:02:32]<br>And you're strengthening them. Meaning you're strengthening whatever connections were used to— So going from dial-up to, you know, so if you're, if you're increasing the energy and you're, and you're simultaneously getting people to configure their goals, and those 2 things are happening at the same time, that should increase the probability that the goals that they adopt will be instantiated permanently, permanently into memory. And then it's also not exactly the kind of memory that you would call to mind to talk about. It's the kind of memory that you see the world through.</p>
+<p class="cue" data-start="152.0" data-end="153.0"><strong>Tony Robbins</strong> [00:02:32–00:02:33]<br>Yes.</p>
+<p class="cue" data-start="153.0" data-end="156.0"><strong>Jordan Peterson</strong> [00:02:33–00:02:36]<br>So that's a different— that's procedural memory. It's completely different kind of memory.</p>
+<p class="cue" data-start="156.0" data-end="156.0"><strong>Tony Robbins</strong> [00:02:36–00:02:36]<br>I get it.</p>
+<p class="cue" data-start="156.0" data-end="176.0"><strong>Jordan Peterson</strong> [00:02:36–00:02:56]<br>It's the kind of memory that— so let's say you practice applying a certain framework of interpretation to your circumstances. Okay, that practice reconfigures procedural memory, and that's literally the rewiring of the system through which you view the world.</p>
+<p class="cue" data-start="176.0" data-end="197.0"><strong>Tony Robbins</strong> [00:02:56–00:03:17]<br>That's correct. And when you have a new view of the world, you come up with new meanings. And meanings, as you know, we both know, you did Maps of Meaning. My entire life has been, you know, I remember reading Man's Search for Meaning. I'm actually making the film. And it was one of the books that influenced me the most because the ability to find meaning even in the most difficult time. And Viktor Frankl to me is just a godsend to this planet.</p>
+<p class="cue" data-start="197.0" data-end="198.0"><strong>Jordan Peterson</strong> [00:03:17–00:03:18]<br>Yeah, yeah, it's a great book.</p>
+<p class="cue" data-start="198.0" data-end="199.0"><strong>Tony Robbins</strong> [00:03:18–00:03:19]<br>It's crazy.</p>
+<p class="cue" data-start="199.0" data-end="199.0"><strong>Jordan Peterson</strong> [00:03:19–00:03:19]<br>Yeah, it's great.</p>
+<p class="cue" data-start="199.0" data-end="202.0"><strong>Tony Robbins</strong> [00:03:19–00:03:22]<br>If you haven't read it, please, whoever you're listening, read it. Or if you ever—</p>
+<p class="cue" data-start="202.0" data-end="203.0"><strong>Jordan Peterson</strong> [00:03:22–00:03:23]<br>Anybody's ever read it, read it. Yes, that's Man's Search for Meaning.</p>
+<p class="cue" data-start="203.0" data-end="204.0"><strong>Tony Robbins</strong> [00:03:23–00:03:24]<br>Yes.</p>
+<p class="cue" data-start="204.0" data-end="204.0"><strong>Jordan Peterson</strong> [00:03:24–00:03:24]<br>Read that book.</p>
+<p class="cue" data-start="204.0" data-end="236.0"><strong>Tony Robbins</strong> [00:03:24–00:03:56]<br>It's incredible. of your meanings change, your focus and your meanings change when your energy shifts. And so it's so fundamental to bring that energy up, and most people have no reference for it in their body. You know, if you go to our concert, I remember Pat Riley came to one of our— who, you know, owns a piece of the Miami Heat, who was an amazing coach. If you're not familiar with the NBA basketball, one of the winningest coaches in history, good friend of mine, known him for 30 years.<br>And he came to one of our programs and he said, Tony, this is like the 7th game of the NBA championship, but it goes on for 4 days and it's 13 hours a day.</p>
+<p class="cue" data-start="236.0" data-end="239.0"><strong>Jordan Peterson</strong> [00:03:56–00:03:59]<br>Right, right. Right, right.</p>
+<p class="cue" data-start="239.0" data-end="259.0"><strong>Tony Robbins</strong> [00:03:59–00:04:19]<br>So that vibrancy, and most people at the game are cheering at times and not, this is an experience in your body. That's why I do the number of hours. That's why it's immersion. That's why it's multiple days, 4 days or 6 days. And that's why it has the lasting impact. But you're right, the dopamine circuits are actually creating, what's the white matter in your brain? The myelin, right? Creating the myelin.</p>
+<p class="cue" data-start="259.0" data-end="260.0"><strong>Jordan Peterson</strong> [00:04:19–00:04:20]<br>Yeah, yeah, yeah.</p>
+<p class="cue" data-start="260.0" data-end="274.0"><strong>Tony Robbins</strong> [00:04:20–00:04:34]<br>Hope and excitement are wonderful things, but you need competency as well. And in order to have that, the hope can get you started, give you the drive, the vision, the aim, but you've gotta have the execution. You have both the strategy and you've got to have the execution that's practiced.</p>
+<p class="cue" data-start="274.0" data-end="284.0"><strong>Jordan Peterson</strong> [00:04:34–00:04:44]<br>Yeah, okay, okay. So let's talk about that because you talked about eliciting motivation over a long period of time. So I'd like to know more about how you—</p>
+<p class="cue" data-start="284.0" data-end="303.0"><strong>Tony Robbins</strong> [00:04:44–00:05:03]<br>Or I would even say the word, if I may, drive. Because motivation is— the reason I use it, it's like a warm bath. You should probably take a bath, but it doesn't last, right? You should still do it. But drive is like everyone is motivated. If you're overweight, you're motivated to eat, right? Come on. I want to find out what drives you, because if we unleash your drive—</p>
+<p class="cue" data-start="303.0" data-end="305.0"><strong>Jordan Peterson</strong> [00:05:03–00:05:05]<br>What drives you towards the right aim?</p>
+<p class="cue" data-start="305.0" data-end="312.0"><strong>Tony Robbins</strong> [00:05:05–00:05:12]<br>That's right. What is it that will unleash you? That's what this experience is about. That's different than just being motivated. Okay, so let's walk—</p>
+<p class="cue" data-start="312.0" data-end="347.0"><strong>Jordan Peterson</strong> [00:05:12–00:05:47]<br>Okay, so I have an exercise that people can do online called Future Authoring, and one of its steps— and I'd like you to tell me how this compares to what you're doing in your seminars, in your events. So it's, it's a conditions of satisfaction exercise, or it's a, it's a meditation and contemplation exercise, or it's a prayer. You could think of all the— or a request for revelation. But here's the, here's the idea. So it's, uh, you can— you imagine for a moment that you could have what you wanted and needed in 5 years.</p>
+<p class="cue" data-start="347.0" data-end="348.0"><strong>Tony Robbins</strong> [00:05:47–00:05:48]<br>Okay.</p>
+<p class="cue" data-start="348.0" data-end="368.0"><strong>Jordan Peterson</strong> [00:05:48–00:06:08]<br>But there's a condition. You have to know what it is and you have to specify it. Okay, now then the question would be, well, how are you gonna discover that? And the answer is you ask yourself. It's like, okay, like what would— it's like the Viktor Frankl scenario. Even hypothetically, what would get me out of bed in the morning on a very, very difficult day?</p>
+<p class="cue" data-start="368.0" data-end="368.0"><strong>Tony Robbins</strong> [00:06:08–00:06:08]<br>Yes.</p>
+<p class="cue" data-start="368.0" data-end="371.0"><strong>Jordan Peterson</strong> [00:06:08–00:06:11]<br>Like what could I imagine could come to me in my mind?</p>
+<p class="cue" data-start="371.0" data-end="376.0"><strong>Tony Robbins</strong> [00:06:11–00:06:16]<br>That's something that will keep you up late, get you up early. Yeah, yeah, yeah. Make you feel fully alive.</p>
+<p class="cue" data-start="376.0" data-end="379.0"><strong>Jordan Peterson</strong> [00:06:16–00:06:19]<br>Yeah, well, what would make you persevere in times of trouble?</p>
+<p class="cue" data-start="379.0" data-end="402.0"><strong>Tony Robbins</strong> [00:06:19–00:06:42]<br>Exactly. Even a more direct question. Okay, so And by the way, I find, tell me if it's the same for you, it's not just the aim or objective, it's strong enough reasons. In other words, somebody say, I wanna make a billion dollars, but they don't do it. And they even envision to get excited about it, a million dollars, whatever it is. I wanna have 3 perfect children. I wanna write a book, whatever. The secret is reasons come first, answers come second. Once I know what I want, I gotta figure out why.</p>
+<p class="cue" data-start="402.0" data-end="403.0"><strong>Jordan Peterson</strong> [00:06:42–00:06:43]<br>Yes.</p>
+<p class="cue" data-start="403.0" data-end="416.0"><strong>Tony Robbins</strong> [00:06:43–00:06:56]<br>'Cause purpose is stronger than object. So the object may inspire you, but what's gonna keep you going is strong enough reasons when it's tough. What are the reasons? Okay, I want this money for what? Well, I wanna provide a home home for my mom. Well, that's very different than I just want to have this—</p>
+<p class="cue" data-start="416.0" data-end="416.0"><strong>Jordan Peterson</strong> [00:06:56–00:06:56]<br>Yes, definitely.</p>
+<p class="cue" data-start="416.0" data-end="418.0"><strong>Tony Robbins</strong> [00:06:56–00:06:58]<br>Pieces of paper with pictures of dead people on it, right?</p>
+<p class="cue" data-start="418.0" data-end="419.0"><strong>Jordan Peterson</strong> [00:06:58–00:06:59]<br>Yes.</p>
+<p class="cue" data-start="419.0" data-end="433.0"><strong>Tony Robbins</strong> [00:06:59–00:07:13]<br>People say, I want money. They don't want money. They want an emotion. They want an impact. They want security, or they want freedom, or they want to be able to contribute, or they want to do something they think money will give them more choices on, right? They don't want the money. So I'm always trying to dig underneath to figure out what is the—</p>
+<p class="cue" data-start="433.0" data-end="434.0"><strong>Jordan Peterson</strong> [00:07:13–00:07:14]<br>Yeah, that's the substructure.</p>
+<p class="cue" data-start="434.0" data-end="435.0"><strong>Tony Robbins</strong> [00:07:14–00:07:15]<br>Exactly.</p>
+<p class="cue" data-start="435.0" data-end="436.0"><strong>Jordan Peterson</strong> [00:07:15–00:07:16]<br>Yeah. Okay.</p>
+<p class="cue" data-start="436.0" data-end="463.0"><strong>Tony Robbins</strong> [00:07:16–00:07:43]<br>So surface desire, right? And many people focus on the surface desire, not knowing enough reasons to follow through. That's why New Year's resolutions don't work. 91% of them— I don't know what the latest statistic is people don't follow through after 3 weeks. By the time they're hearing us speak, if they had New Year's resolutions, they're gone because they don't have the reasons to push through and they don't have the strategy.<br>It's wonderful if you say, I want to see a sunset, but if your strategy is start running east as fast as you can, I don't give a damn how positive you are, it's not going to work.</p>
+<p class="cue" data-start="463.0" data-end="464.0"><strong>Jordan Peterson</strong> [00:07:43–00:07:44]<br>Yeah, right.</p>
+<p class="cue" data-start="464.0" data-end="570.0"><strong>Tony Robbins</strong> [00:07:44–00:09:30]<br>So it's a combination of that aim, those values, that drive you and I are talking about that ignite enough reasons for it, and then the strategies to execute because You'll eventually find your way there, but the speed at which you do it is if— I believe in modeling. I believe success leaves clues. My original teacher, Jim Rohn, taught me that.<br>He said, if someone is successful at anything, they've got a great relationship and it's 20 years down the line and they still do it, or they lost weight and kept it off for 10, 10 years, or they went from nothing to not just making money but sustaining financial security and freedom for their family, they're not lucky. They're doing something different than you are. So instead of you trial and trial and error, which standard way in which we learn. You find the pathway to power by finding someone who's done it consistently and produced results.<br>That obsession within me has launched most of the books I've written, most things I've done. It's like, I want to know what— you know, this book was, how do I help people with the best breakthroughs in health, for example, life force and energy? They take 17 years to go from the breakthrough time to your clinician. Like, how do I shorten that up? I'm going to interview 150 of the most brilliant regenerative doctors in the world, Nobel Prize winners, and find out what they're doing, give it to you right now.<br>Or I'm gonna finance— well, I can talk to you finance about what I think, or I can go interview 50 of the smartest financial people in the history of the world that are alive today and find out what do they do. While they're different, I look for what are the common strategies, elements, what, what is guiding this, and then I can teach that. My billionaire client goes, this is incredible, and the average person goes, This is incredible because it's about— it's very much what you do.<br>It's finding the pathway, it's finding the DNA, it's finding the codex of how to go from where you are to where you want to be. But it is more than just the aim that'll start you.</p>
+<p class="cue" data-start="570.0" data-end="570.0"><strong>Jordan Peterson</strong> [00:09:30–00:09:30]<br>Yeah.</p>
+<p class="cue" data-start="570.0" data-end="575.0"><strong>Tony Robbins</strong> [00:09:30–00:09:35]<br>It's— you've got to have the purpose or the reasons, or your purpose. If it's somebody else's purpose, the reasons won't work.</p>
+<p class="cue" data-start="575.0" data-end="576.0"><strong>Jordan Peterson</strong> [00:09:35–00:09:36]<br>Yes, it's not going to work. Right.</p>
+<p class="cue" data-start="576.0" data-end="604.0"><strong>Tony Robbins</strong> [00:09:36–00:10:04]<br>And then you need the strategies too, because that'll give you the drive, and you will figure it out if you— are you— if you can discipline your disappointment, if you can push yourself beyond what most people give up on, you're going to get there eventually. But you'll get there 10 times faster if you can say, wow, there's already a pathway that's been proven. Why would I reinvent the wheel? I'll still bring myself to it, my own uniqueness to it, but there's certain fundamentals that if you do them, you're going to have economic abundance. If you don't, you're going to have pain.</p>
+<p class="cue" data-start="604.0" data-end="608.0"><strong>Jordan Peterson</strong> [00:10:04–00:10:08]<br>That's the purpose of stories.</p>
+<p class="cue" data-start="608.0" data-end="609.0"><strong>Tony Robbins</strong> [00:10:08–00:10:09]<br>That's exactly right.</p>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+var player, cur = null, timer = null;
+function onYouTubeIframeAPIReady(){
+  player = new YT.Player('player', {videoId: 'TH8ih20mQdU', playerVars: {playsinline: 1, rel: 0},
+    events: { onStateChange: function(e){
+      if (e.data === 1){ if (timer) clearInterval(timer); timer = setInterval(tick, 250); }
+      else if (timer) { clearInterval(timer); }
+    }}});
+}
+function tick(){
+  if (!player || !player.getCurrentTime) return;
+  var t = player.getCurrentTime();
+  var cues = document.querySelectorAll('.cue'), act = null, i;
+  for (i = 0; i < cues.length; i++){
+    var s = parseFloat(cues[i].getAttribute('data-start'));
+    var e = parseFloat(cues[i].getAttribute('data-end'));
+    if (t >= s && t < e){ act = cues[i]; break; }
+  }
+  if (!act){
+    for (i = 0; i < cues.length; i++){
+      if (parseFloat(cues[i].getAttribute('data-start')) > t){ act = cues[i]; break; }
+    }
+  }
+  if (act !== cur){
+    if (cur) cur.classList.remove('active');
+    if (act) act.classList.add('active');
+    cur = act;
+    if (act) act.scrollIntoView({block:'center', behavior:'smooth'});
+  }
+}
+window.addEventListener('load', function(){
+  var cues = document.querySelectorAll('.cue');
+  cues.forEach(function(c){
+    c.addEventListener('click', function(){
+      var s = parseFloat(c.getAttribute('data-start'));
+      if (player && player.seekTo) player.seekTo(s, true);
+      if (player && player.playVideo) player.playVideo();
+    });
+  });
+});
+</script>
+
+</div>
     <div class="acts">
       <a class="btn primary" href="transcript.html" target="_blank" rel="noopener">Open the full searchable transcript &rarr;</a>
     </div>
