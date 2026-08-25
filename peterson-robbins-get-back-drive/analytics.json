@@ -1,0 +1,84 @@
+{
+  "duration_s": 609.6,
+  "total_words": 2179,
+  "speakers": 2,
+  "turns": 65,
+  "talk_time": {
+    "Tony Robbins": 362.6,
+    "Jordan Peterson": 139.9
+  },
+  "talk_time_pct": {
+    "Tony Robbins": 72.2,
+    "Jordan Peterson": 27.8
+  },
+  "pace_wpm": {
+    "Tony Robbins": 271,
+    "Jordan Peterson": 232
+  },
+  "fillers": {
+    "Tony Robbins": 8,
+    "Jordan Peterson": 7
+  },
+  "top_keywords": [
+    {
+      "word": "it's",
+      "count": 41
+    },
+    {
+      "word": "that's",
+      "count": 23
+    },
+    {
+      "word": "you're",
+      "count": 17
+    },
+    {
+      "word": "like",
+      "count": 14
+    },
+    {
+      "word": "don't",
+      "count": 11
+    },
+    {
+      "word": "energy",
+      "count": 9
+    },
+    {
+      "word": "there's",
+      "count": 9
+    },
+    {
+      "word": "most",
+      "count": 9
+    },
+    {
+      "word": "reasons",
+      "count": 9
+    },
+    {
+      "word": "memory",
+      "count": 8
+    },
+    {
+      "word": "even",
+      "count": 7
+    },
+    {
+      "word": "find",
+      "count": 7
+    },
+    {
+      "word": "years",
+      "count": 6
+    },
+    {
+      "word": "different",
+      "count": 6
+    },
+    {
+      "word": "give",
+      "count": 6
+    }
+  ]
+}
