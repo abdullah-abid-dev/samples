@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abdullah-abid-dev.github.io/samples/sitemap.xml
