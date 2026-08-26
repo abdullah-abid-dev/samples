@@ -1,0 +1,84 @@
+{
+  "duration_s": 685.6,
+  "total_words": 1753,
+  "speakers": 2,
+  "turns": 8,
+  "talk_time": {
+    "Speaker 1": 560.2,
+    "Speaker 0": 35.8
+  },
+  "talk_time_pct": {
+    "Speaker 1": 94.0,
+    "Speaker 0": 6.0
+  },
+  "pace_wpm": {
+    "Speaker 1": 176,
+    "Speaker 0": 188
+  },
+  "fillers": {
+    "Speaker 1": 0,
+    "Speaker 0": 0
+  },
+  "top_keywords": [
+    {
+      "word": "animals",
+      "count": 4
+    },
+    {
+      "word": "pakistan",
+      "count": 3
+    },
+    {
+      "word": "observer",
+      "count": 3
+    },
+    {
+      "word": "frustration",
+      "count": 3
+    },
+    {
+      "word": "personal",
+      "count": 3
+    },
+    {
+      "word": "hobbies",
+      "count": 3
+    },
+    {
+      "word": "dogs",
+      "count": 3
+    },
+    {
+      "word": "doing",
+      "count": 3
+    },
+    {
+      "word": "amazing",
+      "count": 3
+    },
+    {
+      "word": "welcome",
+      "count": 2
+    },
+    {
+      "word": "podcast",
+      "count": 2
+    },
+    {
+      "word": "certain",
+      "count": 2
+    },
+    {
+      "word": "trouble",
+      "count": 2
+    },
+    {
+      "word": "work",
+      "count": 2
+    },
+    {
+      "word": "cardboard",
+      "count": 2
+    }
+  ]
+}
