@@ -235,6 +235,17 @@ footer a { color:var(--accent); }
      .nav-toggle { display:none; background:var(--card); border:1px solid var(--border);
          border-radius:8px; font-size:1.25rem; line-height:1; padding:.25rem .6rem;
          cursor:pointer; color:var(--fg); }
+     .avatar { width:140px; height:140px; border-radius:50%; object-fit:cover;
+         background:#eef2fb; border:1px solid var(--border); flex-shrink:0; }
+     .about-head { display:flex; gap:1.2rem; align-items:center; flex-wrap:wrap;
+         margin:0 0 1.2rem; }
+     .about-head .name-block h2 { margin:0 0 .2rem; }
+     .about-head .name-block p { margin:0; color:var(--muted); }
+     .social-row { display:flex; flex-wrap:wrap; gap:.5rem; margin:.6rem 0 1rem; }
+     .social-row a { display:inline-flex; align-items:center; gap:.35rem; text-decoration:none;
+         color:var(--accent); font-weight:600; border:1px solid var(--border); border-radius:999px;
+         padding:.35rem .8rem; font-size:.88rem; }
+     .social-row a:hover { border-color:var(--accent); }
      @media (max-width:768px){
        header.brand { flex-wrap:wrap; }
        .nav-toggle { display:block; margin-left:auto; }
