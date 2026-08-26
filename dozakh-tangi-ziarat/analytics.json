@@ -1,0 +1,19 @@
+{
+  "duration_s": 954.8,
+  "total_words": 2217,
+  "speakers": 1,
+  "turns": 1,
+  "talk_time": {
+    "Speaker 0": 759.0
+  },
+  "talk_time_pct": {
+    "Speaker 0": 100.0
+  },
+  "pace_wpm": {
+    "Speaker 0": 175
+  },
+  "fillers": {
+    "Speaker 0": 0
+  },
+  "top_keywords": []
+}
