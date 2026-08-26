@@ -1,47 +1,27 @@
-# Mishi Khan on Animal Advocacy, Social Frustration, and Her Dog Shelter in Pakistan
+# میشی خان کی جانوروں کی محبت: پاکستان آبزرور پاڈکاسٹ میں ایک گہرا جائزہ
 
-In this exclusive episode of the Pakistan Observer Podcast, we explore the powerful advocacy work of Mishi Khan, a local celebrity who uses her platform to champion animal rights and social justice. Through a candid conversation with host Abdullah Malik, Mishi shares her motivations for speaking out on critical issues, her observations on societal frustrations manifesting as cruelty toward animals, and the personal journey of running a thriving dog shelter in Karachi.
+اس بلاگ پوسٹ میں آپ وہ تمام اہم نکات پڑھیں گے جو میشی خان اور پاکستان آبزرور کے میزبان عبداللہ ملک نے اپنی گفتگو میں اجاگر کیے ہیں۔ یہ مواد میشی خان کی جانوروں کے حقوق کی حمایت، ان کی ذاتی کہانی، اور پاکستانی سماجی مسائل پر ان کی بصیرت کو گہرائی سے سمجھنے کے لیے تیار کیا گیا ہے۔
 
-## The Responsibility of the Influencer
+## سماجی ذمہ داری اور پلیٹ فارم کا استعمال
 
-Mishi Khan believes that having a public platform comes with a moral obligation to speak on issues beyond personal interests like makeup or glamour. She observes that while many influencers focus on trivial topics, there are significant injustices in society—particularly regarding children and animals—that require immediate attention. Mishi argues that every individual should use their voice to raise awareness, transforming personal platforms into tools for humanitarian action.
+میشی خان کی بات کرنے کی بنیادی وجہ ان کا اعتقاد ہے کہ ہر انسان کو اپنا پلیٹ فارم "ہیمینٹین کاؤنس" (Humanitarian Causes) کے لیے استعمال کرنا چاہیے۔ وہ اس بات پر زور دیتی ہیں کہ روزمرہ کی زندگی میں بہت سی اہم باتیں، جن میں جانوروں کے حقوق شامل ہیں، جن پر عام لوگ بات نہیں کرتے۔ اس کے باوجود، جب کوئی شخص کوئی پوزیشن یا پلیٹ فارم حاصل ہوتا ہے، تو اس پر ایک ذمہ داری پڑتی ہے کہ وہ دوسری اہم باتوں پر بھی آواز اٹھائے۔
 
-*   **Advocacy as a Duty:** Mishi views vocalizing on important issues as a responsibility granted by Allah when one possesses a platform.
-*   **Shifting Focus:** She encourages moving away from superficial content to address deep-seated societal problems that often go unnoticed.
+میشی خان کا کہنا ہے کہ سوشل میڈیا، یوٹیوب اور مختلف ایپس آج کے دور میں بہت اہمیت رکھتی ہیں۔ پہلے اخبارات یا ٹی وی کے ذریعے اہمیت پہچاننا مشکل تھا اور کوئی ایسا پلیٹ فارم نہیں تھا جہاں ہم جانوروں کے ساتھ ظلم کے خلاف آواز اٹھا سکیں۔ آج ان کے پلیٹ فارم کو استعمال کرتے ہوئے وہ بچوں اور لڑکیوں کے ساتھ ہونے والے مظالم پر بات کرتی ہیں تاکہ لوگوں کو آگاہی پہنچ سکے۔
 
-## The Roots of Cruelty: Frustration and Sadism
+*   ہر انسان کو اپنے پلیٹ فارم کو اہداف کے لیے استعمال کرنا چاہیے۔
+*   سوشل میڈیا آج اہم اہداف کو پہنچانے کا بہترین ذریعہ ہے۔
+*   بغیر آواز اٹھائے، بے حسی کا باعث بننا خطرناک ہے۔
 
-A central theme of the discussion is the disturbing prevalence of cruelty toward animals in Pakistan. Mishi attributes this behavior not to a lack of love, but to a deep-seated "sadistic mindset" born from societal frustration. When people feel powerless or unfulfilled in their daily lives, they often lash out by mocking, hitting, or neglecting animals. This behavior is frequently passed down from parents to children, creating a cycle of insensitivity.
+## الفاظ کا انتخاب اور مینڈ سیٹ
 
-*   **Projection of Frustration:** People use animals as a target to vent their anger because they lack other outlets or hobbies.
-*   **The Cycle of Violence:** Children learn to treat animals poorly by observing their parents mock or harm them for amusement.
-*   **Lack of True Humor:** Mishi notes that what is often called "humor" in Pakistan is frequently just insult and degradation disguised as laughter.
+میشی خان کا ایک اور اہم نقطہ یہ ہے کہ جب وہ جانوروں کے ساتھ ظلم کے بارے میں بات کرتی ہیں، تو وہ الفاظ کا خاص خیال رکھتی ہیں۔ ان کا مقصد یہ ہے کہ ان کے الفاظ کسی کی دلازاری یا کسی کو برا نہ لگے، لیکن ساتھ ہی ایک واضح پیغام بھی پہنچے۔ وہ کہتی ہیں کہ اگر کسی کو کوئی اتراز ہو کہ وہ جانوروں کے ساتھ ظلم کی بات کر رہی ہے، تو وہ کبھی ایسا نہیں ہوا۔
 
-## The Power of Kindness and Role Modeling
+اس کے پیچھے ایک گہرا نفسیاتی سبب بھی ہے۔ وہ پاکستانی معاشرے میں "مینڈ سیٹ" (Mindset) پر بات کرتی ہیں۔ وہ کہتی ہیں کہ ہم اکثر اپنے غصے یا فروسٹریشن (Frustration) کو جانوروں، بچوں یا پتھر مارنے پر نکالتے ہیں۔ جب کسی کو پتھر مارا جاتا ہے تو وہ چیخ کر رہا ہوتا ہے، لیکن لوگ اسے مزہ سمجھ کر ہاہاہاہ کر رہے ہوتے ہیں۔ یہ واقعی ہیومر نہیں ہے، بلکہ یہ ایک دہشت گردی کی شکل ہے۔
 
-Despite the prevalence of cruelty, Mishi credits her father for instilling a sense of kindness in her. Her father was a "kind-hearted" man who taught her that animals are created by Allah with a purpose and deserve respect. She emphasizes that parents must model this behavior, teaching their children to care for animals rather than abuse them. Mishi believes that if society truly cared for animals, they would not be left to starve while humans enjoy luxury.
+*   الفاظ کا صحیح انتخاب پیغام کو محفوظ بناتا ہے۔
+*   پاکستان میں اکثر لوگ اپنا غصہ جانوروں یا بچوں پر نکالتے ہیں۔
+*   "مینڈ سیٹ" کی تبدیلی کے بغیر معاشرہ پیش رفت نہیں کر سکتا۔
 
-*   **Father's Influence:** Mishi attributes her animal advocacy directly to her father's teachings on kindness.
-*   **Modeling Behavior:** Parents have a critical role in shaping how children view animals; if parents are kind, children will be too.
-*   **Recognition of Rights:** Mishi highlights that animals are helpless and voiceless, making their suffering particularly unjust.
+## اپنے والدین سے سیکھنا اور مہربانی
 
-## Building a Sanctuary: The Journey of the Dog Shelter
-
-Mishi's personal hobby has evolved into a dedicated mission to rescue and care for dogs. She spends her time driving around Karachi to find strays, often rescuing puppies from cardboard boxes or the streets. She currently runs a dog shelter where she has successfully saved over sixty dogs, many of whom have found permanent homes. While she plans to expand the shelter to include cats and donkeys, she currently funds the operation entirely from her own resources, choosing not to commercialize it yet.
-
-*   **Rescue Mission:** Mishi drives to find strays, bringing them to her shelter for care and adoption.
-*   **Current Success:** She has rescued and housed more than 60 dogs so far.
-*   **Future Expansion:** Her long-term goal is to create a larger facility capable of housing cats and donkeys alongside the dogs.
-
-## Inspiring Role Models in Animal Welfare
-
-While Mishi manages her own shelter with personal funds, she also admires the work of other organizations and individuals in Pakistan. She specifically praises Aisha Chundriker and the Animal Care Foundation (ACF) in Karachi for their exceptional work. Mishi acknowledges the immense patience and dedication required to relocate and care for hundreds of dogs, noting that such work is incredibly difficult but essential. She expresses hope that one day she might have the capacity to work alongside such dedicated teams.
-
-*   **ACF Karachi:** Recognized for their wonderful work in animal care.
-*   **Aisha Chundriker:** Admired for her patience and dedication in relocating thousands of dogs.
-*   **Collaboration:** Mishi hopes to eventually collaborate with or learn from these dedicated teams.
-
-## Key Takeaways
-
-*   **Moral Obligation:** Public figures have a responsibility to use their platforms to advocate for justice, especially regarding vulnerable groups like children and animals.
-*   **Societal Frustration:** Cru
+میشی خان کا جانوروں کی محبت کا سب سے بڑا ذریعہ ان کے والدین سے سیکھنا ہے۔ وہ کہتی ہیں کہ ہماری سوشیٹی میں کتے، بلیاں اور ڈانکیز بھوکے اور پیاسے رہتے ہیں، کیونکہ ان کے بجٹ ان کی حکومت یا ایڈمنسٹریشن کا استعمال ہوتے ہیں۔ ان کے اپنے والدین بہت نرم دل (kind

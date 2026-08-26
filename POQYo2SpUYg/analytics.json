@@ -1,19 +1,19 @@
 {
-  "duration_s": 685.6,
-  "total_words": 1753,
+  "duration_s": 684.7,
+  "total_words": 1987,
   "speakers": 2,
-  "turns": 8,
+  "turns": 19,
   "talk_time": {
-    "Speaker 1": 560.2,
-    "Speaker 0": 35.8
+    "Speaker 1": 547.9,
+    "Speaker 0": 100.7
   },
   "talk_time_pct": {
-    "Speaker 1": 94.0,
-    "Speaker 0": 6.0
+    "Speaker 1": 84.5,
+    "Speaker 0": 15.5
   },
   "pace_wpm": {
-    "Speaker 1": 176,
-    "Speaker 0": 188
+    "Speaker 1": 186,
+    "Speaker 0": 172
   },
   "fillers": {
     "Speaker 1": 0,
@@ -21,64 +21,64 @@
   },
   "top_keywords": [
     {
-      "word": "animals",
-      "count": 4
-    },
-    {
-      "word": "pakistan",
-      "count": 3
-    },
-    {
-      "word": "observer",
-      "count": 3
-    },
-    {
-      "word": "frustration",
-      "count": 3
-    },
-    {
-      "word": "personal",
-      "count": 3
-    },
-    {
-      "word": "hobbies",
-      "count": 3
-    },
-    {
-      "word": "dogs",
-      "count": 3
-    },
-    {
-      "word": "doing",
-      "count": 3
-    },
-    {
-      "word": "amazing",
-      "count": 3
-    },
-    {
-      "word": "welcome",
+      "word": "platform",
       "count": 2
     },
     {
-      "word": "podcast",
+      "word": "shelter",
       "count": 2
     },
     {
-      "word": "certain",
-      "count": 2
+      "word": "animal",
+      "count": 1
+    },
+    {
+      "word": "rights",
+      "count": 1
+    },
+    {
+      "word": "position",
+      "count": 1
+    },
+    {
+      "word": "obviously",
+      "count": 1
+    },
+    {
+      "word": "social",
+      "count": 1
+    },
+    {
+      "word": "media",
+      "count": 1
+    },
+    {
+      "word": "awareness",
+      "count": 1
+    },
+    {
+      "word": "exactly",
+      "count": 1
     },
     {
       "word": "trouble",
-      "count": 2
+      "count": 1
     },
     {
-      "word": "work",
-      "count": 2
+      "word": "side",
+      "count": 1
     },
     {
-      "word": "cardboard",
-      "count": 2
+      "word": "seat",
+      "count": 1
+    },
+    {
+      "word": "father",
+      "count": 1
+    },
+    {
+      "word": "hearted",
+      "count": 1
     }
   ]
 }

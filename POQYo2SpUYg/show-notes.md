@@ -1,20 +1,17 @@
 ## Summary
-In this episode of the Pakistan Observer Podcast, host Abdullah Malik sits down with Mishi Khan to explore her deep passion for animals and her commitment to advocacy. Mishi challenges the notion that local celebrities should remain silent on political issues, arguing instead that they must use their platforms for social good. She discusses the alarming rise of animal cruelty in Pakistan, attributing it to societal frustration and a sadistic mindset rather than genuine humor. Mishi shares her personal journey as an activist who has rescued over 60 dogs, emphasizing that every individual has a moral duty to use their platform for humanitarian causes. The conversation highlights the importance of kindness, the need for better treatment of animals compared to humans, and the inspiring work of organizations like the Animal Care Foundation (ACF) in Karachi.
+کیا ریزن ہے کہ لوکل سیلیبرٹیز نے پالیسٹائن پر کچھ آواز نہیں اٹھائی؟ یہ سوال اس پودکاسٹ اپیزوڈ کا مرکزی محور ہے جو میشی خان کی جانوروں کے ساتھ انسانی محبت کی وجوہات کو سمجھنے کی کوشش کرتا ہے۔ میشی کا کہنا ہے کہ ہر انسان اپنے پلیٹ فارم کو ہیمینٹینڈ کاؤنز کیلئے استعمال کرنا چاہیے، خاص طور پر جب بھی لوگ جانوروں کے ساتھ ظلم کرتے ہیں۔ وہ اپنے والدین کی مثال دیتے ہوئے بتاتی ہیں کہ کتنے بے زبان جانور ہیں جو بھوکے پیاسے رہتے ہیں، جبکہ انسانوں کے ساتھ ان کی پیٹ پیچھے باتیں ہوتی ہیں۔ اپنی ذاتی پسندیدہ ہوبیز کے طور پر میشی کتوں کے لیے گاڑی میں سفر کرتی ہے اور انہیں کھانا دیتی ہے، اور وہ اپنے ڈاگ شیلٹر کو فنڈز کی مدد سے چلاتی ہے۔ یہ اپیزوڈ ہمیں جانوروں کے حقوق کی اہمیت اور سماجی ذمہ داری کے بارے میں سوچنے پر مجبور کرتا ہے۔
 
 ## Key Takeaways
-*   **Advocacy is a Moral Duty:** Mishi argues that when people are given a platform, they have a responsibility to use it for humanitarian causes, not just glamour or trivial topics.
-*   **Cruelty Stems from Frustration:** The hostility toward animals in Pakistan is largely driven by a "sadistic mindset" where people vent their frustrations and anger onto vulnerable creatures.
-*   **Intergenerational Impact:** Mishi believes that children learn behavior by observing their parents; if parents treat animals poorly, children will too.
-*   **Personal Rescue Mission:** Mishi runs a personal dog shelter where she has rescued over 60 dogs, often taking them from shelters where they cannot survive outdoors.
-*   **Financial Sustainability:** She manages her shelter with her own funds without commercialization, aiming eventually to expand care for cats and donkeys.
-*   **Celebrity Responsibility:** She urges local celebrities to speak out on issues like Palestine and local animal rights rather than staying silent.
+*   **سماجی ذمہ داری:** ہر انسان اپنے پلیٹ فارم کو اہمیت کے مسائل، خاص طور پر جانوروں کے حقوق اور لڑکیوں کے ساتھ ظلم کے بارے میں بات کرنے کے لیے استعمال کرنا چاہیے۔
+*   **ذمہ داری کا احساس:** اللہ نے انسان کو "اشرف المخلوقات" بنایا ہے، جو اسے سوچنے اور سمجھنے کی طاقت دیتا ہے، لیکن کبھی کبھی لوگ اپنا غصہ جانوروں پر نکالتے ہیں۔
+*   **ذاتی محبت کا اثر:** میشی کا کہنا ہے کہ کتے انسانی محبت کو یاد رکھتے ہیں، جبکہ انسان ایک دوسرے کے پیٹ پیچھے بات کرتے ہیں، جو کہ ایک بڑا فرق ہے۔
+*   **ذاتی پسندیدہ سرگرمیاں:** میشی کی اپنی ہوبیز میں کتوں کے لیے گاڑی میں سفر کرنا اور انہیں کھانا دینا شامل ہے، جس سے انہیں خوشی ملتی ہے۔
+*   **ڈاگ شیلٹر کی چلن:** میشی اپنے فنڈز کی مدد سے ایک ڈاگ شیلٹر چلاتی ہے، جہاں وہ بچوں کو اٹھائے رکھتی ہے جو بھارے نہیں کرسکتے۔
+*   **مذمت کا انداز:** میشی کوشش کرتی ہے کہ جب بھی وہ جانوروں کے ساتھ ظلم کے بارے میں بات کرتی ہے، تو الفاظ کا انتخاب ایسا ہو کہ کوئی برا یا دلازاری نہ لگے۔
 
 ## Notable Moments
-*   **00:00:03 – Political Silence vs. Action:** The episode opens with a critique of local celebrities who remain silent on Palestine but immediately post stories about Pulwama, questioning their consistency.
-*   **00:01:42 – The Duty of Platforms:** Mishi explains that because she has a platform, she feels a duty to speak on animal rights and social injustices that often go unaddressed.
-*   **00:03:51 – Frustration as a Driver of Cruelty:** Mishi identifies that the lack of hobbies and personal space leads to a sadistic mindset, where people punch, beat, or mock animals to relieve frustration.
-*   **00:05:47 – The Rescue Mission:** Mishi reveals her personal hobby involves driving around with a bag of food to rescue stray dogs, noting she has now saved over 60 animals.
-*   **00:10:49 – Inspiration from Aisha Chundriker:** Mishi praises Aisha Chundriker for her incredible dedication to relocating and caring for thousands of dogs, serving as a role model for future expansion.
-
-## Resources & Links
-None explicitly mentioned.
+*   **00:00:03 – کیا ریزن ہے کہ لوکل سیلیبرٹیز نے پالیسٹائن پر کچھ آواز نہیں اٹھائی؟** یہ سوال اپیزوڈ کا آغاز کرتا ہے اور سماجی آواز اٹھانے کی ضرورت کو اجاگر کرتا ہے۔
+*   **00:01:43 – اللہ نے اگر آپ کو کوئی platform دیا ہوتا ہے تو آپ کی ایک ذمہ داری ہوتی ہے:** میشی کا کہنا ہے کہ ہر انسان اپنے پلیٹ فارم کو ہیمینٹینڈ کاؤنز کیلئے استعمال کرنا چاہیے۔
+*   **00:04:49 – میرے father جو تھے وہ بہت kind hearted تھے:** میشی اپنے والدین کی مثال دیتے ہوئے بتاتی ہیں کہ کتنے بے زبان جانور ہیں جو بھوکے پیاسے رہتے ہیں۔
+*   **00:09:16 – میری پرسنل ہوبیز بہت ساری ہیں:** میشی بتاتی ہیں کہ ان کی پسندیدہ ہوبیز کتوں کے لیے گاڑی میں سفر کرنا اور انہیں کھانا دینا ہے۔
+*   **00:10:08 – میرے فنڈز اپنے ہوتے ہیں:** میشی بتاتی ہیں کہ وہ اپنے فنڈز کی مدد سے ایک ڈاگ شیلٹر چلاتی ہیں
