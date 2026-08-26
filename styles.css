@@ -2,7 +2,7 @@
 :root { color-scheme: light dark; --fg:#1a1a1a; --muted:#6b7280; --accent:#2f6fde;
         --accent2:#1f4fa8; --card:#ffffff; --bg:#f6f7f9; --border:#e5e7eb; }
 * { box-sizing: border-box; }
-body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
        margin:0; background:var(--bg); color:var(--fg);
        padding:2.5rem 1rem; }
 .wrap { width:100%; max-width:1200px; margin:0 auto; padding:0 1.25rem; }
@@ -109,6 +109,18 @@ footer a { color:var(--accent); }
   .reviewed-grid { display:grid; gap:.8rem; margin-top:.4rem; }
   .section-h { font-size:1.15rem; font-weight:700; margin:1.5rem 0 .4rem; }
   .extras-note { color:var(--muted); font-size:.88rem; margin:0 0 .7rem; line-height:1.5; }
+  table.vs { width:100%; border-collapse:collapse; margin:.8rem 0 1.2rem; font-size:.95rem; background:var(--card);
+             border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+  table.vs th, table.vs td { text-align:left; padding:.7rem .8rem; border-bottom:1px solid var(--border); vertical-align:top; }
+  table.vs thead th { background:var(--accent); color:#fff; font-weight:600; }
+  table.vs tbody tr:last-child td { border-bottom:none; }
+  table.vs tbody td:first-child { color:var(--muted); }
+  .testimonials { margin:1.6rem 0; }
+  .tgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:.9rem; }
+  .tcard { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.1rem 1.2rem; margin:0; }
+  .tcard blockquote { margin:0 0 .6rem; font-style:italic; line-height:1.55; }
+  .tcard figcaption { font-size:.9rem; font-weight:600; color:var(--accent2); }
+  .tcard .trole { font-weight:400; color:var(--muted); }
   .pkg-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.9rem; margin-top:.7rem; }
   .pkg { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.1rem 1.2rem; }
   .pkg h3 { margin:0 0 .5rem; font-size:1.1rem; color:var(--accent2); }
