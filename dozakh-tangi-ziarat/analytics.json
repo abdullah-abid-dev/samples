@@ -1,19 +1,28 @@
 {
-  "duration_s": 954.8,
-  "total_words": 2217,
+  "duration_s": 954.4,
+  "total_words": 2985,
   "speakers": 1,
   "turns": 1,
   "talk_time": {
-    "Speaker 0": 759.0
+    "Speaker 0": 873.6
   },
   "talk_time_pct": {
     "Speaker 0": 100.0
   },
   "pace_wpm": {
-    "Speaker 0": 175
+    "Speaker 0": 205
   },
   "fillers": {
     "Speaker 0": 0
   },
-  "top_keywords": []
+  "top_keywords": [
+    {
+      "word": "water",
+      "count": 1
+    },
+    {
+      "word": "level",
+      "count": 1
+    }
+  ]
 }

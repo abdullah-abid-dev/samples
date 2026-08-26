@@ -2,18 +2,18 @@
 
 ## At a glance
 
-- Duration: 15:55
-- Words: 2,217
+- Duration: 15:54
+- Words: 2,985
 - Speakers: 1
 - Speaking turns: 1
 
 ## Speaking-time share
 
-- Speaker 0: 100% (12:39)
+- Speaker 0: 100% (14:34)
 
 ## Speaking pace
 
-- Speaker 0: 175 words/min
+- Speaker 0: 205 words/min
 
 ## Filler words
 
@@ -21,5 +21,5 @@
 
 ## Top keywords
 
-n/a
+water (1), level (1)
 
