@@ -202,11 +202,13 @@ footer a { color:var(--accent); }
                   padding:1.1rem 1.2rem; margin:1rem 0; }
     .soft-price h3 { margin:0 0 .3rem; color:var(--accent2); }
     .transcript-embed { border:1px solid var(--border); border-radius:12px;
-        max-width:920px; max-height:560px; overflow:auto; -webkit-overflow-scrolling:touch;
-        margin:1rem 0; background:var(--card); padding:.4rem .7rem; }
-    .transcript-embed iframe { width:100%; height:70vh; border:0; display:block; }
-    .transcript-embed #player { position:sticky; top:0; z-index:3; margin:.2rem 0 .6rem;
-        background:#000; border-radius:12px; }
+        max-width:920px; height:600px; overflow:auto; -webkit-overflow-scrolling:touch;
+        margin:1rem 0; background:var(--card); padding:.6rem .8rem; }
+    .transcript-embed > iframe { width:100%; height:100%; min-height:62vh; border:0; display:block; }
+    .transcript-embed #player { position:sticky; top:0; z-index:3; margin:0 0 .6rem;
+        background:var(--card); }
+    .transcript-embed #player iframe { width:100%; aspect-ratio:16/9; height:auto;
+        max-height:40vh; border:0; display:block; border-radius:10px; }
     .player-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; margin:1rem 0; }
     .player-grid > div { height:64vh; }
     .video-embed { border:1px solid var(--border); border-radius:12px; overflow:hidden;
