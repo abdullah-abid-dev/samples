@@ -1,0 +1,88 @@
+{
+  "duration_s": 3526.4,
+  "total_words": 9922,
+  "speakers": 3,
+  "turns": 256,
+  "talk_time": {
+    "Stephen Laine": 1422.1,
+    "David Kaufer": 894.8,
+    "Announcer": 27.0
+  },
+  "talk_time_pct": {
+    "Stephen Laine": 60.7,
+    "David Kaufer": 38.2,
+    "Announcer": 1.2
+  },
+  "pace_wpm": {
+    "Stephen Laine": 257,
+    "David Kaufer": 249,
+    "Announcer": 227
+  },
+  "fillers": {
+    "Stephen Laine": 109,
+    "David Kaufer": 77,
+    "Announcer": 0
+  },
+  "top_keywords": [
+    {
+      "word": "like",
+      "count": 147
+    },
+    {
+      "word": "that's",
+      "count": 76
+    },
+    {
+      "word": "he's",
+      "count": 70
+    },
+    {
+      "word": "it's",
+      "count": 67
+    },
+    {
+      "word": "again",
+      "count": 46
+    },
+    {
+      "word": "back",
+      "count": 41
+    },
+    {
+      "word": "you're",
+      "count": 38
+    },
+    {
+      "word": "matthew",
+      "count": 32
+    },
+    {
+      "word": "we're",
+      "count": 28
+    },
+    {
+      "word": "don't",
+      "count": 26
+    },
+    {
+      "word": "autism",
+      "count": 24
+    },
+    {
+      "word": "school",
+      "count": 24
+    },
+    {
+      "word": "gonna",
+      "count": 24
+    },
+    {
+      "word": "over",
+      "count": 23
+    },
+    {
+      "word": "didn't",
+      "count": 22
+    }
+  ]
+}
