@@ -1,0 +1,92 @@
+{
+  "duration_s": 4161.6,
+  "total_words": 11937,
+  "speakers": 4,
+  "turns": 300,
+  "talk_time": {
+    "Angela Acres-Castro": 1967.2,
+    "David Kaufer": 679.8,
+    "D": 31.4,
+    "Announcer": 27.5
+  },
+  "talk_time_pct": {
+    "Angela Acres-Castro": 72.7,
+    "David Kaufer": 25.1,
+    "D": 1.2,
+    "Announcer": 1.0
+  },
+  "pace_wpm": {
+    "Angela Acres-Castro": 269,
+    "David Kaufer": 257,
+    "D": 187,
+    "Announcer": 240
+  },
+  "fillers": {
+    "Angela Acres-Castro": 254,
+    "David Kaufer": 59,
+    "D": 0,
+    "Announcer": 0
+  },
+  "top_keywords": [
+    {
+      "word": "like",
+      "count": 291
+    },
+    {
+      "word": "it's",
+      "count": 105
+    },
+    {
+      "word": "he's",
+      "count": 62
+    },
+    {
+      "word": "don't",
+      "count": 57
+    },
+    {
+      "word": "that's",
+      "count": 52
+    },
+    {
+      "word": "didn't",
+      "count": 39
+    },
+    {
+      "word": "you're",
+      "count": 37
+    },
+    {
+      "word": "they're",
+      "count": 37
+    },
+    {
+      "word": "again",
+      "count": 31
+    },
+    {
+      "word": "great",
+      "count": 29
+    },
+    {
+      "word": "we're",
+      "count": 27
+    },
+    {
+      "word": "every",
+      "count": 26
+    },
+    {
+      "word": "there's",
+      "count": 25
+    },
+    {
+      "word": "other",
+      "count": 22
+    },
+    {
+      "word": "where",
+      "count": 21
+    }
+  ]
+}
