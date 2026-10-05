@@ -1,0 +1,1436 @@
+[
+  {
+    "speaker": "Announcer",
+    "start": "00:00:04",
+    "end": "00:00:37",
+    "text": "Welcome to The Lighter Side of the Spectrum, the podcast that celebrates the multiple hats we wear and the juggling acts we perform in life. Whether you're parenting kids and teens on the autism spectrum, navigating the ever-evolving healthcare industry, or building a more inclusive and impactful world, this is your space to find connection, inspiration, and growth. Together, we'll share stories, tackle challenges, and explore how innovation and inclusion create better outcomes for everyone. Because no matter the spectrum, there's always a lighter side. Now here's your host, David Kaufer."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:00:42",
+    "end": "00:02:23",
+    "text": "Hello again, everybody, and welcome back to The Lighter Side of the Spectrum. What if a person understands exactly what you are asking, but their body cannot reliably carry out the response? And what if it looks like refusal is actually a motor planning problem? And what if that gets labeled as lack of comprehension? You know, it's really a disconnect between intention and action.\nFor many nonspeaking and unreliably speaking autistic people, communication cannot be understood separately from movement. The body is part of the conversation. So welcome back to The Lighter Side of the Spectrum, where we talk honestly about autism, communication, parenting, and what becomes possible when we presume competence. My guest today, and I'm super excited about this, is Dr. Antigone Oreopoulos, a physiotherapist, researcher, disability advocate, inclusion specialist, consultant, and coach based in Edmonton, Alberta.\nAntigone has dedicated much of her work to increasing awareness of the sensory-motor challenges experienced by people without reliable speech. She advocates for earlier and ongoing physiotherapy, greater recognition of motor planning differences, and access to motor-based communication for people with neurodevelopmental disabilities. She also brings a very unique combination of clinical knowledge, research expertise, and practical experience supporting movement through activities including gymnastics and swimming. And she's also a mom. Antigone, welcome to The Lighter Side of the Spectrum."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:02:23",
+    "end": "00:02:27",
+    "text": "Thank you so much. I'm very excited to be here and have a conversation with you."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:02:27",
+    "end": "00:02:58",
+    "text": "Yeah, yeah, we actually get to have a conversation, um, as is often the case here with The Lighter Side of the Spectrum and some of these great guests that I'm able to connect with, you know, we've been able to connect, share information, share a passion, right, for this community and our work to support motor-based communication. But why don't you start giving us a little bit more of your background, maybe even more as a mom, and kind of what brought you into this field and kind of your lived experience?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:03:00",
+    "end": "00:03:37",
+    "text": "Sure. So my first degree was in physiotherapy. I have a BSc PT. And then I, I practiced one year on cardiovascular surgery and cardiology, and I wanted to try my hand at research. So I did my master's. And then at that point, I realized I enjoyed doing research more than I missed being a clinician. So I went to do my PhD in public health. And at that point, I made the decision actually to let my license go. I thought that I would never need it or want it again. And it was—not an easy decision because I knew there was no coming back to it."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:03:37",
+    "end": "00:04:18",
+    "text": "And then I had a child with nonspeaking autism. And, and then when I became more educated on his condition and realized that his primary challenge was his sensory-motor impairment, it occurred to me that there's, there's this whole population that really needs and could benefit from the scope of physiotherapy. So, lucky for me, one of my very young classmates had developed a bridging program for Canadian grads who had moved out of practice or international grads preparing for their national exam. There's this program that I could take for 6 months to get my license back, and I—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:04:18",
+    "end": "00:04:19",
+    "text": "Oh, okay."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:04:19",
+    "end": "00:04:54",
+    "text": "Yeah. So I, I had no idea what I was gonna do with my license, 'cause at that point I, um, I, I gave up my career in public health. I, I thought, I thought that that was, that was it. I'm going to just, I'm going to be a good caregiver and a good homeschool teacher for my son. And, and, but I got my license back and then just slowly I found and I made opportunities to, to get back into practice. And I'm, I'm so thankful I get to do that. I feel very lucky that I get to contribute a little bit and, and still use my background and, um, and still be caregiver and homeschool teacher to my son. So my son is, uh, he's, he will be 11 in another week and—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:05:08",
+    "end": "00:05:11",
+    "text": "Okay. I was gonna ask about that. Okay. Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:05:11",
+    "end": "00:05:22",
+    "text": "And he uses a letterboard to communicate and we found the letterboard for him. I stumbled upon it like most of us do by accident when he was 4 and 3/4."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:05:23",
+    "end": "00:05:29",
+    "text": "Okay, so pretty, pretty young at least. I mean, that's pretty young. That's cool. Yeah. Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:05:29",
+    "end": "00:05:52",
+    "text": "And, you know, of course, I had to unlearn everything I thought about, about what I knew about him, including what they told me, which was that he had little to no receptive language and was severely cognitively delayed. And, um, and then, um, yeah, I had to unlearn all that."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:05:52",
+    "end": "00:05:57",
+    "text": "And yeah, you do, you deprogram and kind of reprogram. So how old was he?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:05:57",
+    "end": "00:05:58",
+    "text": "[unclear: Better]"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:05:58",
+    "end": "00:06:01",
+    "text": "Yeah, right. How old was he when he got diagnosed?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:06:01",
+    "end": "00:06:02",
+    "text": "3."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:06:02",
+    "end": "00:06:35",
+    "text": "Okay. 3 years old. Yeah. So then, you know, a little bit of a gap. Let's—I want to jump into kind of like when the body doesn't cooperate in that world, because again, I think, you know, to your credit, you recognized that early on with your son, um, earlier than a lot of us did, right? And again, like you said, know better, do better. How do you explain the disconnect between intention and movement? You know, for people who may not understand, you know, again, for a neurotypical person, it seems totally natural, right?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:06:37",
+    "end": "00:07:41",
+    "text": "Right. I think that it really doesn't help that the DSM, which is what North America uses for the definition of autism and diagnostic criteria, it's really not helping us that, that, um, yeah, the, the language they use is, is really based on subjective observation, and they focus on deficits in social communication and social interaction. And they use language that really implies deliberate intent behind these behaviors. And it's really shaped how society has viewed autism. And so we're faced with this just pervasive perspective that is so widespread, it's very difficult to change. And it's frustrating and sad because when we compare it to other neurological conditions like Parkinson's, Tourette's, catatonia—like, when we see someone with Parkinson's struggling, they're struggling to move their body, we don't say, oh, we need to reduce their behaviors."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:07:40",
+    "end": "00:07:42",
+    "text": "Right."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:07:42",
+    "end": "00:07:54",
+    "text": "We cut them slack and we understand that they're trying to organize their body. And we look at it through a motor challenge lens, not a social lens, which most of the world looks at autism through."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:07:58",
+    "end": "00:08:11",
+    "text": "That's a really interesting point. Sorry, I just want to jump in because you're right. I think that so dominates the conversations so often, right? Behavior, right? And we'll get into this some more."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:08:11",
+    "end": "00:08:14",
+    "text": "It's such a negative word. It's only a negative word in autism."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:08:15",
+    "end": "00:08:15",
+    "text": "Right."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:08:15",
+    "end": "00:08:18",
+    "text": "And outside of that, that sphere, it's, it's sort of a—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:08:18",
+    "end": "00:08:21",
+    "text": "Kind of neutral, right? Just kind of like—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:08:21",
+    "end": "00:08:54",
+    "text": "It's neutral. Yeah. But with autism, it's, it carries a lot of negative connotation. And, uh, there is—so the latest evidence shows that the sensory-motor impairment causally explains the differences that we see in social communication and, and social interaction. And there's, there's a number of us researchers who are advocating for motor impairment to be added to the DSM as a core descriptor, but it's not yet. And so when, when I—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:08:57",
+    "end": "00:09:13",
+    "text": "It should be. I mean, that's great. It should be. Yeah, that's a really great point. That absolutely should be because that's—and I'm sorry to cut you off there. But again, I just, I go back to this. It's such a core area when you're talking about this, particularly again, the nonspeaking autistic population."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:09:13",
+    "end": "00:09:16",
+    "text": "But it's not even—it's not even on most people's radar."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:09:16",
+    "end": "00:09:23",
+    "text": "Exactly, exactly. It's not even on the radar. Like, we are so in the dark, and, you know, until you stumble upon it."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:09:23",
+    "end": "00:09:40",
+    "text": "But the research is not that new. Like, the research that's showing the motor impairment is—I don't know. Not—it's not—goes back, well, probably earlier, but like the bulk of it, 10 or 15 years. So we're not—"
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:09:40",
+    "end": "00:09:41",
+    "text": "So it's there."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:09:41",
+    "end": "00:10:21",
+    "text": "It's there. It's this, this—the knowledge translation gap or the knowledge to action gap is very wide and very pervasive. When I, when I do explain to parents, um, client parents and colleagues that disconnect, um, because that's one of the first things I try to tell them, I don't use my own words because I know what that feels like. But I do have this, a, a video and a transcript of 2 of our local spellers here. They're, they're young adults, Peyton Thorpe and Marcus Hulette.\nAnd, and they, um, I share their words because no matter how well I explain it, I, my words will never land as well as theirs. So I can read you these 2 paragraphs."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:10:21",
+    "end": "00:10:24",
+    "text": "I would love it. Yeah, I was gonna say, yeah, let's, let's hear their words."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:10:24",
+    "end": "00:11:21",
+    "text": "They're both about, uh, they were, uh, both 21 when they wrote this. This is about a year ago. So Peyton says, \"My body often feels like it has a mind of its own. It's a constant battle to get my limbs to cooperate. I have to find where I am in space, fight motor loops and repetitive stims, and try to make my motions smooth.\nIt's like I'm running a race, but my brain is watching from the stands and my body is spinning in circles and running backwards. My brain understands, but it's like my body is daydreaming.\" And Marcus responds with, \"My daydreaming body is the perfect analogy. My body is like a puppy that just watched a rabbit run by. It knows what it should do, but the pull of other things makes it almost impossible.\nImagine wanting to pick up a glass of water, but when you go to reach for it, your hand isn't there. So you find your hand flapping by your head and you can't get it to move. And just as your frustration kicks in, your hand starts to move and you knock the cup over.\""
+  },
+  {
+    "speaker": "Announcer",
+    "start": "00:11:21",
+    "end": "00:11:21",
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:11:21",
+    "end": "00:11:28",
+    "text": "And then Peyton adds, \"Struggle, frustration, jerky movements repeated. The despised mantra of my existence.\""
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:11:31",
+    "end": "00:11:32",
+    "text": "Wow."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:11:30",
+    "end": "00:11:33",
+    "text": "Yeah. Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:11:33",
+    "end": "00:12:08",
+    "text": "Yeah. I mean, that's just so—wow, that's really powerful and just so descriptive. And yeah, I mean, I'm kind of speechless because, you know, you hear different variations of that. Stone, you know, my son Stone has shared, you know, his, his variations. And the one consistent part is that talking about the disconnect between the brain and the body—my body's doing things my brain doesn't want it to do, or, you know, my body won't do what my brain wants it to do. And I just can't imagine the frustration."
+  },
+  {
+    "speaker": "Announcer",
+    "start": "00:12:08",
+    "end": "00:12:08",
+    "text": "No."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:12:08",
+    "end": "00:12:33",
+    "text": "I just can't. Like, again, I know, like, in a limited way—I mean, very limited, not even comparable—but like, you know, when I, I suck at golf, okay? Like, I try to play golf and I know how frustrated I get just when I can't hit the golf ball, right? You feel like you should. Here's the, the ball sitting there, you swing, it should be really simple. You don't. You get mad at that. And that's just a stupid game. Now imagine just trying to function, like—function every day."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:12:33",
+    "end": "00:13:16",
+    "text": "This is what they are, are fighting with every, every day. And one thing I learned in a parent course, um, a few years back, in a course from Philadelphia. I love that they, they said, um, so if we're talking about brain function, so that being auditory processing, visual processing, gross motor function, fine motor, our, our ability to talk, um, if we call, call that brain function, there is no correlation between brain function and intelligence.\nPeople confuse the two all the time, but there is high correlation between problems in brain function or brain injury, you could say, and the ability to express that intelligence."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:13:18",
+    "end": "00:13:48",
+    "text": "Absolutely. Absolutely. And again, that's something that you see consistently across the population. Now, you know, with behavior, and again, kind of talking about intent, one of the things you—when you mentioned that, it just brought back memories of something else that Stone had talked about, which is when we had our foray into ABA. So, um, as many parents did, right? Uh, and I don't know if, if you probably were able to avoid it given—yeah,"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:13:48",
+    "end": "00:13:53",
+    "text": "Almost, we had like 6 months. You're right, I, I did for the most part avoid it. Just about 6 months I had it."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:13:53",
+    "end": "00:14:02",
+    "text": "Oh, okay. So you, so you were at—you at least had some experience with it, and, and it's just—yeah. And because I'm just curious, so, so why did you do it?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:14:03",
+    "end": "00:14:05",
+    "text": "Because the social worker told me to."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:14:05",
+    "end": "00:14:08",
+    "text": "Right. Okay. That's, yeah, that, I was gonna say, that's the answer, right?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:14:08",
+    "end": "00:14:22",
+    "text": "The gatekeepers of this, of the funds and the services, they're, they come at, they, for level 3 autism, it's the triad of oral speech therapy, behavioral therapy, and occupational therapy. And what are you supposed to do when you don't know any better?"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:14:22",
+    "end": "00:14:24",
+    "text": "You do it."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:14:24",
+    "end": "00:14:53",
+    "text": "And all this. And, and the thing is, the research does not support good quality functional outcomes with that for, for nonspeaking autism, especially for communication. It's not supported, yet they keep, like a lot of money. I'm a provider. I'm not just a mom, but like I, I, I get government contracts and there's a lot of money being thrown at ineffective services and it's tragic. That's time taken away from a, like a, um, a child's childhood."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:14:53",
+    "end": "00:14:53",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:14:54",
+    "end": "00:15:00",
+    "text": "And, and of course, could be directed, um, for more effective therapy."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:15:00",
+    "end": "00:15:44",
+    "text": "Yeah, no, you're absolutely right. And like I said, so I think about that, and I remember, like I said, we didn't do it for a super long period. It was a couple years maybe. I mean, you know, too long for our purposes because again, it really didn't address anything for us. I mean, our goal, like so many other parents for so long, was just, we just, you know, we want to help our child communicate.\nI mean, that's what the goal was, and did nothing for that. But Stone has since been able to tell me about how he would dread these appointments because he knew that he, you know, because they, they do these little score sheets, right? And, you know, the compliance. And he, and he talks about how, you know, he hated how it'd be called non-compliant when he couldn't do—physically couldn't do something, right, that they were trying to get him to do."
+  },
+  {
+    "speaker": "Announcer",
+    "start": "00:15:44",
+    "end": "00:15:44",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:15:44",
+    "end": "00:16:10",
+    "text": "And there was this whole, um, you know, reward and punishment structure. And, you know, kind of like, oh, well, if he doesn't score in this percentile, then you need to take away something. In his case, it was, um, a cartoon that he loved to watch called the Little Einsteins. I don't know if it's still, still a favorite, but anyway, he, he said he, he knew that whenever he had ABA, it means that he wouldn't be able to watch Little Einsteins."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:16:10",
+    "end": "00:16:11",
+    "text": "Oh, that's so sad."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:16:11",
+    "end": "00:16:26",
+    "text": "Isn't it? Like, like, that's how, you know, that was the association he had with it. So anyway, I mean, that's just—it just shows how backwards it is in terms of, of, you know, the approach."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:16:26",
+    "end": "00:16:51",
+    "text": "The approach is backwards because they were the—especially the ABA, they're trying to control and change behavior, but that—it requires volitional control over your motor system. That's like a top-down approach. But if you don't have the foundation of autonomous motor control, you're going to go—it's going to do nothing, do nothing except cause trauma."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:16:51",
+    "end": "00:17:27",
+    "text": "And there's no behavior really, when you think about it, that needs to be changed. I mean, at least in our case. And I know there are some cases of people who have some pretty severe challenges. And again, not to say it was 100% worthless, and I don't mean to spend our time bashing on ABA, but just think about the different approaches between, like I said, just thinking about behavior versus just understanding that brain-body disconnect. So we'll kind of use that as a bridge, right?\nLike, we'll talk about, you know, physiotherapy. Okay. Why don't you introduce us to that and how that helps and what the difference is there?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:17:29",
+    "end": "00:18:02",
+    "text": "Sure. So, so right now, the motor impairment in autism is considered a dual diagnosis of autism plus developmental coordination disorder. The largest study from the SPARK study shows that—I think the statistic is at least 90% of people with autism, and that includes the more severe autism or level 3 autism—90% have motor impairment."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:18:04",
+    "end": "00:18:13",
+    "text": "That's huge. And I just want to interject real quick. Can you just let our listeners know what the SPARK study was? Just to provide some context there."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:18:13",
+    "end": "00:19:03",
+    "text": "Yeah, so Anjana Bhat, B-H-A-T, she was the researcher in, um, in the study. And they, they met—they measured—well, it was about 14,000 participants filled out the survey for a DCD screening questionnaire. So that's—you do what—sorry, so any parent, teacher, provider can fill out the DCD questionnaire and it, and it gives you a measure of sort of risk of motor impairment. But it's, it's pretty, uh, the psychometric properties are pretty good. So if, if they're, if, if you're flagged, there's a good chance you have motor impairment.\nAnd it also, that study also showed the more severe symptoms of autism, like without being, without functional speech, call that more severe symptom, the worse your motor impairment is."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:19:04",
+    "end": "00:19:05",
+    "text": "Okay."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:19:05",
+    "end": "00:19:42",
+    "text": "So, um, the—and DCD in autism was added to the DSM, I think it was in 2015, so a while ago. The process to assess DCD was developed before they knew that the prevalence of motor impairment and DCD in autism was so high. But I have, um, I've administered the motor—the standardized test to people like our children.\nAnd it's really problematic because they, you find that they all fall under basically below the first percentile."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:19:42",
+    "end": "00:19:43",
+    "text": "Wow."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:19:42",
+    "end": "00:19:57",
+    "text": "So that means that these tests, yeah, are not sensitive enough to get a good baseline. The floor of the scoring system is way too high. So it's basically impossible, almost impossible to get a DCD diagnosis in nonspeaking autism."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:19:58",
+    "end": "00:20:10",
+    "text": "Um, but I do think it's—you don't necessarily need the diagnosis, but I do believe it's important to have the motor impairment documented so that the team knows."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:20:13",
+    "end": "00:20:26",
+    "text": "That's what I was going to ask then. What are your options to do that? I mean, for parents, what are your options to try to screen for motor impairment or motor differences? What, you know, if they're noticing things, what can they do?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:20:25",
+    "end": "00:20:50",
+    "text": "So this is something I'm, I'm starting to teach other physiotherapists and occupational therapists, is that, um, is that you can pull, you can pull tasks and, and tests from other standardized, um, other, other more tests of motor function. So I kind of do a, a combination myself. So right now there's no consensus."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:20:52",
+    "end": "00:20:53",
+    "text": "Okay."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:20:52",
+    "end": "00:21:00",
+    "text": "This is part of the problem is that there's no consensus on how to measure motor impairment, especially in level 3 autism."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:21:00",
+    "end": "00:21:02",
+    "text": "Nonspeaking, like, particularly nonspeaking?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:21:02",
+    "end": "00:21:47",
+    "text": "No, but in general what I do is I'll take the motor milestones because those are, those, um, like anyone can Google those and those would basically be the rolling, army crawling, um, yeah, like 4-point crawling, jumping, ball handling skills, balancing on, on one foot, and, you know, a squat, sit-to-stand. So those kind of motor milestones. I would assess those. And by the way, when you—the funny thing is that the—the majority thought is:\n\"These guys don't need physical intervention or physiotherapy because we see them walking, we see them climbing stairs, so there's no problem.\" Right?"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:21:47",
+    "end": "00:21:47",
+    "text": "Right. They're fine."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:21:50",
+    "end": "00:21:58",
+    "text": "Right. But when you actually go in and, and look at their motor function and go back to those motor milestones, there are so many gaps."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:21:58",
+    "end": "00:21:59",
+    "text": "Oh, I believe it."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:21:59",
+    "end": "00:22:33",
+    "text": "There are like these, these skills that are foundational for brain development, um, including the higher order ones like, like speech. They're, they're missing. They're missing.\nAnd, um, so I'll find out where the gaps in their, in their motor function are. And Elizabeth Torres developed 3 really simple, really great validated, uh, functional measures. 2 minutes of sitting still, can they do that? 2 minutes of pointing to a target, and 2 minutes of walking. So I use—I've just begun to incorporate those ones as well."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:22:34",
+    "end": "00:22:35",
+    "text": "That's great."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:22:34",
+    "end": "00:23:27",
+    "text": "I have to say though, there's—it's difficult to find PTs and OTs who have experience working with nonspeaking autism to do an adequate motor function assessment. Like, it's a problem right now, even though I can't speak for the US curriculum, but the DCD in autism was introduced in the OT and PT curriculums about 8 or 9 years ago in Canada. But it's only taught at a superficial level, like most specializations. But this is where we're at.\nThere's, there's, um, there's this knowledge gap that we're trying to correct, but parents will find that it is, that it is going to be a challenge to find a practitioner who has that experience to administer the test. And not impossible, but—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:23:29",
+    "end": "00:24:00",
+    "text": "So in some ways it feels a little bit like, kind of like where even autism diagnosis was 20 years ago, like how difficult it was for parents back then. I mean, I know it's still not like super easy, but it's at least easier. I mean, it's more, obviously, more pervasive and a little more accessible. But that was like, you know, kind of winning a lottery ticket is if you were able to get, you know, get in and be assessed within 12 months or the waiting periods are just insane."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:24:02",
+    "end": "00:24:13",
+    "text": "Oh yeah. In Canada, it's, it's, it's laughable now. It's something in Ontario, it's something like, I've heard even 6, 7 years and it's 4 to 5 years here in my province. Like—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:24:13",
+    "end": "00:24:14",
+    "text": "For a diagnosis?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:24:14",
+    "end": "00:24:17",
+    "text": "For the assessment. If you want it publicly funded."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:24:17",
+    "end": "00:24:20",
+    "text": "Oh, for the assessment. Oh, for, okay. So for the autism assessment or for—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:24:20",
+    "end": "00:24:21",
+    "text": "Yes."
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:24:21",
+    "end": "00:24:22",
+    "text": "Wow."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:24:22",
+    "end": "00:24:24",
+    "text": "And to get started. Early intervention. Yes."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:24:25",
+    "end": "00:24:28",
+    "text": "Early? Start early intervention, you have to wait 5 years."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:24:31",
+    "end": "00:24:35",
+    "text": "I know, it's laughable. I—like, yeah, I know,"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:24:35",
+    "end": "00:24:47",
+    "text": "It's awful. Wow, yeah, that's a, that's a real, that's a real problem. You touched on this a little bit, but, um, can you talk a little bit more about what can happen over time when some of these physical needs are ignored, or some of these, you know, milestones that you had talked about?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:24:47",
+    "end": "00:25:47",
+    "text": "Yeah, I've, I've worked with enough, enough clients now, um, at different ages that I can see that I've seen changes happen that, that make me, um, that have really made me think about what these—this population is going to be like in their 60s and 70s. And I truthfully, I lose sleep over this because, um, because the way we are, the way it is now, there's a lot of them that are not going to receive physical intervention and they're going to age this way. And of course, we know that they're at higher risk for comorbidities.\nThey have an accelerated rate of aging because of inflammation, and they're at higher risk of Parkinson's symptoms and other comorbidities down the line. And of course, at this point, still the majority who don't have communication will not be able to tell someone when they're in pain. So I, I think about this all the time. And, and I have seen even some individuals in their 20s who have some postural changes already. Often from—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:25:47",
+    "end": "00:25:49",
+    "text": "Oh yeah, you had mentioned that. I remember you talking about that."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:25:50",
+    "end": "00:26:21",
+    "text": "Yeah, often from stimming and sitting in a poor position. But I've even seen, um, children who are just—who can't sit to stand without using their hands, which is kind of like what, what elderly people do. And I see a lot who have core weakness and especially upper body weakness just from lack of activity overhead. And what I know is that—so I don't know if you've ever had a sort of an overuse injury or an imbalance that you've had to correct. It's not easy. It takes like kind of dedicated—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:26:22",
+    "end": "00:26:23",
+    "text": "Right. You're right."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:26:23",
+    "end": "00:27:12",
+    "text": "It takes time and attention. You have to sort of like put in the work to correct something. And often that takes the skill of isolating a muscle and, or maybe relaxing into a stretch. 2 things that are very, very difficult for people with significant motor impairment and autism. So once you have one of those problems begin, now you're really facing a mountain now to try and correct.\nAnd that's not impossible, but prevention of these, of loss of range of motion, of weakness, of pain, it's really crucial to have, um—and we know that, we know that movement and exercise, that's one of the—one of the things we can hopefully control in our lives and, and, and do for ourselves to help, um, age healthy. So these—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:27:12",
+    "end": "00:27:23",
+    "text": "But also, does it—there is also the argument, or just, you know, that's sort of the argument, but just the point that it can help with regulation. It could help in other areas too."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:27:24",
+    "end": "00:27:51",
+    "text": "Absolutely. That's excellent point. It can also help with regulation, um, which just helps with being able to participate in life more. And, and for if they have access to communication. Yeah. And self-esteem, of course, when you feel more competent in your motor control, you have more confidence. And it's, it's just beneficial for, in so many areas."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:27:51",
+    "end": "00:28:09",
+    "text": "And also, there's probably some benefit. Circling back to, we talked about, you know, communicating with a letterboard, whether it's pointing or typing, doing typing, a lot of physical activity to help with that. I mean, that, that's got to be connected too, right?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:28:09",
+    "end": "00:28:58",
+    "text": "Speech is just one pathway in the brain to get out our language, but there's others. So like our kids, they can't, they, or can't easily access the speech pathway because of their different trajectory in development, but they can access it through gross motor movement with pointing because that's sort of that, like if there's a hierarchy of development, that one came first. So that's, um, with practice, that, that one is more accessible. But it's, but it all, but it's still, it's still a movement that takes postural control, motor planning, coordination, visual attention.\nThe ability to initiate. So there's this misconception that pointing is really simple, but it's not."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:28:58",
+    "end": "00:29:00",
+    "text": "Oh, yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:29:00",
+    "end": "00:29:44",
+    "text": "They're coordinating an incredibly complex sequence of motor tasks when they do that because you need—a lot of them can't feel their pelvis very well. And typically almost all of our movement is initiated from the trunk and pelvis. So you need that postural control and stability. Otherwise, it's much harder to make precise movements. You need head control to orient yourselves to the, to the board or the, the, the screen or into your communication partner.\nAnd the eyes, because almost all neurodevelopmental disorders have a component where there's visual, visual-motor and oculomotor challenges. We have 12 cranial nerves. 4 of them alone are dedicated to the eyes. That's how important the eyes are."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:29:46",
+    "end": "00:29:46",
+    "text": "Oh, wow."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:29:47",
+    "end": "00:29:51",
+    "text": "Ability to, to generate smooth, controlled movement."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:29:53",
+    "end": "00:30:22",
+    "text": "And it's interesting, just on that point with eye control, I know when you're talking about, again, nonspeakers and the inability to communicate, the frustration is they can't tell you if, you know, if their, if their vision's messed up. And I know, how many times have we seen within the community examples of, you know, younger—we're not even younger spellers, but new spellers who, you know, gain communication. And then like, we, you know, they got glasses, or—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:30:21",
+    "end": "00:30:22",
+    "text": "Yeah, they see all—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:30:22",
+    "end": "00:30:38",
+    "text": "Everything was like they were seeing double. Everything was double vision. Yeah. And they were trying to like—my, again, my gosh, trying to, trying to function in life, let alone then trying to spell. Like you're trying to pick which letter to point to and I mean, such a huge challenge."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:30:38",
+    "end": "00:31:16",
+    "text": "Yeah, to be able to have that, that vision assessment by an optometrist and for my son to be able to answer questions, that was just, um, yeah, like incredibly helpful because, yeah, my son wears glasses when he uses a letterboard. His glasses actually have a, um, a tint to them. He's a bit light sensitive, so, and he wears prism glasses to help, in theory, correct his center of gravity, his visual processing for when we're doing gross motor skills. So yeah, the eyes are like—people forget about how, um, how important they are. And to—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:31:16",
+    "end": "00:32:00",
+    "text": "And then again, if you can't communicate, like my, my, my eyes, glasses story with Stone was, you know, from a few, a few years ago, not long after he was able to communicate. We were able to figure out somehow—I was able to figure out he needed glasses, but even getting the right prescription, then we finally got it and we went down, you know, we live in—yeah, Edmonds, Washington, which is right on the Puget Sound. We have a beautiful—we have a nice beach that we've spent a lot of time at. And on a clear day, you can actually look out to the west and see the Olympic Mountain Range.\nIt's beautiful, you know, the snow-capped mountains, especially in the winter. But Stone told me, uh, again, this was like so powerful a couple years ago. He said, you know, this is the first time I've been able to see the Olympic Range."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:32:00",
+    "end": "00:32:01",
+    "text": "Wow."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:32:01",
+    "end": "00:32:09",
+    "text": "Because he was wearing his glasses. He's like, yeah, I'd never seen that. He kind of knew they were there, but had never been able to see it before. I mean, that's one of those little things that just means, means so much."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:32:09",
+    "end": "00:32:49",
+    "text": "Yeah. I generally always recommend to my parents, if they can, if they have a good developmental optometrist, that's really great to bring in as part of the assessment to help them. Yeah. And so with pointing, I mean, of course you need shoulder stability and you need, you need the right level of muscle tone and you need, and you need to be able to gauge the force of, of, um, and the depth perception because the, the movement goes like there's an acceleration and there's a deceleration and then you have to do the same thing in reverse.\nBy the way, reversal of direction is like universally hard for this population, whether it's pointing or—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:32:49",
+    "end": "00:32:51",
+    "text": "Oh, interesting."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:32:51",
+    "end": "00:33:12",
+    "text": "Moving their body, like without practice, it's, it's quite hard. And then you have to do that process, um, like letter by letter. So it's, it's an extraordinarily complex and difficult motor task. It's not, um, like some calling it just pointing is really an injustice to how hard they have to work to, to gain access to communication that way."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:33:14",
+    "end": "00:33:41",
+    "text": "Which underscores again, um, kind of the whole—testing aside, when you hear skeptics talk about just, oh, well, just put the letterboard on a stand and they have to point to it that way, and they'll determine, they'll show if they can actually do it. I know that's bogus, right? I mean, because it's just, it's not that simple. They think—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:33:41",
+    "end": "00:34:10",
+    "text": "No, it's not. It's not. That's why it's so crucial to understand the level of challenge and the pathophysiology. As a practitioner, if you don't have that knowledge, you're really flying blind working with this population. It's pretty dangerous. And then with the pointing, we have these quote-unquote nonverbal tests of IQ. Of course, we hate saying that \"nonverbal\" because that translates directly from Latin to without words, and our kids are not without words."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:34:10",
+    "end": "00:34:11",
+    "text": "Right, right, right."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:34:11",
+    "end": "00:34:40",
+    "text": "But people have designed these tests, um, to test cognition and understanding, but things still rely on pointing and eye gaze. So if you're—so if you're using—if there's no reliable means of communication and you're using this test on someone, you're asking them to point to, uh, a picture or a word or something. And like, what are you—are you measuring language and understanding, or are you measuring someone's motor—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:34:40",
+    "end": "00:34:41",
+    "text": "Good point."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:34:42",
+    "end": "00:35:05",
+    "text": "Their motor skill in a very challenging situation in, in that moment. If they're not valid—so if there is no reliable means of communication, it's untestable. You should not be, you should not be using that test. And we know this from the CP popu—from the cerebral palsy population, that these tests are invalid in populations with known motor impairment. You shouldn't be using them."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:35:05",
+    "end": "00:35:09",
+    "text": "Interesting. Talk, talk about that a little bit more, because again, I don't, I don't know how many people realize that."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:35:09",
+    "end": "00:35:19",
+    "text": "Right. So, so tests of cognition and intellectual ability, they're used for educational placements."
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:35:20",
+    "end": "00:35:20",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:35:20",
+    "end": "00:35:52",
+    "text": "And they're used for funding decisions. And this is, this is really serious because you're the—many educational psychologists are still using these to determine, like, major life things that really set a person's trajectory on, on life and, and their family. And they shouldn't be unless there is a reliable means of communication. Cognition and intelligence, they're untestable. You shouldn't be testing. You're, you're, you're, it's a garbage result that you're, you're using."
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:35:54",
+    "end": "00:35:55",
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:35:54",
+    "end": "00:36:24",
+    "text": "And so if, if you, if you can't test, then the, the safest assumption, the most logical assumption based on the, the knowledge that we have in the research and understand the physiology is that there's no reason to believe that, um, the lack of speech has anything to do with the lack of intelligence. So you should keep progressing, keep going on that track until you are proven otherwise. That's of course the least dangerous assumption."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:36:24",
+    "end": "00:36:48",
+    "text": "And the least dangerous assumption, exactly, which is, um, I mean, it makes all the sense in the world when you really understand it, but it's, it's not practiced very often at all, unfortunately. I mean, maybe we're seeing it gaining a little bit more traction, but it feels like it's just such a fight to, to get there, to get that—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:36:48",
+    "end": "00:37:15",
+    "text": "It is. It's only the not—like, only the nonspeaking population, of course, not just autism, but with Rett syndrome and Down syndrome, they're expected to prove their, their intelligence, prove their capacity. They're learning before they are given the right to learn. And whether that's learning physically, learning intellectually, it's, uh, it's really, it's really tragic."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:37:15",
+    "end": "00:37:17",
+    "text": "It is."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:37:17",
+    "end": "00:37:18",
+    "text": "And dehumanizing."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:37:18",
+    "end": "00:37:39",
+    "text": "Yeah. And, and you think about the damage that's done, not only obviously the lost opportunity, which is so obvious. I mean, that's horrible in and of itself, but the trauma that goes along with it, you know, the trauma that goes along with knowing that you're being seen this way as maybe not worth."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:37:39",
+    "end": "00:38:31",
+    "text": "And I find when I work with parents, uh, because of course I never have just one client, I have the parent and I have the child, and both need, um, both need support and empowering. And I know this because I've, I've had experience of being disempowered by my own fellow rehab med practitioners. So I take that role very seriously of supporting and encouraging the, the parents because they don't, um, they don't need my degrees to be able to be a great support person and, and therapist to their, their child. It's—no, it's not easy, but, like, like, you can do this, right?\nThat's, that's the message I want to send. I never want to make someone dependent on my service to help them. It's almost—it's also, I would say, even unethical, just given that they will need support for—"
+  },
+  {
+    "speaker": "Announcer",
+    "start": "00:38:31",
+    "end": "00:38:31",
+    "text": "Right."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:38:34",
+    "end": "00:39:17",
+    "text": "Uh, yeah, for, you know, long term. Um, I was gonna say, the longer, the longer a parent goes with that mindset of \"My child can't do this. They can't do that. They're not going to be able to do this. They don't understand.\" It's so difficult to then—I—for me to come in and say, no, what you were told was wrong. And this is like, this is their potential. And to, to change that mindset, it can be very difficult. You have to come at it very sensitively and, and patiently. But it's—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:39:17",
+    "end": "00:39:17",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:39:17",
+    "end": "00:39:37",
+    "text": "But there's a lot of other practitioners out there making my job much harder because they've set the family on this trajectory, and they—which sets the bar very low, and they lose—the child loses much opportunity to fulfill their potential and quality of life."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:39:38",
+    "end": "00:39:53",
+    "text": "Right. But the upside is we've seen example after example of children or young adults or even adults, once given this opportunity, you know, take it and really start to flourish in ways—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:39:53",
+    "end": "00:39:54",
+    "text": "They're so capable."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:39:55",
+    "end": "00:39:56",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:39:55",
+    "end": "00:40:26",
+    "text": "When you give—when you have high expectations and high effective support, my own son has, like, blown my own expectations of what he can learn physically, out of the water and continues to do so. And I saw what the—I loved your video of Stone jumping off the diving board. His explanation, it was so great. I shared that with someone because it was so educational. So yeah, it was a good learning moment."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:40:26",
+    "end": "00:41:31",
+    "text": "It was for me. I mean, this is what's funny is like I said, you know, we talked about how we're still learning. I mean, this was a couple years ago, as he referenced, you know, that he was able to do it once or twice a couple years. And I remember at the time, again, my mindset was he's afraid to do it because this is just how we're programmed, right? Like, he got to the end edge of the—you know, and that's normal.\nLike, again, lots of kids are scared to jump off the diving board, so there's nothing wrong with that. So I just always thought it was just kind of a fear factor sort of a thing, that he was afraid to just take that jump. Not understanding previously the impact of apraxia, right? And it was literally like about a year ago. It's funny because we, for whatever reason, we didn't happen to go to the pool a lot last year, so we didn't get a chance to test the diving board.\nBut I was like, you know what, because I was seeing so much improvement with him with his apraxia and his, his motor control and all that, I'm like, I bet he'll, I bet he'll do it. Like, you know, this is going to be a lot easier for him to do it. So I wasn't surprised. I was thrilled, of course, that he was able to, he did it just again and again and again. That was the cool part."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:41:33",
+    "end": "00:42:09",
+    "text": "I should, too, just mention then, because you used the word \"apraxia\" and that's, that's considered like we're talking about the same thing, the DCD, apraxia, dyspraxia—dyspraxia comes from a UK term. And so there's, um, yeah, that's actually part of the problem is that they're like, people are using the, the terms interchangeably and that causes confusion, I think, to, to get the motor impairment, um, acknowledged and documented. Not that there's anything—I'm not saying there's anything wrong with using the word, um, apraxia, but—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:42:09",
+    "end": "00:42:09",
+    "text": "Correct."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:42:09",
+    "end": "00:42:15",
+    "text": "But I, yeah, but I, it, it is the fact that we have these different terminologies being used."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:42:15",
+    "end": "00:42:15",
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:42:15",
+    "end": "00:42:31",
+    "text": "Is definitely contributing to like a lack of awareness of the, the motor impairment. So I hope, like I said, I would like to see just, um, it not be a dual diagnosis, just the motor impairment."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:42:31",
+    "end": "00:42:33",
+    "text": "Motor impairment. Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:42:33",
+    "end": "00:42:49",
+    "text": "Yeah. Apraxia specifically refers to mostly the motor planning part, which is like a very significant part of the motor dysfunction. Um, which, yeah, which people should, should be aware of when they're working with these guys."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:42:51",
+    "end": "00:43:05",
+    "text": "Well, yeah, and that makes sense. Maybe there is kind of a part A, part B sort of a thing. Like you said, there's just kind of the motor impairment and then there's the motor planning. And all this is just, um, you know, it's just a different language if you're a parent, right?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:43:06",
+    "end": "00:43:07",
+    "text": "Yeah, right."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:43:06",
+    "end": "00:43:27",
+    "text": "I mean, like, you have to learn it. It took me a long time to really understand it and understand the concept: motor planning. What does that mean? Like, what, you know, like, until you see it in practice and understand it—oh, it really means, like, planning and being able to, to do things.\nYou know, the example I always use: you ask them to go find something, and they're able to do it."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:43:26",
+    "end": "00:43:32",
+    "text": "Right. Do things in sequence and, um, with the right steps, and yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:43:32",
+    "end": "00:43:44",
+    "text": "All those things that seem simple. All right. Well, I want to talk about, um, getting back into kind of the physiotherapy, you, you have a couple of unique areas of specialty, don't you?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:43:44",
+    "end": "00:44:48",
+    "text": "Oh yeah, from—so I, I used to compete for Alberta in trampoline, and so I have my NCCP Level 1 for just for coaching gymnastics and, and Level 1 and 2 for trampoline. And, um, and I, I used to be a Lifeguard 2 instructor back in the day when I was a teenager. So of course I, I put my children into swimming when they were young. I think that's, um, my son loves water and also just in support of water safety. But I found that nobody knew what to do with him in the water.\nAnd in fact, they tried, they wanted to sort of keep him back with the little kids. Uh, and when the, and then the age gap was getting more and more and I, and I didn't like that. So I started to figure out how.\nWell, I just, I used my, from my, my own training from my, my mentors with motor coaching and helping body awareness. And I applied that with swimming. And then I, at 40 years old, I, or I mean more than 40, I recertified as a swim instructor. I was like the oldest one in the class. And so now I—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:44:48",
+    "end": "00:44:49",
+    "text": "That was, that was—really interesting."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:44:49",
+    "end": "00:45:24",
+    "text": "I just love teaching other swim instructors to, to how to help. But, um, but I love it. The swimming and gymnastics are really, they're, they're great sports and activities to help gain motor control skills and, and body awareness. And I really enjoy teaching them, especially the sport of trampoline. It is a real sport. A lot of people think it's not, just like the jumping on the trampoline, but the Olympic sport of trampoline where there's 10 skills in a routine. And yeah, I really enjoy coaching my son and, and my clients in that. And CrossFit—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:45:24",
+    "end": "00:45:26",
+    "text": "Oh, CrossFit. Oh yeah. I was gonna say—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:45:26",
+    "end": "00:46:11",
+    "text": "Yeah, I do. I, I used to do some CrossFit and then one thing that it kind of occurred to me that we can work on motor skills and that's great, but like part of fitness is getting your heart rate up. And that's, that is definitely challenging with this population, but not impossible. So I started to do, just take these sort of beginner CrossFit workouts or ones that I found online or ones that were designed for kids. And I, I still had to modify them and kind of break them down and we do a little circuit.\nAnd so at least with, with my son, I could get him moving quicker and getting his heart rate up. And, and so that's been fun too, to sort of mix in those workouts."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:46:11",
+    "end": "00:46:15",
+    "text": "Do you, do you have those on video? Are you gonna—I should."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:46:15",
+    "end": "00:46:17",
+    "text": "I'll just put them on video. Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:46:17",
+    "end": "00:46:22",
+    "text": "Because seriously, I mean, you know, those are popular. There's so many parents that just don't know what to do."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:46:22",
+    "end": "00:46:22",
+    "text": "I know and—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:46:22",
+    "end": "00:46:24",
+    "text": "And they know they need to do something. They know, right?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:46:24",
+    "end": "00:47:05",
+    "text": "But you need ideas. And I don't—I needed them too. Like, you, yeah, you really do need ideas because, and once you, once, once sort of like you, you get examples of like, oh, you can, you can do this with them and you can do this and it really opens up your world and, and then you that confidence in problem solving. Because I still have to problem solve through when I'm coaching something.\nThere's, there's still lots of times where I have to think, okay, how can I regress this? And, or how, how can I, um, what's the component that he's working on? And, and, but being comfortable with that trial and error and that problem solving, like, that's okay. Because I, I still do a lot of sort of thinking and problem solving, especially with the, the sport skills but—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:47:05",
+    "end": "00:47:13",
+    "text": "Because—that's because you're like smart and qualified and you think, and you think that way. Most of us parents were just like: what the heck do we do?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:47:13",
+    "end": "00:47:42",
+    "text": "No, I can, I still, I'd reach out to lots of people to, uh, to, um, to get their, get their opinion, their eyes when I'm stuck on problems long, or I'll reach out to a self-advocate. That's, I, I think one of, if for I have this vision of how people will be educated and well-trained to work with nonspeaking autism is that there'll be a, like a, there would be a network of mentors, mentors for—"
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:47:42",
+    "end": "00:47:42",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:47:42",
+    "end": "00:48:17",
+    "text": "Like parent-to-parent, practitioner-to-practitioner, but practitioner-to-self-advocate and self-advocate-to-self-advocate. My best learning comes from kind of discussing challenging cases and, and learning from self-advocates that I continually learn from that. And, and really, I, I, there, I, I get frustrated with the clinicians that, that they feel that they're well-educated and well-trained based on what they learned in school."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:48:17",
+    "end": "00:48:17",
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:48:17",
+    "end": "00:48:47",
+    "text": "When they don't have experience learning from either people—uh, teachers and, and mentors who have years-long experience working with communicative nonspeakers or working with communicative nonspeakers yourself. Because I can't tell you how many times I've been corrected or I've been, I've given feedback on what I'm doing and, and, and learned that something could be better or something was not helpful. You can't replace that hands-on learning with a book."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:48:47",
+    "end": "00:48:47",
+    "text": "Oh, no."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:48:47",
+    "end": "00:48:49",
+    "text": "And in a classroom. So—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:48:52",
+    "end": "00:49:20",
+    "text": "And I can't even imagine, again, given what's been learned just through experience and everything else, just the body of work over the last 5 to 10 years, I can't imagine that academics has kept up with that very well, you know, when you're talking about, right? I mean, how, how could it even, even in, in that case? So they're already kind of coming at it kind of behind the science, I think, in a lot of the ways, even though—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:49:20",
+    "end": "00:49:21",
+    "text": "That's true."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:49:21",
+    "end": "00:49:22",
+    "text": "They think differently."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:49:23",
+    "end": "00:49:51",
+    "text": "There in Canada, we have the National Autism Network, and that's our—that's the attempt right now to help correct that knowledge gap. That's what that was kind of outlined as one of the highest priorities. So at least here, we're—we formed this organization that hopefully will make recommendations for Canada's autism strategy and start to fix—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:49:50",
+    "end": "00:49:51",
+    "text": "That's good."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:49:51",
+    "end": "00:49:53",
+    "text": "Fix things so that we see change. Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:49:55",
+    "end": "00:50:24",
+    "text": "I could only wish that we had that here. Unfortunately, not, um, not a great place for that right now, um, when it comes to kind of some of that, that high-level, um, champion and, and vision for—for our community. That's one of my, one of my big complaints. Um, but let's move on to a couple segments. Let's, let's lighten it up a little bit. And we'll start with, um, we'll start with our tip of the week, our autism tip of the week. And we'll—"
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:50:23",
+    "end": "00:50:38",
+    "text": "Hey parents, gather around, it's time to speak. We're here with your tip of the week, strategies and wisdom just for you. Autism parents, we know what you go through."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:50:38",
+    "end": "00:50:46",
+    "text": "All right, it's time for our tip of the week. And, um, Antigone, what do you have for us?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:50:48",
+    "end": "00:51:50",
+    "text": "Tip of the week. Okay, I thought of 2, and I would say my tip of the week, especially when you're working with someone to teach them a new motor skill, or even if it's an activity of daily living, my tip would be to give more breaks than you think they need. Sometimes it's not always obvious how hard they're working, but I've learned through mistake and through feedback from spellers that, um, that often, yeah, they need, they need more breaks, especially to maintain their regulation. Because I have accidentally pushed someone into dysregulation because I didn't give them enough break.\nAnd I know as a practitioner, if I'm working with someone who can't tell me when they need a break, or, um, or a beginner, I'll set a timer even for if it's 5 minutes or 10 minutes before I give them a minute or 2 break, uh, because it's just so easy to forget sometimes. And then the other tip was, again, if you're teaching a new motor skill, always do the skill yourself, even if you think you—if it's really simple. Like—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:51:50",
+    "end": "00:51:52",
+    "text": "Um, that's good."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:51:52",
+    "end": "00:52:32",
+    "text": "Like the other, the other day I was, uh, one of my clients wanted to learn how to swing, um, on a swing, like pump his legs by himself.\nAnd I was teaching it, but then, um, I just, I didn't do it. I, I didn't do it at first, but then I just thought to check and I went to do it myself and really think about, like, what is my body doing? What are my muscles doing? And I realized I sort of missed a component, um, in that task breakdown. So that would be other tip is like just do it yourself, even if it's something really simple and you think you know what steps are involved, just bring awareness.\nSo you, so then you, you put yourself in the other person's shoes of, like, what they have to do."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:52:31",
+    "end": "00:52:38",
+    "text": "Um, yeah, yeah. Again, it's not natural. I mean, like, you don't just do it naturally. You actually have to think about the steps involved."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:52:38",
+    "end": "00:52:39",
+    "text": "Yeah, they have to think about it."
+  },
+  {
+    "speaker": "Announcer",
+    "start": "00:52:39",
+    "end": "00:52:39",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:52:41",
+    "end": "00:53:11",
+    "text": "That's great. Those are both great tips. And especially I like the breaks because I think that's easy to forget. I think, um, again, depending on your personality or mindset, or yeah, if you come from a maybe athletic background, you gotta get used to pushing through, right? Like, we kind of have that pushing through mentality. Let's just get through it. And that doesn't always work very well. I mean, that's not always the best approach. So that was a really good, really good tip. All right, we're gonna move forward with Autism Fact or Fiction."
+  },
+  {
+    "speaker": "Announcer",
+    "start": "00:53:11",
+    "end": "00:53:20",
+    "text": "[unclear: Get QuickTime ready], and here we go. This is Autism Fact or Fiction. We're breaking down what's real, what's rumor, and what might surprise you. Let's go."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:53:20",
+    "end": "00:53:25",
+    "text": "Fact or fiction? Motor challenges are usually obvious to trained professionals."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:53:27",
+    "end": "00:53:30",
+    "text": "They are often just so not obvious."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:53:30",
+    "end": "00:53:31",
+    "text": "Right."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:53:31",
+    "end": "00:53:37",
+    "text": "We just—yeah, the norm is that they're, they're not obvious. We're, we're, we are trained to believe what we see."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:53:37",
+    "end": "00:53:38",
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:53:40",
+    "end": "00:53:58",
+    "text": "So that, that separation. Because when I, when I just in my day-to-day life, I see my own son, I see there's Stellan the person, and then there's Stellan the body. And I separate those two because, like, for him, they're separate. And so—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:53:58",
+    "end": "00:54:01",
+    "text": "Do you ever talk to the body separately to the—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:54:01",
+    "end": "00:55:14",
+    "text": "Always. Always. So what—so because once, once I give the instruction or a statement or a task or, or something, I'll say, Stellan, uh, let's do this, or can you do this? Once I see him unable to do it, then I intervene with support, and now I'm talking to his body. And even, um, the, like, Peyton in that interview that I gave him, he says that really it helps him because we're trying to, we're trying to create a shortcut from their mental intent to their body.\nSo they're, they're working in that moment. They're working of like, okay, there's the signal. I know what I want. I need, I'm trying to get the signal to my body.\nAnd so, so then giving, um, kind of coaching the body in various ways. Sometimes you can like do it directional, you can give an oral prompt. Visual prompts are really great because they're static, whereas like you say something and then it's, and you hear it, it's gone. Um, or a tactile, like touching them. But yeah, I'll even, even, um, you know, like if, if I'm trying to get 'em, come here, bring your body over here, like, telling him to, to, um, getting, yeah, getting him to sort of, um, coach his own, coach his own body. And yeah, I just, um, yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:55:14",
+    "end": "00:55:45",
+    "text": "So that's, that's something that people can, you know, take away as well. I mean, again, it's something I hadn't thought about until, until I understood that you could, that you could actually coach both. Um, and again, in my example, there are times, um, Stone, to his credit, said, you know, a lot of our, our kids, you know, even older kids, young adults, still, they, they get into those loops where they crave, you know, the watching the same video over and over, right? Those YouTube loops or whatever. And he said, like, look, I don't, I don't want that anymore."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:55:45",
+    "end": "00:55:46",
+    "text": "Yeah. Same kind of thing."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:55:46",
+    "end": "00:56:03",
+    "text": "I want to move away. I want to grab, you know, like, I want—I know I, I want to put that behind me. And like, he had a very eloquent, um, way of talking about it when, when he and I had a conversation a few months ago. And so we, you know, basically kind of went cold turkey, but the, the body still wants it, right?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:56:03",
+    "end": "00:56:05",
+    "text": "I was just gonna say, what—exactly."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:56:06",
+    "end": "00:56:21",
+    "text": "And so I literally said, I'm like, Stone, I understand, you know, I know your brain doesn't want it. Your body does. I get that. I hear you, but your brain, remember your brain, your brain would be so mad if you listen to your body right now. He's like, okay, you know, he gets it. And then, you know, there's, it's—it's amazing. It's really—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:56:21",
+    "end": "00:56:40",
+    "text": "It's crazy, right? Just when you see, like, you hear what you—like, you will read what they would want to be doing, and their body is doing literally the opposite. Not even like what something else, but the opposite. And one of my other parent colleagues, I liked her. She coined the term, um, opposite land. It's like, welcome to opposite land. Like, it's such a good—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:56:40",
+    "end": "00:56:42",
+    "text": "I love that. I love that, yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:56:42",
+    "end": "00:56:43",
+    "text": "Right? I love that too."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:56:43",
+    "end": "00:56:54",
+    "text": "Because this is a bizarre condition when you, when you see, when they say one thing, uh, and like, we, you know, you can confirm it with their words because their words are like, are what you can trust."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:56:54",
+    "end": "00:56:54",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:56:54",
+    "end": "00:57:18",
+    "text": "And their bodies are so unreliable that, uh, it, it can be, it really, it can be impossible to differentiate. Sometimes with enough observation, you know their body, you can, you can get to spot intentional versus unintentional movement. Sometimes you can't tell the difference. And I even, even now I can't, like, until I, I get it right from my son's hand and letterboard."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:57:18",
+    "end": "00:57:42",
+    "text": "Right. Yeah, same. And as, as, as much progress as Stone has made with his—actually, his intentional speech has improved greatly. And again, it's much more consistent in terms of matching up his, his actual intent. It's still not 100%, like, and so there'll be times that his speech will sound convincing, but, you know, to your point, you sit down like, okay, I'm gonna verify—tell me what you want."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:57:44",
+    "end": "00:57:46",
+    "text": "Verify, yes."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:57:46",
+    "end": "00:57:55",
+    "text": "And he's like, no, don't do what—you know, like, don't do what I'm telling you to do. Like, it's just like, well, he's still saying that. Like, it's, it's wild."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:57:55",
+    "end": "00:57:57",
+    "text": "It's really wild. That's, that's the—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:57:57",
+    "end": "00:58:10",
+    "text": "That's, that's the world we live. That's the world they live in too. Yeah, that's the chaos. All right, this is, uh, this one I'm kind of looking forward to because I, because I have a feeling you'll have, have something good to share here. Well, I want to do the—our Parent Confession."
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "00:58:10",
+    "end": "00:58:35",
+    "text": "Routines can go astray. Found socks in the fridge one day. Laughter's the best remedy. Hey, we're just finding our own way. Mom-Dad Confessions every week. Sharing joys and moments we seek. Honest tales that make us unique. Join the club, we're never meek. All right."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:58:36",
+    "end": "00:58:44",
+    "text": "So again, this is our time that we, we show our humility and our humanity, that we're, we're just people too, right? That we have—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:58:44",
+    "end": "00:58:45",
+    "text": "Exactly."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:58:45",
+    "end": "00:58:49",
+    "text": "Moments that we look back at and just say: oh man, I can't believe I did that."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:58:48",
+    "end": "00:59:49",
+    "text": "I have a lot actually to accumulate the, uh, my mistakes, but when—so in the beginning, so when, yeah, Stellan was about 4 and 3/4 and I, I stumbled upon the letterboard and, and I was taught that, uh, that I, I, I, I kind of, I grew to understand that what I was seeing was not, not the reality. And, and this was, yes, we'd started using the letterboard and, and I, I saw, like, I saw early on I could, what they were teaching me, I, I could see it. He wasn't communicating open-ended yet, but mm-hmm. I saw his potential.\nAnd then that grief of, like, it was probably about a month of, like, crying because I had these flashbacks of things that I did where I confused won't versus can't."
+  },
+  {
+    "speaker": "Announcer",
+    "start": "00:59:49",
+    "end": "00:59:50",
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:59:50",
+    "end": "00:59:57",
+    "text": "Where I would, like, discipline him. For something that I thought he was refusing to do when it was he can't, when he can't."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "00:59:57",
+    "end": "00:59:58",
+    "text": "Oh yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "00:59:58",
+    "end": "01:01:29",
+    "text": "And so I remember when he was, he was, um, young and I'd, like, finished cleaning and he, we had this bin of Lego and he, and he dumped it out and, uh, and I got mad at him for that and I asked him to like, okay, put the, put the Lego back in, in the bin. And he didn't. And I asked him again and he, and he didn't. And I, uh, it's hard to say—so, I sent him to his room. He started to cry.\nAnd, but I kind of like, I was standing my ground stupidly. And I, but I, I looked at him and there was this moment and like he looked up at the ceiling and he had this look on his face. Usually, often his, not always, often his, his facial expressions are not the most reliable, but this look gave me pause because it, it looked like he was so desperate. It looked like he was saying something like, like, God, please help me get better and, and, and like, help me. I can't, I can't do this, like that.\nI just, my brain went like, it gave me pause. And then, but then I let it go. And so that flash, I, I, when I learned that he understood everything, and then I, I would get that flashback of, of disciplining him for the Lego. And, and there's a lot of times that I just assumed he couldn't. Like, experiences, uh, you know, I don't know, going out to watch his sister's dance recital and just things I decided that they were too hard for him, so I didn't give him the opportunity to try."
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "01:01:29",
+    "end": "01:01:30",
+    "text": "Mm-hmm."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:01:30",
+    "end": "01:01:45",
+    "text": "Even recently with art, even I'm still correcting myself because I kind of for a while had this idea that like fine motor art, drawing and, and piano was like, that's gonna be too hard. No, he's in piano lessons. And—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:01:45",
+    "end": "01:01:46",
+    "text": "Oh, great."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:01:46",
+    "end": "01:02:07",
+    "text": "I took a course, some RPM provider, on how to support and adapt art. And then it opened up my thinking, my in-the-box thinking of how you can properly support and how you can start to, again, like high expectations and high support. Well, like there's no limits."
+  },
+  {
+    "speaker": "Announcer: Tip of the week",
+    "start": "01:02:07",
+    "end": "01:02:08",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:02:09",
+    "end": "01:02:54",
+    "text": "It's hard, you know, it's hard, like we've talked about earlier, to kind of deprogram ourselves. There's a lot, there's, you know, there's just a lot there. And, um, man, you brought back, you know, a memory for me as well. It's kind of similar when Stone's really—I won't go through the whole thing, but, but that look, I, I got that look. And, you know, at that moment, that was just kind of like, uh, it was bittersweet because it confirmed to me that there was more inside than he was able to share, which I'd always wanted to believe and kind of believe, but it confirmed, right?\nAnd, but then also showed me, you know, felt, I just felt like just such a tool, you know, just like, just like, oh man, I can't believe. Yeah."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:02:54",
+    "end": "01:03:00",
+    "text": "I beat myself up for a while for that. I don't anymore. I don't anymore because again, I just know better, do better."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:03:01",
+    "end": "01:03:07",
+    "text": "Know better, do better. You know what? They get it too, right? Think, I mean, they're amazing."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:03:08",
+    "end": "01:03:08",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:03:09",
+    "end": "01:03:32",
+    "text": "They're so forgiving and so understanding and, you know, they know we're doing our best. I think that's, you know, it's all we can do. And again, for all the, all you parents out there, just give yourself. And that's one of the reasons I have this segment is to show that, you know, I mean, we all make mistakes. I mean, this, there's, there's no, uh, there's no guidebook for any of us, right? Like, we're all just trying to figure it out."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:03:32",
+    "end": "01:04:07",
+    "text": "And it, it is lit—and it not, not only does it help to kind of hang on to that, if that's—there's anxiety or, or guilt there, um, it, it can be a hindrance because our, our children are so sensitive to the, the states of the people around them, including—especially the people who are supporting them, they read our own regulation states. And yeah, he's been—I've been told like that's—it—my own mental state, it really can have an impact on his. Yes, on his. And then subsequently, of course, that affects his motor control and his, um—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:04:07",
+    "end": "01:04:35",
+    "text": "It's a ripple effect. Yeah, absolutely. No, that's, that's another great point. Well, Antigone, we ran up against our time. I knew we would. I knew we'd have so much to talk about. I just want to thank you so much for helping us understand that communication is not only about speech, language, or intelligence. It's also about whether a person can organize their body well enough to express what they know. If there's someone wants to get in touch with you, do you have a website? Do you have an email? Anything you want to share for people?"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:04:35",
+    "end": "01:04:47",
+    "text": "Yeah, I can give you my email. I'm happy to answer questions and consult. I don't have—my website is not ready at the moment, but I'm—"
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:04:47",
+    "end": "01:04:48",
+    "text": "Okay, that's fine."
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:04:48",
+    "end": "01:04:48",
+    "text": "Yeah."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:04:49",
+    "end": "01:04:52",
+    "text": "We'll, uh, we'll include that. We'll put that in the show notes—"
+  },
+  {
+    "speaker": "Antigone Oreopoulos",
+    "start": "01:04:53",
+    "end": "01:04:54",
+    "text": "Sounds good."
+  },
+  {
+    "speaker": "David Kaufer",
+    "start": "01:04:53",
+    "end": "01:05:13",
+    "text": "Um, so people who have questions, but, uh, again, thank you. It's, it's been a delight having you here, as I knew it would. And for everyone out there listening, thank you for listening to The Lighter Side of the Spectrum. Please subscribe, share this episode, and help us continue expanding the conversation around communication rights and presumed competence."
+  }
+]
